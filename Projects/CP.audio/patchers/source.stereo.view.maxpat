@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1767.0, 65.0, 1276.0, 870.0 ],
+		"rect" : [ 135.0, 62.0, 1505.0, 901.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -31,14 +31,28 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-25",
-					"linecount" : 2,
+					"id" : "obj-40",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 312.0, 50.0, 31.0 ],
-					"text" : "168. 113."
+					"patching_rect" : [ 146.166718, 370.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 147.833344, 375.0, 0.0, 0.0 ],
+					"text" : "select"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 103.833336, 370.0, 42.0, 18.0 ],
+					"text" : "select"
 				}
 
 			}
@@ -364,12 +378,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-32",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 671.0, 315.0, 18.0 ],
-					"text" : "address /refectoire/dbam.sources/source.2/weight"
+					"patching_rect" : [ 359.0, 671.0, 315.0, 31.0 ],
+					"text" : "address /abbatiale/dbam.sources/source.1/position/weight"
 				}
 
 			}
@@ -506,7 +521,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 409.0, 6.0, 25.0, 25.0 ]
 				}
 
@@ -518,7 +533,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 6.0, 20.0, 20.0 ]
+					"patching_rect" : [ 21.0, 18.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -566,7 +581,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 372.5, 430.0, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.409088, 10.0, 47.0, 19.0 ],
+					"presentation_rect" : [ 190.409088, 10.0, 30.0, 19.0 ],
 					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ]
 				}
 
@@ -682,8 +697,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 373.333374, 370.0, 58.0, 19.0 ],
-					"text" : "unpack f f"
+					"patching_rect" : [ 373.333374, 370.0, 70.0, 19.0 ],
+					"text" : "unpack 1. 2."
 				}
 
 			}
@@ -696,8 +711,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 324.5, 40.0, 19.0 ],
-					"text" : "pak f f"
+					"patching_rect" : [ 328.0, 324.5, 71.5, 19.0 ],
+					"text" : "pak 1. 2."
 				}
 
 			}
@@ -766,8 +781,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.166718, 463.0, 32.5, 17.0 ],
-					"text" : "$1"
+					"patching_rect" : [ 169.166718, 320.5, 40.0, 17.0 ],
+					"text" : "set $1"
 				}
 
 			}
@@ -780,7 +795,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.16671, 463.0, 40.0, 17.0 ],
+					"patching_rect" : [ 118.16671, 320.5, 40.0, 17.0 ],
 					"text" : "set $1"
 				}
 
@@ -794,8 +809,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 120.16671, 415.5, 58.0, 19.0 ],
-					"text" : "unpack f f"
+					"patching_rect" : [ 118.16671, 294.5, 70.0, 19.0 ],
+					"text" : "unpack 1. 2."
 				}
 
 			}
@@ -808,8 +823,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.25, 235.0, 40.0, 19.0 ],
-					"text" : "pak f f"
+					"patching_rect" : [ 72.833336, 238.0, 71.5, 19.0 ],
+					"text" : "pak 1. 2."
 				}
 
 			}
@@ -841,7 +856,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 124.16671, 199.0, 50.0, 19.0 ],
+					"patching_rect" : [ 125.333336, 211.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.030273, 0.0, 50.0, 19.0 ],
 					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ]
@@ -862,7 +877,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 38.833336, 199.0, 50.0, 19.0 ],
+					"patching_rect" : [ 72.833336, 211.0, 50.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.939392, 0.0, 50.0, 19.0 ],
 					"tricolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ]
@@ -1116,6 +1131,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1287,6 +1311,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1296,10 +1329,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-58", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 1 ]
 				}
 
 			}
@@ -1399,15 +1450,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-25", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-83", 1 ]
 				}
 
 			}
@@ -1536,6 +1578,15 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

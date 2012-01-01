@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ -92.0, 44.0, 1676.0, 960.0 ],
+		"rect" : [ 4.0, 44.0, 1676.0, 960.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1009,7 +1009,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1291.875, 218.0, 342.0, 47.0 ],
-					"text" : "jcom.parameterArray source.[0]/weight @type decimal @value/default 1. @range/bounds 0. 1. @range/clipmode low @format array @repetitions/allow 1"
+					"text" : "jcom.parameterArray source.[0]/weight @type decimal @value/default 1. @range/bounds 0. 1. @range/clipmode low @format array @repetitions/allow 0"
 				}
 
 			}
