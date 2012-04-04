@@ -1,0 +1,7 @@
+This a Jamoma library to edit a timeline to control devices connected to an Arduino with a DMX shield.
+
+1/ upload the _DMXShield_ATM328_initialisation sketch on an Arduino with an ATM328 (or better). Open the console and wait to see ":E done"
+
+2/ upload the _DMXShield_ATM328 sketch.
+
+3/ open DMXShield.maxhelp to edit timeline for 1 or more devices connected to a DMX Shield.
