@@ -56,7 +56,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"args" : [ "/AFDevice.1" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.AFDevice.maxpat",
@@ -183,7 +183,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"args" : [ "/AFDevice.4" ],
 					"id" : "obj-19",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.AFDevice.maxpat",
@@ -213,7 +213,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"args" : [ "/AFDevice.2" ],
 					"id" : "obj-20",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.AFDevice.maxpat",
@@ -228,7 +228,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"args" : [ "/AFDevice.6" ],
 					"id" : "obj-22",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.AFDevice.maxpat",
@@ -257,7 +257,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"args" : [ "/AFDevice.5" ],
 					"id" : "obj-24",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.AFDevice.maxpat",
@@ -272,7 +272,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [  ],
+					"args" : [ "/AFDevice.3" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "jmod.AFDevice.maxpat",
@@ -294,8 +294,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 132.0, 75.0, 18.0 ],
-					"text" : "/port/refresh"
+					"patching_rect" : [ 495.0, 132.0, 129.0, 18.0 ],
+					"text" : "/port/refresh, /port/io 1"
 				}
 
 			}
@@ -604,6 +604,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 24.5, 629.0, 6.5, 629.0, 6.5, 2.0, 24.5, 2.0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
