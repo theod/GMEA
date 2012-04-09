@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 243.0, 98.0, 163.0, 110.0 ],
+		"rect" : [ 330.0, 90.0, 550.0, 325.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 330.0, 90.0, 550.0, 325.0 ],
@@ -622,15 +622,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 131.0, 77.0, 122.0, 19.0 ],
+					"patching_rect" : [ 131.0, 110.0, 122.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Box2DRender_panel"
@@ -801,7 +801,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 105.0, 61.0, 19.0 ],
+					"patching_rect" : [ 160.0, 43.0, 61.0, 19.0 ],
 					"text" : "jcom.view",
 					"varname" : "jcom.hub"
 				}
@@ -815,7 +815,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 78.0, 22.0, 22.0 ]
+					"patching_rect" : [ 160.0, 16.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -826,7 +826,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 130.0, 22.0, 22.0 ]
+					"patching_rect" : [ 160.0, 68.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -838,10 +838,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/renderWindow"
+					"text" : "waiting for a model/address"
 				}
 
 			}
