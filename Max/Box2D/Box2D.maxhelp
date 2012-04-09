@@ -136,20 +136,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/myLink" ],
-					"id" : "obj-12",
-					"maxclass" : "bpatcher",
-					"name" : "Box2DLink.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 510.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
@@ -192,48 +178,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/ground/shape.2" ],
-					"id" : "obj-21",
-					"maxclass" : "bpatcher",
-					"name" : "Box2DShape.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 390.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 45.0, 45.0, 150.0, 105.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/ground/shape.1" ],
-					"id" : "obj-19",
-					"maxclass" : "bpatcher",
-					"name" : "Box2DShape.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 390.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 30.0, 30.0, 150.0, 105.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/ball/shape.1" ],
-					"id" : "obj-33",
-					"maxclass" : "bpatcher",
-					"name" : "Box2DShape.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 240.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 150.0, 105.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "/ground" ],
 					"id" : "obj-26",
 					"maxclass" : "bpatcher",
@@ -256,20 +200,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 60.0, 57.0, 18.0 ],
 					"text" : "dumpout"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/ground" ],
-					"id" : "obj-8",
-					"maxclass" : "bpatcher",
-					"name" : "Box2DBody.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 390.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 150.0, 105.0 ]
 				}
 
 			}
@@ -311,20 +241,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 240.0, 255.0, 88.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/renderWindow" ],
-					"id" : "obj-15",
-					"maxclass" : "bpatcher",
-					"name" : "renderWindow.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 75.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
 				}
 
 			}
@@ -373,20 +289,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/ball" ],
-					"id" : "obj-5",
-					"maxclass" : "bpatcher",
-					"name" : "Box2DBody.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 240.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -402,20 +304,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/Box2DRender" ],
-					"id" : "obj-2",
-					"maxclass" : "bpatcher",
-					"name" : "Box2DRender.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 75.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -425,6 +313,126 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 90.0, 121.0, 20.0 ],
 					"text" : "Box2DRender.model"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/myLink" ],
+					"background" : 1,
+					"id" : "obj-12",
+					"maxclass" : "bpatcher",
+					"name" : "Box2DLink.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 510.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/ground/shape.2" ],
+					"background" : 1,
+					"id" : "obj-21",
+					"maxclass" : "bpatcher",
+					"name" : "Box2DShape.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 495.0, 390.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 150.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/ground/shape.1" ],
+					"background" : 1,
+					"id" : "obj-19",
+					"maxclass" : "bpatcher",
+					"name" : "Box2DShape.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 345.0, 390.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 150.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/ball/shape.1" ],
+					"background" : 1,
+					"id" : "obj-33",
+					"maxclass" : "bpatcher",
+					"name" : "Box2DShape.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 345.0, 240.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 150.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/ground" ],
+					"background" : 1,
+					"id" : "obj-8",
+					"maxclass" : "bpatcher",
+					"name" : "Box2DBody.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 390.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 150.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/renderWindow" ],
+					"background" : 1,
+					"id" : "obj-15",
+					"maxclass" : "bpatcher",
+					"name" : "renderWindow.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 345.0, 75.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/ball" ],
+					"background" : 1,
+					"id" : "obj-5",
+					"maxclass" : "bpatcher",
+					"name" : "Box2DBody.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 240.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/Box2DRender" ],
+					"background" : 1,
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "Box2DRender.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 180.0, 75.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
 				}
 
 			}

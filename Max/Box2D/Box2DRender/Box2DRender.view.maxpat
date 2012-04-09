@@ -235,13 +235,13 @@
 ,
 					"patching_rect" : [ 131.0, 113.0, 122.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"globalpatchername" : ""
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p Box2DRender_panel"
@@ -354,7 +354,6 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-7",
 					"maxclass" : "jcom.ui",
 					"numinlets" : 1,

@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 15.0, 480.0, 150.0, 35.0 ],
+		"rect" : [ 48.0, 184.0, 532.0, 379.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 48.0, 184.0, 532.0, 379.0 ],
@@ -1039,13 +1039,13 @@
 ,
 					"patching_rect" : [ 131.0, 109.0, 112.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p Box2DBody_panel"
@@ -1284,8 +1284,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"id" : "obj-7",
+					"id" : "obj-4",
 					"maxclass" : "jcom.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -1293,7 +1292,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/source.1/body"
+					"text" : "waiting for a model/address"
 				}
 
 			}
@@ -1444,19 +1443,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-43", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 269.5, 60.0, 255.5, 60.0, 255.5, 9.0, 269.5, 9.0 ],
-					"source" : [ "obj-5", 0 ]
+					"midpoints" : [  ],
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-7", 1 ]
+					"midpoints" : [ 269.5, 60.0, 255.5, 60.0, 255.5, 9.0, 269.5, 9.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

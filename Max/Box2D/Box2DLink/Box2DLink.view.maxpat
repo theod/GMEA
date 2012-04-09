@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 180.0, 510.0, 150.0, 105.0 ],
+		"rect" : [ 173.0, 213.0, 772.0, 285.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 173.0, 213.0, 772.0, 285.0 ],
@@ -331,7 +331,6 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-7",
 					"maxclass" : "jcom.ui",
 					"numinlets" : 1,
@@ -340,7 +339,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/myLink"
+					"text" : "waiting for a model/address"
 				}
 
 			}
