@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 1.0, 44.0, 676.0, 267.0 ],
+		"rect" : [ 345.0, 390.0, 150.0, 105.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 1.0, 44.0, 676.0, 267.0 ],
@@ -104,9 +104,9 @@
 							"revision" : 9
 						}
 ,
-						"rect" : [ 558.0, 395.0, 159.0, 132.0 ],
+						"rect" : [ 558.0, 395.0, 164.0, 132.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 558.0, 395.0, 159.0, 132.0 ],
+						"defrect" : [ 558.0, 395.0, 164.0, 132.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -121,7 +121,36 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"title" : "/Box2DShape(view).1",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 217.0, 308.0, 144.0, 19.0 ],
+									"text" : "jcom.remote segment/end"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 217.0, 283.0, 149.0, 19.0 ],
+									"text" : "jcom.remote segment/start"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -441,13 +470,13 @@
 ,
 					"patching_rect" : [ 131.0, 109.0, 118.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p Box2DShape_panel"
@@ -687,7 +716,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "waiting for a model/address"
+					"text" : "/border/shape.1"
 				}
 
 			}
