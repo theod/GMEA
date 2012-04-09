@@ -464,13 +464,13 @@
 ,
 					"patching_rect" : [ 37.0, 181.0, 112.0, 25.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p dragNearest"
@@ -1894,13 +1894,13 @@
 ,
 					"patching_rect" : [ 240.0, 115.0, 103.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
 						"default_fontsize" : 9.0,
+						"fontname" : "Verdana",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Verdana",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p collision-filtering"
@@ -2003,13 +2003,13 @@
 ,
 					"patching_rect" : [ 240.0, 157.0, 139.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
 						"default_fontsize" : 9.0,
+						"fontname" : "Verdana",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Verdana",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p coordinates_conversion"
@@ -2283,13 +2283,13 @@
 ,
 					"patching_rect" : [ 240.0, 136.0, 39.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
 						"default_fontsize" : 9.0,
+						"fontname" : "Verdana",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Verdana",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p test"
@@ -2339,37 +2339,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 548.0, 219.0, 150.0, 34.0 ],
+									"patching_rect" : [ 548.0, 203.0, 150.0, 34.0 ],
 									"text" : ";\rto.box2D gravity $1 $2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-21",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 548.0, 196.0, 66.0, 20.0 ],
-									"text" : "pak f f"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-19",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 595.0, 162.0, 309.0, 31.0 ],
-									"text" : "jcom.parameter gravity.y @type decimal @value/default 0 @description \"set the vertical direction of the gravity\""
 								}
 
 							}
@@ -2378,13 +2349,13 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-17",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 548.0, 127.0, 322.0, 31.0 ],
-									"text" : "jcom.parameter gravity.x @type decimal @value/default 0 @description \"set the horizontal direction of the gravity\""
+									"patching_rect" : [ 548.0, 154.0, 198.0, 43.0 ],
+									"text" : "jcom.parameter gravity @type array @value/default 0 0 @description \"set the direction of the gravity\""
 								}
 
 							}
@@ -2543,28 +2514,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-21", 1 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
-									"source" : [ "obj-21", 0 ]
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -2609,13 +2562,13 @@
 ,
 					"patching_rect" : [ 37.0, 147.0, 68.0, 25.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p global"
@@ -2905,13 +2858,13 @@
 ,
 													"patching_rect" : [ 721.0, 69.0, 93.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
+														"fontname" : "Arial",
+														"default_fontface" : 0,
 														"globalpatchername" : "",
-														"fontface" : 0
+														"default_fontname" : "Arial",
+														"fontface" : 0,
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p dispatchTests"
@@ -3228,13 +3181,13 @@
 ,
 													"patching_rect" : [ 543.0, 70.0, 143.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
+														"fontname" : "Arial",
+														"default_fontface" : 0,
 														"globalpatchername" : "",
-														"fontface" : 0
+														"default_fontname" : "Arial",
+														"fontface" : 0,
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p dispatchDistanceJoints"
@@ -3626,13 +3579,13 @@
 ,
 													"patching_rect" : [ 365.0, 71.0, 113.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
+														"fontname" : "Arial",
+														"default_fontface" : 0,
 														"globalpatchername" : "",
-														"fontface" : 0
+														"default_fontname" : "Arial",
+														"fontface" : 0,
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p dispatchContacts"
@@ -3803,13 +3756,13 @@
 ,
 									"patching_rect" : [ 137.0, 339.0, 143.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
+										"fontname" : "Arial",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"fontface" : 0
+										"default_fontname" : "Arial",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p dispatchBox2DReturns"
@@ -4289,13 +4242,13 @@
 ,
 					"patching_rect" : [ 37.0, 113.0, 126.0, 25.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p Box2DRender"
