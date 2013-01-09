@@ -199,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 283.0, 224.0, 281.0, 55.0 ],
+					"patching_rect" : [ 283.0, 224.0, 282.0, 55.0 ],
 					"text" : "jcom.parameter color @type decimalArray @ramp/drive scheduler @description \"set the color of the screen (if mode equal 1)\" @ramp/function linear @repetitions/allow 1 @value/default 0.5 0.5 0.5 0.5",
 					"varname" : "deformB[2]"
 				}
@@ -2400,13 +2400,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "message",
+					"comment" : "matrix to map on the screen",
 					"id" : "obj-7",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 18.0, 22.0, 22.0 ]
+					"patching_rect" : [ 726.0, 22.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -2486,7 +2486,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 17.0, 383.0, 367.0, 43.0 ],
+					"patching_rect" : [ 17.0, 383.0, 371.0, 43.0 ],
 					"text" : "jcom.parameter corner/upper.left @type decimalArray @ramp/drive scheduler @description \"deform upper.left corner\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/allow 1",
 					"varname" : "deformA"
 				}
@@ -2518,7 +2518,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 476.0, 386.0, 377.0, 43.0 ],
+					"patching_rect" : [ 476.0, 386.0, 378.0, 43.0 ],
 					"text" : "jcom.parameter corner/upper.right @type decimalArray @ramp/drive scheduler @description \"deform upper.right corner\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/allow 1",
 					"varname" : "deformB"
 				}
@@ -2534,7 +2534,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 17.0, 435.0, 367.0, 43.0 ],
+					"patching_rect" : [ 17.0, 435.0, 369.0, 43.0 ],
 					"text" : "jcom.parameter corner/lower.left @type decimalArray @ramp/drive scheduler @description \"deform lower.left corner\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/allow 1",
 					"varname" : "deformC"
 				}
@@ -2543,20 +2543,16 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
-					"bordercolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"has_panel" : 1,
-					"headercolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "jcom.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
+					"patching_rect" : [ 0.0, -0.5, 300.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/editing_this_module",
-					"textcolor" : [ 0.0, 1.0, 0.0, 1.0 ]
+					"presentation_rect" : [ 0.0, -0.5, 300.0, 105.0 ],
+					"text" : "/Jamoma"
 				}
 
 			}
@@ -2809,59 +2805,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jalg.screen.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/screen",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.gl.flip.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/components",
-				"patcherrelativepath" : "../components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.gl.brightness.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/components",
-				"patcherrelativepath" : "../components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/components",
-				"patcherrelativepath" : "../components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

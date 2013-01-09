@@ -6,18 +6,18 @@
 >
   <preset number='1' name='default'>
     <item name='brightness' type='decimal' priority='0' mixweight='1'>1.000000</item>
-    <item name='color' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 1.000000 </item>
-    <item name='corner/lower.left' type='array' priority='0' mixweight='1'>-0.346164 -0.036164 </item>
-    <item name='corner/lower.right' type='array' priority='0' mixweight='1'>0.176712 -0.038767 </item>
-    <item name='corner/upper.left' type='array' priority='0' mixweight='1'>-0.348767 0.531712 </item>
-    <item name='corner/upper.right' type='array' priority='0' mixweight='1'>0.182877 0.533219 </item>
+    <item name='color' type='decimalArray' priority='0' mixweight='1'>0.003922 1.000000 0.941407 1.000000 1.000000 </item>
+    <item name='corner/lower.left' type='decimalArray' priority='0' mixweight='1'>-0.541507 -0.299178 0.000000 1.000000 </item>
+    <item name='corner/lower.right' type='decimalArray' priority='0' mixweight='1'>0.543835 -0.219589 0.000000 1.000000 </item>
+    <item name='corner/upper.left' type='decimalArray' priority='0' mixweight='1'>-0.620548 0.638699 0.000000 1.000000 </item>
+    <item name='corner/upper.right' type='decimalArray' priority='0' mixweight='1'>0.528083 0.681849 0.000000 1.000000 </item>
     <item name='flip/horizontal' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='flip/vertical' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='mode' type='boolean' priority='2' mixweight='1'>0</item>
     <item name='render/enable' type='boolean' priority='3' mixweight='1'>1</item>
     <item name='render/name' type='string' priority='1' mixweight='1'>glWindow</item>
-    <item name='scale' type='array' priority='0' mixweight='1'>8.000000 6.000000 </item>
+    <item name='scale' type='decimalArray' priority='0' mixweight='1'>-4.000000 4.000000 </item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/size' type='array' priority='0' mixweight='1'>300 70 </item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
   </preset>
 </jamoma>
