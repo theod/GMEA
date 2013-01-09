@@ -7,10 +7,10 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 15.0, 15.0, 150.0, 70.0 ],
+		"rect" : [ 150.0, 150.0, 150.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 15.0, 15.0, 610.0, 399.0 ],
+		"defrect" : [ 150.0, 150.0, 610.0, 399.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,

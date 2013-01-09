@@ -1,4 +1,7 @@
 This is a Jamoma library to setup/receive messages from the Synapse software (for Kinect squeleton control).
 
 you need to downed and install the Synapse software :
-http://synapsekinect.tumblr.com/
+http://64.90.55.88/Synapse-Mac.zip
+
+For the SynapseJitter module, you need to download also the jit.synapse.mxo external :
+http://64.90.55.88/SynapseJit.zip
