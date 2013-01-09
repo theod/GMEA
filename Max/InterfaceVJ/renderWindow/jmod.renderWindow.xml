@@ -6,21 +6,22 @@
 >
   <preset number='1' name='default'>
     <item name='camera/angle' type='decimal' priority='0' mixweight='1'>62.000000</item>
-    <item name='camera/lookat' type='array' priority='0' mixweight='1'>0.000000 2.000000 0.000000 </item>
-    <item name='camera/position' type='array' priority='0' mixweight='1'>0.000000 2.000000 -8.000000 </item>
+    <item name='camera/lookat' type='decimalArray' priority='0' mixweight='1'>0.000000 2.000000 0.000000 </item>
+    <item name='camera/position' type='decimalArray' priority='0' mixweight='1'>0.000000 2.000000 -8.000000 </item>
     <item name='debug' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='light/color/ambient' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 1.000000 </item>
-    <item name='light/color/diffuse' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 1.000000 </item>
-    <item name='light/color/specular' type='array' priority='0' mixweight='1'>0.071267 0.222340 0.274887 1.000000 1.000000 </item>
-    <item name='light/position' type='array' priority='0' mixweight='1'>0.000000 0.200000 0.000000 </item>
-    <item name='render/background/color' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
-    <item name='render/enable' type='boolean' priority='5' mixweight='1'>1</item>
+    <item name='light/color/ambient' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 1.000000 0.000000 0.000000 </item>
+    <item name='light/color/diffuse' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 0.000000 </item>
+    <item name='light/color/specular' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 1.000000 0.000000 0.000000 </item>
+    <item name='light/enable' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='light/position' type='decimalArray' priority='0' mixweight='1'>0.000000 0.500000 0.000000 </item>
+    <item name='render/background/color' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 0.000000 </item>
+    <item name='render/enable' type='boolean' priority='5' mixweight='1'>0</item>
     <item name='render/fps' type='integer' priority='0' mixweight='1'>30</item>
     <item name='render/name' type='string' priority='1' mixweight='1'>glWindow</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/size' type='array' priority='0' mixweight='1'>300 70 </item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
     <item name='window/fullscreen' type='boolean' priority='4' mixweight='1'>0</item>
-    <item name='window/position' type='array' priority='2' mixweight='1'>50 50 </item>
-    <item name='window/size' type='array' priority='3' mixweight='1'>640 480 </item>
+    <item name='window/position' type='integerArray' priority='2' mixweight='1'>50 50 </item>
+    <item name='window/size' type='integerArray' priority='3' mixweight='1'>640 480 </item>
   </preset>
 </jamoma>

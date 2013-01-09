@@ -29,6 +29,44 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "turn on/off the debug mode",
+					"bgoncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
+					"bgoveroncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hint" : "",
+					"id" : "obj-23",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 510.0, 66.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 65.0, 64.0, 17.0 ],
+					"text" : "Light",
+					"texton" : "Light"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-20",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 15.0, 531.0, 228.0, 43.0 ],
+					"text" : "jcom.parameter light/enable @type boolean @value/default 1 @description \"turn on/off lighting\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
@@ -70,7 +108,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 438.0, 66.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 70.0, 64.0, 17.0 ],
+					"presentation_rect" : [ 5.0, 115.0, 64.0, 17.0 ],
 					"text" : "Debug",
 					"texton" : "Debug"
 				}
@@ -218,7 +256,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 515.0, 80.0, 282.0, 356.0 ],
+						"rect" : [ 970.0, 531.0, 282.0, 356.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -308,7 +346,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 30.0, 285.0, 263.0, 55.0 ],
+									"patching_rect" : [ 30.0, 285.0, 267.0, 55.0 ],
 									"text" : "jcom.parameter render/background/color @type decimalArray @ramp/drive scheduler @description \"set the color of the form\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[5]"
 								}
@@ -339,7 +377,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 330.0, 429.0, 255.0, 55.0 ],
+									"patching_rect" : [ 330.0, 429.0, 256.0, 55.0 ],
 									"text" : "jcom.parameter light/color/specular @type decimalArray @ramp/drive scheduler @description \"set the color of the specular light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[6]"
 								}
@@ -371,7 +409,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 30.0, 570.0, 246.0, 55.0 ],
+									"patching_rect" : [ 30.0, 570.0, 248.0, 55.0 ],
 									"text" : "jcom.parameter light/color/diffuse @type decimalArray @ramp/drive scheduler @description \"set the color of the diffuse light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[7]"
 								}
@@ -403,7 +441,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 30.0, 426.0, 254.0, 55.0 ],
+									"patching_rect" : [ 30.0, 426.0, 255.0, 55.0 ],
 									"text" : "jcom.parameter light/color/ambient @type decimalArray @ramp/drive scheduler @description \"set the color of the ambiant light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[8]"
 								}
@@ -479,13 +517,14 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-17",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 407.0, 11.0, 54.0, 20.0 ],
+									"patching_rect" : [ 407.0, 11.0, 54.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 30.0, 330.0, 54.0, 20.0 ],
-									"text" : "position"
+									"presentation_rect" : [ 30.0, 330.0, 75.0, 20.0 ],
+									"text" : "light position"
 								}
 
 							}
@@ -561,7 +600,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 511.0, 24.0, 265.0, 55.0 ],
+									"patching_rect" : [ 511.0, 24.0, 266.0, 55.0 ],
 									"text" : "jcom.parameter light/position @type decimalArray @value/default 1. 1. 1. @range/bounds 0. 1. @range/clipmode none @description \"set the position of the light\""
 								}
 
@@ -925,7 +964,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 330.0, 62.0, 80.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 67.0, 70.0, 35.0 ]
+					"presentation_rect" : [ 75.0, 97.0, 70.0, 35.0 ]
 				}
 
 			}
@@ -1066,7 +1105,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
 					"text" : "/renderWindow"
 				}
 
@@ -1148,10 +1187,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 24.5, 579.0, 9.5, 579.0, 9.5, 500.0, 24.5, 500.0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
