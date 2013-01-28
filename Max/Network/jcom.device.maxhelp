@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 807.0, 44.0, 501.0, 459.0 ],
+		"rect" : [ 2.0, 44.0, 466.0, 302.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,13 +30,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-16",
+					"id" : "obj-18",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 345.0, 50.0, 20.0 ]
+					"patching_rect" : [ 234.0, 209.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -44,13 +44,52 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 234.0, 236.0, 197.0, 20.0 ],
+					"text" : "jcom.remote myOtherApp:/myFloat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-56",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 51.0, 7.0, 137.0, 33.0 ],
+					"text" : "Start other device namespace discovering"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "button",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 371.0, 73.0, 18.0 ],
-					"text" : "/myFloat $1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 10.0, 7.0, 33.0, 33.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.0, 274.0, 94.0, 20.0 ],
+					"text" : "print activity/out"
 				}
 
 			}
@@ -61,9 +100,10 @@
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 395.0, 156.0, 20.0 ],
-					"text" : "udpsend Wall-E.local. 8397"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 18.0, 247.0, 145.0, 20.0 ],
+					"text" : "jcom.receive /:activity/out"
 				}
 
 			}
@@ -71,13 +111,26 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 371.0, 177.0, 18.0 ],
-					"text" : "resolve myNetwork@myApp(1)"
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 18.0, 217.0, 87.0, 20.0 ],
+					"text" : "print activity/in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 18.0, 190.0, 137.0, 20.0 ],
+					"text" : "jcom.receive /:activity/in"
 				}
 
 			}
@@ -86,11 +139,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
-					"maxclass" : "newobj",
+					"maxclass" : "number",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 421.0, 34.0, 20.0 ],
-					"text" : "print"
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 234.0, 158.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -103,8 +157,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 196.0, 395.0, 69.0, 20.0 ],
-					"text" : "oscbonjour"
+					"patching_rect" : [ 234.0, 134.0, 198.0, 20.0 ],
+					"text" : "jcom.receive myOtherApp:/myFloat"
 				}
 
 			}
@@ -113,12 +167,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 290.0, 204.0, 50.0, 20.0 ]
+					"patching_rect" : [ 234.0, 81.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -131,8 +185,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 227.0, 170.0, 20.0 ],
-					"text" : "jcom.send myApp(1):/myFloat"
+					"patching_rect" : [ 234.0, 104.0, 185.0, 20.0 ],
+					"text" : "jcom.send myOtherApp:/myFloat"
 				}
 
 			}
@@ -145,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 250.0, 74.0, 20.0 ],
+					"patching_rect" : [ 18.0, 134.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -160,7 +214,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 204.0, 50.0, 20.0 ]
+					"patching_rect" : [ 18.0, 88.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -173,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 227.0, 140.0, 20.0 ],
+					"patching_rect" : [ 18.0, 111.0, 140.0, 20.0 ],
 					"text" : "jcom.parameter myFloat"
 				}
 
@@ -184,10 +238,10 @@
 					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 14.0, 178.0, 20.0 ],
-					"text" : "jcom.device myNetwork myApp"
+					"patching_rect" : [ 10.0, 46.0, 188.0, 20.0 ],
+					"text" : "jcom.device myNetwork myApp 1"
 				}
 
 			}
@@ -203,16 +257,26 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 243.5, 265.0, 226.5, 265.0, 226.5, 199.0, 243.5, 199.0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
@@ -221,10 +285,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -242,7 +306,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 23.5, 275.0, 8.5, 275.0, 8.5, 197.0, 23.5, 197.0 ],
+					"midpoints" : [ 27.5, 159.0, 12.5, 159.0, 12.5, 81.0, 27.5, 81.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -262,6 +326,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -287,6 +360,14 @@
 			}
 , 			{
 				"name" : "jcom.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
 				"type" : "iLaX"
 			}
  ]
