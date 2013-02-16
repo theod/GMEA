@@ -85,8 +85,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 211.5, 244.5, 109.0, 31.0 ],
-									"text" : ";\r$1 directory/build;\r"
+									"patching_rect" : [ 211.5, 244.5, 125.0, 31.0 ],
+									"text" : ";\r$1 namespace/build;\r"
 								}
 
 							}
