@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
+ <!--TODO : TTContainer Description at mAddress-->
+ <preset number="1" name="default">
+  <!---->
+  <Data address="model/mute" value="0" priority="-1"/>
+  <Data address="render/name" value="glWindow" priority="1"/>
+  <Data address="window/position" value="50 50" priority="2"/>
+  <Data address="window/size" value="320 240" priority="3"/>
+  <Data address="window/fullscreen" value="0" priority="4"/>
+  <Data address="render/enable" value="0" priority="5"/>
+  <Data address="light/color/diffuse" value="0.000000" priority="0"/>
+  <Data address="camera/lookat" value="0.000000" priority="0"/>
+  <Data address="camera/angle" value="45.000000" priority="0"/>
+  <Data address="light/color/ambient" value="0.000000" priority="0"/>
+  <Data address="mouse/normalize" priority="0"/>
+  <Data address="render/background/color" value="0.000000 0.000000 0.000000 1.000000" priority="0"/>
+  <Data address="debug" value="0" priority="0"/>
+  <Data address="camera/position" priority="0"/>
+  <Data address="light/color/specular" value="0.000000" priority="0"/>
+  <Data address="light/position" value="1.000000 1.000000 1.000000" priority="0"/>
+  <Data address="render/fps" value="25" priority="0"/>
+  <Data address="mouse/enable" priority="0"/>
+ </preset>
+</jamoma>
