@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ -1.0, 44.0, 964.0, 859.0 ],
+		"rect" : [ 625.0, 44.0, 964.0, 859.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,13 +30,27 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 657.5, 740.5, 70.0, 20.0 ],
+					"text" : "route None"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-151",
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 657.5, 792.5, 158.0, 47.0 ],
+					"patching_rect" : [ 708.5, 801.5, 158.0, 47.0 ],
 					"text" : "jcom.return device/list @type array @description \"the list of available device\""
 				}
 
@@ -46,11 +60,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-150",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 611.5, 740.5, 78.0, 18.0 ],
+					"patching_rect" : [ 611.5, 740.5, 48.0, 31.0 ],
 					"text" : "zlclear, none"
 				}
 
@@ -64,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 657.5, 769.5, 70.0, 20.0 ],
+					"patching_rect" : [ 708.5, 778.5, 70.0, 20.0 ],
 					"text" : "zl group 32"
 				}
 
@@ -130,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 362.5, 769.5, 166.0, 60.0 ],
+					"patching_rect" : [ 362.5, 769.5, 169.0, 60.0 ],
 					"text" : "jcom.return device/connected @type boolean @description \"connection status of the selected device\""
 				}
 
@@ -202,8 +217,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 386.5, 606.0, 224.0, 47.0 ],
-					"text" : "jcom.parameter device @type string @value/default none @repetions/allow 0 @description \"the device to open\""
+					"patching_rect" : [ 386.5, 606.0, 225.0, 47.0 ],
+					"text" : "jcom.parameter device @type string @value/default none @repetitions/allow 0 @description \"the device to open\""
 				}
 
 			}
@@ -217,7 +232,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 436.0, 122.0, 20.0 ],
+					"patching_rect" : [ 328.0, 436.0, 134.0, 20.0 ],
 					"text" : "r #0-from.dmxusbpro"
 				}
 
@@ -231,7 +246,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 328.0, 834.5, 124.0, 20.0 ],
+					"patching_rect" : [ 328.0, 834.5, 136.0, 20.0 ],
 					"text" : "s #0-from.dmxusbpro"
 				}
 
@@ -288,7 +303,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 511.0, 235.5, 122.0, 20.0 ],
+					"patching_rect" : [ 511.0, 235.5, 134.0, 20.0 ],
 					"text" : "r #0-from.dmxusbpro"
 				}
 
@@ -373,7 +388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "menu" ],
-					"patching_rect" : [ 611.5, 655.0, 57.0, 20.0 ],
+					"patching_rect" : [ 612.5, 655.0, 57.0, 20.0 ],
 					"text" : "t b menu"
 				}
 
@@ -388,7 +403,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 611.5, 606.0, 171.0, 47.0 ],
+					"patching_rect" : [ 612.5, 606.0, 171.0, 47.0 ],
 					"text" : "jcom.message device/refresh @type none @description \"update device list\""
 				}
 
@@ -444,7 +459,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.5, 577.5, 108.0, 20.0 ],
+					"patching_rect" : [ 347.5, 577.5, 120.0, 20.0 ],
 					"text" : "r #0-to.dmxusbpro"
 				}
 
@@ -458,7 +473,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 655.0, 119.0, 18.0 ],
+					"patching_rect" : [ 785.0, 655.0, 119.0, 18.0 ],
 					"text" : "getserial, getparams"
 				}
 
@@ -473,7 +488,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 784.0, 606.0, 176.0, 47.0 ],
+					"patching_rect" : [ 785.0, 606.0, 176.0, 47.0 ],
 					"text" : "jcom.message device/info @type none @description \"print info into the Max console\""
 				}
 
@@ -487,7 +502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 732.0, 171.0, 65.0, 18.0 ],
+					"patching_rect" : [ 744.0, 171.0, 65.0, 18.0 ],
 					"text" : "refresh $1"
 				}
 
@@ -501,7 +516,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.5, 650.0, 110.0, 20.0 ],
+					"patching_rect" : [ 51.5, 650.0, 122.0, 20.0 ],
 					"text" : "s #0-to.dmxusbpro"
 				}
 
@@ -544,7 +559,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.5, 549.5, 110.0, 20.0 ],
+					"patching_rect" : [ 51.5, 549.5, 122.0, 20.0 ],
 					"text" : "s #0-to.dmxusbpro"
 				}
 
@@ -588,7 +603,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 732.0, 68.0, 199.0, 87.0 ],
+					"patching_rect" : [ 744.0, 68.0, 199.0, 87.0 ],
 					"text" : "jcom.parameter rate @type integer @range/bounds 1 44 @range/clipmode both @value/default 40 @repetitions/allow 0 @description \"set DMX refresh rate\" @priority 3"
 				}
 
@@ -602,7 +617,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 503.0, 171.0, 77.0, 18.0 ],
+					"patching_rect" : [ 515.0, 171.0, 77.0, 18.0 ],
 					"text" : "startcode $1"
 				}
 
@@ -617,7 +632,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 503.0, 68.0, 226.0, 60.0 ],
+					"patching_rect" : [ 515.0, 68.0, 228.0, 60.0 ],
 					"text" : "jcom.parameter startcode @type integer @range/bounds 0 512 @range/clipmode both @repetitions/allow 0 @description \"set start code\" @priority 3"
 				}
 
@@ -631,7 +646,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.5, 436.0, 110.0, 20.0 ],
+					"patching_rect" : [ 51.5, 436.0, 122.0, 20.0 ],
 					"text" : "s #0-to.dmxusbpro"
 				}
 
@@ -645,7 +660,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 203.5, 110.0, 20.0 ],
+					"patching_rect" : [ 158.0, 203.5, 122.0, 20.0 ],
 					"text" : "s #0-to.dmxusbpro"
 				}
 
@@ -758,8 +773,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.5, 68.0, 197.0, 74.0 ],
-					"text" : "jcom.parameter mode @type string @range/bounds send receive @repetitions/allow 0 @description \"set the DMX interface in send or in receive mode\" @priority 2"
+					"patching_rect" : [ 51.5, 68.0, 220.5, 74.0 ],
+					"text" : "jcom.parameter mode @type string @range/bounds send receive @value/default send @repetitions/allow 0 @description \"set the DMX interface in send or in receive mode\" @priority 2"
 				}
 
 			}
@@ -787,7 +802,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 171.0, 75.0, 18.0 ],
+					"patching_rect" : [ 312.0, 171.0, 75.0, 18.0 ],
 					"text" : "channels $1"
 				}
 
@@ -801,7 +816,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 262.0, 146.0, 57.0, 20.0 ],
+					"patching_rect" : [ 274.0, 146.0, 57.0, 20.0 ],
 					"text" : "t i i"
 				}
 
@@ -816,7 +831,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 262.0, 68.0, 238.0, 74.0 ],
+					"patching_rect" : [ 274.0, 68.0, 240.0, 74.0 ],
 					"text" : "jcom.parameter number @type integer @range/bounds 0 512 @range/clipmode both @value/default 0 @repetitions/allow 0 @description \"set number of DMX channel to use\" @priority 3"
 				}
 
@@ -912,6 +927,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-148", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -942,7 +966,7 @@
 					"destination" : [ "obj-93", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 741.5, 196.75, 167.5, 196.75 ],
+					"midpoints" : [ 753.5, 196.75, 167.5, 196.75 ],
 					"source" : [ "obj-105", 0 ]
 				}
 
@@ -961,7 +985,7 @@
 					"destination" : [ "obj-67", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 793.5, 703.0, 337.5, 703.0 ],
+					"midpoints" : [ 794.5, 703.0, 337.5, 703.0 ],
 					"source" : [ "obj-108", 0 ]
 				}
 
@@ -1035,7 +1059,7 @@
 					"destination" : [ "obj-67", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 659.0, 703.0, 337.5, 703.0 ],
+					"midpoints" : [ 660.0, 703.0, 337.5, 703.0 ],
 					"source" : [ "obj-117", 1 ]
 				}
 
@@ -1218,7 +1242,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-148", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-147", 1 ]
@@ -1248,6 +1272,7 @@
 					"destination" : [ "obj-148", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 621.0, 774.5, 718.0, 774.5 ],
 					"source" : [ "obj-150", 0 ]
 				}
 
@@ -1303,7 +1328,7 @@
 					"destination" : [ "obj-90", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 271.5, 221.25, 337.5, 221.25 ],
+					"midpoints" : [ 283.5, 221.25, 337.5, 221.25 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -1313,7 +1338,7 @@
 					"destination" : [ "obj-93", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 309.5, 196.75, 167.5, 196.75 ],
+					"midpoints" : [ 321.5, 196.75, 167.5, 196.75 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -1450,7 +1475,7 @@
 					"destination" : [ "obj-93", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 512.5, 196.75, 167.5, 196.75 ],
+					"midpoints" : [ 524.5, 196.75, 167.5, 196.75 ],
 					"source" : [ "obj-96", 0 ]
 				}
 
@@ -1472,35 +1497,6 @@
 					"source" : [ "obj-98", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "dmxusbpro.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameterArray.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.returnArray.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
