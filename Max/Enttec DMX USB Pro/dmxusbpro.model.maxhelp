@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 25.0, 66.0, 640.0, 480.0 ],
+		"rect" : [ 25.0, 66.0, 481.0, 234.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,33 +27,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 247.0, 161.0, 20.0 ],
-					"size" : 256.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 10.0, 273.0, 161.0, 20.0 ],
-					"text" : "jcom.remote /dmx/channel.1"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"args" : [ "/dmx" ],
 					"id" : "obj-3",
@@ -82,26 +55,7 @@
 
 			}
  ],
-		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 19.5, 302.0, 5.5, 302.0, 5.5, 239.0, 19.5, 239.0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
- ],
+		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "dmxusbpro.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Enttec DMX USB Pro",
