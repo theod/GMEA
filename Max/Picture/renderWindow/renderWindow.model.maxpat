@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 602.0, 190.0, 475.0, 317.0 ],
+		"rect" : [ 843.0, 466.0, 475.0, 317.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -557,7 +557,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 216.0, 269.0, 47.0 ],
+									"patching_rect" : [ 12.0, 216.0, 272.0, 47.0 ],
 									"text" : "jcom.return handler/message @type generic @description \"all jit.gl.handle messages a render client have to observe to handled by the mouse\""
 								}
 
@@ -586,7 +586,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 12.0, 14.0, 236.0, 31.0 ],
+									"patching_rect" : [ 12.0, 14.0, 238.0, 31.0 ],
 									"text" : "jcom.message handler/active @type boolean @description \"enable gl mouse handler\""
 								}
 
@@ -1861,7 +1861,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 25.0, 69.0, 1260.0, 312.0 ],
+						"rect" : [ 81.0, 631.0, 1420.0, 366.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1903,8 +1903,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1008.5, 102.0, 121.0, 20.0 ],
-									"text" : "jcom.receive handler"
+									"patching_rect" : [ 1008.5, 102.0, 173.0, 20.0 ],
+									"text" : "jcom.receive handler/message"
 								}
 
 							}
@@ -1917,8 +1917,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1129.5, 102.0, 115.0, 20.0 ],
-									"text" : "jcom.receive debug"
+									"patching_rect" : [ 1181.5, 102.0, 153.0, 20.0 ],
+									"text" : "jcom.receive render/debug"
 								}
 
 							}
@@ -2008,7 +2008,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1129.5, 129.5, 63.0, 18.0 ],
+									"patching_rect" : [ 1181.5, 129.5, 63.0, 18.0 ],
 									"text" : "enable $1"
 								}
 
@@ -2036,8 +2036,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 859.5, 168.0, 279.0, 20.0 ],
-									"text" : "jit.gl.gridshape glWindow @scale 0.5 @color 1 0 0"
+									"patching_rect" : [ 859.5, 168.0, 340.0, 20.0 ],
+									"text" : "jit.gl.gridshape glWindow @scale 0.5 @color 1 0 0 @enable 0"
 								}
 
 							}
@@ -2241,7 +2241,7 @@
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1139.0, 160.0, 869.0, 160.0 ],
+									"midpoints" : [ 1191.0, 160.0, 869.0, 160.0 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
