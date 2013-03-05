@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 624.0, 102.0, 622.0, 347.0 ],
+		"rect" : [ 683.0, 253.0, 622.0, 347.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -214,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.0, 107.0, 150.0, 105.0 ],
+					"patching_rect" : [ 219.0, 106.0, 150.0, 105.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
 				}
 
@@ -228,8 +228,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 158.0, 123.0, 20.0 ],
-					"text" : "renderWindow.model"
+					"patching_rect" : [ 65.0, 159.0, 142.0, 20.0 ],
+					"text" : "renderWindow.model wtf"
 				}
 
 			}
@@ -346,28 +346,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/renderWindow",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/renderWindow",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/Modules/Modular/Max/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../Modules/Modular/Max/library/components/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/components",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/components",
 				"patcherrelativepath" : "../components",
 				"type" : "JSON",
 				"implicit" : 1
@@ -381,10 +374,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.model.mxo",
 				"type" : "iLaX"
 			}
@@ -393,7 +382,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
