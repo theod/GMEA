@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 330.0, 90.0, 550.0, 325.0 ],
+		"rect" : [ 613.0, 525.0, 550.0, 325.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -508,7 +508,7 @@
 									"destination" : [ "obj-20", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 70.5, 590.0, 26.5, 590.0, 26.5, 498.0, 70.5, 498.0 ],
+									"midpoints" : [ 70.5, 590.0, 26.5, 590.0, 26.5, 498.0, 178.5, 498.0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -518,7 +518,7 @@
 									"destination" : [ "obj-20", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 57.5, 575.0, 26.25, 575.0, 26.25, 498.0, 57.0, 498.0 ],
+									"midpoints" : [ 57.5, 575.0, 26.25, 575.0, 26.25, 498.0, 111.0, 498.0 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -658,20 +658,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 192.0, 206.0, 60.0, 19.0 ],
-					"text" : "route text"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"autoscroll" : 0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"border" : 1.0,
@@ -679,6 +665,7 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-15",
+					"ignoreclick" : 1,
 					"keymode" : 1,
 					"lines" : 1,
 					"maxclass" : "textedit",
@@ -806,10 +793,10 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 192.0, 163.0, 144.0, 19.0 ],
-					"text" : "jcom.remote render/name",
+					"text" : "jcom.receive render/name",
 					"varname" : "deformC[1]"
 				}
 
@@ -892,25 +879,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 201.5, 228.0, 184.5, 228.0, 184.5, 160.0, 201.5, 160.0 ],
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1010,15 +978,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/Modules/Modular/Max/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../Modules/Modular/Max/library/components/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/InterfaceVJ/components",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/components",
 				"patcherrelativepath" : "../components",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1029,6 +990,10 @@
 			}
 , 			{
 				"name" : "jcom.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
