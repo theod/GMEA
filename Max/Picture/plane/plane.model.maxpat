@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 158.0, 276.0, 1161.0, 325.0 ],
+		"rect" : [ 57.0, 364.0, 1231.0, 325.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1011.875, 172.0, 140.0, 55.0 ],
+					"patching_rect" : [ 1011.875, 172.0, 142.0, 55.0 ],
 					"text" : "jcom.parameter scale @type array @description \"scale the plane\" @ramp/drive Max"
 				}
 
