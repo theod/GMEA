@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1138.0, 44.0, 516.0, 318.0 ],
+		"rect" : [ 948.0, 44.0, 516.0, 318.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -320,7 +320,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 606.0, 44.0, 1030.0, 498.0 ],
+						"rect" : [ 606.0, 44.0, 950.0, 421.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -340,6 +340,35 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 512.0, 248.0, 100.0, 18.0 ],
+									"text" : "depth_enable $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-2",
+									"linecount" : 5,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 512.0, 175.0, 253.0, 67.0 ],
+									"text" : "jcom.parameter render/depth @type boolean @description \"turn on/off gl depth processing (needed for 3d space rendering but useless for 2d setting-up based on transparent pictures for example)\" @value/default 0 @priority 4"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -572,6 +601,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -620,7 +658,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 332.5, 267.5, 20.5, 267.5 ],
+									"midpoints" : [ 332.5, 274.5, 20.5, 274.5 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -639,7 +677,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 501.5, 273.5, 20.5, 273.5 ],
+									"midpoints" : [ 501.5, 274.5, 20.5, 274.5 ],
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -676,8 +714,18 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 772.5, 288.5, 20.5, 288.5 ],
+									"midpoints" : [ 772.5, 275.5, 20.5, 275.5 ],
 									"source" : [ "obj-83", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 521.5, 275.5, 20.5, 275.5 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -2927,7 +2975,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 53.0, 211.0, 258.0, 47.0 ],
-					"text" : "jit.gl.render glWindow @erase_color 0. 0. 0. 1. @depth_enable 1 @blend_enable 1 @ortho 0 @far_clip 1000 @lighting_enable 1 @sync 1"
+					"text" : "jit.gl.render glWindow @erase_color 0. 0. 0. 1. @depth_enable 0 @blend_enable 1 @ortho 0 @far_clip 1000 @lighting_enable 1 @sync 1"
 				}
 
 			}
