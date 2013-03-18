@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 122.0, 315.0, 1568.0, 355.0 ],
+		"rect" : [ 96.0, 426.0, 1568.0, 355.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -281,8 +281,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 271.0, 269.5, 136.0, 43.0 ],
-					"text" : "jit.gl.videoplane glWindow @blend_enable 1"
+					"patching_rect" : [ 271.0, 269.5, 147.0, 43.0 ],
+					"text" : "jit.gl.videoplane glWindow @depth_enable 0 @blend_enable 1"
 				}
 
 			}
