@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 57.0, 364.0, 1568.0, 355.0 ],
+		"rect" : [ 122.0, 315.0, 1568.0, 355.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1166.875, 237.0, 106.0, 17.0 ],
-					"presentation_rect" : [ 1166.875, 237.0, 0.0, 0.0 ],
 					"text" : "rotatexyz $1 $2 $3"
 				}
 
@@ -52,8 +51,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1166.875, 172.0, 205.0, 55.0 ],
-					"text" : "jcom.parameter rotate @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree"
+					"patching_rect" : [ 1166.875, 172.0, 231.0, 55.0 ],
+					"text" : "jcom.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree"
 				}
 
 			}
@@ -294,7 +293,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 175.0, 5.0, 22.0, 22.0 ]
 				}
 
