@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <preset name="default">
+  <!--"edit a comment"-->
+  <command address="render/active">0</command>
+  <command address="camera/angle">45.000000</command>
+  <command address="camera/position">0.000000 0.000000 2.000000</command>
+  <command address="render/fps">25</command>
+  <command address="light/position">1.000000 1.000000 1.000000</command>
+ </preset>
+</jamoma>
