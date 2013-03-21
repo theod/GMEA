@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 344.0, 44.0, 762.0, 781.0 ],
+		"rect" : [ 472.0, 80.0, 762.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,21 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"id" : "obj-33",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 508.5, 543.0, 211.5, 47.0 ],
+					"text" : "the plane should return the finger id that is touching them via the body/touch message"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-50",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -43,6 +58,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-37",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -541,7 +557,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 592.0, 105.0, 18.0 ],
-					"text" : "mouse 1"
+					"text" : "body/touch 0"
 				}
 
 			}
@@ -570,7 +586,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 321.0, 105.0, 18.0 ],
-					"text" : "mouse 0"
+					"text" : "mouse 1"
 				}
 
 			}

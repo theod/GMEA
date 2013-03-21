@@ -36,8 +36,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 9.0, 245.0, 33.0 ],
-					"text" : "This component is usefull to make a render client senesitive to all mouse features."
+					"patching_rect" : [ 12.0, 15.0, 245.0, 33.0 ],
+					"text" : "This component is usefull to make a render client sensitive to all mouse features."
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, 159.0, 25.0, 25.0 ]
+					"patching_rect" : [ 272.0, 159.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -97,7 +97,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 170.0, 82.0, 85.0, 19.0 ],
+					"patching_rect" : [ 170.0, 82.0, 121.0, 19.0 ],
 					"text" : "t l l"
 				}
 
@@ -125,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 135.0, 55.0, 17.0 ],
+					"patching_rect" : [ 272.0, 113.0, 55.0, 17.0 ],
 					"text" : "name $1"
 				}
 
