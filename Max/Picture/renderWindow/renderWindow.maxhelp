@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 161.0, 262.0, 76.0, 31.0 ],
-					"text" : "-0.006904 0.082843"
+					"text" : "-0.082843 0.089746"
 				}
 
 			}
@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 262.0, 76.0, 18.0 ],
-					"text" : "159 108"
+					"text" : "148 107"
 				}
 
 			}
@@ -90,8 +90,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 131.0, 86.0, 18.0 ],
-					"text" : "mouse/enable"
+					"patching_rect" : [ 65.0, 131.0, 81.0, 18.0 ],
+					"text" : "mouse/active"
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 394.0, 48.0, 20.0, 20.0 ]
+					"patching_rect" : [ 219.0, 57.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -116,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 394.0, 74.0, 122.0, 18.0 ],
+					"patching_rect" : [ 219.0, 83.0, 122.0, 18.0 ],
 					"text" : "window/fullscreen $1"
 				}
 
@@ -130,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 394.0, 25.0, 43.0, 20.0 ],
+					"patching_rect" : [ 219.0, 34.0, 43.0, 20.0 ],
 					"text" : "sel 27"
 				}
 
@@ -144,22 +144,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 394.0, 2.0, 59.5, 20.0 ],
+					"patching_rect" : [ 219.0, 11.0, 59.5, 20.0 ],
 					"text" : "key"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.0, 74.0, 149.0, 20.0 ],
-					"text" : "loadmess render/enable 1"
 				}
 
 			}
@@ -170,10 +156,10 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 423.0, 122.0, 60.0, 20.0 ],
-					"text" : "loadbang"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 423.0, 179.0, 167.0, 20.0 ],
+					"text" : "jcom.receive /wtf/render/draw"
 				}
 
 			}
@@ -186,8 +172,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.0, 148.090912, 63.0, 17.0 ],
-					"text" : "sphere 0.5"
+					"patching_rect" : [ 423.0, 205.090912, 98.0, 17.0 ],
+					"text" : "reset, sphere 0.5"
 				}
 
 			}
@@ -200,14 +186,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 423.0, 173.0, 125.0, 20.0 ],
-					"text" : "jit.gl.sketch glWindow"
+					"patching_rect" : [ 423.0, 230.0, 89.0, 20.0 ],
+					"text" : "jit.gl.sketch wtf"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/renderWindow" ],
+					"args" : [ "/wtf" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "renderWindow.view.maxpat",
@@ -248,7 +234,6 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 403.5, 99.0, 228.5, 99.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -309,15 +294,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -346,21 +322,56 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.mouse.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.handler.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.physicsWorld.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.render.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jcom.list2parameter.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/Implementations/Max/max/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../Implementations/Max/max/patchers/library/components/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/components",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/components",
 				"patcherrelativepath" : "../components",
 				"type" : "JSON",
 				"implicit" : 1
@@ -386,11 +397,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "jcom.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "jcom.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
