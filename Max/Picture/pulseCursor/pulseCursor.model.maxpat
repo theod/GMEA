@@ -29,6 +29,19 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-31",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 168.0, 494.0, 50.0, 17.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.0, 0.650068, 0.839216, 1.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -49,11 +62,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 454.0, 134.0, 19.0 ],
-					"text" : "jcom.physicsBody.model"
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 199.0, 454.0, 135.0, 31.0 ],
+					"text" : "jcom.physicsBody.model body"
 				}
 
 			}
@@ -625,6 +640,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
