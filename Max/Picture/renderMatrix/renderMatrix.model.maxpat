@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 360.0, 44.0, 688.0, 415.0 ],
+		"rect" : [ 19.0, 44.0, 688.0, 415.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -980,8 +980,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 39.0, 437.0, 20.0 ],
-					"text" : "jcom.model @type opengl @description \"an openGL matrix to render an scene\""
+					"patching_rect" : [ 11.0, 39.0, 426.0, 20.0 ],
+					"text" : "jcom.model @type opengl @description \"an openGL matrix to render a scene\""
 				}
 
 			}
@@ -1189,6 +1189,49 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.handler.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.render.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.preset.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
