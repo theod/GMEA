@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 192.0, 184.0, 70.0, 19.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgoncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
 					"bgoveroncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
 					"fontname" : "Arial",
@@ -147,6 +161,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"title" : "/renderWindow(view)",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -508,7 +523,7 @@
 									"destination" : [ "obj-20", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 70.5, 590.0, 26.5, 590.0, 26.5, 498.0, 178.5, 498.0 ],
+									"midpoints" : [ 70.5, 590.0, 26.5, 590.0, 26.5, 498.0, 70.5, 498.0 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -518,7 +533,7 @@
 									"destination" : [ "obj-20", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 57.5, 575.0, 26.25, 575.0, 26.25, 498.0, 111.0, 498.0 ],
+									"midpoints" : [ 57.5, 575.0, 26.25, 575.0, 26.25, 498.0, 57.0, 498.0 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -673,12 +688,12 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 192.0, 186.0, 86.0, 16.0 ],
+					"patching_rect" : [ 192.0, 207.0, 86.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 26.0, 68.0, 17.0 ],
 					"rounded" : 2.0,
 					"tabmode" : 0,
-					"text" : "glWindow",
+					"text" : "wtf",
 					"wordwrap" : 0
 				}
 
@@ -742,8 +757,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 15.0, 207.0, 149.0, 19.0 ],
-					"text" : "jcom.remote render/enable"
+					"patching_rect" : [ 15.0, 207.0, 145.0, 19.0 ],
+					"text" : "jcom.remote render/active"
 				}
 
 			}
@@ -850,7 +865,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/noModelAddress"
+					"text" : "/wtf"
 				}
 
 			}
@@ -875,7 +890,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
@@ -969,36 +984,21 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/components",
-				"patcherrelativepath" : "../components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.remote.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

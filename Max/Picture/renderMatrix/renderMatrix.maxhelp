@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 362.0, 238.0, 893.0, 618.0 ],
+		"rect" : [ 348.0, 44.0, 893.0, 618.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 320.0, 47.0, 18.0 ],
+					"patching_rect" : [ 57.0, 323.0, 47.0, 18.0 ],
 					"text" : "layer 1"
 				}
 
@@ -75,8 +75,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 346.681824, 144.0, 33.0 ],
-					"text" : "the render matrix to display in render window"
+					"patching_rect" : [ 170.0, 356.681824, 200.0, 33.0 ],
+					"text" : "the plane dedicated of the render matrix to display it in render window"
 				}
 
 			}
@@ -90,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 441.0, 489.0, 145.0, 33.0 ],
+					"patching_rect" : [ 441.0, 469.0, 145.0, 33.0 ],
 					"text" : "a picture to display in render window"
 				}
 
@@ -233,7 +233,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 722.0, 425.090912, 142.0, 20.0 ],
+					"patching_rect" : [ 722.0, 405.090912, 142.0, 20.0 ],
 					"text" : "loadmess read chilis.jpg"
 				}
 
@@ -247,7 +247,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 299.090912, 144.0, 20.0 ],
+					"patching_rect" : [ 265.0, 302.090912, 144.0, 20.0 ],
 					"text" : "check the alpha channel"
 				}
 
@@ -259,7 +259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 227.0, 232.090912, 80.0, 60.0 ]
+					"patching_rect" : [ 265.0, 235.090912, 80.0, 60.0 ]
 				}
 
 			}
@@ -272,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 227.0, 205.090912, 73.0, 20.0 ],
+					"patching_rect" : [ 265.0, 208.090912, 73.0, 20.0 ],
 					"text" : "jit.unpack 4"
 				}
 
@@ -287,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 698.0, 388.590912, 163.0, 33.0 ],
+					"patching_rect" : [ 698.0, 368.590912, 163.0, 33.0 ],
 					"text" : "jcom.receive /renderWindow/render/draw"
 				}
 
@@ -299,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 698.0, 475.5, 80.0, 60.0 ]
+					"patching_rect" : [ 698.0, 455.5, 80.0, 60.0 ]
 				}
 
 			}
@@ -312,7 +312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 698.0, 450.0, 151.0, 20.0 ],
+					"patching_rect" : [ 698.0, 430.0, 151.0, 20.0 ],
 					"text" : "jit.qt.movie 320 240 char 4"
 				}
 
@@ -327,7 +327,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 604.0, 542.5, 113.0, 47.0 ],
+					"patching_rect" : [ 604.0, 522.5, 113.0, 47.0 ],
 					"text" : "plane.model background /renderWindow"
 				}
 
@@ -341,7 +341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 471.5, 90.0, 18.0 ],
+					"patching_rect" : [ 57.0, 460.5, 90.0, 18.0 ],
 					"text" : "render/active 1"
 				}
 
@@ -368,11 +368,10 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-11",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 165.181824, 179.0, 33.0 ],
+					"patching_rect" : [ 56.0, 157.090912, 304.0, 20.0 ],
 					"text" : "set the background transparent and active the render"
 				}
 
@@ -382,12 +381,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 165.181824, 199.0, 31.0 ],
+					"patching_rect" : [ 56.0, 175.181824, 280.0, 18.0 ],
 					"text" : "render/background/color 0. 0. 0. 0., render/active 1"
 				}
 
@@ -402,7 +400,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 346.681824, 113.0, 47.0 ],
+					"patching_rect" : [ 57.0, 349.681824, 113.0, 47.0 ],
 					"text" : "plane.model interface /renderWindow"
 				}
 
@@ -416,7 +414,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 495.5, 123.0, 20.0 ],
+					"patching_rect" : [ 57.0, 484.5, 123.0, 20.0 ],
 					"text" : "renderWindow.model"
 				}
 
@@ -428,7 +426,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 113.0, 232.090912, 80.0, 60.0 ]
+					"patching_rect" : [ 151.0, 235.090912, 80.0, 60.0 ]
 				}
 
 			}
@@ -470,7 +468,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.0, 204.090912, 114.0, 20.0 ],
+					"patching_rect" : [ 56.0, 207.090912, 114.0, 20.0 ],
 					"text" : "renderMatrix.model"
 				}
 
@@ -638,7 +636,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 122.5, 301.090912, 210.5, 301.090912, 210.5, 201.090912, 236.5, 201.090912 ],
+					"midpoints" : [ 160.5, 304.090912, 248.5, 304.090912, 248.5, 204.090912, 274.5, 204.090912 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -688,9 +686,37 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jcom.handler.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.render.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "renderWindow.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../renderWindow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.mouse.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.physicsWorld.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -703,25 +729,38 @@
 			}
 , 			{
 				"name" : "jcom.render.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/components",
-				"patcherrelativepath" : "../components",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/components",
-				"patcherrelativepath" : "../components",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
+				"name" : "jcom.physicsWorld.view.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
+				"name" : "jcom.mouse.view.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.physicsBody.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.model.mxo",
@@ -729,6 +768,18 @@
 			}
 , 			{
 				"name" : "jcom.preset.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -740,7 +791,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.out.mxo",
+				"name" : "jcom.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
