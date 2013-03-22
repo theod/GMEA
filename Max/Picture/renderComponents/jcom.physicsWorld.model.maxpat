@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 89.0, 220.0, 1609.0, 608.0 ],
+		"rect" : [ 230.0, 209.0, 1609.0, 608.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,8 +50,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1331.5, 134.5, 236.0, 60.0 ],
-					"text" : "jcom.message picker/stretch @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0. @description \"set picker dragging stretch\""
+					"patching_rect" : [ 1331.5, 134.5, 251.0, 60.0 ],
+					"text" : "jcom.parameter picker/stretch @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0. @description \"set picker dragging stretch\""
 				}
 
 			}
@@ -79,8 +79,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1057.5, 134.5, 250.0, 60.0 ],
-					"text" : "jcom.message picker/strength @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0.2 @description \"set picker dragging strength\""
+					"patching_rect" : [ 1057.5, 134.5, 265.0, 60.0 ],
+					"text" : "jcom.parameter picker/strength @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0.2 @description \"set picker dragging strength\""
 				}
 
 			}
@@ -291,8 +291,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 786.5, 134.5, 260.0, 60.0 ],
-					"text" : "jcom.message picker/mode @type string @range/bounds center surface @value/default center @description \"set mouse or touch dragging from center or object surface\""
+					"patching_rect" : [ 786.5, 134.5, 258.0, 60.0 ],
+					"text" : "jcom.parameter picker/mode @type string @range/bounds center surface @value/default center @description \"set mouse or touch dragging from center or object surface\""
 				}
 
 			}
@@ -320,8 +320,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1041.5, 238.0, 225.0, 47.0 ],
-					"text" : "jcom.message collisions @type boolean @value/default 0 @description \"enable collisions for the render\""
+					"patching_rect" : [ 1041.5, 238.0, 232.0, 47.0 ],
+					"text" : "jcom.parameter collisions @type boolean @value/default 0 @description \"enable collisions for the render\""
 				}
 
 			}
@@ -349,8 +349,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 786.5, 238.0, 243.0, 47.0 ],
-					"text" : "jcom.message box @type array @value/default 5. 5. 5. @description \"set the size of the physics box for the render\""
+					"patching_rect" : [ 786.5, 238.0, 250.0, 47.0 ],
+					"text" : "jcom.parameter box @type array @value/default 5. 5. 5. @description \"set the size of the physics box for the render\""
 				}
 
 			}
@@ -378,8 +378,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 516.5, 238.0, 260.0, 47.0 ],
-					"text" : "jcom.message gravity @type array @value/default 0. 0. 0. @description \"set the gravition of the physics for the render\""
+					"patching_rect" : [ 516.5, 238.0, 247.0, 47.0 ],
+					"text" : "jcom.parameter gravity @type array @value/default 0. 0. 0. @description \"set the gravition of the physics for the render\""
 				}
 
 			}
@@ -393,7 +393,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 516.5, 134.5, 239.0, 60.0 ],
+					"patching_rect" : [ 516.5, 134.5, 245.0, 60.0 ],
 					"text" : "jcom.message picker/touch @type generic @description \"send multi-touch point instead of using mouse for dragging (index down screen-x screen-y)\""
 				}
 
