@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 95.0, 318.0, 1491.0, 485.0 ],
+		"rect" : [ 209.0, 172.0, 1594.0, 606.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -31,57 +31,13 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-31",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 462.0, 421.0, 150.0, 43.0 ],
-					"text" : "mettre à jour le paramètre position (ajouter @repetitons/allow 0)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-25",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.5, 451.0, 219.625, 17.0 ],
-					"text" : "1.44604 -0.561189 0.179059"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 272.0, 421.0, 80.0, 19.0 ],
-					"text" : "route position"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-20",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.0, 415.0, 50.0, 29.0 ],
-					"text" : "scale 1. 1. 1."
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 193.0, 399.0, 159.0, 19.0 ],
+					"text" : "route position scale rotatexyz"
 				}
 
 			}
@@ -212,8 +168,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1243.875, 198.0, 231.0, 55.0 ],
-					"text" : "jcom.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree"
+					"patching_rect" : [ 1243.875, 198.0, 241.0, 55.0 ],
+					"text" : "jcom.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree @repetitions/allow 0"
 				}
 
 			}
@@ -236,13 +192,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-5",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1088.875, 198.0, 142.0, 55.0 ],
-					"text" : "jcom.parameter scale @type array @description \"scale the plane\" @ramp/drive Max"
+					"patching_rect" : [ 1088.875, 198.0, 146.0, 67.0 ],
+					"text" : "jcom.parameter scale @type array @description \"scale the plane\" @ramp/drive Max @repetitions/allow 0"
 				}
 
 			}
@@ -265,13 +221,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 856.875, 198.0, 225.0, 55.0 ],
-					"text" : "jcom.parameter position @type array @description \"position the plane\" @dataspace position @dataspace/unit xyz @ramp/drive Max"
+					"patching_rect" : [ 856.875, 198.0, 219.0, 67.0 ],
+					"text" : "jcom.parameter position @type array @description \"position the plane\" @dataspace position @dataspace/unit xyz @ramp/drive Max @repetitions/allow 0"
 				}
 
 			}
@@ -541,15 +497,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -578,10 +525,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 202.5, 439.0, 1517.4375, 439.0, 1517.4375, 178.0, 866.375, 178.0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 249.166672, 433.0, 1500.770752, 433.0, 1500.770752, 182.0, 1098.375, 182.0 ],
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 295.833344, 427.0, 1490.604248, 427.0, 1490.604248, 188.0, 1253.375, 188.0 ],
+					"source" : [ "obj-15", 2 ]
 				}
 
 			}
