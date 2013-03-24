@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 751.0, 78.0, 1133.0, 798.0 ],
+		"rect" : [ 547.0, 78.0, 1133.0, 798.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 867.0, 182.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -86,7 +86,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 473.5, 43.0, 20.0 ],
+									"patching_rect" : [ 65.0, 488.5, 43.0, 20.0 ],
 									"text" : "pak f f"
 								}
 
@@ -101,8 +101,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 74.0, 417.5, 238.0, 47.0 ],
-									"text" : "jcom.parameter physics/damping/angular @type decimal @range/bounds 0. 1. @value/default 1."
+									"patching_rect" : [ 89.0, 432.5, 238.0, 47.0 ],
+									"text" : "jcom.parameter damping/angular @type decimal @range/bounds 0. 1. @value/default 1."
 								}
 
 							}
@@ -115,7 +115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 501.5, 90.0, 18.0 ],
+									"patching_rect" : [ 65.0, 516.5, 90.0, 18.0 ],
 									"text" : "damping $1 $2"
 								}
 
@@ -130,8 +130,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 366.5, 222.0, 47.0 ],
-									"text" : "jcom.parameter physics/damping/linear @type decimal @range/bounds 0. 1. @value/default 1."
+									"patching_rect" : [ 65.0, 381.5, 222.0, 47.0 ],
+									"text" : "jcom.parameter damping/linear @type decimal @range/bounds 0. 1. @value/default 1."
 								}
 
 							}
@@ -144,7 +144,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 227.5, 78.0, 18.0 ],
+									"patching_rect" : [ 65.0, 242.5, 78.0, 18.0 ],
 									"text" : "kinematic $1"
 								}
 
@@ -159,8 +159,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 179.5, 206.0, 47.0 ],
-									"text" : "jcom.parameter physics/kinematic @type boolean @range/bounds 0 1 @value/default 0"
+									"patching_rect" : [ 65.0, 194.5, 206.0, 47.0 ],
+									"text" : "jcom.parameter kinematic @type boolean @range/bounds 0 1 @value/default 0"
 								}
 
 							}
@@ -173,7 +173,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 154.5, 63.0, 18.0 ],
+									"patching_rect" : [ 65.0, 169.5, 63.0, 18.0 ],
 									"text" : "enable $1"
 								}
 
@@ -188,8 +188,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 192.0, 47.0 ],
-									"text" : "jcom.parameter physics/enable @type boolean @range/bounds 0 1 @value/default 1"
+									"patching_rect" : [ 65.0, 115.0, 192.0, 47.0 ],
+									"text" : "jcom.parameter enable @type boolean @range/bounds 0 1 @value/default 1"
 								}
 
 							}
@@ -202,7 +202,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 331.5, 56.0, 18.0 ],
+									"patching_rect" : [ 65.0, 346.5, 56.0, 18.0 ],
 									"text" : "mass $1"
 								}
 
@@ -217,8 +217,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 266.5, 173.0, 60.0 ],
-									"text" : "jcom.parameter physics/mass @type decimal @range/bounds 0. 1. @value/default 1."
+									"patching_rect" : [ 65.0, 281.5, 161.0, 60.0 ],
+									"text" : "jcom.parameter mass @type decimal @range/bounds 0. 1. @value/default 1."
 								}
 
 							}
@@ -229,7 +229,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 579.5, 25.0, 25.0 ]
+									"patching_rect" : [ 60.0, 594.5, 25.0, 25.0 ]
 								}
 
 							}
@@ -927,16 +927,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 304.5, 384.5, 19.5, 384.5 ],
-					"source" : [ "obj-51", 0 ]
 				}
 
 			}
