@@ -183,13 +183,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-30",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 65.0, 115.0, 192.0, 47.0 ],
-									"text" : "jcom.parameter enable @type boolean @range/bounds 0 1 @value/default 1"
+									"patching_rect" : [ 65.0, 92.0, 135.0, 60.0 ],
+									"text" : "jcom.parameter active @type boolean @range/bounds 0 1 @value/default 1"
 								}
 
 							}
