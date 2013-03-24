@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 92.0, 118.0, 1796.0, 739.0 ],
+		"rect" : [ 371.0, 68.0, 1796.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 159.0, 295.0, 34.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -220,7 +233,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1331.5, 299.0, 103.0, 18.0 ],
-					"presentation_rect" : [ 1336.5, 294.0, 0.0, 0.0 ],
 					"text" : "remove_plane $1"
 				}
 
@@ -264,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1331.5, 134.5, 251.0, 60.0 ],
+					"patching_rect" : [ 1331.5, 134.5, 253.0, 60.0 ],
 					"text" : "jcom.parameter picker/stretch @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0. @description \"set picker dragging stretch\""
 				}
 
@@ -505,7 +517,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 786.5, 134.5, 258.0, 60.0 ],
+					"patching_rect" : [ 786.5, 134.5, 260.0, 60.0 ],
 					"text" : "jcom.parameter picker/mode @type string @range/bounds center surface @value/default center @description \"set mouse or touch dragging from center or object surface\""
 				}
 
@@ -592,7 +604,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 516.5, 238.0, 247.0, 47.0 ],
+					"patching_rect" : [ 516.5, 238.0, 249.0, 47.0 ],
 					"text" : "jcom.parameter gravity @type array @value/default 0. 0. 0. @description \"set the gravition of the physics for the render\""
 				}
 
@@ -744,6 +756,20 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 330.0, 119.0, 50.0 ],
 					"text" : "jit.phys.picker @enable 0 @pickmode center"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "worldbox",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-38",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 140.0, 407.0, 254.5, 20.0 ]
 				}
 
 			}
@@ -1014,6 +1040,24 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1033,6 +1077,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 526.0, 123.0, 149.5, 123.0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1081,6 +1134,23 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.send.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
