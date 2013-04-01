@@ -1,0 +1,27 @@
+patch audio:
+
+udpreceive sur port 7400
+
+Messages écoutés :
+
+/cp.audio
+	/standby
+		/gain
+
+	/corbeaux
+		/play (0/1)
+
+	/abbatiale
+		/play (0/1)
+		/selected (bang)
+
+	/refectoire
+		/play (0/1)
+		/selected (bang)
+
+Retours envoyés sur port 7402 :
+
+/cp.audio
+	/abbatiale/hexa/done (bang)
+
+	/refectoire/hexa/done (bang)
