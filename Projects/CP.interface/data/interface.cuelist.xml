@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="init">
+  <flag name="description"></flag>
+  <!---->
+  <script address="physicsWorld(view).5">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="physicsWorld(view).4">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="physicsWorld(view).1">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="physicsWorld(view).2">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="physicsWorld(view)">
+   <script address="model">
+    <command address="address">/ecran/veillenode/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="physicsWorld(view).3">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="physicsWorld(view).6">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="handler(view).1">
+   <script address="model">
+    <command address="address">/ecran/display/handler</command>
+   </script>
+  </script>
+  <!---->
+  <script address="handler(view).2">
+   <script address="model">
+    <command address="address">/ecran/display/handler</command>
+   </script>
+  </script>
+  <!---->
+  <script address="handler(view)">
+   <script address="model">
+    <command address="address">/ecran/veillenode/handler</command>
+   </script>
+  </script>
+  <!---->
+  <script address="handler(view).6">
+   <script address="model">
+    <command address="address">/ecran/display/handler</command>
+   </script>
+  </script>
+  <!---->
+  <script address="handler(view).3">
+   <script address="model">
+    <command address="address">/ecran/display/handler</command>
+   </script>
+  </script>
+  <!---->
+  <script address="handler(view).4">
+   <script address="model">
+    <command address="address">/ecran/display/handler</command>
+   </script>
+  </script>
+  <!---->
+  <script address="handler(view).5">
+   <script address="model">
+    <command address="address">/ecran/display/handler</command>
+   </script>
+  </script>
+  <!---->
+  <script address="ecran">
+   <!---->
+   <script address="backgroundveille">
+    <command address="active">0</command>
+    <command address="scale">1.370000 1.000000 1.000000</command>
+    <command address="orientation">0.000000 0.000000 0.000000</command>
+    <!---->
+    <script address="body">
+     <script address="damping">
+      <command address="angular">1.000000</command>
+      <command address="linear">1.000000</command>
+     </script>
+     <command address="kinematic">0</command>
+     <command address="active">0</command>
+     <command address="mass">1.000000</command>
+    </script>
+    <script address="in.matrix">
+     <command address="mute">0</command>
+     <command address="bypass">0</command>
+    </script>
+    <command address="position">0.000000 0.000000 0.000000</command>
+    <command address="alpha">1.000000</command>
+   </script>
+   <!---->
+   <script address="veillenode">
+    <!---->
+    <script address="render">
+     <command address="depth">0</command>
+     <command address="active">0</command>
+     <command address="fps">25</command>
+    </script>
+    <script address="out.texture">
+     <command address="mute">0</command>
+     <command address="freeze">0</command>
+     <command address="preview">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="backgroundmap">
+    <command address="active">0</command>
+    <command address="orientation">0.000000 0.000000 0.000000</command>
+    <command address="scale">1.370000 1.000000 1.000000</command>
+    <command address="position">0.000000 0.000000 0.000000</command>
+    <script address="in.matrix">
+     <command address="bypass">0</command>
+     <command address="mute">0</command>
+    </script>
+    <!---->
+    <script address="body">
+     <script address="damping">
+      <command address="angular">1.000000</command>
+      <command address="linear">0.800000</command>
+     </script>
+     <command address="kinematic">0</command>
+     <command address="active">0</command>
+     <command address="mass">1.000000</command>
+    </script>
+    <command address="alpha">1.000000</command>
+    <command address="layer">2</command>
+   </script>
+   <!---->
+   <script address="menu">
+    <!---->
+    <script address="render">
+     <command address="depth">0</command>
+     <command address="active">0</command>
+     <command address="fps">25</command>
+    </script>
+    <script address="out.texture">
+     <command address="mute">0</command>
+     <command address="freeze">0</command>
+     <command address="preview">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="veille">
+    <command address="active">0</command>
+    <command address="orientation">0.000000 0.000000 26.500000</command>
+    <command address="scale">2.123500 1.550000 1.000000</command>
+    <command address="position">-0.050000 0.100000 0.000000</command>
+    <command address="alpha">1.000000</command>
+    <script address="in.matrix">
+     <command address="bypass">0</command>
+     <command address="mute">0</command>
+    </script>
+    <!---->
+    <script address="body">
+     <command address="kinematic">0</command>
+     <command address="active">0</command>
+     <command address="mass">1.000000</command>
+     <script address="damping">
+      <command address="linear">1.000000</command>
+      <command address="angular">1.000000</command>
+     </script>
+    </script>
+   </script>
+   <!---->
+   <script address="sidebar">
+    <command address="active">0</command>
+    <command address="alpha">1.000000</command>
+    <command address="position">-0.790124 -0.481408 0.000000</command>
+    <!---->
+    <script address="body">
+     <command address="active">0</command>
+     <command address="kinematic">0</command>
+     <script address="damping">
+      <command address="linear">1.000000</command>
+      <command address="angular">1.000000</command>
+     </script>
+     <command address="mass">1.000000</command>
+    </script>
+    <command address="orientation">0.000000 0.000000 0.000028</command>
+    <command address="scale">1.000000 1.000000 1.000000</command>
+    <script address="in.matrix">
+     <command address="bypass">0</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="pulse">
+    <command address="active">0</command>
+    <command address="layer">3</command>
+    <command address="position">0.460000 0.400000 0</command>
+    <command address="size">0.100000</command>
+    <!---->
+    <script address="body">
+     <command address="mass">1.000000</command>
+     <command address="active">0</command>
+     <command address="kinematic">0</command>
+     <script address="damping">
+      <command address="linear">1.000000</command>
+      <command address="angular">1.000000</command>
+     </script>
+    </script>
+    <command address="thickness">1.000000</command>
+    <command address="color">1.000000 0.000000 0.000000 1.000000</command>
+    <command address="pulse">10.000000</command>
+   </script>
+   <!---->
+   <script address="pulse.2">
+    <command address="active">0</command>
+    <command address="layer">3</command>
+    <command address="thickness">1.000000</command>
+    <command address="color">1.000000 0.000000 0.000000 1.000000</command>
+    <command address="pulse">10.000000</command>
+    <command address="size">0.100000</command>
+    <command address="position">0.060000 -0.730000 0.000000</command>
+    <!---->
+    <script address="body">
+     <script address="damping">
+      <command address="angular">1.000000</command>
+      <command address="linear">1.000000</command>
+     </script>
+     <command address="kinematic">0</command>
+     <command address="active">0</command>
+     <command address="mass">1.000000</command>
+    </script>
+   </script>
+   <!---->
+   <script address="display">
+    <!---->
+    <script address="physics">
+     <command address="active">1</command>
+     <script address="picker">
+      <command address="stretch">0.000000</command>
+      <command address="mode">center</command>
+      <command address="strength">0.200000</command>
+      <command address="active">1</command>
+     </script>
+     <command address="dimensions">2</command>
+     <command address="filter">all</command>
+     <command address="gravity">0.000000 0.000000 0.000000</command>
+     <command address="box">5.000000 5.000000 5.000000</command>
+     <command address="collisions">0</command>
+     <command address="debug">0</command>
+    </script>
+    <!---->
+    <script address="render">
+     <command address="depth">0</command>
+     <command address="active">0</command>
+     <command address="fps">25</command>
+     <script address="background">
+      <command address="color">1 1 1 1</command>
+     </script>
+     <command address="debug">0</command>
+    </script>
+    <script address="window">
+     <command address="fullscreen">0</command>
+    </script>
+    <script address="light">
+     <command address="position">1.000000 1.000000 1.000000</command>
+    </script>
+    <script address="camera">
+     <command address="orientation">-26.500000</command>
+     <command address="angle">81.000000</command>
+     <command address="lookat">0.080000 -0.750000 0</command>
+     <command address="position">0.080000 -0.750000 1</command>
+    </script>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).1">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).4">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view)">
+   <script address="model">
+    <command address="address">/ecran/veillenode/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).2">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).8">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).3">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).5">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).7">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).6">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="render(view).9">
+   <script address="model">
+    <command address="address">/ecran/display/render</command>
+   </script>
+  </script>
+  <!---->
+  <script address="dmxusbpro">
+   <command address="mode">send</command>
+   <command address="number">0</command>
+   <command address="rate">40</command>
+   <command address="device">none</command>
+   <command address="channel.master">255</command>
+  </script>
+ </cue>
+ <cue name="activation">
+  <flag name="description"></flag>
+  <script address="ecran">
+   <script address="backgroundveille">
+    <command address="active">0</command>
+   </script>
+   <script address="veillenode">
+    <script address="render">
+     <command address="active">0</command>
+    </script>
+   </script>
+   <script address="backgroundmap">
+    <command address="active">1</command>
+   </script>
+   <script address="veille">
+    <command address="active">0</command>
+   </script>
+   <script address="pulse">
+    <command address="active">1</command>
+   </script>
+   <script address="pulse.2">
+    <command address="active">1</command>
+   </script>
+   <script address="display">
+    <script address="render">
+     <command address="active">1</command>
+    </script>
+   </script>
+  </script>
+ </cue>
+</jamoma>

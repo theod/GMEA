@@ -580,8 +580,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 373.0, 454.0, 69.0, 19.0 ],
-					"text" : "jit.gl.sketch"
+					"patching_rect" : [ 373.0, 454.0, 174.0, 19.0 ],
+					"text" : "jit.gl.sketch @transform_reset 2"
 				}
 
 			}
