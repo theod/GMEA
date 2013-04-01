@@ -100,7 +100,7 @@
    <script address="pulse.refectoire">
     <command address="active">0</command>
     <command address="layer">3</command>
-    <command address="position">0.070000 -0.673000 0.000000</command>
+    <command address="position">-0.020000 -0.690000 0.000000</command>
     <command address="size">0.100000</command>
     <command address="pulse">10.000000</command>
     <command address="thickness">1.000000</command>
