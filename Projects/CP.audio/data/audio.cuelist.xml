@@ -3,7 +3,706 @@
  <cue name="Init">
   <flag name="description"></flag>
   <!---->
+  <script address="corbeaux">
+   <command address="play">0</command>
+   <command address="loop">1</command>
+   <script address="out.6">
+    <command address="mute">0</command>
+    <command address="gain">100.000000</command>
+   </script>
+   <script address="out.1">
+    <command address="gain">100.000000</command>
+    <command address="mute">0</command>
+   </script>
+   <script address="out.4">
+    <command address="gain">100.000000</command>
+    <command address="mute">0</command>
+   </script>
+   <script address="out.3">
+    <command address="gain">100.000000</command>
+    <command address="mute">0</command>
+   </script>
+   <script address="out.2">
+    <command address="mute">0</command>
+    <command address="gain">100.000000</command>
+   </script>
+   <script address="out.5">
+    <command address="gain">100.000000</command>
+    <command address="mute">0</command>
+   </script>
+  </script>
+  <!---->
+  <script address="refectoire">
+   <!---->
+   <script address="event">
+    <script address="out.3">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="IR.2">
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.3">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="IR.1">
+    <script address="out.3">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.5">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+   </script>
+   <!---->
+   <script address="IR.3">
+    <script address="out.3">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <script address="bus">
+    <script address="ir">
+     <command address="gain">0</command>
+    </script>
+    <script address="hexa">
+     <command address="gain">0</command>
+    </script>
+    <script address="stereo">
+     <command address="gain">0.000000</command>
+    </script>
+   </script>
+   <!---->
+   <script address="dpa4060">
+    <script address="out.2">
+     <command address="mute">0</command>
+     <command address="gain">89.125092</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="hexa">
+    <script address="out.3">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="dbam.sources">
+    <script address="source.5">
+     <command address="position">221.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.4">
+     <command address="position">257.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.3">
+     <command address="position">203.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.12">
+     <command address="position">478 199</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.10">
+     <command address="position">278.000000 250.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.11">
+     <command address="position">230.000000 200.000000</command>
+     <command address="weight">6.000000</command>
+    </script>
+    <script address="source.6">
+     <command address="position">239.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.7">
+     <command address="position">128.000000 205.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">306.000000 157.000000</command>
+     <command address="weight">1.500000</command>
+    </script>
+    <script address="source.1">
+     <command address="position">154.000000 157.000000</command>
+     <command address="weight">1.500000</command>
+    </script>
+    <script address="source.9">
+     <command address="position">182.000000 250.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.8">
+     <command address="position">332.000000 205.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <command address="gain">1.000000</command>
+    <script address="sources">
+     <command address="number">12</command>
+    </script>
+    <script address="destination">
+     <command address="spread">26</command>
+     <command address="position">230 188</command>
+    </script>
+    <command address="blur">0.001000</command>
+    <command address="rolloff">6.000000</command>
+    <command address="hull">0</command>
+   </script>
+   <!---->
+   <script address="dbam.irs">
+    <script address="destination">
+     <command address="position">230 188</command>
+    </script>
+    <command address="hull">0</command>
+    <command address="rolloff">6</command>
+    <command address="gain">1.000000</command>
+    <command address="blur">0.001000</command>
+    <script address="source.3">
+     <command address="position">293.000000 168.000000</command>
+     <command address="weight">8.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">167.000000 168.000000</command>
+     <command address="weight">8.000000</command>
+    </script>
+    <script address="source.1">
+     <command address="position">236.000000 238.000000</command>
+     <command address="weight">8.000000</command>
+    </script>
+    <script address="sources">
+     <command address="number">3</command>
+    </script>
+   </script>
+   <!---->
+   <script address="exterieur">
+    <script address="out.4">
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="mute">0</command>
+     <command address="gain">75.912788</command>
+    </script>
+    <script address="out.3">
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="km185">
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+   </script>
+   <!---->
+   <script address="dpa4011">
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">105.925369</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">105.925369</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="ortf">
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">118.850220</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">118.850220</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="adk">
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+  </script>
+  <!---->
   <script address="abbatiale">
+   <!---->
+   <script address="IR.2">
+    <command address="play">0</command>
+    <script address="out.6">
+     <command address="mute">0</command>
+     <command address="gain">83.999390</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">83.999390</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">83.999390</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">83.999390</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.3">
+     <command address="gain">83.999390</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">83.999390</command>
+    </script>
+   </script>
+   <!---->
+   <script address="IR.3">
+    <command address="play">0</command>
+    <script address="out.3">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">89.125092</command>
+    </script>
+    <script address="out.6">
+     <command address="mute">0</command>
+     <command address="gain">89.125092</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="mute">0</command>
+     <command address="gain">89.125092</command>
+    </script>
+   </script>
+   <!---->
+   <script address="IR.1">
+    <command address="play">0</command>
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">87.286079</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">87.286079</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">87.286079</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.3">
+     <command address="mute">0</command>
+     <command address="gain">87.286079</command>
+    </script>
+    <script address="out.5">
+     <command address="mute">0</command>
+     <command address="gain">87.286079</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">87.286079</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="IR.4">
+    <command address="play">0</command>
+    <script address="out.3">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="mute">0</command>
+     <command address="gain">89.125092</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="hexa">
+    <command address="play">0</command>
+    <script address="out.3">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="ortf">
+    <command address="play">0</command>
+    <script address="out.2">
+     <command address="gain">114.773735</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">114.773735</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <script address="prebus">
+    <script address="ir">
+     <command address="gain">-2147483648</command>
+    </script>
+   </script>
+   <!---->
+   <script address="dpa4011">
+    <command address="play">0</command>
+    <script address="out.2">
+     <command address="gain">87.127953</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">87.127953</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="dbam.sources">
+    <command address="gain">1.000000</command>
+    <script address="source.6">
+     <command address="position">207.000000 146.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.5">
+     <command address="position">185.000000 146.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.4">
+     <command address="position">229.000000 148.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.3">
+     <command address="position">163.000000 148.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">263.000000 156.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.1">
+     <command address="position">129.000000 156.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.8">
+     <command address="position">217.000000 297.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.7">
+     <command address="position">175.000000 297.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.12">
+     <command address="position">345.000000 332.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.11">
+     <command address="position">195.000000 191.000000</command>
+     <command address="weight">5.000000</command>
+    </script>
+    <script address="source.10">
+     <command address="position">238.000000 425.000000</command>
+     <command address="weight">3.000000</command>
+    </script>
+    <script address="source.9">
+     <command address="position">154.000000 425.000000</command>
+     <command address="weight">3.000000</command>
+    </script>
+    <script address="sources">
+     <command address="number">12</command>
+    </script>
+    <command address="hull">0</command>
+    <command address="rolloff">8.000000</command>
+    <script address="destination">
+     <command address="spread">41</command>
+     <command address="position">180 425</command>
+    </script>
+    <command address="blur">0.001000</command>
+   </script>
+   <!---->
+   <script address="dbam.irs">
+    <script address="source.1">
+     <command address="position">197.000000 247.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.4">
+     <command address="position">270.000000 157.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.3">
+     <command address="position">122.000000 157.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">196.000000 409.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="destination">
+     <command address="position">180 425</command>
+    </script>
+    <command address="hull">0</command>
+    <script address="sources">
+     <command address="number">4</command>
+    </script>
+    <command address="rolloff">6</command>
+    <command address="gain">1.000000</command>
+    <command address="blur">0.001000</command>
+   </script>
+   <!---->
+   <script address="adk">
+    <command address="play">0</command>
+    <script address="out.1">
+     <command address="gain">93.342354</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">93.342354</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="dpa4060">
+    <command address="play">0</command>
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">93.342354</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">93.342354</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="event">
+    <command address="play">0</command>
+    <script address="out.3">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
+   <!---->
+   <script address="exterieur">
+    <command address="play">0</command>
+    <script address="out.4">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.3">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+   </script>
+   <!---->
+   <script address="km185">
+    <command address="play">0</command>
+    <script address="out.1">
+     <command address="gain">70.858788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">70.858788</command>
+     <command address="mute">0</command>
+    </script>
+   </script>
    <script address="bus">
     <script address="hexa">
      <command address="gain">-9</command>
@@ -15,626 +714,110 @@
      <command address="gain">-11</command>
     </script>
    </script>
-   <!---->
-   <script address="exterieur">
-    <command address="file">abbatiale-musicanova-ext.wav</command>
-    <script address="out.6">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.4">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.3">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.2">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
+   <script address="balance">
+    <command address="hexa">0.000000</command>
    </script>
+  </script>
+ </cue>
+ <cue name="loadfiles">
+  <flag name="description"></flag>
+  <!---->
+  <script address="abbatiale">
    <!---->
-   <script address="dpa4060">
-    <command address="file">abbatiale-musicanova-dpa4060.wav</command>
-    <script address="out.2">
-     <command address="gain">93.342354</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="mute">0</command>
-     <command address="gain">93.342354</command>
-    </script>
-   </script>
-   <!---->
-   <script address="IR.4">
-    <command address="file">abbatiale-musicanova-IR5.wav</command>
-    <script address="out.3">
-     <command address="mute">0</command>
-     <command address="gain">89.125092</command>
-    </script>
-    <script address="out.4">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="mute">0</command>
-     <command address="gain">89.125092</command>
-    </script>
-   </script>
-   <!---->
-   <script address="IR.3">
-    <command address="file">abbatiale-musicanova-IR4.wav</command>
-    <script address="out.6">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.5">
-     <command address="mute">0</command>
-     <command address="gain">89.125092</command>
-    </script>
-    <script address="out.4">
-     <command address="mute">0</command>
-     <command address="gain">89.125092</command>
-    </script>
-    <script address="out.3">
-     <command address="mute">0</command>
-     <command address="gain">89.125092</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="mute">0</command>
-     <command address="gain">89.125092</command>
-    </script>
-   </script>
-   <!---->
-   <script address="IR.2">
-    <command address="file">abbatiale-musicanova-IR2.wav</command>
-    <script address="out.2">
-     <command address="mute">0</command>
-     <command address="gain">83.999390</command>
-    </script>
-    <script address="out.3">
-     <command address="gain">83.999390</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.4">
-     <command address="gain">83.999390</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="mute">0</command>
-     <command address="gain">83.999390</command>
-    </script>
-    <script address="out.5">
-     <command address="mute">0</command>
-     <command address="gain">83.999390</command>
-    </script>
-    <script address="out.1">
-     <command address="gain">83.999390</command>
-     <command address="mute">0</command>
-    </script>
-   </script>
-   <!---->
-   <script address="IR.1">
-    <command address="file">abbatiale-musicanova-IR1.wav</command>
-    <script address="out.3">
-     <command address="gain">87.286079</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">87.286079</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.4">
-     <command address="mute">0</command>
-     <command address="gain">87.286079</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">87.286079</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="gain">87.286079</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="gain">87.286079</command>
-     <command address="mute">0</command>
-    </script>
-   </script>
-   <!---->
-   <script address="hexa">
-    <command address="file">abbatiale-musicanova-hexa.wav</command>
-    <script address="out.1">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.3">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.5">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.4">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-   </script>
-   <!---->
-   <script address="ortf">
-    <command address="file">abbatiale-musicanova-ortf.wav</command>
-    <script address="out.2">
-     <command address="mute">0</command>
-     <command address="gain">114.773735</command>
-    </script>
-    <script address="out.1">
-     <command address="mute">0</command>
-     <command address="gain">114.773735</command>
-    </script>
-   </script>
-   <!---->
-   <script address="adk">
-    <command address="file">abbatiale-musicanova-adk.wav</command>
-    <script address="out.1">
-     <command address="gain">93.342354</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="mute">0</command>
-     <command address="gain">93.342354</command>
-    </script>
-   </script>
-   <!---->
-   <script address="dpa4011">
-    <command address="file">abbatiale-musicanova-dpa4011.wav</command>
-    <script address="out.2">
-     <command address="gain">87.127953</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="mute">0</command>
-     <command address="gain">87.127953</command>
-    </script>
-   </script>
-   <!---->
-   <script address="dbam.irs">
-    <script address="sources">
-     <command address="number">4</command>
-    </script>
-    <script address="source.3">
-     <command address="position">122.000000 157.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.4">
-     <command address="position">270.000000 157.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.1">
-     <command address="position">197.000000 247.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.2">
-     <command address="position">196.000000 409.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="destination">
-     <command address="position">180 425</command>
-    </script>
-    <command address="hull">0</command>
-    <command address="rolloff">6</command>
-    <command address="gain">1.000000</command>
-    <command address="blur">0.001000</command>
-   </script>
-   <!---->
-   <script address="dbam.sources">
-    <script address="sources">
-     <command address="number">12</command>
-    </script>
-    <command address="blur">0.001000</command>
-    <script address="destination">
-     <command address="spread">41</command>
-     <command address="position">180 425</command>
-    </script>
-    <command address="gain">1.000000</command>
-    <command address="rolloff">8.000000</command>
-    <command address="hull">0</command>
-    <script address="source.1">
-     <command address="position">129.000000 156.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.2">
-     <command address="position">263.000000 156.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.3">
-     <command address="position">163.000000 148.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.4">
-     <command address="position">229.000000 148.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.5">
-     <command address="position">185.000000 146.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.6">
-     <command address="position">207.000000 146.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.7">
-     <command address="position">175.000000 297.000000</command>
-     <command address="weight">2.000000</command>
-    </script>
-    <script address="source.8">
-     <command address="position">217.000000 297.000000</command>
-     <command address="weight">2.000000</command>
-    </script>
-    <script address="source.9">
-     <command address="position">154.000000 425.000000</command>
-     <command address="weight">3.000000</command>
-    </script>
-    <script address="source.10">
-     <command address="position">238.000000 425.000000</command>
-     <command address="weight">3.000000</command>
-    </script>
-    <script address="source.11">
-     <command address="position">195.000000 191.000000</command>
-     <command address="weight">5.000000</command>
-    </script>
-    <script address="source.12">
-     <command address="weight">1.000000</command>
-     <command address="position">345.000000 332.000000</command>
-    </script>
+   <script address="event">
+    <command address="file">porte-abbatiale.wav</command>
    </script>
    <!---->
    <script address="km185">
     <command address="file">abbatiale-musicanova-km185.wav</command>
-    <script address="out.1">
-     <command address="gain">70.858788</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="mute">0</command>
-     <command address="gain">70.858788</command>
-    </script>
+   </script>
+   <!---->
+   <script address="dpa4011">
+    <command address="file">abbatiale-musicanova-dpa4011.wav</command>
+   </script>
+   <!---->
+   <script address="hexa">
+    <command address="file">abbatiale-musicanova-hexa.wav</command>
+   </script>
+   <!---->
+   <script address="adk">
+    <command address="file">abbatiale-musicanova-adk.wav</command>
+   </script>
+   <!---->
+   <script address="IR.3">
+    <command address="file">abbatiale-musicanova-IR3.wav</command>
+   </script>
+   <!---->
+   <script address="IR.1">
+    <command address="file">abbatiale-musicanova-IR1.wav</command>
+   </script>
+   <!---->
+   <script address="IR.2">
+    <command address="file">abbatiale-musicanova-IR2.wav</command>
+   </script>
+   <!---->
+   <script address="ortf">
+    <command address="file">abbatiale-musicanova-ortf.wav</command>
+   </script>
+   <!---->
+   <script address="dpa4060">
+    <command address="file">abbatiale-musicanova-dpa4060.wav</command>
+   </script>
+   <!---->
+   <script address="exterieur">
+    <command address="file">abbatiale-musicanova-ext.wav</command>
    </script>
   </script>
   <!---->
   <script address="refectoire">
-   <script address="bus">
-    <script address="hexa">
-     <command address="gain">0</command>
-    </script>
-    <script address="ir">
-     <command address="gain">0</command>
-    </script>
-    <script address="stereo">
-     <command address="gain">0.000000</command>
-    </script>
-   </script>
    <!---->
-   <script address="adk">
-    <command address="file">refectoire-bela-adk.wav</command>
-    <script address="out.2">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-   </script>
-   <!---->
-   <script address="IR.1">
-    <command address="file">refectoire-bela-IR1.wav</command>
-    <script address="out.4">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.3">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-   </script>
-   <!---->
-   <script address="IR.3">
-    <command address="file">refectoire-bela-IR3.wav</command>
-    <script address="out.6">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.3">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.4">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
+   <script address="km185">
+    <command address="file">refectoire-bela-km185-02.wav</command>
    </script>
    <!---->
    <script address="IR.2">
-    <command address="file">refectoire-bela-IR2.wav</command>
-    <script address="out.1">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.3">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.4">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
+    <command address="file">refectoire-bela-IR2-02.wav</command>
    </script>
    <!---->
-   <script address="dpa4060">
-    <command address="file">refectoire-bela-dpa4060.wav</command>
-    <script address="out.1">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">89.125092</command>
-     <command address="mute">0</command>
-    </script>
+   <script address="IR.1">
+    <command address="file">refectoire-bela-IR1-02.wav</command>
    </script>
    <!---->
-   <script address="hexa">
-    <command address="file">refectoire-bela-hexa.wav</command>
-    <script address="out.3">
-     <command address="mute">0</command>
-     <command address="gain">100.000000</command>
-    </script>
-    <script address="out.4">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.1">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
+   <script address="IR.3">
+    <command address="file">refectoire-bela-IR3-02.wav</command>
    </script>
    <!---->
-   <script address="exterieur">
-    <command address="file">refectoire-bela-ext.wav</command>
-    <script address="out.1">
-     <command address="gain">75.912788</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.6">
-     <command address="gain">75.912788</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">75.912788</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.3">
-     <command address="gain">75.912788</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.4">
-     <command address="gain">75.912788</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.5">
-     <command address="gain">75.912788</command>
-     <command address="mute">0</command>
-    </script>
+   <script address="adk">
+    <command address="file">refectoire-bela-adk-02.wav</command>
    </script>
    <!---->
    <script address="dpa4011">
-    <command address="file">refectoire-bela-dpa4011.wav</command>
-    <script address="out.1">
-     <command address="mute">0</command>
-     <command address="gain">105.925369</command>
-    </script>
-    <script address="out.2">
-     <command address="mute">0</command>
-     <command address="gain">105.925369</command>
-    </script>
+    <command address="file">refectoire-bela-dpa4011-02.wav</command>
    </script>
    <!---->
    <script address="ortf">
-    <command address="file">refectoire-bela-ortf.wav</command>
-    <script address="out.1">
-     <command address="gain">118.850220</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">118.850220</command>
-     <command address="mute">0</command>
-    </script>
+    <command address="file">refectoire-bela-ortf-02.wav</command>
    </script>
    <!---->
-   <script address="dbam.irs">
-    <script address="sources">
-     <command address="number">3</command>
-    </script>
-    <script address="source.2">
-     <command address="weight">8.000000</command>
-     <command address="position">167.000000 168.000000</command>
-    </script>
-    <script address="source.3">
-     <command address="weight">8.000000</command>
-     <command address="position">293.000000 168.000000</command>
-    </script>
-    <script address="source.1">
-     <command address="weight">8.000000</command>
-     <command address="position">236.000000 238.000000</command>
-    </script>
-    <script address="destination">
-     <command address="position">230 188</command>
-    </script>
-    <command address="hull">0</command>
-    <command address="rolloff">6</command>
-    <command address="gain">1.000000</command>
-    <command address="blur">0.001000</command>
+   <script address="dpa4060">
+    <command address="file">refectoire-bela-dpa4060-02.wav</command>
    </script>
    <!---->
-   <script address="dbam.sources">
-    <script address="sources">
-     <command address="number">12</command>
-    </script>
-    <command address="blur">0.001000</command>
-    <script address="destination">
-     <command address="spread">26</command>
-     <command address="position">230 188</command>
-    </script>
-    <command address="gain">1.000000</command>
-    <command address="rolloff">6.000000</command>
-    <command address="hull">0</command>
-    <script address="source.1">
-     <command address="position">154.000000 157.000000</command>
-     <command address="weight">1.500000</command>
-    </script>
-    <script address="source.2">
-     <command address="position">306.000000 157.000000</command>
-     <command address="weight">1.500000</command>
-    </script>
-    <script address="source.3">
-     <command address="position">203.000000 143.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.4">
-     <command address="position">257.000000 143.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.5">
-     <command address="position">221.000000 143.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.6">
-     <command address="position">239.000000 143.000000</command>
-     <command address="weight">1.000000</command>
-    </script>
-    <script address="source.7">
-     <command address="position">128.000000 205.000000</command>
-     <command address="weight">2.000000</command>
-    </script>
-    <script address="source.8">
-     <command address="position">332.000000 205.000000</command>
-     <command address="weight">2.000000</command>
-    </script>
-    <script address="source.9">
-     <command address="position">182.000000 250.000000</command>
-     <command address="weight">2.000000</command>
-    </script>
-    <script address="source.10">
-     <command address="position">278.000000 250.000000</command>
-     <command address="weight">2.000000</command>
-    </script>
-    <script address="source.11">
-     <command address="position">230.000000 200.000000</command>
-     <command address="weight">6.000000</command>
-    </script>
-    <script address="source.12">
-     <command address="weight">1.000000</command>
-     <command address="position">478 199</command>
-    </script>
+   <script address="event">
+    <command address="file">porte-refectoire.wav</command>
    </script>
    <!---->
-   <script address="km185">
-    <command address="file">refectoire-bela-km185.wav</command>
-    <script address="out.1">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
-    <script address="out.2">
-     <command address="gain">100.000000</command>
-     <command address="mute">0</command>
-    </script>
+   <script address="hexa">
+    <command address="file">refectoire-bela-hexa-02.wav</command>
    </script>
+   <!---->
+   <script address="exterieur">
+    <command address="file">refectoire-bela-ext-renv-02.wav</command>
+   </script>
+  </script>
+  <!---->
+  <script address="corbeaux">
+   <command address="file">intro-exterieur-cloitre.wav</command>
   </script>
  </cue>
 </jamoma>
