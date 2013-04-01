@@ -2,7 +2,7 @@
 	"name" : "CP.interface",
 	"version" : 1,
 	"creationdate" : -847305661,
-	"modificationdate" : -847304721,
+	"modificationdate" : -847292153,
 	"viewrect" : [ 8.0, 44.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -11,6 +11,12 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"CP.interface.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
+			}
+,
+			"CP.projection.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -74,12 +80,6 @@
 ,
 			"dmxusbpro.model.maxpat" : 			{
 				"kind" : "patcher"
-			}
-,
-			"CP.projection.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
 			}
 
 		}

@@ -356,7 +356,7 @@
    <command address="channel.master">255</command>
   </script>
  </cue>
- <cue name="activation">
+ <cue name="run">
   <flag name="description"></flag>
   <script address="ecran">
    <script address="backgroundveille">
