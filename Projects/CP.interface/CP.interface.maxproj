@@ -2,8 +2,8 @@
 	"name" : "CP.interface",
 	"version" : 1,
 	"creationdate" : -847305661,
-	"modificationdate" : -847292153,
-	"viewrect" : [ 8.0, 44.0, 300.0, 500.0 ],
+	"modificationdate" : -847289967,
+	"viewrect" : [ 1.0, 44.0, 303.0, 658.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -16,7 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"CP.projection.maxpat" : 			{
+			"CP.scenario.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -75,11 +75,18 @@
 			}
 ,
 			"jit.gl.slab.gauss6x.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"dmxusbpro.model.maxpat" : 			{
 				"kind" : "patcher"
+			}
+,
+			"CP.projection.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
