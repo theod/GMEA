@@ -233,28 +233,32 @@
    </script>
    <!---->
    <script address="dbam.irs">
+    <script address="sources">
+     <command address="number">4</command>
+    </script>
     <script address="source.3">
+     <command address="position">122.000000 157.000000</command>
      <command address="weight">1.000000</command>
     </script>
     <script address="source.4">
+     <command address="position">270.000000 157.000000</command>
      <command address="weight">1.000000</command>
     </script>
     <script address="source.1">
+     <command address="position">197.000000 247.000000</command>
      <command address="weight">1.000000</command>
     </script>
     <script address="source.2">
+     <command address="position">196.000000 409.000000</command>
      <command address="weight">1.000000</command>
     </script>
     <script address="destination">
-     <command address="position">200 200</command>
+     <command address="position">180 425</command>
     </script>
     <command address="hull">0</command>
     <command address="rolloff">6</command>
     <command address="gain">1.000000</command>
     <command address="blur">0.001000</command>
-    <script address="sources">
-     <command address="number">4</command>
-    </script>
    </script>
    <!---->
    <script address="dbam.sources">
@@ -263,8 +267,8 @@
     </script>
     <command address="blur">0.001000</command>
     <script address="destination">
-     <command address="spread">17</command>
-     <command address="position">200 200</command>
+     <command address="spread">41</command>
+     <command address="position">180 425</command>
     </script>
     <command address="gain">1.000000</command>
     <command address="rolloff">8.000000</command>
@@ -534,14 +538,20 @@
    </script>
    <!---->
    <script address="dbam.irs">
+    <script address="sources">
+     <command address="number">3</command>
+    </script>
     <script address="source.2">
-     <command address="weight">1.000000</command>
+     <command address="weight">8.000000</command>
+     <command address="position">167.000000 168.000000</command>
     </script>
     <script address="source.3">
-     <command address="weight">1.000000</command>
+     <command address="weight">8.000000</command>
+     <command address="position">293.000000 168.000000</command>
     </script>
     <script address="source.1">
-     <command address="weight">1.000000</command>
+     <command address="weight">8.000000</command>
+     <command address="position">236.000000 238.000000</command>
     </script>
     <script address="destination">
      <command address="position">230 188</command>
@@ -550,9 +560,6 @@
     <command address="rolloff">6</command>
     <command address="gain">1.000000</command>
     <command address="blur">0.001000</command>
-    <script address="sources">
-     <command address="number">3</command>
-    </script>
    </script>
    <!---->
    <script address="dbam.sources">
@@ -627,36 +634,6 @@
      <command address="gain">100.000000</command>
      <command address="mute">0</command>
     </script>
-   </script>
-  </script>
-  <!---->
-  <script address="corbeaux">
-   <command address="file">intro-exterieur-cloitre.wav</command>
-   <command address="loop">1</command>
-   <command address="play">1</command>
-   <script address="out.5">
-    <command address="gain">100.000000</command>
-    <command address="mute">0</command>
-   </script>
-   <script address="out.6">
-    <command address="gain">100.000000</command>
-    <command address="mute">0</command>
-   </script>
-   <script address="out.4">
-    <command address="mute">0</command>
-    <command address="gain">100.000000</command>
-   </script>
-   <script address="out.3">
-    <command address="mute">0</command>
-    <command address="gain">100.000000</command>
-   </script>
-   <script address="out.2">
-    <command address="gain">100.000000</command>
-    <command address="mute">0</command>
-   </script>
-   <script address="out.1">
-    <command address="mute">0</command>
-    <command address="gain">100.000000</command>
    </script>
   </script>
  </cue>
