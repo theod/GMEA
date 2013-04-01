@@ -576,7 +576,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 160.0, 20.0 ],
-									"text" : "jcom.receive model.address"
+									"text" : "jcom.receive model/address"
 								}
 
 							}
