@@ -262,8 +262,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.25, 424.0, 455.0, 17.0 ],
-					"text" : "reset, glcolor $4 $5 $6 $7, gllinewidth $8, framecircle $1, framecircle $2, framecircle $3"
+					"patching_rect" : [ 270.25, 424.0, 546.0, 17.0 ],
+					"text" : "reset, glcolor $4 $5 $6 $7, gllinewidth $8, shapeslice 64 64, framecircle $1, framecircle $2, framecircle $3"
 				}
 
 			}
