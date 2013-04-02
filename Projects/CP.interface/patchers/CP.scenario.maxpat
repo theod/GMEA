@@ -2188,7 +2188,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 43.5, 209.0, 126.0, 45.0 ],
+									"patching_rect" : [ 43.5, 209.0, 127.0, 45.0 ],
 									"text" : "namespace/clear, namespace/append /, store init"
 								}
 
