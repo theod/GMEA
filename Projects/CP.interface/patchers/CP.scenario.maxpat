@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 684.0, 44.0, 941.0, 507.0 ],
+		"rect" : [ 279.0, 126.0, 941.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -687,21 +687,6 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-1",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 38.0, 150.0, 33.0 ],
-									"text" : "garder toujours la même échelle du pulsar"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1913,7 +1898,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 43.5, 157.0, 314.0, 45.0 ],
-									"text" : "read \"Macintosh HD:/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Projects/CP.interface/data/interface.cuelist.xml\""
+									"text" : "read \"Macintosh HD:/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/data/interface.cuelist.xml\""
 								}
 
 							}
@@ -2821,22 +2806,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
-				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderWindow",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/Implementations/Max/max/patchers/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../Implementations/Max/max/patchers/library/components/list2parameter",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/components",
-				"patcherrelativepath" : "../../../Max/Picture/components",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/components",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
