@@ -77,7 +77,7 @@
     </script>
    </script>
    <!---->
-   <script address="pulse">
+   <script address="pulse.abbatiale">
     <command address="active">0</command>
     <command address="size">0.100000</command>
     <command address="pulse">10.000000</command>
@@ -93,14 +93,14 @@
       <command address="angular">1.000000</command>
      </script>
     </script>
-    <command address="position">0.460000 0.400000 0</command>
+    <command address="position">0.600000 0.406000 0.000000</command>
     <command address="layer">3</command>
    </script>
    <!---->
-   <script address="pulse.2">
+   <script address="pulse.refectoire">
     <command address="active">0</command>
     <command address="layer">3</command>
-    <command address="position">0.060000 -0.730000 0.000000</command>
+    <command address="position">-0.020000 -0.690000 0.000000</command>
     <command address="size">0.100000</command>
     <command address="pulse">10.000000</command>
     <command address="thickness">1.000000</command>
@@ -302,10 +302,10 @@
    <script address="veille">
     <command address="active">0</command>
    </script>
-   <script address="pulse">
+   <script address="pulse.abbatiale">
     <command address="active">1</command>
    </script>
-   <script address="pulse.2">
+   <script address="pulse.refectoire">
     <command address="active">1</command>
    </script>
    <script address="display">
