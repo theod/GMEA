@@ -14,10 +14,12 @@ Messages écoutés :
 	/abbatiale
 		/play (0/1)
 		/selected (bang)
+		/position (x y)
 
 	/refectoire
 		/play (0/1)
 		/selected (bang)
+		/position (x y)
 
 Retours envoyés sur port 7402 :
 
