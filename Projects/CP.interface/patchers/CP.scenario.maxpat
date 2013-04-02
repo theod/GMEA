@@ -1676,7 +1676,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 1050.0, 326.0, 510.0, 552.0 ],
+						"rect" : [ 486.0, 303.0, 510.0, 552.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2188,7 +2188,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 43.5, 209.0, 126.0, 45.0 ],
+									"patching_rect" : [ 43.5, 209.0, 127.0, 45.0 ],
 									"text" : "namespace/clear, namespace/append /, store init"
 								}
 

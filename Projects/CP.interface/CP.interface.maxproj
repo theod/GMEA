@@ -2,7 +2,7 @@
 	"name" : "CP.interface",
 	"version" : 1,
 	"creationdate" : -847305661,
-	"modificationdate" : -847289967,
+	"modificationdate" : -847202587,
 	"viewrect" : [ 1.0, 44.0, 303.0, 658.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -11,12 +11,6 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"CP.interface.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
-			"CP.scenario.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -42,7 +36,7 @@
 				"kind" : "patcher"
 			}
 ,
-			"renderNode.model.maxpat" : 			{
+			"pulseCursor.model.maxpat" : 			{
 				"kind" : "patcher"
 			}
 ,
@@ -50,15 +44,7 @@
 				"kind" : "patcher"
 			}
 ,
-			"plane.model.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
 			"jcom.handler.view.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
-			"jcom.physicsWorld.view.maxpat" : 			{
 				"kind" : "patcher"
 			}
 ,
@@ -66,11 +52,15 @@
 				"kind" : "patcher"
 			}
 ,
-			"jcom.physicsBody.model.maxpat" : 			{
+			"plane.model.maxpat" : 			{
 				"kind" : "patcher"
 			}
 ,
-			"pulseCursor.model.maxpat" : 			{
+			"jcom.physicsWorld.view.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"jcom.physicsBody.model.maxpat" : 			{
 				"kind" : "patcher"
 			}
 ,
@@ -79,7 +69,22 @@
 				"local" : 1
 			}
 ,
+			"euclidean-distance.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"dmxusbpro.model.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"CP.scenario.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
+			}
+,
+			"renderNode.model.maxpat" : 			{
 				"kind" : "patcher"
 			}
 ,

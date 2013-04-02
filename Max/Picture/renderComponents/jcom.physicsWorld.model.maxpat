@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 371.0, 68.0, 1796.0, 739.0 ],
+		"rect" : [ 79.0, 155.0, 1796.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,12 +30,30 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-39",
-					"maxclass" : "newobj",
+					"frgb" : 0.0,
+					"id" : "obj-42",
+					"linecount" : 2,
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 295.0, 34.0, 20.0 ],
-					"text" : "print"
+					"patching_rect" : [ 303.0, 40.5, 150.0, 33.0 ],
+					"text" : "because the jit.phys.world lose his drawto attribute",
+					"textcolor" : [ 0.656533, 0.023209, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.656533, 0.023209, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 163.0, 47.0, 135.0, 20.0 ],
+					"text" : "qmetro 1000 @active 1"
 				}
 
 			}
@@ -722,8 +740,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.0, 330.0, 154.0, 65.0 ],
-					"text" : "jit.phys.world @enable 0 @drawto glWindow @gravity 0. 0. 0. @collisions 0"
+					"patching_rect" : [ 140.0, 330.0, 158.0, 65.0 ],
+					"text" : "jit.phys.world @enable 0 @drawto #0-glWindow @gravity 0. 0. 0. @collisions 0"
 				}
 
 			}
@@ -761,7 +779,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "worldbox",
+					"attr" : "drawto",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-38",
@@ -1040,6 +1058,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 149.5, 436.0, 134.5, 436.0, 134.5, 320.0, 149.5, 320.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1055,10 +1074,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -1077,15 +1096,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 526.0, 123.0, 149.5, 123.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1134,23 +1144,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.send.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
