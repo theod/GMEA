@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 371.0, 68.0, 1796.0, 739.0 ],
+		"rect" : [ 126.0, 114.0, 1796.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,8 +34,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 295.0, 34.0, 20.0 ],
-					"text" : "print"
+					"patching_rect" : [ 233.5, 181.0, 161.0, 20.0 ],
+					"text" : "print /renderWindow/physics"
 				}
 
 			}
@@ -761,7 +761,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "worldbox",
+					"attr" : "drawto",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-38",
@@ -1134,23 +1134,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.send.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
