@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 20.0, 349.0, 611.0, 462.0 ],
+		"rect" : [ 20.0, 382.0, 611.0, 462.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1097,7 +1097,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 313.0, 198.0, 1367.0, 650.0 ],
+						"rect" : [ 147.0, 198.0, 1394.0, 627.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1117,6 +1117,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-27",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1169.0, 303.0, 186.0, 31.0 ],
+									"text" : "/ecran/pulse.abbatiale/size 0.05, /ecran/pulse.refectoire/size 0.05"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.656533, 0.023209, 0.0, 1.0 ],
 									"fontname" : "Arial",
@@ -1252,7 +1267,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 274.0, 627.5, 103.0, 31.0 ],
-													"text" : "0.066531 -0.710089 0."
+													"text" : "0.088939 -0.538901 0."
 												}
 
 											}
@@ -1266,7 +1281,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 416.5, 242.0, 103.0, 18.0 ],
-													"text" : "160. 120."
+													"text" : "160. 120.009453"
 												}
 
 											}
@@ -1907,7 +1922,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 168.5, 68.0, 179.0, 18.0 ],
-													"text" : "0 184 156"
+													"text" : "0 233 85"
 												}
 
 											}
@@ -2694,13 +2709,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-56",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 127.0, 126.0, 40.0, 31.0 ],
-													"text" : "184 156"
+													"patching_rect" : [ 127.0, 126.0, 40.0, 18.0 ],
+													"text" : "30 20"
 												}
 
 											}
@@ -3638,6 +3652,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3669,6 +3692,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 0 ]
 								}
 
 							}
@@ -3857,7 +3889,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 198.0, 249.0, 1400.0, 662.0 ],
+						"rect" : [ 94.0, 199.0, 1571.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3877,6 +3909,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1222.0, 297.0, 186.0, 31.0 ],
+									"text" : "/ecran/pulse.abbatiale/size 0.05, /ecran/pulse.refectoire/size 0.05"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.656533, 0.023209, 0.0, 1.0 ],
 									"fontname" : "Arial",
@@ -4172,12 +4219,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-56",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 127.0, 126.0, 40.0, 18.0 ],
-													"text" : "32 27"
+													"patching_rect" : [ 127.0, 126.0, 40.0, 31.0 ],
+													"text" : "237 151"
 												}
 
 											}
@@ -4622,13 +4670,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-53",
-													"linecount" : 2,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 388.0, 223.0, 50.0, 31.0 ],
-													"text" : "160. 120."
+													"patching_rect" : [ 388.0, 223.0, 50.0, 58.0 ],
+													"text" : "159.997604 119.967644"
 												}
 
 											}
@@ -4641,7 +4689,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 236.0, 605.5, 146.5, 18.0 ]
+													"patching_rect" : [ 236.0, 605.5, 146.5, 18.0 ],
+													"text" : "0.357135 0.526835 0."
 												}
 
 											}
@@ -5258,7 +5307,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 170.5, 72.0, 179.0, 18.0 ],
-													"text" : "0 207 100"
+													"text" : "0 237 151"
 												}
 
 											}
@@ -6394,6 +6443,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6434,6 +6492,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
 								}
 
 							}
@@ -6707,7 +6774,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "109 192"
+													"text" : "253 90"
 												}
 
 											}
@@ -7070,7 +7137,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "109 192"
+													"text" : "253 90"
 												}
 
 											}
@@ -7391,13 +7458,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
-									"linecount" : 4,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 504.5, 402.0, 217.0, 58.0 ],
-									"text" : "/dmxusbpro/channel.1 0 ramp 2000, /dmxusbpro/channel.5 255 ramp 2000, /ecran/menu/alpha 0., /ecran/person/alpha 0."
+									"patching_rect" : [ 504.5, 402.0, 217.0, 85.0 ],
+									"text" : "/dmxusbpro/channel.1 0 ramp 2000, /dmxusbpro/channel.5 255 ramp 2000, /ecran/menu/alpha 0., /ecran/person/alpha 0., /ecran/pulse.abbatiale/size 0.1, /ecran/pulse.refectoire/size 0.1"
 								}
 
 							}
@@ -7847,7 +7914,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 646.0, 490.0, 99.0, 18.0 ],
+									"patching_rect" : [ 646.0, 532.0, 99.0, 18.0 ],
 									"text" : "/corbeaux/play 1"
 								}
 
@@ -13385,8 +13452,8 @@
 			}
 , 			{
 				"name" : "euclidean-distance.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Data_Generation",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Data_Generation",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
