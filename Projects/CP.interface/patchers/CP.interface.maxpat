@@ -1097,7 +1097,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 147.0, 198.0, 1394.0, 627.0 ],
+						"rect" : [ 28.0, 124.0, 1394.0, 627.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1120,6 +1120,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 11.0, 343.5, 73.0, 20.0 ],
+									"text" : "r fromAudio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-27",
 									"linecount" : 2,
 									"maxclass" : "message",
@@ -1128,22 +1142,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1169.0, 303.0, 186.0, 31.0 ],
 									"text" : "/ecran/pulse.abbatiale/size 0.05, /ecran/pulse.refectoire/size 0.05"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.656533, 0.023209, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 525.0, 121.0, 193.0, 18.0 ],
-									"text" : "display/render/name ecran/display",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
 							}
@@ -1532,8 +1530,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 425.0, 742.5, 229.0, 20.0 ],
-													"text" : "prepend /simulation/abbatiale/destination"
+													"patching_rect" : [ 425.0, 742.5, 171.0, 20.0 ],
+													"text" : "prepend /abbatiale/destination"
 												}
 
 											}
@@ -2619,10 +2617,10 @@
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 11.0, 374.0, 194.0, 20.0 ],
-									"text" : "jcom.receive /refectoire/hexa/done"
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 11.0, 374.0, 201.0, 20.0 ],
+									"text" : "jcom.oscroute /refectoire/hexa/done"
 								}
 
 							}
@@ -2756,8 +2754,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 172.5, 126.0, 41.0, 18.0 ],
-													"text" : "30 30"
+													"patching_rect" : [ 172.5, 126.0, 61.0, 18.0 ],
+													"text" : "145. 126."
 												}
 
 											}
@@ -3580,15 +3578,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3789,7 +3778,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
@@ -3889,7 +3878,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 94.0, 199.0, 1571.0, 649.0 ],
+						"rect" : [ 8.0, 192.0, 1571.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3912,6 +3901,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 11.0, 386.0, 73.0, 20.0 ],
+									"text" : "r fromAudio"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-25",
 									"linecount" : 2,
 									"maxclass" : "message",
@@ -3920,22 +3923,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1222.0, 297.0, 186.0, 31.0 ],
 									"text" : "/ecran/pulse.abbatiale/size 0.05, /ecran/pulse.refectoire/size 0.05"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.656533, 0.023209, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-23",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 510.0, 106.0, 193.0, 18.0 ],
-									"text" : "display/render/name ecran/display",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
 							}
@@ -4129,10 +4116,10 @@
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 11.0, 421.0, 193.0, 20.0 ],
-									"text" : "jcom.receive /abbatiale/hexa/done"
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 11.0, 421.0, 200.0, 20.0 ],
+									"text" : "jcom.oscroute /abbatiale/hexa/done"
 								}
 
 							}
@@ -4225,7 +4212,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 40.0, 31.0 ],
-													"text" : "237 151"
+													"text" : "1112. 304."
 												}
 
 											}
@@ -4267,8 +4254,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 172.5, 126.0, 41.0, 18.0 ],
-													"text" : "30 30"
+													"patching_rect" : [ 172.5, 126.0, 61.0, 18.0 ],
+													"text" : "145. 126."
 												}
 
 											}
@@ -4633,7 +4620,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 553.0, 44.0, 797.0, 792.0 ],
+										"rect" : [ 257.0, 32.0, 797.0, 792.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -4676,7 +4663,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 388.0, 223.0, 50.0, 58.0 ],
-													"text" : "159.997604 119.967644"
+													"text" : "959.568237 538.704651"
 												}
 
 											}
@@ -4690,7 +4677,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 236.0, 605.5, 146.5, 18.0 ],
-													"text" : "0.357135 0.526835 0."
+													"text" : "-0.111318 0.343224 0."
 												}
 
 											}
@@ -5110,8 +5097,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 432.0, 720.5, 229.0, 20.0 ],
-													"text" : "prepend /simulation/abbatiale/destination"
+													"patching_rect" : [ 432.0, 720.5, 171.0, 20.0 ],
+													"text" : "prepend /abbatiale/destination"
 												}
 
 											}
@@ -5307,7 +5294,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 170.5, 72.0, 179.0, 18.0 ],
-													"text" : "0 237 151"
+													"text" : "129 1112. 304."
 												}
 
 											}
@@ -6351,15 +6338,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-23", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6479,10 +6457,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-23", 0 ]
+									"source" : [ "obj-22", 0 ]
 								}
 
 							}
@@ -6695,7 +6673,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 467.0, 92.0, 1081.0, 743.0 ],
+						"rect" : [ 163.0, 51.0, 1081.0, 743.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6774,7 +6752,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "253 90"
+													"text" : "1386. 402."
 												}
 
 											}
@@ -6816,8 +6794,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 144.5, 141.0, 54.0, 18.0 ],
-													"text" : "106 190"
+													"patching_rect" : [ 144.5, 141.0, 61.0, 18.0 ],
+													"text" : "708. 855."
 												}
 
 											}
@@ -7137,7 +7115,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "253 90"
+													"text" : "1386. 402."
 												}
 
 											}
@@ -7179,8 +7157,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 144.5, 141.0, 47.0, 18.0 ],
-													"text" : "255 90"
+													"patching_rect" : [ 144.5, 141.0, 67.0, 18.0 ],
+													"text" : "1373. 410."
 												}
 
 											}
@@ -9208,7 +9186,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 44.0, 285.0, 643.0 ],
+						"rect" : [ 112.0, 106.0, 285.0, 643.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9231,6 +9209,21 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"linecount" : 5,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 124.0, 548.0, 92.0, 72.0 ],
+									"text" : "129 0.526619 0.681819 -0.000012 0.000083 -0.000008"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-34",
 									"linecount" : 2,
 									"maxclass" : "newobj",
@@ -9245,7 +9238,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 543.0, 44.0, 1137.0, 1008.0 ],
+										"rect" : [ 423.0, 22.0, 1137.0, 1008.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -10808,6 +10801,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -13361,141 +13363,106 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
-				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderWindow",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pulseCursor.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/pulseCursor",
-				"patcherrelativepath" : "../../../Max/Picture/pulseCursor",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/pulseCursor",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/pulseCursor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.mouse.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "plane.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/plane",
-				"patcherrelativepath" : "../../../Max/Picture/plane",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.view.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.mouse.view.maxpat",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsBody.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderComponents",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "plane.model.maxpat",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/plane",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "euclidean-distance.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "badge.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "uc_license.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"type" : "GIFf",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "myNotes.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "take_notes.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "dmxusbpro.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Enttec DMX USB Pro",
-				"patcherrelativepath" : "../../../Max/Enttec DMX USB Pro",
+				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Enttec DMX USB Pro",
+				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Enttec DMX USB Pro",
 				"type" : "JSON",
 				"implicit" : 1
 			}
