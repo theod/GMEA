@@ -72,8 +72,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 384.0, 189.0, 109.0, 19.0 ],
-					"text" : "jcom.remote debug"
+					"patching_rect" : [ 384.0, 189.0, 147.0, 19.0 ],
+					"text" : "jcom.remote render/debug"
 				}
 
 			}
@@ -693,7 +693,7 @@
 					"presentation_rect" : [ 75.0, 26.0, 68.0, 17.0 ],
 					"rounded" : 2.0,
 					"tabmode" : 0,
-					"text" : "wtf",
+					"text" : "ecran/display",
 					"wordwrap" : 0
 				}
 
@@ -865,7 +865,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/wtf"
+					"text" : "/ecr..lay"
 				}
 
 			}

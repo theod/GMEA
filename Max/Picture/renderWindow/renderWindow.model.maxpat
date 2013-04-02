@@ -1516,8 +1516,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 412.0, 312.0, 264.0, 47.0 ],
-					"text" : "jit.gl.render glWindow @erase_color 0. 0. 0. 1. @depth_enable 0 @blend_enable 1 @ortho 0 @far_clip 1000 @lighting_enable 1 @sync 1"
+					"patching_rect" : [ 412.0, 312.0, 283.0, 47.0 ],
+					"text" : "jit.gl.render #0-glWindow @erase_color 0. 0. 0. 1. @depth_enable 0 @blend_enable 1 @ortho 0 @far_clip 1000 @lighting_enable 1 @sync 1"
 				}
 
 			}
@@ -1538,13 +1538,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 723.0, 312.0, 120.0, 47.0 ],
-					"text" : "jit.window glWindow @depthbuffer 1 @fsmenubar 0",
+					"patching_rect" : [ 723.0, 312.0, 120.0, 60.0 ],
+					"text" : "jit.window #0-glWindow @depthbuffer 1 @fsmenubar 0",
 					"varname" : "_jit_context_"
 				}
 
