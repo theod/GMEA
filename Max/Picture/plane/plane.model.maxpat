@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 165.0, 259.0, 1594.0, 606.0 ],
+		"rect" : [ 52.0, 279.0, 1529.0, 465.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -28,6 +28,35 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-31",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 822.5, 150.0, 108.0, 17.0 ],
+					"text" : "transform_reset $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-19",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 822.5, 91.0, 154.0, 55.0 ],
+					"text" : "jcom.parameter static @type boolean @description \"is the plane can move with camera movement or not ?\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -437,7 +466,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 331.0, 5.0, 22.0, 22.0 ]
 				}
 
@@ -556,7 +585,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 202.5, 439.0, 1517.4375, 439.0, 1517.4375, 178.0, 866.375, 178.0 ],
+					"midpoints" : [ 202.5, 439.0, 1511.4375, 439.0, 1511.4375, 178.0, 866.375, 178.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -618,6 +647,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -749,6 +787,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 832.0, 317.25, 357.5, 317.25 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.0, 0.650068, 0.839216, 1.0 ],
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
@@ -850,66 +898,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.render.view.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.handler.view.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.physicsWorld.view.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.mouse.view.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.physicsBody.model.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
