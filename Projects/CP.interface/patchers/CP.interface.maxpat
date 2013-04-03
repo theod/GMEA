@@ -100,7 +100,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 75.0, 272.0, 78.0, 31.0 ],
-									"text" : "-0.013226 -0.855239 0."
+									"text" : "0.118664 -0.619142 0."
 								}
 
 							}
@@ -1191,13 +1191,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-22",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 245.5, 297.5, 50.0, 72.0 ],
-									"text" : "removeCursor 377 683. 785."
+									"patching_rect" : [ 245.5, 297.5, 50.0, 58.0 ],
+									"text" : "removeCursor 0 954 504"
 								}
 
 							}
@@ -1338,7 +1338,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1364,7 +1363,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 633.0, 723.5, 50.0, 58.0 ],
-													"text" : "138.630417 103.639473"
+													"text" : "209.034897 313.838989"
 												}
 
 											}
@@ -1378,7 +1377,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 156.0, 680.0, 54.0, 18.0 ],
-													"presentation_rect" : [ 161.0, 684.0, 0.0, 0.0 ],
 													"text" : "104 139"
 												}
 
@@ -1393,7 +1391,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 140.5, 755.0, 54.0, 18.0 ],
-													"presentation_rect" : [ 139.5, 757.0, 0.0, 0.0 ],
 													"text" : "359 255"
 												}
 
@@ -1408,7 +1405,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 140.5, 737.0, 131.0, 18.0 ],
-													"presentation_rect" : [ 258.0, 744.5, 0.0, 0.0 ],
 													"text" : "0.147651 -0.465899 0."
 												}
 
@@ -1423,7 +1419,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 18.0, 680.0, 135.0, 18.0 ],
-													"presentation_rect" : [ 142.0, 685.5, 0.0, 0.0 ],
 													"text" : "-0.013253 -0.854952 0."
 												}
 
@@ -1439,7 +1434,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 167.0, 635.0, 50.0, 31.0 ],
-													"text" : "947. 523."
+													"text" : "855. 525."
 												}
 
 											}
@@ -1454,7 +1449,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 263.0, 627.5, 103.0, 31.0 ],
-													"text" : "-0.013226 -0.855239 0."
+													"text" : "0.118664 -0.619142 0."
 												}
 
 											}
@@ -1469,7 +1464,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 416.5, 242.0, 103.0, 31.0 ],
-													"text" : "960.470642 540.152466"
+													"text" : "855.230469 525.044373"
 												}
 
 											}
@@ -2110,7 +2105,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 168.5, 68.0, 179.0, 18.0 ],
-													"text" : "377 547. 611."
+													"text" : "0 954 504"
 												}
 
 											}
@@ -2930,7 +2925,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 41.0, 31.0 ],
-													"text" : "547. 611."
+													"text" : "954 504"
 												}
 
 											}
@@ -4438,7 +4433,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 127.0, 126.0, 40.0, 31.0 ],
+													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
 													"text" : "1233. 519."
 												}
 
@@ -4775,7 +4770,7 @@
 													"destination" : [ "obj-56", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 90.0, 122.5, 157.5, 122.5 ],
+													"midpoints" : [ 90.0, 122.5, 159.5, 122.5 ],
 													"source" : [ "obj-5", 0 ]
 												}
 
@@ -7022,7 +7017,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "695. 842."
+													"text" : "784 918"
 												}
 
 											}
@@ -7385,7 +7380,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "695. 842."
+													"text" : "784 918"
 												}
 
 											}
@@ -11249,7 +11244,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 129.0, 153.0, 1093.0, 633.0 ],
+						"rect" : [ 338.0, 156.0, 1093.0, 633.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11269,6 +11264,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-36",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 507.5, 449.0, 190.0, 18.0 ],
+									"text" : "importmovie bordureFlou.tif, bang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-40",
 									"maxclass" : "toggle",
@@ -11398,8 +11407,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 439.25, 474.0, 147.0, 18.0 ],
-									"text" : "importmovie icon.tif, bang"
+									"patching_rect" : [ 439.25, 474.0, 229.0, 18.0 ],
+									"text" : "importmovie bordureFlouEtCible.tif, bang"
 								}
 
 							}
@@ -13382,6 +13391,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -13677,105 +13695,140 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pulseCursor.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/pulseCursor",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/pulseCursor",
 				"patcherrelativepath" : "../../../Max/Picture/pulseCursor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/plane",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/plane",
 				"patcherrelativepath" : "../../../Max/Picture/plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsBody.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "euclidean-distance.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dmxusbpro.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Enttec DMX USB Pro",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Enttec DMX USB Pro",
 				"patcherrelativepath" : "../../../Max/Enttec DMX USB Pro",
 				"type" : "JSON",
 				"implicit" : 1
