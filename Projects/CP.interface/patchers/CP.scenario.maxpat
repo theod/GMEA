@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 279.0, 126.0, 941.0, 507.0 ],
+		"rect" : [ 278.0, 159.0, 941.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2806,8 +2806,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderWindow",
-				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
+				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2820,8 +2820,8 @@
 			}
 , 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/components",
-				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/other/GMEA/Max/Picture/components",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/components",
+				"patcherrelativepath" : "../../../Max/Picture/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
