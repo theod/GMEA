@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 59.0, 118.0, 1481.0, 719.0 ],
+		"rect" : [ 0.0, 22.0, 1280.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 59.0, 144.0, 1481.0, 693.0 ],
+						"rect" : [ 0.0, 48.0, 1280.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -177,7 +177,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 1268.0, 579.0, 181.0, 65.0 ],
+									"patching_rect" : [ 1268.0, 579.0, 184.0, 65.0 ],
 									"text" : "jit.gl.videoplane @drawto vp @layer 2 @blend_enable 1 @depth_enable 0 @scale 0.1 0.1 1."
 								}
 
@@ -353,7 +353,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 												}
 
@@ -3785,7 +3785,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1481.0, 693.0 ],
+						"rect" : [ 0.0, 26.0, 1280.0, 716.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -3842,41 +3842,41 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3884,7 +3884,7 @@
 , 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

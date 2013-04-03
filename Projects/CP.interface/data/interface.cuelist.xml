@@ -112,7 +112,7 @@
    <script address="menu">
     <command address="active">0</command>
     <command address="static">1</command>
-    <command address="layer">3</command>
+    <command address="layer">4</command>
     <!---->
     <script address="body">
      <script address="damping">
@@ -124,7 +124,7 @@
      <command address="mass">1.000000</command>
     </script>
     <command address="scale">0.200000 0.200000 1.000000</command>
-    <command address="position">-1.590000 0.770000 0.000000</command>
+    <command address="position">-1.660000 0.870000 0.000000</command>
     <command address="alpha">0.000000</command>
    </script>
    <!---->
