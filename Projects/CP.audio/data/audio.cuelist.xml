@@ -639,27 +639,27 @@
    <script address="event">
     <command address="play">0</command>
     <script address="out.3">
-     <command address="gain">100.000000</command>
+     <command address="gain">70.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.4">
-     <command address="gain">100.000000</command>
+     <command address="gain">70.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.5">
-     <command address="gain">100.000000</command>
+     <command address="gain">70.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="mute">0</command>
-     <command address="gain">100.000000</command>
+     <command address="gain">70.000000</command>
     </script>
     <script address="out.2">
-     <command address="gain">100.000000</command>
+     <command address="gain">70.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.6">
-     <command address="gain">100.000000</command>
+     <command address="gain">70.000000</command>
      <command address="mute">0</command>
     </script>
    </script>
