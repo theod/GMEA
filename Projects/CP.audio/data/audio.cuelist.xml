@@ -748,6 +748,10 @@
     <command address="file">abbatiale-musicanova-IR3.wav</command>
    </script>
    <!---->
+   <script address="IR.4">
+    <command address="file">abbatiale-musicanova-IR4.wav</command>
+   </script>
+   <!---->
    <script address="IR.1">
     <command address="file">abbatiale-musicanova-IR1.wav</command>
    </script>
