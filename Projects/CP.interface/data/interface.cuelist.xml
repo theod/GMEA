@@ -90,8 +90,8 @@
      <script address="picker">
       <command address="mode">center</command>
       <command address="active">1</command>
-      <command address="strength">0.200000</command>
-      <command address="stretch">0.000000</command>
+      <command address="strength">0.100000</command>
+      <command address="stretch">0.900000</command>
      </script>
      <command address="dimensions">2</command>
     </script>
