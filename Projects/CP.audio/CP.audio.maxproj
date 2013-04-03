@@ -2,7 +2,7 @@
 	"name" : "CP.audio",
 	"version" : 1,
 	"creationdate" : -847306349,
-	"modificationdate" : -847293457,
+	"modificationdate" : -847205649,
 	"viewrect" : [ 11.0, 44.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -16,9 +16,24 @@
 				"toplevel" : 1
 			}
 ,
-			"jln.play~.hexa.model.maxpat" : 			{
+			"jcom.dbam.view.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers/jcom.dbam.view.maxpat",
+					"projectrelativepath" : "../CP.audio/patchers/jcom.dbam.view.maxpat"
+				}
+
+			}
+,
+			"jcom.dbam.st.view.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers/jcom.dbam.st.view.maxpat",
+					"projectrelativepath" : "../CP.audio/patchers/jcom.dbam.st.view.maxpat"
+				}
+
 			}
 ,
 			"dbam.st.model.maxpat" : 			{
@@ -42,6 +57,11 @@
 			}
 ,
 			"jln.sfplay~.hexa.model.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jln.play~.hexa.model.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -74,6 +94,11 @@
 		}
 ,
 		"media" : 		{
+			"plan-refectoire-fond-t.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"abb-2550-3509a.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -93,18 +118,12 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
-,
-			"plan-refectoire-fond-t.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
 
 		}
 ,
 		"data" : 		{
 			"audio.cuelist_bckp.fixed.xml" : 			{
-				"kind" : "xmlfile",
-				"local" : 1
+				"kind" : "xmlfile"
 			}
 ,
 			"audio.cuelist.xml" : 			{
