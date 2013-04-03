@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1276.0, 890.0 ],
+		"rect" : [ 218.0, 44.0, 1276.0, 890.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,14 +30,28 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 216.0, 420.5, 150.0, 33.0 ],
+					"text" : "TODO adding selected messages to interface"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-15",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 980.0, 146.5, 54.0, 58.0 ],
-					"text" : "684.514282 333.541107"
+					"patching_rect" : [ 980.0, 146.5, 54.0, 18.0 ],
+					"text" : "337 300"
 				}
 
 			}
@@ -52,7 +66,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 415.0, 79.0, 54.0, 58.0 ],
-					"text" : "383.6492 358.932037"
+					"text" : "206.487503 480.660553"
 				}
 
 			}
@@ -6286,7 +6300,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 43.5, 108.0, 270.0, 45.0 ],
-									"text" : "read \"Macintosh HD:/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/data/audio.cuelist.xml\""
+									"text" : "read \"Macintosh HD:/Users/jln/@gmea/GMEA/Projects/CP.audio/data/audio.cuelist.xml\""
 								}
 
 							}
@@ -7023,7 +7037,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 7.0, 45.0, 704.0, 540.0 ],
+						"rect" : [ 480.0, 122.0, 704.0, 540.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7043,6 +7057,62 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 290.5, 254.5, 32.5, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 290.5, 283.5, 180.0, 20.0 ],
+									"text" : "jcom.send /refectoire/event/play"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 107.5, 223.5, 32.5, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 107.5, 252.5, 179.0, 20.0 ],
+									"text" : "jcom.send /abbatiale/event/play"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -7073,13 +7143,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 61.5, 148.0, 128.0, 31.0 ],
-									"text" : "destination 383.6492 358.932037"
+									"patching_rect" : [ 61.5, 148.0, 130.0, 45.0 ],
+									"text" : "destination 206.487503 480.660553"
 								}
 
 							}
@@ -7148,7 +7218,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.5, 396.5, 122.0, 20.0 ],
+									"patching_rect" : [ 222.5, 476.5, 122.0, 20.0 ],
 									"text" : "jcom.send /refectoire"
 								}
 
@@ -7175,7 +7245,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 242.5, 203.5, 20.0, 20.0 ]
+									"patching_rect" : [ 242.5, 283.5, 20.0, 20.0 ]
 								}
 
 							}
@@ -7189,7 +7259,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.5, 235.5, 115.0, 139.0 ],
+									"patching_rect" : [ 222.5, 315.5, 115.0, 139.0 ],
 									"text" : "km185/play $1, dpa4011/play $1, ortf/play $1, adk/play $1, dpa4060/play $1, hexa/play $1, exterieur/play $1, IR.1/play $1, IR.2/play $1, IR.3/play $1"
 								}
 
@@ -7202,7 +7272,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 61.5, 220.5, 20.0, 20.0 ]
+									"patching_rect" : [ 61.5, 300.5, 20.0, 20.0 ]
 								}
 
 							}
@@ -7211,13 +7281,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
-									"linecount" : 10,
+									"linecount" : 11,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 40.5, 252.5, 105.0, 139.0 ],
-									"text" : "km185/play $1, dpa4011/play $1, ortf/play $1, adk/play $1, dpa4060/play $1, hexa/play $1, exterieur/play $1, IR.1/play $1, IR.2/play $1, IR.3/play $1"
+									"patching_rect" : [ 40.5, 332.5, 113.0, 152.0 ],
+									"text" : "km185/play $1, dpa4011/play $1, ortf/play $1, adk/play $1, dpa4060/play $1, hexa/play $1, exterieur/play $1, IR.1/play $1, IR.2/play $1, IR.3/play $1, IR.4/play $1"
 								}
 
 							}
@@ -7230,7 +7300,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 40.5, 405.5, 121.0, 20.0 ],
+									"patching_rect" : [ 40.5, 485.5, 121.0, 20.0 ],
 									"text" : "jcom.send /abbatiale"
 								}
 
@@ -7319,6 +7389,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-30", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7346,10 +7425,37 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-35", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -10369,7 +10475,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 294.0, 378.0, 50.0, 18.0 ],
-									"text" : "0."
+									"text" : "1."
 								}
 
 							}
@@ -12350,12 +12456,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 495.5, 722.0, 129.0, 18.0 ],
-									"text" : "0. 0. 0."
+									"patching_rect" : [ 495.5, 722.0, 129.0, 31.0 ],
+									"text" : "1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0."
 								}
 
 							}
@@ -12384,7 +12491,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 817.0, 682.0, 173.0, 18.0 ],
-									"text" : "0. 0. 0."
+									"text" : "1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0."
 								}
 
 							}
@@ -12883,7 +12990,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 294.0, 378.0, 50.0, 18.0 ],
-									"text" : "0."
+									"text" : "1."
 								}
 
 							}
@@ -14360,13 +14467,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
-									"linecount" : 4,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 140.0, 76.0, 50.0, 58.0 ],
-									"text" : "684.514282 333.541107"
+									"patching_rect" : [ 140.0, 76.0, 50.0, 31.0 ],
+									"text" : "337 300"
 								}
 
 							}
@@ -14380,7 +14487,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 439.0, 318.0, 50.0, 18.0 ],
-									"text" : "1."
+									"text" : "0."
 								}
 
 							}
@@ -14826,7 +14933,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 109.512329, 100.0, 50.0, 17.0 ],
-													"text" : "59"
+													"text" : "51"
 												}
 
 											}
@@ -15665,7 +15772,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 890.0, 687.0, 184.0, 18.0 ],
-									"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1."
+									"text" : "0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 0."
 								}
 
 							}
@@ -16418,7 +16525,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 210.0, 237.0, 640.0, 480.0 ],
+						"rect" : [ 642.0, 319.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -16447,7 +16554,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 413.0, 303.0, 50.0, 18.0 ],
-									"text" : "1."
+									"text" : "0."
 								}
 
 							}
@@ -16884,7 +16991,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 109.512329, 100.0, 50.0, 17.0 ],
-													"text" : "35"
+													"text" : "48"
 												}
 
 											}
@@ -17368,7 +17475,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 393.160706, 286.0, 118.0, 18.0 ],
-									"text" : "11 0 nan"
+									"text" : "11 0 0."
 								}
 
 							}
@@ -17464,7 +17571,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 442.0, 298.0, 237.0, 31.0 ],
-													"text" : "0.706269 0.706269 0.706269 0.706269 0.706269 0.706269"
+													"text" : "1.049773 0.362765 1.393276 0.019262 1.049773 0.362766"
 												}
 
 											}
@@ -17620,12 +17727,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-5",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 266.738098, 715.0, 50.0, 18.0 ],
-																	"text" : "0."
+																	"patching_rect" : [ 266.738098, 715.0, 50.0, 31.0 ],
+																	"text" : "0.470588"
 																}
 
 															}
@@ -19461,7 +19569,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 370.0, 229.0, 50.0, 18.0 ],
-																	"text" : "0."
+																	"text" : "1."
 																}
 
 															}
@@ -24765,8 +24873,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1097.0, 57.0, 87.0, 18.0 ],
-									"text" : "out.1/gain 100"
+									"patching_rect" : [ 1097.0, 57.0, 78.0, 18.0 ],
+									"text" : "out.*/gain 70"
 								}
 
 							}
@@ -26769,7 +26877,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 370.0, 229.0, 50.0, 18.0 ],
-																	"text" : "0."
+																	"text" : "1."
 																}
 
 															}
@@ -28768,7 +28876,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 252.0, 74.0, 111.666718, 18.0 ],
-													"text" : "5 5 1."
+													"text" : "5 5 0."
 												}
 
 											}
@@ -33010,42 +33118,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dbam.st.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jln.print.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dbam.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jln.sfplay~.st.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jln.sfplay~.hexa.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jln.play~.hexa.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
