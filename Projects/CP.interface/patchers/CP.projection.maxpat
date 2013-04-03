@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 57.0, 185.0, 1163.0, 750.0 ],
+		"rect" : [ 79.0, 197.0, 1163.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 57.0, 211.0, 1163.0, 724.0 ],
+						"rect" : [ 79.0, 223.0, 1163.0, 724.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -101,27 +101,27 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-18",
-									"maxclass" : "message",
-									"numinlets" : 2,
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.0, 507.0, 195.0, 18.0 ],
-									"text" : "importmovie AbbayeMap.jpg, bang"
+									"patching_rect" : [ 904.5, 458.0, 119.0, 20.0 ],
+									"text" : "r cursorforProjection"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "/vp" ],
-									"id" : "obj-12",
-									"maxclass" : "bpatcher",
-									"name" : "renderWindow.view.maxpat",
-									"numinlets" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 188.5, 39.0, 150.0, 105.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
+									"patching_rect" : [ 93.0, 507.0, 109.0, 18.0 ],
+									"text" : "importmovie, bang"
 								}
 
 							}
@@ -150,34 +150,6 @@
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 16.0, 551.0, 95.0, 20.0 ],
 									"text" : "jit.matrix bgmap"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-56",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 895.5, 412.5, 107.0, 21.0 ],
-									"text" : "prepend position"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-49",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 895.5, 384.0, 210.0, 21.0 ],
-									"text" : "jcom.receive /cursor/position/world"
 								}
 
 							}
@@ -633,7 +605,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 624.5, 384.0, 195.0, 21.0 ],
-									"text" : "loadmess position -0.18 -0.68 0."
+									"text" : "loadmess position -0.02 -0.68 0."
 								}
 
 							}
@@ -760,7 +732,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 568.5, 654.0, 150.0, 21.0 ],
-									"text" : "0.02 -0.67"
+									"text" : "-0.02 -0.68"
 								}
 
 							}
@@ -3023,6 +2995,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-57", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3232,15 +3213,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-56", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-49", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3348,15 +3320,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-55", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-48", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-56", 0 ]
 								}
 
 							}
@@ -3638,27 +3601,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
-				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/components",
-				"patcherrelativepath" : "../../../Max/Picture/components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/help-resources",
@@ -3691,18 +3633,6 @@
 			}
 , 			{
 				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.remote.mxo",
 				"type" : "iLaX"
 			}
  ]
