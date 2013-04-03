@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 46.0, 179.0, 1163.0, 750.0 ],
+		"rect" : [ 57.0, 185.0, 1163.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 46.0, 205.0, 1163.0, 724.0 ],
+						"rect" : [ 57.0, 211.0, 1163.0, 724.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -100,13 +100,41 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 93.0, 507.0, 195.0, 18.0 ],
+									"text" : "importmovie AbbayeMap.jpg, bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ "/vp" ],
+									"id" : "obj-12",
+									"maxclass" : "bpatcher",
+									"name" : "renderWindow.view.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 188.5, 39.0, 150.0, 105.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 16.0, 527.0, 64.0, 21.0 ],
+									"patching_rect" : [ 16.0, 493.0, 64.0, 21.0 ],
 									"text" : "loadbang"
 								}
 
@@ -206,7 +234,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 951.0, 578.0, 160.0, 65.0 ],
+									"patching_rect" : [ 951.0, 578.0, 162.0, 65.0 ],
 									"text" : "jit.gl.videoplane @layer 2 @blend_enable 1 @depth_enable 0 @scale 0.5 0.5 1."
 								}
 
@@ -647,7 +675,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 163.0, 73.5, 119.0, 36.0 ],
+									"patching_rect" : [ 57.0, 65.0, 119.0, 36.0 ],
 									"text" : "an offset to set the picture vertical"
 								}
 
@@ -661,7 +689,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 93.0, 136.0, 19.0 ],
+									"patching_rect" : [ 16.0, 99.0, 136.0, 19.0 ],
 									"text" : "camera/orientation $1"
 								}
 
@@ -2835,7 +2863,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 200.5, 145.5, 150.0, 21.0 ]
+									"patching_rect" : [ 188.5, 170.5, 150.0, 21.0 ]
 								}
 
 							}
@@ -2927,6 +2955,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -3601,6 +3638,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "renderWindow.view.maxpat",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
+				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.list2parameter.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.colorSelector.maxpat",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/components",
+				"patcherrelativepath" : "../../../Max/Picture/components",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/help-resources",
@@ -3633,6 +3691,18 @@
 			}
 , 			{
 				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
 				"type" : "iLaX"
 			}
  ]
