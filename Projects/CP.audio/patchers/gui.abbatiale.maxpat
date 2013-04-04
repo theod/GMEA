@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 16.0, 76.0, 1221.0, 756.0 ],
+		"rect" : [ 48.0, 70.0, 1221.0, 756.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -27,6 +27,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 255.0, 1.0, 124.0, 19.0 ],
+					"text" : "s /abbatiale/dbam.irs.in"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -67,7 +80,7 @@
 					"patching_rect" : [ 322.0, 1076.0, 66.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 331.717529, 87.0, 17.0 ],
-					"text" : "-18.014706"
+					"text" : "-1.514477"
 				}
 
 			}
@@ -86,7 +99,7 @@
 					"patching_rect" : [ 329.0, 1034.5, 65.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 367.217529, 87.0, 17.0 ],
-					"text" : "-27.794117"
+					"text" : "-1.1811"
 				}
 
 			}
@@ -105,7 +118,7 @@
 					"patching_rect" : [ 329.0, 988.5, 66.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 288.834717, 87.0, 17.0 ],
-					"text" : "-10.808824"
+					"text" : "0."
 				}
 
 			}
@@ -124,7 +137,7 @@
 					"patching_rect" : [ 329.0, 956.5, 66.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 179.717529, 87.0, 17.0 ],
-					"text" : "-22.647058"
+					"text" : "0."
 				}
 
 			}
@@ -162,7 +175,7 @@
 					"patching_rect" : [ 329.0, 863.0, 66.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 210.284668, 87.0, 17.0 ],
-					"text" : "-22.647058"
+					"text" : "-0.598425"
 				}
 
 			}
@@ -174,14 +187,15 @@
 					"fontsize" : 11.0,
 					"gradient" : 1,
 					"id" : "obj-31",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 329.0, 830.0, 32.5, 17.0 ],
+					"patching_rect" : [ 329.0, 830.0, 33.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 162.717529, 87.0, 17.0 ],
-					"text" : "-35."
+					"text" : "1.19685"
 				}
 
 			}
@@ -200,7 +214,7 @@
 					"patching_rect" : [ 343.0, 782.0, 60.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 114.717529, 87.0, 17.0 ],
-					"text" : "-1.029412"
+					"text" : "-1.19685"
 				}
 
 			}
@@ -212,14 +226,15 @@
 					"fontsize" : 11.0,
 					"gradient" : 1,
 					"id" : "obj-16",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.0, 742.0, 50.0, 17.0 ],
+					"patching_rect" : [ 343.0, 742.0, 50.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 69.717529, 87.0, 17.0 ],
-					"text" : "0."
+					"text" : "-2.992126"
 				}
 
 			}
@@ -2022,7 +2037,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2274,12 +2288,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 251.0, 281.0, 50.0, 18.0 ],
-									"text" : "100."
+									"patching_rect" : [ 251.0, 281.0, 50.0, 31.0 ],
+									"text" : "70.858788"
 								}
 
 							}
@@ -2495,7 +2510,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1034.75, 484.0, 32.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 880.0, 506.5, 150.0, 19.0 ],
+					"presentation_rect" : [ 852.128906, 459.067139, 32.0, 19.0 ],
 					"text" : "Play"
 				}
 
@@ -3594,13 +3609,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 230.0, 420.0, 50.0, 45.0 ],
-									"text" : "drawsprite ir.4 392. 2."
+									"patching_rect" : [ 230.0, 420.0, 50.0, 58.0 ],
+									"text" : "drawsprite ir.2 196. 409."
 								}
 
 							}
@@ -5059,7 +5074,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.512329, 100.0, 50.0, 17.0 ],
-									"text" : "36"
+									"text" : "10"
 								}
 
 							}
@@ -6352,7 +6367,7 @@
 					"patching_rect" : [ 624.0, 513.0, 50.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 369.512329, 598.0, 50.0, 17.0 ],
-					"text" : "195 368"
+					"text" : "187 218"
 				}
 
 			}
@@ -6392,7 +6407,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 20.0, 151.0, 19.0 ],
+					"patching_rect" : [ 255.0, -27.0, 151.0, 19.0 ],
 					"text" : "s /abbatiale/dbam.sources.in"
 				}
 
@@ -7709,7 +7724,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.0, 420.0, 177.0, 18.0 ],
-									"text" : "drawsprite exterieur 0."
+									"text" : "drawsprite dpa4060.L 154. 425."
 								}
 
 							}
@@ -9547,6 +9562,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -10277,8 +10301,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ],
 			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ],
+			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ],
 			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ]
 		}
 ,
@@ -10291,8 +10315,8 @@
 			}
 , 			{
 				"name" : "abb-2550-3509a.png",
-				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/media",
-				"patcherrelativepath" : "../../../../../ConcertPro/cp.noirlac_proj/media",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
