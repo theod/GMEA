@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 145.0, 285.0, 941.0, 505.0 ],
+		"rect" : [ 371.0, 352.0, 941.0, 505.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -934,7 +934,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 43.5, 157.0, 314.0, 45.0 ],
-									"text" : "read \"Macintosh HD:/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/data/interface.cuelist.xml\""
+									"text" : "read \"Macintosh HD:/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Projects/CP.interface/data/interface.cuelist.xml\""
 								}
 
 							}
@@ -1648,21 +1648,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/Implementations/Max/max/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../Implementations/Max/max/patchers/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/components",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/components",
 				"patcherrelativepath" : "../../../Max/Picture/components",
 				"type" : "JSON",
 				"implicit" : 1
