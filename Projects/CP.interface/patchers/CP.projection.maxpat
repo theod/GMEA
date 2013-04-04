@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 403.0, 162.0, 1163.0, 750.0 ],
+		"rect" : [ 509.0, 137.0, 1163.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 403.0, 188.0, 1163.0, 724.0 ],
+						"rect" : [ 509.0, 163.0, 1163.0, 724.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -262,8 +262,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 951.0, 578.0, 162.0, 65.0 ],
-									"text" : "jit.gl.videoplane @layer 2 @blend_enable 1 @depth_enable 0 @scale 0.5 0.5 1."
+									"patching_rect" : [ 951.0, 578.0, 160.0, 65.0 ],
+									"text" : "jit.gl.videoplane @layer 2 @blend_enable 1 @depth_enable 0 @scale 0.1 0.1 1."
 								}
 
 							}

@@ -71,7 +71,7 @@
      <command address="depth">0</command>
      <command address="active">0</command>
      <command address="debug">0</command>
-     <command address="fps">25</command>
+     <command address="fps">30</command>
      <script address="background">
       <command address="color">1 1 1 1</command>
      </script>
@@ -260,7 +260,7 @@
     <script address="background">
      <command address="color">0.000000 0.000000 0.000000 1.000000</command>
     </script>
-    <command address="fps">25</command>
+    <command address="fps">30</command>
    </script>
    <!---->
    <script address="physics">
@@ -282,23 +282,23 @@
  <cue name="run">
   <flag name="description"></flag>
   <script address="ecran">
-   <script address="backgroundveille">
+   <script address="backgroundmap">
     <command address="active">0</command>
    </script>
-   <script address="backgroundmap">
-    <command address="active">1</command>
-   </script>
    <script address="pulse.abbatiale">
-    <command address="active">1</command>
+    <command address="active">0</command>
    </script>
    <script address="pulse.refectoire">
+    <command address="active">0</command>
+   </script>
+   <script address="pulse.veille">
     <command address="active">1</command>
    </script>
    <script address="menu">
-    <command address="active">1</command>
+    <command address="active">0</command>
    </script>
    <script address="person">
-    <command address="active">1</command>
+    <command address="active">0</command>
    </script>
    <script address="display">
     <script address="render">
