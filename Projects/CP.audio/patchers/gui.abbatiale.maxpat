@@ -30,6 +30,34 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
+					"id" : "obj-54",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 500.0, -27.0, 32.5, 17.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 500.0, -51.0, 61.0, 19.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -10166,10 +10194,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -10301,9 +10347,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ],
 			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ],
-			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ]
+			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ],
+			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -10311,13 +10357,6 @@
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "abb-2550-3509a.png",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
