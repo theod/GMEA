@@ -28,6 +28,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-83",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 563.0, -41.0, 32.5, 17.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 488.0, -51.0, 61.0, 19.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor2" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Arial",
@@ -2660,7 +2688,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 273.0, 302.5, 391.0, 18.0 ],
-					"text" : "view_start 0. 408., view_end 561. 0., view_size 160 120, view_update 1"
+					"text" : "view_start 0. 408., view_end 561. 0., view_size 160 120, view_update 0"
 				}
 
 			}
@@ -13289,6 +13317,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -13885,6 +13922,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -13903,30 +13949,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ],
+			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ],
 			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ],
-			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ]
+			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "source.stereo.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "source.mono.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mixer.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/ConcertPro/cp.noirlac_proj/patchers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
+				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "plan-refectoire-fond-t.png",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/media",
+				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/media",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
