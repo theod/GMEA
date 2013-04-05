@@ -1350,7 +1350,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 77.0, 1561.0, 625.0 ],
+						"rect" : [ 4.0, 77.0, 1561.0, 625.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3455,7 +3455,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 443.5, 169.0, 57.0, 20.0 ],
-									"text" : "del 2500"
+									"text" : "del 3000"
 								}
 
 							}
@@ -3508,7 +3508,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 228.0, 143.0, 57.0, 20.0 ],
-									"text" : "del 2100"
+									"text" : "del 3100"
 								}
 
 							}
@@ -3563,8 +3563,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 921.0, 210.0, 163.0, 18.0 ],
-									"text" : "/standby/gain -70 ramp 2000"
+									"patching_rect" : [ 921.0, 210.0, 157.0, 18.0 ],
+									"text" : "/standby/gain -70 ramp 100"
 								}
 
 							}
@@ -4268,7 +4268,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ -291.0, 44.0, 1571.0, 649.0 ],
+						"rect" : [ 4.0, 44.0, 1571.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6469,8 +6469,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 707.5, 196.0, 163.0, 18.0 ],
-									"text" : "/standby/gain -70 ramp 2000"
+									"patching_rect" : [ 707.5, 196.0, 157.0, 18.0 ],
+									"text" : "/standby/gain -70 ramp 100"
 								}
 
 							}
