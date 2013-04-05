@@ -262,7 +262,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 951.0, 578.0, 160.0, 65.0 ],
+									"patching_rect" : [ 951.0, 578.0, 162.0, 65.0 ],
 									"text" : "jit.gl.videoplane @layer 2 @blend_enable 1 @depth_enable 0 @scale 0.1 0.1 1."
 								}
 
@@ -808,7 +808,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 725.0, 193.0, 202.0, 218.0 ],
+										"rect" : [ 273.0, 429.0, 202.0, 218.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1027,7 +1027,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 765.0, 192.0, 504.0, 556.0 ],
+										"rect" : [ 919.0, 44.0, 753.0, 684.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1047,6 +1047,34 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-13",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 49.0, 222.0, 24.0, 20.0 ],
+													"text" : "t b"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 49.0, 283.0, 69.0, 20.0 ],
+													"text" : "delay 1500"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -1206,8 +1234,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 49.0, 383.0, 64.0, 18.0 ],
-													"text" : "0, 1. 2000"
+													"patching_rect" : [ 49.0, 383.0, 57.0, 18.0 ],
+													"text" : "0, 1. 500"
 												}
 
 											}
@@ -1233,7 +1261,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 214.0, 397.0, 49.0, 20.0 ],
+													"patching_rect" : [ 214.0, 435.0, 49.0, 20.0 ],
 													"text" : "s alpha"
 												}
 
@@ -1246,7 +1274,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 196.0, 481.0, 56.0, 21.0 ],
+													"patching_rect" : [ 196.0, 519.0, 56.0, 21.0 ],
 													"text" : "s fx.blur"
 												}
 
@@ -1288,7 +1316,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 196.0, 424.0, 33.0, 21.0 ],
+													"patching_rect" : [ 196.0, 462.0, 33.0, 21.0 ],
 													"text" : "!- 1."
 												}
 
@@ -1302,7 +1330,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 214.0, 369.0, 47.0, 21.0 ],
+													"patching_rect" : [ 214.0, 407.0, 47.0, 21.0 ],
 													"text" : "sqrt 0."
 												}
 
@@ -1316,7 +1344,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 196.0, 455.0, 189.0, 19.0 ],
+													"patching_rect" : [ 196.0, 493.0, 189.0, 19.0 ],
 													"text" : "sendshader param width $1 $1"
 												}
 
@@ -1358,7 +1386,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 196.0, 338.0, 46.0, 20.0 ],
+													"patching_rect" : [ 196.0, 376.0, 46.0, 20.0 ],
 													"text" : "line 0."
 												}
 
@@ -1416,6 +1444,24 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-12", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-14", 0 ]
@@ -3722,41 +3768,41 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3764,7 +3810,7 @@
 , 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
