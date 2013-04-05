@@ -2716,7 +2716,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 463.0, 577.0, 391.0, 18.0 ],
-					"text" : "view_start 0. 561., view_end 408. 0., view_size 160 120, view_update 1"
+					"text" : "view_start 0. 561., view_end 408. 0., view_size 160 120, view_update 0"
 				}
 
 			}
@@ -3643,7 +3643,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.0, 420.0, 50.0, 58.0 ],
-									"text" : "drawsprite ir.2 196. 409."
+									"text" : "drawsprite ir.4 270. 157."
 								}
 
 							}
@@ -5102,7 +5102,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.512329, 100.0, 50.0, 17.0 ],
-									"text" : "10"
+									"text" : "15"
 								}
 
 							}
@@ -7752,7 +7752,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.0, 420.0, 177.0, 18.0 ],
-									"text" : "drawsprite dpa4060.L 154. 425."
+									"text" : "drawsprite exterieur 345. 332."
 								}
 
 							}
@@ -10347,9 +10347,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ],
 			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ],
-			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ]
+			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ],
+			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -10357,6 +10357,13 @@
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "abb-2550-3509a.png",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
