@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 45.0, 288.0, 1761.0, 448.0 ],
+		"rect" : [ 3.0, 44.0, 1761.0, 448.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -16,7 +16,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 0,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -122,15 +122,14 @@
 					"fontsize" : 11.0,
 					"gradient" : 1,
 					"id" : "obj-68",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 752.5, 50.0, 29.0 ],
+					"patching_rect" : [ 356.0, 752.5, 50.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1210.0, 171.0, 87.0, 17.0 ],
-					"text" : "-22.647058"
+					"text" : "0."
 				}
 
 			}
@@ -2314,12 +2313,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 251.0, 281.0, 50.0, 18.0 ],
-									"text" : "100."
+									"patching_rect" : [ 251.0, 281.0, 50.0, 31.0 ],
+									"text" : "49.110741"
 								}
 
 							}
@@ -2848,7 +2848,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1112.75, 239.0, 50.0, 54.0 ],
-					"text" : "drawsprite ir.3 293. 168."
+					"text" : "drawsprite ir.1 236. 238."
 				}
 
 			}
@@ -3245,7 +3245,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.0, 420.0, 50.0, 58.0 ],
-									"text" : "drawsprite ir.3 293. 168."
+									"text" : "drawsprite ir.1 236. 238."
 								}
 
 							}
@@ -5382,7 +5382,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 655.0, 120.0, 88.0, 19.0 ],
+					"patching_rect" : [ 691.0, 106.0, 88.0, 19.0 ],
 					"text" : "r /refectoire.lcd.i"
 				}
 
@@ -9993,7 +9993,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1530.5, 670.0, 237.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 581.25, 172.0, 470.0, 26.0 ]
+					"presentation_rect" : [ 574.25, 172.0, 470.0, 26.0 ]
 				}
 
 			}
@@ -11248,13 +11248,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 230.0, 420.0, 50.0, 85.0 ],
-									"text" : "drawsprite dpa4060.R 278. 250."
+									"patching_rect" : [ 230.0, 420.0, 50.0, 72.0 ],
+									"text" : "drawsprite adk.R 332. 205."
 								}
 
 							}
@@ -13957,28 +13957,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "source.stereo.view.maxpat",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
-				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "source.mono.view.maxpat",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
-				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mixer.maxpat",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/patchers",
-				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plan-refectoire-fond-t.png",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.audio/media",
-				"patcherrelativepath" : "../../../@Git/GMEA/Projects/CP.audio/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
