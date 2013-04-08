@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 423.0, 48.0, 582.0, 451.0 ],
+		"rect" : [ 501.0, 485.0, 582.0, 451.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -181,7 +181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.5, 349.0, 181.0, 18.0 ],
-									"text" : "0. 0. 0."
+									"text" : "0.433543 0.405372 0."
 								}
 
 							}
@@ -4308,7 +4308,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "225 440"
+													"text" : "1137 484"
 												}
 
 											}
@@ -5890,7 +5890,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "93. 56."
+													"text" : "16 105"
 												}
 
 											}
@@ -9942,7 +9942,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "748. 831."
+													"text" : "1257 308"
 												}
 
 											}
@@ -10305,7 +10305,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "748. 831."
+													"text" : "1257 308"
 												}
 
 											}
@@ -14351,7 +14351,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 389.0, 170.0, 1093.0, 633.0 ],
+						"rect" : [ 567.0, 403.0, 1093.0, 633.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14371,34 +14371,6 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-52",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 182.5, 206.5, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-46",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 116.0, 242.0, 100.0, 18.0 ],
-									"text" : "camera/angle $1"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -16325,8 +16297,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 439.25, 138.5, 195.0, 18.0 ],
-									"text" : "importmovie AbbayeMap.jpg, bang"
+									"patching_rect" : [ 439.25, 143.5, 199.0, 18.0 ],
+									"text" : "importmovie AbbayeMap.png, bang"
 								}
 
 							}
@@ -16436,7 +16408,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 34.5, 261.5, 212.0, 36.0 ],
+									"patching_rect" : [ 34.5, 284.0, 212.0, 36.0 ],
 									"text" : "pulseCursor.model pulse.abbatiale /ecran/display"
 								}
 
@@ -16747,15 +16719,6 @@
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-46", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-23", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-47", 0 ]
 								}
 
@@ -16784,15 +16747,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-50", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-52", 0 ]
 								}
 
 							}
@@ -17040,105 +16994,140 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pulseCursor.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/pulseCursor",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/pulseCursor",
 				"patcherrelativepath" : "../../../Max/Picture/pulseCursor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/plane",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/plane",
 				"patcherrelativepath" : "../../../Max/Picture/plane",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsBody.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "euclidean-distance.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Projects/CP.interface/patchers",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "badge.maxpat",
+				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "uc_license.maxpat",
+				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cnmat_blue.gif",
+				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "GIFf",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "myNotes.js",
+				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "take_notes.maxpat",
+				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dmxusbpro.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Enttec DMX USB Pro",
+				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Enttec DMX USB Pro",
 				"patcherrelativepath" : "../../../Max/Enttec DMX USB Pro",
 				"type" : "JSON",
 				"implicit" : 1

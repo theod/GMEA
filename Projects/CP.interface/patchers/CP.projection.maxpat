@@ -99,6 +99,17 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 94.0, 527.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-25",
@@ -2641,7 +2652,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "position",
+									"attr" : "layer",
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-16",
@@ -2663,8 +2674,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 441.5, 603.0, 398.0, 19.0 ],
-									"text" : "jit.gl.sketch @scale 0.1 0.1 0.1 @blend_enable 1 @depth_enable 0 @layer 2"
+									"patching_rect" : [ 441.5, 601.0, 398.0, 19.0 ],
+									"text" : "jit.gl.sketch @scale 0.1 0.1 0.1 @blend_enable 1 @depth_enable 0 @layer 0"
 								}
 
 							}
@@ -2975,8 +2986,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 441.5, 578.0, 398.0, 19.0 ],
-									"text" : "jit.gl.sketch @scale 0.1 0.1 0.1 @blend_enable 1 @depth_enable 0 @layer 2"
+									"patching_rect" : [ 441.5, 580.0, 398.0, 19.0 ],
+									"text" : "jit.gl.sketch @scale 0.1 0.1 0.1 @blend_enable 1 @depth_enable 0 @layer 0"
 								}
 
 							}
@@ -3105,6 +3116,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}

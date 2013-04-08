@@ -132,7 +132,7 @@
    <!---->
    <script address="pulse.refectoire">
     <command address="active">0</command>
-    <command address="layer">3</command>
+    <command address="layer">1</command>
     <command address="position">-0.020000 -0.690000 0.000000</command>
     <command address="size">0.100000</command>
     <command address="pulse">10.000000</command>
@@ -145,12 +145,12 @@
    <!---->
    <script address="pulse.abbatiale">
     <command address="active">0</command>
-    <command address="layer">3</command>
+    <command address="layer">1</command>
     <command address="thickness">1.000000</command>
     <command address="color">1.000000 0.000000 0.000000 1.000000</command>
     <command address="pulse">10.000000</command>
     <command address="size">0.100000</command>
-    <command address="position">0.600000 0.406000 0.000000</command>
+    <command address="position">0.590000 0.406000 0.000000</command>
    </script>
    <!---->
    <script address="backgroundmap">
