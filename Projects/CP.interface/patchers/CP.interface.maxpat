@@ -181,7 +181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.5, 349.0, 181.0, 18.0 ],
-									"text" : "0.07453 -0.654215 0."
+									"text" : "0.075509 -0.666397 0."
 								}
 
 							}
@@ -1465,8 +1465,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1133.0, 258.0, 187.0, 31.0 ],
-									"text" : "/ecran/menu/alpha 1. ramp 100., /ecran/person/alpha 1. ramp 100."
+									"patching_rect" : [ 1133.0, 258.0, 197.0, 31.0 ],
+									"text" : "/ecran/menu/alpha 0.7 ramp 100., /ecran/person/alpha 0.7 ramp 100."
 								}
 
 							}
@@ -4308,7 +4308,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "857. 564."
+													"text" : "115. 71."
 												}
 
 											}
@@ -5628,8 +5628,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1183.0, 260.0, 187.0, 31.0 ],
-									"text" : "/ecran/menu/alpha 1. ramp 100., /ecran/person/alpha 1. ramp 100."
+									"patching_rect" : [ 1183.0, 251.0, 207.0, 31.0 ],
+									"text" : "/ecran/menu/alpha 0.7 ramp 100., /ecran/person/alpha 0.7 ramp 100."
 								}
 
 							}
@@ -5884,12 +5884,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-56",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 127.0, 126.0, 42.0, 18.0 ],
-													"text" : "7. 63."
+													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
+													"text" : "39. 102."
 												}
 
 											}
@@ -6358,8 +6359,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 133.0, 321.0, 25.0, 25.0 ],
-																	"presentation_rect" : [ 137.0, 321.0, 0.0, 0.0 ]
+																	"patching_rect" : [ 133.0, 321.0, 25.0, 25.0 ]
 																}
 
 															}
@@ -6642,7 +6642,6 @@
 																	}
 ,
 																	"patching_rect" : [ 50.0, 195.0, 103.0, 20.0 ],
-																	"presentation_rect" : [ 52.0, 195.0, 0.0, 0.0 ],
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Arial",
@@ -7296,7 +7295,6 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 149.5, 80.0, 57.0, 20.0 ],
-																	"presentation_rect" : [ 204.0, 97.0, 0.0, 0.0 ],
 																	"text" : "route set"
 																}
 
@@ -9944,7 +9942,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "733. 812."
+													"text" : "745. 798."
 												}
 
 											}
@@ -10307,7 +10305,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "733. 812."
+													"text" : "745. 798."
 												}
 
 											}
@@ -12584,13 +12582,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 124.0, 548.0, 92.0, 72.0 ],
-									"text" : "176 0.320836 0.533669 -0.000172 0.000206 -0.000018"
+									"patching_rect" : [ 124.0, 548.0, 92.0, 45.0 ],
+									"text" : "251 0.38822 0.738735 0. 0. 0."
 								}
 
 							}
@@ -14353,7 +14351,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 187.0, 207.0, 1093.0, 633.0 ],
+						"rect" : [ 389.0, 170.0, 1093.0, 633.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
