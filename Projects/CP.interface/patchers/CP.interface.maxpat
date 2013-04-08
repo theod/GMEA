@@ -181,7 +181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.5, 349.0, 181.0, 18.0 ],
-									"text" : "0.075509 -0.666397 0."
+									"text" : "0.050779 -0.660161 0."
 								}
 
 							}
@@ -4308,7 +4308,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "115. 71."
+													"text" : "389. 946."
 												}
 
 											}
@@ -9942,7 +9942,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "745. 798."
+													"text" : "733. 801."
 												}
 
 											}
@@ -10305,7 +10305,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "745. 798."
+													"text" : "733. 801."
 												}
 
 											}
@@ -12582,13 +12582,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 124.0, 548.0, 92.0, 45.0 ],
-									"text" : "251 0.38822 0.738735 0. 0. 0."
+									"patching_rect" : [ 124.0, 548.0, 92.0, 72.0 ],
+									"text" : "276 0.431266 0.69543 0.000198 -0.000151 -0.000008"
 								}
 
 							}
@@ -14374,6 +14374,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 558.25, 499.5, 240.0, 18.0 ],
+									"text" : "importmovie bordureFlouEtCroix.png, bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-42",
 									"maxclass" : "flonum",
 									"numinlets" : 1,
@@ -14556,8 +14570,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 439.25, 474.0, 229.0, 18.0 ],
-									"text" : "importmovie bordureFlouEtCible.tif, bang"
+									"patching_rect" : [ 439.25, 475.0, 240.0, 18.0 ],
+									"text" : "importmovie bordureFlouEtCroix.png, bang"
 								}
 
 							}
@@ -16431,6 +16445,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
