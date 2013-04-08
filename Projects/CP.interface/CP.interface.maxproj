@@ -2,8 +2,8 @@
 	"name" : "CP.interface",
 	"version" : 1,
 	"creationdate" : -847305661,
-	"modificationdate" : -847202587,
-	"viewrect" : [ 1.0, 44.0, 303.0, 658.0 ],
+	"modificationdate" : -846684115,
+	"viewrect" : [ 4.0, 44.0, 303.0, 658.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -98,6 +98,11 @@
 ,
 		"media" : 		{
 			"RdC-Abbaye-apercu.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"bordureFlouEtCroix.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
