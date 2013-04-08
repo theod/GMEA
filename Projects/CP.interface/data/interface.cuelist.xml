@@ -96,6 +96,8 @@
      <command address="dimensions">2</command>
     </script>
     <script address="window">
+     <command address="position">2000 50</command>
+     <command address="size">320 240</command>
      <command address="fullscreen">0</command>
     </script>
     <script address="light">
@@ -275,6 +277,8 @@
     <command address="gravity">0.000000 0.000000 0.000000</command>
    </script>
    <script address="window">
+    <command address="position">50 50</command>
+    <command address="size">320 240</command>
     <command address="fullscreen">0</command>
    </script>
   </script>

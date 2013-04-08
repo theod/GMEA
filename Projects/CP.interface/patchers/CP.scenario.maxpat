@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 567.0, 443.0, 941.0, 505.0 ],
+		"rect" : [ 511.0, 62.0, 941.0, 505.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -99,7 +99,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 63.5, 129.5, 93.0, 31.0 ],
+									"patching_rect" : [ 63.5, 129.5, 93.0, 32.0 ],
 									"text" : ";\rmax hidecursor"
 								}
 
@@ -114,7 +114,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 171.5, 98.0, 31.0 ],
+									"patching_rect" : [ 50.0, 171.5, 98.0, 32.0 ],
 									"text" : ";\rmax showcursor"
 								}
 
@@ -884,7 +884,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 486.0, 303.0, 510.0, 552.0 ],
+						"rect" : [ 497.0, 126.0, 654.0, 653.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -904,6 +904,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 257.5, 546.5, 183.0, 20.0 ],
+									"text" : "jcom.send /vp/window/fullscreen"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -968,7 +982,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 257.5, 518.5, 241.0, 20.0 ],
+									"patching_rect" : [ 268.5, 518.5, 241.0, 20.0 ],
 									"text" : "jcom.send /ecran/display/window/fullscreen"
 								}
 
@@ -1121,7 +1135,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 43.5, 157.0, 314.0, 45.0 ],
-									"text" : "read \"Macintosh HD:/Users/jln/@gmea/GMEA/Projects/CP.interface/data/interface.cuelist.xml\""
+									"text" : "read \"Macintosh HD:/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/data/interface.cuelist.xml\""
 								}
 
 							}
@@ -1542,6 +1556,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1844,7 +1867,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1852,13 +1875,13 @@
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/components",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/components",
 				"patcherrelativepath" : "../../../Max/Picture/components",
 				"type" : "JSON",
 				"implicit" : 1
