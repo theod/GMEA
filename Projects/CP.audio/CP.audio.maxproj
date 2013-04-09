@@ -2,7 +2,7 @@
 	"name" : "CP.audio",
 	"version" : 1,
 	"creationdate" : -847306349,
-	"modificationdate" : -846618468,
+	"modificationdate" : -846618254,
 	"viewrect" : [ 11.0, 44.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -320,6 +320,11 @@
 			}
 ,
 			"abbatiale-musicanova-km185.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR4.Rss.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
