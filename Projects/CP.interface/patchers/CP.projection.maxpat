@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 509.0, 137.0, 1163.0, 750.0 ],
+		"rect" : [ 293.0, 93.0, 1163.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 509.0, 163.0, 1163.0, 724.0 ],
+						"rect" : [ 293.0, 119.0, 1163.0, 724.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -98,6 +98,35 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-42",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 354.5, 427.0, 68.0, 19.0 ],
+									"text" : "enable $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 354.5, 401.0, 52.0, 21.0 ],
+									"presentation_rect" : [ 354.5, 397.5, 0.0, 0.0 ],
+									"text" : "r active"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-18",
 									"maxclass" : "button",
@@ -2652,7 +2681,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "layer",
+									"attr" : "enable",
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-16",
@@ -3076,6 +3105,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-57", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3399,6 +3437,26 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 364.0, 598.0, 451.0, 598.0 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 364.0, 577.5, 451.0, 577.5 ],
+									"source" : [ "obj-42", 0 ]
 								}
 
 							}
@@ -3788,49 +3846,49 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderWindow",
-				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/jln/@gmea/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
