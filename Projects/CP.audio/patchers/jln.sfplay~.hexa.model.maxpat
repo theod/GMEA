@@ -243,7 +243,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -1429,7 +1429,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 195.0, 428.0, 640.0, 582.0 ],
+						"rect" : [ 689.0, 329.0, 640.0, 582.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1471,8 +1471,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 167.0, 251.0, 43.0, 20.0 ],
-									"text" : "del 25"
+									"patching_rect" : [ 167.0, 251.0, 50.0, 20.0 ],
+									"text" : "del 105"
 								}
 
 							}
@@ -1715,7 +1715,7 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "list" ],
 					"patching_rect" : [ 236.400024, 494.0, 415.0, 20.0 ],
-					"text" : "matrix~ 6 6 1. @ramp 20"
+					"text" : "matrix~ 6 6 1. @ramp 100"
 				}
 
 			}
@@ -2324,6 +2324,23 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
