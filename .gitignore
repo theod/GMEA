@@ -36,3 +36,5 @@ Max/library/javascript/jcom.js_systeminfo.js
 *.orig
 
 *.o
+
+*.wav
