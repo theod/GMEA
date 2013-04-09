@@ -1465,8 +1465,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1133.0, 258.0, 197.0, 31.0 ],
-									"text" : "/ecran/menu/alpha 0.7 ramp 100., /ecran/person/alpha 0.7 ramp 100."
+									"patching_rect" : [ 1133.0, 251.0, 201.0, 31.0 ],
+									"text" : "/ecran/menu/alpha 0.7 ramp 400., /ecran/person/alpha 0.7 ramp 400."
 								}
 
 							}
@@ -5154,16 +5154,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 453.0, 161.0, 1382.5, 161.0 ],
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5270,6 +5260,16 @@
 									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 1142.5, 201.0, 1382.5, 201.0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -5541,7 +5541,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1425.0, 169.0, 132.0, 31.0 ],
+									"patching_rect" : [ 1428.0, 196.0, 132.0, 31.0 ],
 									"text" : "/ecran/menu/active 1, /ecran/person/active 1,"
 								}
 
@@ -5628,8 +5628,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1183.0, 251.0, 207.0, 31.0 ],
-									"text" : "/ecran/menu/alpha 0.7 ramp 100., /ecran/person/alpha 0.7 ramp 100."
+									"patching_rect" : [ 1183.0, 251.0, 208.0, 31.0 ],
+									"text" : "/ecran/menu/alpha 0.7 ramp 400., /ecran/person/alpha 0.7 ramp 400."
 								}
 
 							}
@@ -9425,16 +9425,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 453.0, 144.0, 1434.5, 144.0 ],
-									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -9522,6 +9512,16 @@
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 1192.5, 190.0, 1437.5, 190.0 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -17148,10 +17148,6 @@
 			}
 , 			{
 				"name" : "jcom.delta.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dmxusbpro.mxo",
 				"type" : "iLaX"
 			}
 , 			{
