@@ -58,19 +58,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.5, 199.0, 50.0, 18.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -155,7 +142,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 148.0, 149.0, 50.0, 45.0 ],
-									"text" : "/abbatiale/km185.in"
+									"text" : "/jln.sfplay~.st.in"
 								}
 
 							}
@@ -275,7 +262,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 358.5, 157.0, 60.0, 20.0 ],
+					"patching_rect" : [ 211.5, 131.5, 60.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -394,8 +381,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 167.0, 251.0, 43.0, 20.0 ],
-									"text" : "del 25"
+									"patching_rect" : [ 167.0, 251.0, 50.0, 20.0 ],
+									"text" : "del 105"
 								}
 
 							}
@@ -636,8 +623,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "list" ],
-					"patching_rect" : [ 236.0, 335.0, 143.0, 20.0 ],
-					"text" : "matrix~ 2 2 1. @ramp 20"
+					"patching_rect" : [ 236.0, 335.0, 150.0, 20.0 ],
+					"text" : "matrix~ 2 2 1. @ramp 100"
 				}
 
 			}
@@ -977,15 +964,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-38", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1019,6 +997,27 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
