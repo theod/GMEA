@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 413.0, 211.0, 582.0, 451.0 ],
+		"rect" : [ 580.0, 208.0, 582.0, 451.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -181,7 +181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.5, 349.0, 181.0, 18.0 ],
-									"text" : "0.433543 0.405372 0."
+									"text" : "0.068711 -0.676276 0."
 								}
 
 							}
@@ -4308,7 +4308,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "48. 38."
+													"text" : "901. 946."
 												}
 
 											}
@@ -5890,7 +5890,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "71. 72."
+													"text" : "47. 73."
 												}
 
 											}
@@ -9956,7 +9956,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "1204. 339."
+													"text" : "780. 858."
 												}
 
 											}
@@ -10319,7 +10319,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "1204. 339."
+													"text" : "780. 858."
 												}
 
 											}
@@ -12560,13 +12560,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 124.0, 548.0, 92.0, 45.0 ],
-									"text" : "31 0.627085 0.313787 0. 0. -0.000001"
+									"patching_rect" : [ 124.0, 548.0, 92.0, 72.0 ],
+									"text" : "45 0.466545 0.781781 0.000012 -0.000109 -0.000009"
 								}
 
 							}
@@ -14329,7 +14329,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 469.0, 252.0, 1093.0, 633.0 ],
+						"rect" : [ 354.0, 140.0, 1093.0, 633.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
