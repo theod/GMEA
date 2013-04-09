@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 580.0, 208.0, 582.0, 451.0 ],
+		"rect" : [ 944.0, 159.0, 582.0, 451.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 340.0, 138.0, 860.0, 805.0 ],
+						"rect" : [ 473.0, 22.0, 860.0, 805.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -181,7 +181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.5, 349.0, 181.0, 18.0 ],
-									"text" : "0.068711 -0.676276 0."
+									"text" : "0.433543 0.405372 0."
 								}
 
 							}
@@ -506,7 +506,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 28.0, 236.5, 283.0, 65.0 ],
-									"text" : "jit.phys.body @worldname ecran/display-world @mass 0.8 @position 0 0 0 @damping 0.99 0.99 @scale 0.02 0.02 0.02 @resetpos 0 0 0 @filterclass tcursor"
+									"text" : "jit.phys.body @worldname ecran/display-world @mass 0.8 @position 0 0 0 @damping 0.99 0.99 @scale 0.01 0.01 0.01 @resetpos 0 0 0 @filterclass tcursor"
 								}
 
 							}
@@ -4308,7 +4308,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "901. 946."
+													"text" : "49. 74."
 												}
 
 											}
@@ -5890,7 +5890,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "47. 73."
+													"text" : "61. 98."
 												}
 
 											}
@@ -9789,7 +9789,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 138.0, 84.0, 1334.0, 789.0 ],
+						"rect" : [ -22.0, 384.0, 1334.0, 789.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9956,7 +9956,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "780. 858."
+													"text" : "1261. 391."
 												}
 
 											}
@@ -10319,7 +10319,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "780. 858."
+													"text" : "1261. 391."
 												}
 
 											}
@@ -11905,7 +11905,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 363.0, 200.0, 918.0, 369.0 ],
+						"rect" : [ 680.0, 22.0, 918.0, 369.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11935,7 +11935,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.5, 13.0, 341.0, 72.0 ],
-									"presentation_rect" : [ 408.5, 56.0, 0.0, 0.0 ],
 									"text" : "/cursor/sync, /cursor/position/world 0.106 -0.08 0. ramp 2000, /ecran/display/camera/orientation -26.5 ramp 2000, /ecran/pulse.veille/alpha 1. ramp 1000, /ecran/camera/angle 100 ramp 1000, /dmxusbpro/channel.1 255 ramp 2000, /dmxusbpro/channel.5 0 ramp 2000"
 								}
 
@@ -12109,13 +12108,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
-									"linecount" : 2,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 384.5, 236.0, 491.0, 31.0 ],
-									"text" : "/cursor/sync, /ecran/pulse.veille/alpha 1. ramp 1000, /ecran/camera/angle 100 ramp 1000, /dmxusbpro/channel.1 255 ramp 2000, /dmxusbpro/channel.5 0 ramp 2000"
+									"patching_rect" : [ 384.5, 236.0, 301.0, 72.0 ],
+									"text" : "/cursor/sync, /cursor/position/world 0.106 -0.08 0., /ecran/pulse.veille/alpha 1. ramp 1000, /ecran/camera/angle 90 ramp 1000, /dmxusbpro/channel.1 255 ramp 2000, /dmxusbpro/channel.5 0 ramp 2000"
 								}
 
 							}
@@ -12560,13 +12559,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 124.0, 548.0, 92.0, 72.0 ],
-									"text" : "45 0.466545 0.781781 0.000012 -0.000109 -0.000009"
+									"patching_rect" : [ 124.0, 548.0, 92.0, 45.0 ],
+									"text" : "172 0.656519 0.362432 0. 0. 0."
 								}
 
 							}
@@ -14329,7 +14328,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 354.0, 140.0, 1093.0, 633.0 ],
+						"rect" : [ 409.0, 276.0, 1093.0, 633.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14349,6 +14348,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 34.5, 255.0, 52.0, 18.0 ],
+									"text" : "active 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -15629,7 +15642,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 34.0, 35.0, 1172.0, 476.0 ],
+										"rect" : [ 34.0, 35.0, 1564.0, 611.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -16028,8 +16041,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 368.0, 92.0, 528.0, 33.0 ],
-													"text" : "jit.phys.body @enable 0 @shape cube @position 0.54 0.76 0. @scale 0.17 0.08 1. @worldname ecran/display-world @kinematic 1 @damping 1. 1."
+													"patching_rect" : [ 368.0, 93.0, 534.0, 33.0 ],
+													"text" : "jit.phys.body @enable 0 @shape cube @position 0.54 0.76 0. @scale 0.17 0.088 1. @worldname ecran/display-world @kinematic 1 @damping 1. 1."
 												}
 
 											}
@@ -16513,6 +16526,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -16972,85 +17003,85 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
-				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pulseCursor.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/pulseCursor",
-				"patcherrelativepath" : "../../../Max/Picture/pulseCursor",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.render.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.handler.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.mouse.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "plane.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/plane",
-				"patcherrelativepath" : "../../../Max/Picture/plane",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsWorld.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.physicsBody.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../../../Max/Picture/renderComponents",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -17070,8 +17101,8 @@
 			}
 , 			{
 				"name" : "dmxusbpro.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Enttec DMX USB Pro",
-				"patcherrelativepath" : "../../../Max/Enttec DMX USB Pro",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
