@@ -2,8 +2,8 @@
 	"name" : "CP.interface",
 	"version" : 1,
 	"creationdate" : -847305661,
-	"modificationdate" : -846684115,
-	"viewrect" : [ 4.0, 44.0, 303.0, 658.0 ],
+	"modificationdate" : -846617386,
+	"viewrect" : [ 4.0, 44.0, 321.0, 830.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -17,51 +17,63 @@
 			}
 ,
 			"renderWindow.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.mouse.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.handler.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.physicsWorld.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.render.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"pulseCursor.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.render.view.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.handler.view.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.mouse.view.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"plane.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.physicsWorld.view.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jcom.physicsBody.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"jit.gl.slab.gauss6x.maxpat" : 			{
@@ -75,7 +87,8 @@
 			}
 ,
 			"dmxusbpro.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"CP.scenario.maxpat" : 			{
@@ -85,7 +98,8 @@
 			}
 ,
 			"renderNode.model.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"CP.projection.maxpat" : 			{
