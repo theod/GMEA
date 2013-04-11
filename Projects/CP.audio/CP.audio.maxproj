@@ -2,7 +2,7 @@
 	"name" : "CP.audio",
 	"version" : 1,
 	"creationdate" : -847306349,
-	"modificationdate" : -846618254,
+	"modificationdate" : -846426392,
 	"viewrect" : [ 11.0, 44.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -106,6 +106,216 @@
 		"media" : 		{
 			"plan-refectoire-fond-t.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR3-7eqa_01-02.Rss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR3-7eqa_01-02.Rsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR3-7eqa_01-02.R.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR3-7eqa_01-02.Lss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR3-7eqa_01-02.Lsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR3-7eqa_01-02.L.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR2-7eqa_01-02.Rss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR2-7eqa_01-02.Rsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR2-7eqa_01-02.R.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR2-7eqa_01-02.Lss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR2-7eqa_01-02.Lsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR2-7eqa_01-02.L.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR1-7eqa_01-02.Rss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR1-7eqa_01-02.Rsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR1-7eqa_01-02.R.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR1-7eqa_01-02.Lss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR1-7eqa_01-02.Lsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"refectoire-bela-IR1-7eqa_01-02.L.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR5-7eqa_01.Rss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR5-7eqa_01.Rsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR5-7eqa_01.R.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR5-7eqa_01.Lss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR5-7eqa_01.Lsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR5-7eqa_01.L.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR4-7eqa_01.Rss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR4-7eqa_01.Rsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR4-7eqa_01.R.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR4-7eqa_01.Lss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR4-7eqa_01.Lsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR4-7eqa_01.L.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR3-7eqa_01.Rss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR3-7eqa_01.Rsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR3-7eqa_01.R.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR3-7eqa_01.Lss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR3-7eqa_01.Lsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR3-7eqa_01.L.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR1-7eqa_01.Rss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR1-7eqa_01.Rsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR1-7eqa_01.R.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR1-7eqa_01.Lss.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR1-7eqa_01.Lsr.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"abbatiale-musicanova-IR1-7eqa_01.L.wav" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
 ,

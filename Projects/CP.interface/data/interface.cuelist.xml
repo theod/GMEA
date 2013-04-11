@@ -96,7 +96,7 @@
      <command address="dimensions">2</command>
     </script>
     <script address="window">
-     <command address="position">2000 50</command>
+     <command address="position">50 50</command>
      <command address="size">320 240</command>
      <command address="fullscreen">0</command>
     </script>
@@ -133,7 +133,7 @@
    <script address="pulse.refectoire">
     <command address="active">0</command>
     <command address="layer">1</command>
-    <command address="position">-0.020000 -0.690000 0.000000</command>
+    <command address="position">0.200000 -0.678936 0.000000</command>
     <command address="size">0.100000</command>
     <command address="pulse">10.000000</command>
     <command address="color">1.000000 0.000000 0.000000 1.000000</command>
@@ -277,7 +277,7 @@
     <command address="gravity">0.000000 0.000000 0.000000</command>
    </script>
    <script address="window">
-    <command address="position">50 50</command>
+    <command address="position">2050 50</command>
     <command address="size">320 240</command>
     <command address="fullscreen">0</command>
    </script>

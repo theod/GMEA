@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 511.0, 62.0, 941.0, 505.0 ],
+		"rect" : [ 29.0, 659.0, 941.0, 505.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1861,22 +1861,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.view.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
-				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.colorSelector.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/components",
-				"patcherrelativepath" : "../../../Max/Picture/components",
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}

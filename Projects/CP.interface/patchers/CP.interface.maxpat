@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 944.0, 159.0, 582.0, 451.0 ],
+		"rect" : [ 1207.0, 782.0, 582.0, 451.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 473.0, 22.0, 860.0, 805.0 ],
+						"rect" : [ 473.0, 44.0, 860.0, 805.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -181,7 +181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.5, 349.0, 181.0, 18.0 ],
-									"text" : "0.433543 0.405372 0."
+									"text" : "-0.007719 -0.682401 0."
 								}
 
 							}
@@ -1408,7 +1408,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 613.0, 236.0, 380.0, 18.0 ],
-									"text" : "/cursor/sync, /cursor/position/world 0.075509 -0.666397 0. ramp 2000"
+									"text" : "/cursor/sync, /cursor/position/world 0.048458 -0.678936 0. ramp 2000"
 								}
 
 							}
@@ -1522,7 +1522,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1098.0, 210.0, 213.0, 31.0 ],
-									"text" : "/dmxusbpro/channel.1 0 ramp 2000, /dmxusbpro/channel.5 127 ramp 2000"
+									"text" : "/dmxusbpro/channel.1 0 ramp 2000, /dmxusbpro/channel.5 70 ramp 2000"
 								}
 
 							}
@@ -4308,7 +4308,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "49. 74."
+													"text" : "1641. 400."
 												}
 
 											}
@@ -5512,7 +5512,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 4.0, 44.0, 1571.0, 649.0 ],
+						"rect" : [ 26.0, 322.0, 1571.0, 649.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5570,8 +5570,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 802.0, 260.0, 202.0, 31.0 ],
-									"text" : "/cursor/sync, /cursor/position/world 0.433543 0.405372 0. ramp 2000"
+									"patching_rect" : [ 802.0, 260.0, 213.0, 31.0 ],
+									"text" : "/cursor/sync, /cursor/position/world 0.381043 0.406413 0. ramp 2000"
 								}
 
 							}
@@ -5713,8 +5713,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1144.0, 196.0, 213.0, 31.0 ],
-									"text" : "/dmxusbpro/channel.1 0 ramp 2000, /dmxusbpro/channel.5 127 ramp 2000"
+									"patching_rect" : [ 1144.0, 203.0, 219.0, 31.0 ],
+									"text" : "/dmxusbpro/channel.1 0 ramp 2000, /dmxusbpro/channel.5 70 ramp 2000"
 								}
 
 							}
@@ -5890,7 +5890,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 127.0, 126.0, 42.0, 31.0 ],
-													"text" : "61. 98."
+													"text" : "73. 59."
 												}
 
 											}
@@ -9789,7 +9789,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ -22.0, 384.0, 1334.0, 789.0 ],
+						"rect" : [ 72.0, 102.0, 1334.0, 789.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9956,7 +9956,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "1261. 391."
+													"text" : "771. 861."
 												}
 
 											}
@@ -10319,7 +10319,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 69.0, 141.0, 68.0, 18.0 ],
-													"text" : "1261. 391."
+													"text" : "771. 861."
 												}
 
 											}
@@ -10768,8 +10768,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 585.0, 349.0, 160.0, 18.0 ],
-									"text" : "/standby/gain -6. ramp 1000"
+									"patching_rect" : [ 585.0, 349.0, 157.0, 18.0 ],
+									"text" : "/standby/gain -3 ramp 1000"
 								}
 
 							}
@@ -11905,7 +11905,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 680.0, 22.0, 918.0, 369.0 ],
+						"rect" : [ 680.0, 44.0, 918.0, 369.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -12005,7 +12005,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 510.5, 169.0, 157.0, 18.0 ],
-									"text" : "/standby/gain -6 ramp 2000"
+									"text" : "/standby/gain -3 ramp 2000"
 								}
 
 							}
@@ -12565,7 +12565,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 124.0, 548.0, 92.0, 45.0 ],
-									"text" : "172 0.656519 0.362432 0. 0. 0."
+									"text" : "624 0.807568 0.492561 0. 0. 0."
 								}
 
 							}
@@ -14328,7 +14328,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 409.0, 276.0, 1093.0, 633.0 ],
+						"rect" : [ 29.0, 315.0, 1093.0, 633.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14707,7 +14707,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 739.0, 167.0, 589.0, 660.0 ],
+										"rect" : [ 491.0, 271.0, 589.0, 660.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -14848,8 +14848,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 446.0, 152.0, 77.0, 21.0 ],
-													"text" : "loadmess 5"
+													"patching_rect" : [ 446.0, 152.0, 84.0, 21.0 ],
+													"text" : "loadmess 20"
 												}
 
 											}
@@ -14862,8 +14862,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 202.0, 126.0, 124.0, 21.0 ],
-													"text" : "loadmess 1. 1 1 0.5"
+													"patching_rect" : [ 202.0, 126.0, 117.0, 21.0 ],
+													"text" : "loadmess 1. 1 1 1."
 												}
 
 											}
@@ -15551,7 +15551,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 722.5, 360.0, 50.0, 20.0 ]
+									"patching_rect" : [ 722.5, 342.5, 50.0, 20.0 ]
 								}
 
 							}
@@ -17148,6 +17148,10 @@
 			}
 , 			{
 				"name" : "jcom.delta.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "dmxusbpro.mxo",
 				"type" : "iLaX"
 			}
 , 			{
