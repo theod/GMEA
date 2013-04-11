@@ -639,27 +639,27 @@
    <script address="event">
     <command address="play">0</command>
     <script address="out.3">
-     <command address="gain">70.000000</command>
+     <command address="gain">95.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.4">
-     <command address="gain">70.000000</command>
+     <command address="gain">95.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.5">
-     <command address="gain">70.000000</command>
+     <command address="gain">95.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="mute">0</command>
-     <command address="gain">70.000000</command>
+     <command address="gain">95.000000</command>
     </script>
     <script address="out.2">
-     <command address="gain">70.000000</command>
+     <command address="gain">95.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.6">
-     <command address="gain">70.000000</command>
+     <command address="gain">95.000000</command>
      <command address="mute">0</command>
     </script>
    </script>
@@ -745,19 +745,19 @@
    </script>
    <!---->
    <script address="IR.3">
-    <command address="file">abbatiale-musicanova-IR4.wav</command>
+    <command address="file">abbatiale-musicanova-IR4-7eqa_01.wav</command>
    </script>
    <!---->
    <script address="IR.4">
-    <command address="file">abbatiale-musicanova-IR5.wav</command>
+    <command address="file">abbatiale-musicanova-IR5-7eqa_01.wav</command>
    </script>
    <!---->
    <script address="IR.1">
-    <command address="file">abbatiale-musicanova-IR1.wav</command>
+    <command address="file">abbatiale-musicanova-IR1-7eqa_01.wav</command>
    </script>
    <!---->
    <script address="IR.2">
-    <command address="file">abbatiale-musicanova-IR3.wav</command>
+    <command address="file">abbatiale-musicanova-IR3-7eqa_01.wav</command>
    </script>
    <!---->
    <script address="ortf">
@@ -780,15 +780,15 @@
    </script>
    <!---->
    <script address="IR.2">
-    <command address="file">refectoire-bela-IR2-02.wav</command>
+    <command address="file">refectoire-bela-IR2-7eqa_01-02.wav</command>
    </script>
    <!---->
    <script address="IR.1">
-    <command address="file">refectoire-bela-IR1-02.wav</command>
+    <command address="file">refectoire-bela-IR1-7eqa_01-02.wav</command>
    </script>
    <!---->
    <script address="IR.3">
-    <command address="file">refectoire-bela-IR3-02.wav</command>
+    <command address="file">refectoire-bela-IR3-7eqa_01-02.wav</command>
    </script>
    <!---->
    <script address="adk">
