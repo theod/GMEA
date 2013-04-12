@@ -143,7 +143,7 @@
    </script>
    <script address="bus">
     <script address="ir">
-     <command address="gain">-6</command>
+     <command address="gain">-5</command>
     </script>
     <script address="hexa">
      <command address="gain">-1</command>
@@ -192,6 +192,13 @@
    </script>
    <!---->
    <script address="dbam.sources">
+    <script address="sources">
+     <command address="number">12</command>
+    </script>
+    <script address="destination">
+     <command address="position">219 169</command>
+     <command address="spread">19</command>
+    </script>
     <script address="source.5">
      <command address="position">220.000000 143.000000</command>
      <command address="weight">2.000000</command>
@@ -225,12 +232,12 @@
      <command address="weight">2.000000</command>
     </script>
     <script address="source.2">
-     <command address="position">303.000000 167.000000</command>
-     <command address="weight">1.000000</command>
+     <command address="position">281.000000 173.000000</command>
+     <command address="weight">1.500000</command>
     </script>
     <script address="source.1">
-     <command address="position">151.000000 167.000000</command>
-     <command address="weight">1.000000</command>
+     <command address="position">173.000000 173.000000</command>
+     <command address="weight">1.500000</command>
     </script>
     <script address="source.9">
      <command address="position">190.000000 251.000000</command>
@@ -241,21 +248,17 @@
      <command address="weight">2.000000</command>
     </script>
     <command address="gain">1.000000</command>
-    <script address="sources">
-     <command address="number">12</command>
-    </script>
-    <script address="destination">
-     <command address="spread">15</command>
-     <command address="position">224 142</command>
-    </script>
     <command address="blur">0.001000</command>
     <command address="rolloff">8.000000</command>
     <command address="hull">0</command>
    </script>
    <!---->
    <script address="dbam.irs">
+    <script address="sources">
+     <command address="number">3</command>
+    </script>
     <script address="destination">
-     <command address="position">224 142</command>
+     <command address="position">219 169</command>
     </script>
     <command address="hull">0</command>
     <command address="rolloff">6</command>
@@ -272,9 +275,6 @@
     <script address="source.1">
      <command address="position">228.000000 251.000000</command>
      <command address="weight">1.000000</command>
-    </script>
-    <script address="sources">
-     <command address="number">3</command>
     </script>
    </script>
    <!---->
@@ -356,27 +356,27 @@
     <command address="play">0</command>
     <script address="out.6">
      <command address="mute">0</command>
-     <command address="gain">92.884460</command>
+     <command address="gain">82.132446</command>
     </script>
     <script address="out.2">
-     <command address="gain">92.884460</command>
+     <command address="gain">82.132446</command>
      <command address="mute">0</command>
     </script>
     <script address="out.5">
-     <command address="gain">92.884460</command>
+     <command address="gain">82.132446</command>
      <command address="mute">0</command>
     </script>
     <script address="out.4">
-     <command address="gain">92.884460</command>
+     <command address="gain">82.132446</command>
      <command address="mute">0</command>
     </script>
     <script address="out.3">
-     <command address="gain">92.884460</command>
+     <command address="gain">82.132446</command>
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="mute">0</command>
-     <command address="gain">92.884460</command>
+     <command address="gain">82.132446</command>
     </script>
    </script>
    <!---->
@@ -522,6 +522,13 @@
    </script>
    <!---->
    <script address="dbam.sources">
+    <script address="sources">
+     <command address="number">12</command>
+    </script>
+    <script address="destination">
+     <command address="position">197 212</command>
+     <command address="spread">21</command>
+    </script>
     <command address="gain">1.000000</command>
     <script address="source.6">
      <command address="position">205.000000 146.000000</command>
@@ -533,19 +540,19 @@
     </script>
     <script address="source.4">
      <command address="position">227.000000 148.000000</command>
-     <command address="weight">2.000000</command>
+     <command address="weight">1.000000</command>
     </script>
     <script address="source.3">
      <command address="position">165.000000 148.000000</command>
-     <command address="weight">2.000000</command>
+     <command address="weight">1.000000</command>
     </script>
     <script address="source.2">
-     <command address="position">270.000000 156.000000</command>
-     <command address="weight">1.000000</command>
+     <command address="position">292.000000 158.000000</command>
+     <command address="weight">1.500000</command>
     </script>
     <script address="source.1">
-     <command address="position">122.000000 156.000000</command>
-     <command address="weight">1.000000</command>
+     <command address="position">100.000000 158.000000</command>
+     <command address="weight">1.500000</command>
     </script>
     <script address="source.8">
      <command address="position">218.000000 323.000000</command>
@@ -571,19 +578,18 @@
      <command address="position">164.000000 425.000000</command>
      <command address="weight">2.000000</command>
     </script>
-    <script address="sources">
-     <command address="number">12</command>
-    </script>
     <command address="hull">0</command>
     <command address="rolloff">8.000000</command>
-    <script address="destination">
-     <command address="spread">22</command>
-     <command address="position">298 214</command>
-    </script>
     <command address="blur">0.001000</command>
    </script>
    <!---->
    <script address="dbam.irs">
+    <script address="sources">
+     <command address="number">4</command>
+    </script>
+    <script address="destination">
+     <command address="position">197 212</command>
+    </script>
     <script address="source.1">
      <command address="position">197.000000 324.000000</command>
      <command address="weight">1.000000</command>
@@ -600,13 +606,7 @@
      <command address="position">197.000000 424.000000</command>
      <command address="weight">1.000000</command>
     </script>
-    <script address="destination">
-     <command address="position">298 214</command>
-    </script>
     <command address="hull">0</command>
-    <script address="sources">
-     <command address="number">4</command>
-    </script>
     <command address="rolloff">6</command>
     <command address="gain">1.000000</command>
     <command address="blur">0.001000</command>
@@ -695,11 +695,11 @@
    <script address="km185">
     <command address="play">0</command>
     <script address="out.1">
-     <command address="gain">94.034210</command>
+     <command address="gain">89.518860</command>
      <command address="mute">0</command>
     </script>
     <script address="out.2">
-     <command address="gain">94.034210</command>
+     <command address="gain">89.518860</command>
      <command address="mute">0</command>
     </script>
    </script>
@@ -715,7 +715,7 @@
     </script>
    </script>
    <script address="balance">
-    <command address="hexa">0.971698</command>
+    <command address="hexa">0.018868</command>
    </script>
   </script>
  </cue>
