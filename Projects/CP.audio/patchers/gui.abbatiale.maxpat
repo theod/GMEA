@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1221.0, 756.0 ],
+		"rect" : [ 49.0, 285.0, 1592.0, 986.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -370,7 +370,7 @@
 					"patching_rect" : [ 322.0, 1076.0, 66.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 402.717529, 87.0, 17.0 ],
-					"text" : "-3.088228"
+					"text" : "-8.235277"
 				}
 
 			}
@@ -524,7 +524,7 @@
 					"patching_rect" : [ 343.0, 742.0, 50.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1082.0, 69.717529, 87.0, 17.0 ],
-					"text" : "-2.573524"
+					"text" : "-4.632346"
 				}
 
 			}
@@ -3859,7 +3859,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.0, 420.0, 50.0, 58.0 ],
-									"text" : "drawsprite ir.1 197. 324."
+									"text" : "drawsprite ir.2 197. 424."
 								}
 
 							}
@@ -5318,7 +5318,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.512329, 100.0, 50.0, 17.0 ],
-									"text" : "22"
+									"text" : "21"
 								}
 
 							}
@@ -6611,7 +6611,7 @@
 					"patching_rect" : [ 624.0, 513.0, 50.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 369.512329, 598.0, 50.0, 17.0 ],
-					"text" : "250 444"
+					"text" : "199 181"
 				}
 
 			}
@@ -7963,12 +7963,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 230.0, 420.0, 177.0, 18.0 ],
-									"text" : "drawsprite adk.R 218. 323."
+									"patching_rect" : [ 230.0, 420.0, 177.0, 31.0 ],
+									"text" : "drawsprite dpa4060.R 228. 425."
 								}
 
 							}
@@ -10590,9 +10591,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ],
 			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ],
-			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ],
-			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ]
+			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

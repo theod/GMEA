@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 7.0, 44.0, 1999.0, 599.0 ],
+		"rect" : [ -2.0, 632.0, 1999.0, 599.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -4510,7 +4510,7 @@
 					"patching_rect" : [ 592.0, 578.0, 50.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 581.25, 424.0, 50.0, 17.0 ],
-					"text" : "227 179"
+					"text" : "142 157"
 				}
 
 			}
@@ -11275,7 +11275,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.0, 420.0, 50.0, 72.0 ],
-									"text" : "drawsprite adk.R 288. 213."
+									"text" : "drawsprite km185.R 281. 173."
 								}
 
 							}
@@ -12940,7 +12940,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1339.0, 203.25, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1338.512329, 135.0, 411.0, 250.0 ]
+					"presentation_rect" : [ 1337.512329, 135.0, 411.0, 250.0 ]
 				}
 
 			}
@@ -14011,9 +14011,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ],
 			"obj-66::obj-9" : [ "aze", "Stéréo", 0 ],
-			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ],
-			"obj-66::obj-24" : [ "aze[1]", "Hexa", 0 ]
+			"obj-66::obj-25" : [ "aze[2]", "IRs", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
