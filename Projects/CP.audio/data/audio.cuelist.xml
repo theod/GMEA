@@ -705,13 +705,13 @@
    </script>
    <script address="bus">
     <script address="hexa">
-     <command address="gain">-4</command>
+     <command address="gain">-5</command>
     </script>
     <script address="stereo">
-     <command address="gain">-2.000000</command>
+     <command address="gain">-3.000000</command>
     </script>
     <script address="ir">
-     <command address="gain">-9</command>
+     <command address="gain">-10</command>
     </script>
    </script>
    <script address="balance">
