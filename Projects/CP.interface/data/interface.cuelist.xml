@@ -133,7 +133,7 @@
    <script address="pulse.refectoire">
     <command address="active">0</command>
     <command address="layer">1</command>
-    <command address="position">0.200000 -0.678936 0.000000</command>
+    <command address="position">-0.025000 -0.678936 0.000000</command>
     <command address="size">0.100000</command>
     <command address="pulse">10.000000</command>
     <command address="color">1.000000 0.000000 0.000000 1.000000</command>
@@ -262,7 +262,7 @@
     <script address="background">
      <command address="color">0.000000 0.000000 0.000000 1.000000</command>
     </script>
-    <command address="fps">30</command>
+    <command address="fps">15</command>
    </script>
    <!---->
    <script address="physics">
