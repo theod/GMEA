@@ -252,7 +252,7 @@
    <script address="camera">
     <command address="position">0.000000 0.000000 2.000000</command>
     <command address="lookat">0 0.100000 0</command>
-    <command address="angle">45.000000</command>
+    <command address="angle">90.000000</command>
     <command address="orientation">64</command>
    </script>
    <!---->

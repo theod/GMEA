@@ -2,8 +2,8 @@
 	"name" : "CP.interface",
 	"version" : 1,
 	"creationdate" : -847305661,
-	"modificationdate" : -846617386,
-	"viewrect" : [ 4.0, 44.0, 321.0, 830.0 ],
+	"modificationdate" : -886742198,
+	"viewrect" : [ 49.0, 44.0, 321.0, 830.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -76,17 +76,17 @@
 				"local" : 1
 			}
 ,
-			"jit.gl.slab.gauss6x.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"euclidean-distance.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"dmxusbpro.model.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jit.gl.slab.gauss6x.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -116,6 +116,11 @@
 				"local" : 1
 			}
 ,
+			"NoirlacTitre.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"bordureFlouEtCroix.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -133,6 +138,11 @@
 ,
 			"RdC-Abbaye-cleaned-fromPS.jpg" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"pulse.slim.mov" : 			{
+				"kind" : "moviefile",
 				"local" : 1
 			}
 
