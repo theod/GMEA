@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 465.0, 687.0, 298.0 ],
+		"rect" : [ 4.0, 465.0, 873.0, 298.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -68,8 +69,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 285.0, 269.0 ],
@@ -438,8 +440,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 392.0, 162.0 ],
@@ -465,69 +468,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-44",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 76.5, 179.0, 20.0 ],
-									"text" : "sprintf address /%s/output/done"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-45",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 16.0, 99.0, 78.0, 20.0 ],
-									"text" : "jcom.receive"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-38",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 202.0, 76.5, 176.0, 20.0 ],
-									"text" : "sprintf address /%s/output/start"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-41",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 16.0, 31.0, 136.0, 20.0 ],
-									"text" : "regexp / @substitute \" \""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-40",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 16.0, 8.0, 160.0, 20.0 ],
-									"text" : "jcom.receive model/address"
+									"patching_rect" : [ 16.0, 99.0, 183.0, 20.0 ],
+									"text" : "jcom.receive /kinect/output/done"
 								}
 
 							}
@@ -540,8 +487,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 202.0, 99.0, 78.0, 20.0 ],
-									"text" : "jcom.receive"
+									"patching_rect" : [ 202.0, 99.0, 179.0, 20.0 ],
+									"text" : "jcom.receive /kinect/output/start"
 								}
 
 							}
@@ -574,52 +521,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-37", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-40", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-38", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 25.5, 63.25, 211.5, 63.25 ],
-									"source" : [ "obj-41", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-44", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-41", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-45", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-44", 0 ]
 								}
 
 							}
@@ -756,7 +657,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/kinect/user.1"
+					"text" : "/guitou"
 				}
 
 			}

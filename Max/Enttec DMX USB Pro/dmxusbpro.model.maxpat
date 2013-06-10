@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 625.0, 44.0, 984.0, 872.0 ],
@@ -173,8 +174,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2.0, 29.0, 878.0, 20.0 ],
-					"text" : "jcom.model @type control @description \"send or receive DMX data through the DMX USB Pro Interface made by Enttec (http://www.enttec.com/dmxusb_pro.php)\""
+					"patching_rect" : [ 2.0, 29.0, 831.0, 20.0 ],
+					"text" : "jcom.model @description \"send or receive DMX data through the DMX USB Pro Interface made by Enttec (http://www.enttec.com/dmxusb_pro.php)\""
 				}
 
 			}

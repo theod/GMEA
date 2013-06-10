@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 101.0, 430.0, 1032.0, 447.0 ],
@@ -245,8 +246,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 35.0, 227.0, 33.0 ],
-					"text" : "jcom.model @type opengl @description \"an openGL window to render an scene\""
+					"patching_rect" : [ 7.0, 35.0, 209.0, 33.0 ],
+					"text" : "jcom.model @description \"an openGL window to render an scene\""
 				}
 
 			}
@@ -263,8 +264,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 848.0, 593.0, 688.0, 322.0 ],
@@ -680,8 +682,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 700.0, 434.0, 1420.0, 366.0 ],
@@ -1151,8 +1154,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 242.0, 478.0, 406.0, 289.0 ],
@@ -1564,7 +1568,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 412.0, 312.0, 225.0, 60.0 ],
+					"patching_rect" : [ 412.0, 312.0, 228.0, 60.0 ],
 					"text" : "jit.gl.render #0-glWindow @erase_color 0. 0. 0. 1. @depth_enable 0 @blend_enable 1 @ortho 0 @lighting_enable 0 @sync 1"
 				}
 
@@ -1817,63 +1821,6 @@
 					"source" : [ "obj-91", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.mouse.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.handler.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.physicsWorld.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.render.model.maxpat",
-				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
-				"patcherrelativepath" : "../renderComponents",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.preset.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
