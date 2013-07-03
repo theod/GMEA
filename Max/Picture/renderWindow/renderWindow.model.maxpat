@@ -246,7 +246,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 7.0, 35.0, 227.0, 33.0 ],
-					"text" : "j.model @type opengl @description \"an openGL window to render an scene\""
+					"text" : "j.model @description \"an openGL window to render an scene\""
 				}
 
 			}

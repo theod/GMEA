@@ -1706,7 +1706,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 30.0, 149.0, 20.0 ],
-					"text" : "j.model @type control"
+					"text" : "j.model"
 				}
 
 			}

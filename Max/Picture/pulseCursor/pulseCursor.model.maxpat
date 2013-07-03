@@ -507,7 +507,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.0, 35.0, 143.0, 43.0 ],
-					"text" : "j.model @type opengl @description \"a plane to display a picture\"",
+					"text" : "j.model @description \"a plane to display a picture\"",
 					"varname" : "j.hub"
 				}
 
