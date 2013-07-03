@@ -38,7 +38,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 411.0, 206.0, 212.0, 33.0 ],
-					"text" : "jcom.parameter invert @type boolean @description \"invert the mask\""
+					"text" : "j.parameter invert @type boolean @description \"invert the mask\""
 				}
 
 			}
@@ -129,7 +129,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 336.0, 288.0, 234.0, 33.0 ],
-					"text" : "jcom.parameter mask @type integerArray @description \"mask points\""
+					"text" : "j.parameter mask @type integerArray @description \"mask points\""
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 409.0, 136.0, 217.0, 33.0 ],
-					"text" : "jcom.message add @type none @description \"add a point to the mask\""
+					"text" : "j.message add @type none @description \"add a point to the mask\""
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 409.0, 67.0, 187.0, 33.0 ],
-					"text" : "jcom.message clear @type none @description \"clear the mask\""
+					"text" : "j.message clear @type none @description \"clear the mask\""
 				}
 
 			}
@@ -190,7 +190,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 78.0, 145.0, 149.0, 20.0 ],
-					"text" : "jcom.oscroute /view/panel"
+					"text" : "j.oscroute /view/panel"
 				}
 
 			}
@@ -755,7 +755,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 78.0, 123.0, 49.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -769,7 +769,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 123.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -819,7 +819,7 @@
 					"has_bypass" : 1,
 					"has_panel" : 1,
 					"id" : "obj-5",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1038,27 +1038,27 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.hub.mxo",
+				"name" : "j.hub.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.in.mxo",
+				"name" : "j.in.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
  ]

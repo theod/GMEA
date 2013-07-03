@@ -175,7 +175,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 399.0, 368.909088, 228.0, 19.0 ],
-					"text" : "jcom.remote shape.*/current/poly/vertices"
+					"text" : "j.remote shape.*/current/poly/vertices"
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 331.0, 197.0, 137.0, 19.0 ],
-					"text" : "jcom.remote current/link"
+					"text" : "j.remote current/link"
 				}
 
 			}
@@ -245,7 +245,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 243.0, 140.0, 138.0, 19.0 ],
-					"text" : "jcom.remote drag/enable"
+					"text" : "j.remote drag/enable"
 				}
 
 			}
@@ -315,7 +315,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 272.0, 161.0, 144.0, 19.0 ],
-					"text" : "jcom.remote drag/position"
+					"text" : "j.remote drag/position"
 				}
 
 			}
@@ -399,7 +399,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 133.0, 370.909088, 146.0, 19.0 ],
-					"text" : "jcom.remote current/angle"
+					"text" : "j.remote current/angle"
 				}
 
 			}
@@ -408,7 +408,7 @@
 					"args" : [  ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "jcom.colorSelector.maxpat",
+					"name" : "j.colorSelector.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -457,7 +457,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 44.0, 349.909088, 224.0, 19.0 ],
-					"text" : "jcom.remote shape.*/current/circle/radius"
+					"text" : "j.remote shape.*/current/circle/radius"
 				}
 
 			}
@@ -527,7 +527,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 10.0, 328.909088, 233.0, 19.0 ],
-					"text" : "jcom.remote shape.*/current/circle/position"
+					"text" : "j.remote shape.*/current/circle/position"
 				}
 
 			}
@@ -2681,7 +2681,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 145.0, 65.0, 282.0, 20.0 ],
-									"text" : "jcom.oscroute /ambient /diffuse /specular /emission"
+									"text" : "j.oscroute /ambient /diffuse /specular /emission"
 								}
 
 							}
@@ -2695,7 +2695,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 13.0, 35.0, 217.0, 20.0 ],
-									"text" : "jcom.oscroute /enable /shininess /color"
+									"text" : "j.oscroute /enable /shininess /color"
 								}
 
 							}
@@ -3116,7 +3116,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 485.0, 35.0, 239.0, 19.0 ],
-					"text" : "jcom.renderSubscriber"
+					"text" : "j.renderSubscriber"
 				}
 
 			}
@@ -3130,7 +3130,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 15.0, 160.0, 158.0, 19.0 ],
-					"text" : "jcom.remote current/position"
+					"text" : "j.remote current/position"
 				}
 
 			}
@@ -3144,7 +3144,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 454.0, 10.0, 111.0, 19.0 ],
-					"text" : "jcom.remote enable"
+					"text" : "j.remote enable"
 				}
 
 			}
@@ -3158,8 +3158,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 30.0, 61.0, 19.0 ],
-					"text" : "jcom.view",
-					"varname" : "jcom.hub"
+					"text" : "j.view",
+					"varname" : "j.hub"
 				}
 
 			}

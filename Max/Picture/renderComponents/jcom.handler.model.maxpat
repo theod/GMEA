@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 68.0, 9.0, 135.0, 20.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}
@@ -91,7 +91,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 246.0, 202.0, 60.0 ],
-					"text" : "jcom.return message @type generic @description \"all jit.gl.handle messages a render client have to observe to handled by the mouse\""
+					"text" : "j.return message @type generic @description \"all jit.gl.handle messages a render client have to observe to handled by the mouse\""
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 68.0, 44.0, 214.0, 31.0 ],
-					"text" : "jcom.message active @type boolean @description \"enable gl mouse handler\""
+					"text" : "j.message active @type boolean @description \"enable gl mouse handler\""
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 83.0, 80.0, 244.0, 31.0 ],
-					"text" : "jcom.message reset @type none @description \"reset the gl handler point of view\""
+					"text" : "j.message reset @type none @description \"reset the gl handler point of view\""
 				}
 
 			}
@@ -263,15 +263,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
  ]

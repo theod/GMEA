@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 81.0, 9.0, 135.0, 20.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}
@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.5, 440.0, 169.5, 43.0 ],
-					"text" : "jcom.return done @type none @description \"gl rendering is done\""
+					"text" : "j.return done @type none @description \"gl rendering is done\""
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 13.0, 97.0, 183.0, 60.0 ],
-					"text" : "jcom.return name @type string @description \"gl context render where to draw\" @repetitions/allow 0 @priority 1"
+					"text" : "j.return name @type string @description \"gl context render where to draw\" @repetitions/allow 0 @priority 1"
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 554.0, 217.0, 246.0, 67.0 ],
-					"text" : "jcom.parameter depth @type boolean @description \"turn on/off gl depth processing (needed for 3d space rendering but useless for 2d setting-up based on transparent pictures for example)\" @value/default 0 @priority 4"
+					"text" : "j.parameter depth @type boolean @description \"turn on/off gl depth processing (needed for 3d space rendering but useless for 2d setting-up based on transparent pictures for example)\" @value/default 0 @priority 4"
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 805.0, 97.0, 169.0, 47.0 ],
-					"text" : "jcom.parameter debug @type boolean @description \"turn on/off the debug mode\""
+					"text" : "j.parameter debug @type boolean @description \"turn on/off the debug mode\""
 				}
 
 			}
@@ -153,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 247.0, 440.0, 197.0, 47.0 ],
-					"text" : "jcom.return draw @type none @description \"draw bang that each render client have to observe\""
+					"text" : "j.return draw @type none @description \"draw bang that each render client have to observe\""
 				}
 
 			}
@@ -168,7 +168,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 534.0, 97.0, 219.0, 55.0 ],
-					"text" : "jcom.parameter background/color @type array @ramp/drive Max @description \"set the color of the form\" @ramp/function linear @repetitions/allow 0",
+					"text" : "j.parameter background/color @type array @ramp/drive Max @description \"set the color of the form\" @ramp/function linear @repetitions/allow 0",
 					"varname" : "deformB[5]"
 				}
 
@@ -184,7 +184,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 288.0, 143.0, 217.0, 55.0 ],
-					"text" : "jcom.parameter fps @type integer @value/default 25 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the rendering\""
+					"text" : "j.parameter fps @type integer @value/default 25 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the rendering\""
 				}
 
 			}
@@ -199,7 +199,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 223.0, 97.0, 208.0, 43.0 ],
-					"text" : "jcom.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 5"
+					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 5"
 				}
 
 			}
@@ -479,15 +479,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
  ]

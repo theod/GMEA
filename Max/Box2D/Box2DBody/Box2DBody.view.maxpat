@@ -405,7 +405,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 225.0, 375.0, 153.0, 20.0 ],
-									"text" : "jcom.remote drag/damping"
+									"text" : "j.remote drag/damping"
 								}
 
 							}
@@ -419,7 +419,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 225.0, 330.0, 190.0, 20.0 ],
-									"text" : "jcom.remote drag/force/frequency"
+									"text" : "j.remote drag/force/frequency"
 								}
 
 							}
@@ -433,7 +433,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 225.0, 285.0, 160.0, 20.0 ],
-									"text" : "jcom.remote drag/force/max"
+									"text" : "j.remote drag/force/max"
 								}
 
 							}
@@ -447,7 +447,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 25.0, 285.0, 144.0, 20.0 ],
-									"text" : "jcom.remote drag/anchor"
+									"text" : "j.remote drag/anchor"
 								}
 
 							}
@@ -482,7 +482,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 30.0, 225.0, 138.0, 19.0 ],
-									"text" : "jcom.remote drag/enable"
+									"text" : "j.remote drag/enable"
 								}
 
 							}
@@ -525,7 +525,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 225.0, 135.0, 131.0, 19.0 ],
-									"text" : "jcom.remote allowSleep"
+									"text" : "j.remote allowSleep"
 								}
 
 							}
@@ -568,7 +568,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 225.0, 90.0, 115.0, 19.0 ],
-									"text" : "jcom.remote isBullet"
+									"text" : "j.remote isBullet"
 								}
 
 							}
@@ -611,7 +611,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 225.0, 45.0, 132.0, 19.0 ],
-									"text" : "jcom.remote noRotation"
+									"text" : "j.remote noRotation"
 								}
 
 							}
@@ -673,7 +673,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 30.0, 165.0, 164.0, 19.0 ],
-									"text" : "jcom.remote damping/angular"
+									"text" : "j.remote damping/angular"
 								}
 
 							}
@@ -719,7 +719,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 30.0, 120.0, 154.0, 19.0 ],
-									"text" : "jcom.remote damping/linear"
+									"text" : "j.remote damping/linear"
 								}
 
 							}
@@ -765,7 +765,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 30.0, 45.0, 105.0, 19.0 ],
-									"text" : "jcom.remote angle"
+									"text" : "j.remote angle"
 								}
 
 							}
@@ -1141,7 +1141,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 370.0, 179.0, 117.0, 19.0 ],
-					"text" : "jcom.remote position"
+					"text" : "j.remote position"
 				}
 
 			}
@@ -1155,7 +1155,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 375.0, 105.0, 104.0, 19.0 ],
-					"text" : "jcom.remote mass"
+					"text" : "j.remote mass"
 				}
 
 			}
@@ -1169,7 +1169,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 260.0, 105.0, 111.0, 19.0 ],
-					"text" : "jcom.remote mobile"
+					"text" : "j.remote mobile"
 				}
 
 			}
@@ -1204,7 +1204,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 385.0, 35.0, 109.0, 19.0 ],
-					"text" : "jcom.remote debug"
+					"text" : "j.remote debug"
 				}
 
 			}
@@ -1239,7 +1239,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 260.0, 35.0, 111.0, 19.0 ],
-					"text" : "jcom.remote enable"
+					"text" : "j.remote enable"
 				}
 
 			}
@@ -1253,8 +1253,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 180.0, 61.0, 19.0 ],
-					"text" : "jcom.view",
-					"varname" : "jcom.hub"
+					"text" : "j.view",
+					"varname" : "j.hub"
 				}
 
 			}
@@ -1285,7 +1285,7 @@
 				"box" : 				{
 					"background" : 1,
 					"id" : "obj-4",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

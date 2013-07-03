@@ -485,7 +485,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 16.0, 99.0, 78.0, 20.0 ],
-									"text" : "jcom.receive"
+									"text" : "j.receive"
 								}
 
 							}
@@ -527,7 +527,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 16.0, 8.0, 160.0, 20.0 ],
-									"text" : "jcom.receive model/address"
+									"text" : "j.receive model/address"
 								}
 
 							}
@@ -541,7 +541,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 202.0, 99.0, 78.0, 20.0 ],
-									"text" : "jcom.receive"
+									"text" : "j.receive"
 								}
 
 							}
@@ -704,7 +704,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 578.0, 40.0, 94.0, 20.0 ],
-					"text" : "jcom.receive *.*"
+					"text" : "j.receive *.*"
 				}
 
 			}
@@ -741,7 +741,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 323.5, 40.0, 126.0, 20.0 ],
-					"text" : "jcom.view component"
+					"text" : "j.view component"
 				}
 
 			}
@@ -749,7 +749,7 @@
 				"box" : 				{
 					"background" : 1,
 					"id" : "obj-5",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

@@ -65,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 174.0, 151.0, 144.0, 19.0 ],
-					"text" : "jcom.oscroute /view/panel"
+					"text" : "j.oscroute /view/panel"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 120.0, 49.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 134.0, 245.0, 31.0 ],
-					"text" : "jcom.parameter render/enable @type boolean @description \"turn on/off gl rendering\""
+					"text" : "j.parameter render/enable @type boolean @description \"turn on/off gl rendering\""
 				}
 
 			}
@@ -214,7 +214,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 14.0, 266.0, 43.0 ],
-					"text" : "jcom.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/allow 0",
+					"text" : "j.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/allow 0",
 					"varname" : "deformC[1]"
 				}
 
@@ -240,7 +240,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 150.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -261,7 +261,7 @@
 					"background" : 1,
 					"has_preview" : 1,
 					"id" : "obj-69",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
