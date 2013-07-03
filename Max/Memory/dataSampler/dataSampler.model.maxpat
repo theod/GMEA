@@ -1106,7 +1106,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 3.0, 32.0, 756.0, 20.0 ],
-					"text" : "j.model @type control @description \"sample and playback any j.parameter or j.message value using MIDI precision sequencer\""
+					"text" : "j.model @description \"sample and playback any j.parameter or j.message value using MIDI precision sequencer\""
 				}
 
 			}

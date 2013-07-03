@@ -981,7 +981,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 11.0, 39.0, 426.0, 20.0 ],
-					"text" : "j.model @type opengl @description \"an openGL matrix to render a scene\""
+					"text" : "j.model @description \"an openGL matrix to render a scene\""
 				}
 
 			}

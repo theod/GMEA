@@ -174,7 +174,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 2.0, 29.0, 878.0, 20.0 ],
-					"text" : "j.model @type control @description \"send or receive DMX data through the DMX USB Pro Interface made by Enttec (http://www.enttec.com/dmxusb_pro.php)\""
+					"text" : "j.model @description \"send or receive DMX data through the DMX USB Pro Interface made by Enttec (http://www.enttec.com/dmxusb_pro.php)\""
 				}
 
 			}
