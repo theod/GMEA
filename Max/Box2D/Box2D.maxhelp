@@ -78,7 +78,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 601.0, 164.0, 147.0, 20.0 ],
-					"text" : "jcom.send /Box2DRender"
+					"text" : "j.send /Box2DRender"
 				}
 
 			}
@@ -257,7 +257,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 601.0, 82.0, 267.0, 20.0 ],
-					"text" : "jcom.oscroute mouse/click mouse/position/world"
+					"text" : "j.oscroute mouse/click mouse/position/world"
 				}
 
 			}

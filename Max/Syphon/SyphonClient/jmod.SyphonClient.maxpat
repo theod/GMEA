@@ -52,7 +52,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 423.5, 311.0, 278.0, 33.0 ],
-					"text" : "jcom.parameter server @type string @description \"name of the selected Syphon server\" @priority 3"
+					"text" : "j.parameter server @type string @description \"name of the selected Syphon server\" @priority 3"
 				}
 
 			}
@@ -67,7 +67,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 313.5, 352.0, 308.5, 33.0 ],
-					"text" : "jcom.parameter application @type string @description \"name of the selected Syphon application\" @priority 2"
+					"text" : "j.parameter application @type string @description \"name of the selected Syphon application\" @priority 2"
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 231.0, 392.0, 289.0, 33.0 ],
-					"text" : "jcom.message dimension @type integerArray @description \"the dimension of the Syphon texture\""
+					"text" : "j.message dimension @type integerArray @description \"the dimension of the Syphon texture\""
 				}
 
 			}
@@ -111,7 +111,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 18.0, 311.0, 255.0, 33.0 ],
-					"text" : "jcom.message refresh @type none @description \"refresh the Syphon servers list\""
+					"text" : "j.message refresh @type none @description \"refresh the Syphon servers list\""
 				}
 
 			}
@@ -229,7 +229,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 120.0, 49.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -307,7 +307,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 134.0, 245.0, 31.0 ],
-					"text" : "jcom.parameter render/enable @type boolean @description \"turn on/off gl rendering\""
+					"text" : "j.parameter render/enable @type boolean @description \"turn on/off gl rendering\""
 				}
 
 			}
@@ -364,7 +364,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 14.0, 266.0, 43.0 ],
-					"text" : "jcom.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/allow 0",
+					"text" : "j.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/allow 0",
 					"varname" : "deformC[1]"
 				}
 
@@ -390,7 +390,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 150.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -411,7 +411,7 @@
 					"background" : 1,
 					"has_preview" : 1,
 					"id" : "obj-69",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

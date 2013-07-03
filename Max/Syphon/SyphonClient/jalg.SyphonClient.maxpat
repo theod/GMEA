@@ -561,7 +561,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3.0, 56.0, 188.0, 20.0 ],
-					"text" : "jcom.oscroute /name /enable"
+					"text" : "j.oscroute /name /enable"
 				}
 
 			}
@@ -575,7 +575,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 3.0, 31.0, 949.0, 20.0 ],
-					"text" : "jcom.oscroute /render /preview /application /server /refresh"
+					"text" : "j.oscroute /render /preview /application /server /refresh"
 				}
 
 			}
