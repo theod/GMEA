@@ -607,7 +607,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 729.5, 172.0, 140.0, 55.0 ],
+					"patching_rect" : [ 729.5, 172.0, 144.0, 55.0 ],
 					"text" : "j.parameter alpha @type decimal @description \"set opacity\" @value/default 1."
 				}
 
@@ -650,7 +650,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 590.5, 172.0, 130.0, 55.0 ],
+					"patching_rect" : [ 590.5, 172.0, 132.0, 55.0 ],
 					"text" : "j.parameter layer @type integer @description \"select rendering order\""
 				}
 
@@ -791,8 +791,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 35.0, 124.0, 43.0 ],
-					"text" : "j.model @tag opengl @description \"a plane to display a picture\"",
+					"patching_rect" : [ 6.0, 35.0, 143.0, 43.0 ],
+					"text" : "j.model @description \"a plane to display a picture\"",
 					"varname" : "j.hub"
 				}
 

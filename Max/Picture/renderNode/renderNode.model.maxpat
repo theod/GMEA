@@ -242,7 +242,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.0, 39.0, 378.0, 20.0 ],
-					"text" : "j.model @type opengl @description \"an openGL rendering node\""
+					"text" : "j.model @description \"an openGL rendering node\""
 				}
 
 			}

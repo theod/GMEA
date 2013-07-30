@@ -4480,7 +4480,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 7.0, 35.0, 476.0, 20.0 ],
-					"text" : "j.model @type control @description \"a Box2D render to process physical modeling\""
+					"text" : "j.model @description \"a Box2D render to process physical modeling\""
 				}
 
 			}
