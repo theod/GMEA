@@ -136,7 +136,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 688.5, 146.181824, 148.0, 33.0 ],
-					"text" : "jcom.receive /renderMatrix/render/draw"
+					"text" : "j.receive /renderMatrix/render/draw"
 				}
 
 			}
@@ -220,7 +220,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 604.0, 26.181824, 148.0, 33.0 ],
-					"text" : "jcom.receive /renderMatrix/render/draw"
+					"text" : "j.receive /renderMatrix/render/draw"
 				}
 
 			}
@@ -288,7 +288,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 698.0, 368.590912, 163.0, 33.0 ],
-					"text" : "jcom.receive /renderWindow/render/draw"
+					"text" : "j.receive /renderWindow/render/draw"
 				}
 
 			}
@@ -686,14 +686,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.handler.model.maxpat",
+				"name" : "j.handler.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.render.model.maxpat",
+				"name" : "j.render.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
@@ -707,14 +707,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.mouse.model.maxpat",
+				"name" : "j.mouse.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.physicsWorld.model.maxpat",
+				"name" : "j.physicsWorld.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
@@ -728,78 +728,78 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.render.view.maxpat",
+				"name" : "j.render.view.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.handler.view.maxpat",
+				"name" : "j.handler.view.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.physicsWorld.view.maxpat",
+				"name" : "j.physicsWorld.view.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.mouse.view.maxpat",
+				"name" : "j.mouse.view.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.physicsBody.model.maxpat",
+				"name" : "j.physicsBody.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.out.mxo",
+				"name" : "j.out.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.in.mxo",
+				"name" : "j.in.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ]

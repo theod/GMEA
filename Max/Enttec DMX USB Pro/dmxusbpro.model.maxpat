@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 625.0, 44.0, 984.0, 872.0 ],
@@ -65,7 +66,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 328.0, 330.0, 264.0, 60.0 ],
-					"text" : "jcom.parameter channel.master @type integer @range/bounds 0 255 @range/clipmode both @value/default 255 @description \"set DMX master value (send mode only)\""
+					"text" : "j.parameter channel.master @type integer @range/bounds 0 255 @range/clipmode both @value/default 255 @description \"set DMX master value (send mode only)\""
 				}
 
 			}
@@ -94,7 +95,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 708.5, 802.5, 158.0, 47.0 ],
-					"text" : "jcom.return device/list @type array @description \"the list of available device\""
+					"text" : "j.return device/list @type array @description \"the list of available device\""
 				}
 
 			}
@@ -173,8 +174,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2.0, 29.0, 878.0, 20.0 ],
-					"text" : "jcom.model @type control @description \"send or receive DMX data through the DMX USB Pro Interface made by Enttec (http://www.enttec.com/dmxusb_pro.php)\""
+					"patching_rect" : [ 2.0, 29.0, 955.0, 20.0 ],
+					"text" : "j.model @tag control @description \"send or receive DMX data through the DMX USB Pro Interface made by Enttec (http://www.enttec.com/dmxusb_pro.php)\""
 				}
 
 			}
@@ -189,7 +190,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 362.5, 770.5, 169.0, 60.0 ],
-					"text" : "jcom.return device/connected @type boolean @description \"connection status of the selected device\""
+					"text" : "j.return device/connected @type boolean @description \"connection status of the selected device\""
 				}
 
 			}
@@ -204,7 +205,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 602.0, 484.0, 244.0, 60.0 ],
-					"text" : "jcom.return channel.raw @type array @description \"raw received DMX data <startcode channel value> (receive mode only)\""
+					"text" : "j.return channel.raw @type array @description \"raw received DMX data <startcode channel value> (receive mode only)\""
 				}
 
 			}
@@ -261,7 +262,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 386.5, 607.0, 225.0, 47.0 ],
-					"text" : "jcom.parameter device @type string @value/default none @repetitions/allow 0 @description \"the device to open\""
+					"text" : "j.parameter device @type string @value/default none @repetitions/allow 0 @description \"the device to open\""
 				}
 
 			}
@@ -404,7 +405,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 602.0, 330.0, 244.0, 47.0 ],
-					"text" : "jcom.returnArray channel.[0] @type integer @range/bounds 0 255 @range/clipmode both @description \"received DMX value\""
+					"text" : "j.returnArray channel.[0] @type integer @range/bounds 0 255 @range/clipmode both @description \"received DMX value\""
 				}
 
 			}
@@ -447,7 +448,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 612.5, 607.0, 171.0, 47.0 ],
-					"text" : "jcom.message device/refresh @type none @description \"update device list\""
+					"text" : "j.message device/refresh @type none @description \"update device list\""
 				}
 
 			}
@@ -532,7 +533,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 785.0, 607.0, 176.0, 47.0 ],
-					"text" : "jcom.message device/info @type none @description \"print info into the Max console\""
+					"text" : "j.message device/info @type none @description \"print info into the Max console\""
 				}
 
 			}
@@ -589,7 +590,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.5, 598.0, 234.0, 47.0 ],
-					"text" : "jcom.parameter blackout @type boolean @description \"set all DMX channels temporarily to zero (send mode only)\""
+					"text" : "j.parameter blackout @type boolean @description \"set all DMX channels temporarily to zero (send mode only)\""
 				}
 
 			}
@@ -632,7 +633,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.5, 484.0, 234.0, 60.0 ],
-					"text" : "jcom.parameter channel.all @type integer @range/bounds 0 255 @range/clipmode both @description \"send DMX value to all channel (send mode only)\""
+					"text" : "j.parameter channel.all @type integer @range/bounds 0 255 @range/clipmode both @description \"send DMX value to all channel (send mode only)\""
 				}
 
 			}
@@ -647,7 +648,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 744.0, 58.0, 199.0, 87.0 ],
-					"text" : "jcom.parameter rate @type integer @range/bounds 1 44 @range/clipmode both @value/default 40 @repetitions/allow 0 @description \"set DMX refresh rate\" @priority 3"
+					"text" : "j.parameter rate @type integer @range/bounds 1 44 @range/clipmode both @value/default 40 @repetitions/allow 0 @description \"set DMX refresh rate\" @priority 3"
 				}
 
 			}
@@ -676,7 +677,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 515.0, 58.0, 228.0, 60.0 ],
-					"text" : "jcom.parameter startcode @type integer @range/bounds 0 512 @range/clipmode both @repetitions/allow 0 @description \"set start code\" @priority 3"
+					"text" : "j.parameter startcode @type integer @range/bounds 0 512 @range/clipmode both @repetitions/allow 0 @description \"set start code\" @priority 3"
 				}
 
 			}
@@ -817,7 +818,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.5, 58.0, 223.0, 74.0 ],
-					"text" : "jcom.parameter mode @type string @range/bounds send receive @value/default send @repetitions/allow 0 @description \"set the DMX interface in send or in receive mode\" @priority 2"
+					"text" : "j.parameter mode @type string @range/bounds send receive @value/default send @repetitions/allow 0 @description \"set the DMX interface in send or in receive mode\" @priority 2"
 				}
 
 			}
@@ -832,7 +833,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 51.5, 330.0, 267.0, 47.0 ],
-					"text" : "jcom.parameterArray channel.[0] @type integer @range/bounds 0 255 @range/clipmode both @description \"send DMX value\""
+					"text" : "j.parameterArray channel.[0] @type integer @range/bounds 0 255 @range/clipmode both @description \"send DMX value\""
 				}
 
 			}
@@ -875,7 +876,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 274.0, 58.0, 240.0, 74.0 ],
-					"text" : "jcom.parameter number @type integer @range/bounds 0 512 @range/clipmode both @value/default 0 @repetitions/allow 0 @description \"set number of DMX channel to use\" @priority 3"
+					"text" : "j.parameter number @type integer @range/bounds 0 512 @range/clipmode both @value/default 0 @repetitions/allow 0 @description \"set number of DMX channel to use\" @priority 3"
 				}
 
 			}

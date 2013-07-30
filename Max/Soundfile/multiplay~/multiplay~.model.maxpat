@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1009.0, 99.0, 152.0, 47.0 ],
-					"text" : "jcom.return end @type none @description \"notify the end of the playback\""
+					"text" : "j.return end @type none @description \"notify the end of the playback\""
 				}
 
 			}
@@ -474,7 +474,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 694.0, 27.5, 215.0, 33.0 ],
-					"text" : "jcom.parameter pause @type boolean @description \"pause the playback\""
+					"text" : "j.parameter pause @type boolean @description \"pause the playback\""
 				}
 
 			}
@@ -791,7 +791,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 913.0, 27.5, 199.0, 33.0 ],
-					"text" : "jcom.message loop @type boolean @description \"turn loopin on off\""
+					"text" : "j.message loop @type boolean @description \"turn loopin on off\""
 				}
 
 			}
@@ -1452,7 +1452,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 484.0, 27.5, 199.0, 33.0 ],
-					"text" : "jcom.message play @type boolean @description \"turn playing on off\""
+					"text" : "j.message play @type boolean @description \"turn playing on off\""
 				}
 
 			}
@@ -1970,7 +1970,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 328.0, 286.0, 120.96666, 33.0 ],
-									"text" : "building all sfplay, receive and jcom.out"
+									"text" : "building all sfplay, receive and j.out"
 								}
 
 							}
@@ -2190,7 +2190,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 308.166656, 201.0, 227.800003, 47.0 ],
-									"text" : "sprintf \\\"jcom.out~ %s\\\" _out_%ld_ sfplay~ _player_%ld_ \\\"r \\#0-%s\\\" _receive_%d_"
+									"text" : "sprintf \\\"j.out~ %s\\\" _out_%ld_ sfplay~ _player_%ld_ \\\"r \\#0-%s\\\" _receive_%d_"
 								}
 
 							}
@@ -2592,7 +2592,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 49.0, 194.0, 257.0, 33.0 ],
-					"text" : "jcom.return channels @type generic @description \"the id or the name of channels\""
+					"text" : "j.return channels @type generic @description \"the id or the name of channels\""
 				}
 
 			}
@@ -2607,7 +2607,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 218.0, 27.5, 259.0, 47.0 ],
-					"text" : "jcom.parameter folder @type string @description \"the folder path where to record mono soundfiles for each channel\" @priority 1"
+					"text" : "j.parameter folder @type string @description \"the folder path where to record mono soundfiles for each channel\" @priority 1"
 				}
 
 			}
@@ -2644,7 +2644,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 41.0, 72.0, 20.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -2845,19 +2845,19 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
  ]

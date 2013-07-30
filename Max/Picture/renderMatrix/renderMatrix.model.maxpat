@@ -65,7 +65,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.0, 203.0, 109.0, 20.0 ],
-					"text" : "jcom.render.model"
+					"text" : "j.render.model"
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 96.75, 95.0, 160.0, 20.0 ],
-					"text" : "jcom.receive model/address"
+					"text" : "j.receive model/address"
 				}
 
 			}
@@ -197,7 +197,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 231.0, 55.0 ],
-									"text" : "jcom.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree"
+									"text" : "j.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree"
 								}
 
 							}
@@ -251,7 +251,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 110.25, 203.0, 115.0, 20.0 ],
-					"text" : "jcom.handler.model"
+					"text" : "j.handler.model"
 				}
 
 			}
@@ -302,7 +302,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 101.0, 111.0, 314.0, 67.0 ],
-									"text" : "jcom.parameter camera/angle @type decimal @range/bounds 0. 180. @value/default 45. @range/clipmode both @description \"set the lens angle of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/angle @type decimal @range/bounds 0. 180. @value/default 45. @range/clipmode both @description \"set the lens angle of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -317,7 +317,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 72.0, 62.0, 311.0, 43.0 ],
-									"text" : "jcom.parameter camera/lookat @type array @description \"where  the gl camera lookat\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/lookat @type array @description \"where  the gl camera lookat\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -332,7 +332,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 10.0, 362.0, 43.0 ],
-									"text" : "jcom.parameter camera/position @type array @value/default 0. 0. 2. @description \"position of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/position @type array @value/default 0. 0. 2. @description \"position of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -514,7 +514,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 859.5, 102.0, 149.0, 20.0 ],
-									"text" : "jcom.receive render/name"
+									"text" : "j.receive render/name"
 								}
 
 							}
@@ -528,7 +528,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1008.5, 102.0, 173.0, 20.0 ],
-									"text" : "jcom.receive handler/message"
+									"text" : "j.receive handler/message"
 								}
 
 							}
@@ -542,7 +542,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1181.5, 102.0, 153.0, 20.0 ],
-									"text" : "jcom.receive render/debug"
+									"text" : "j.receive render/debug"
 								}
 
 							}
@@ -557,7 +557,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 245.0, 8.0, 229.0, 55.0 ],
-									"text" : "jcom.parameter light/color/diffuse @type array @ramp/drive Max @description \"set the color of the diffuse light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/diffuse @type array @ramp/drive Max @description \"set the color of the diffuse light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[7]"
 								}
 
@@ -573,7 +573,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 478.0, 8.0, 233.0, 55.0 ],
-									"text" : "jcom.parameter light/color/specular @type array @ramp/drive Max @description \"set the color of the specular light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/specular @type array @ramp/drive Max @description \"set the color of the specular light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[6]"
 								}
 
@@ -589,7 +589,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 7.0, 8.0, 231.0, 55.0 ],
-									"text" : "jcom.parameter light/color/ambient @type array @ramp/drive Max @description \"set the color of the ambiant light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/ambient @type array @ramp/drive Max @description \"set the color of the ambiant light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[8]"
 								}
 
@@ -605,7 +605,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 736.0, 8.0, 240.0, 55.0 ],
-									"text" : "jcom.parameter light/position @type array @value/default 1. 1. 1. @range/bounds 0. 1. @range/clipmode none @description \"set the position of the light\""
+									"text" : "j.parameter light/position @type array @value/default 1. 1. 1. @range/bounds 0. 1. @range/clipmode none @description \"set the position of the light\""
 								}
 
 							}
@@ -927,7 +927,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 555.0, 359.0, 92.0, 20.0 ],
-					"text" : "jcom.out matrix"
+					"text" : "j.out matrix"
 				}
 
 			}
@@ -956,7 +956,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 459.0, 39.0, 74.0, 20.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -981,7 +981,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 11.0, 39.0, 426.0, 20.0 ],
-					"text" : "jcom.model @type opengl @description \"an openGL matrix to render a scene\""
+					"text" : "j.model @type opengl @description \"an openGL matrix to render a scene\""
 				}
 
 			}
@@ -1192,45 +1192,45 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.handler.model.maxpat",
+				"name" : "j.handler.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.render.model.maxpat",
+				"name" : "j.render.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.out.mxo",
+				"name" : "j.out.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
  ]

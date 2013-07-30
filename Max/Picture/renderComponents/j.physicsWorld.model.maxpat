@@ -266,7 +266,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1331.5, 238.0, 494.0, 33.0 ],
-					"text" : "jcom.parameter dimensions @type integer @value/default 2 @description \"set the number of dimensions of the world\""
+					"text" : "j.parameter dimensions @type integer @value/default 2 @description \"set the number of dimensions of the world\""
 				}
 
 			}
@@ -295,7 +295,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1331.5, 134.5, 253.0, 60.0 ],
-					"text" : "jcom.parameter picker/stretch @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0. @description \"set picker dragging stretch\""
+					"text" : "j.parameter picker/stretch @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0. @description \"set picker dragging stretch\""
 				}
 
 			}
@@ -324,7 +324,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1057.5, 134.5, 265.0, 60.0 ],
-					"text" : "jcom.parameter picker/strength @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0.2 @description \"set picker dragging strength\""
+					"text" : "j.parameter picker/strength @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0.2 @description \"set picker dragging strength\""
 				}
 
 			}
@@ -394,7 +394,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 517.0, 65.0, 20.0 ],
-					"text" : "jcom.send"
+					"text" : "j.send"
 				}
 
 			}
@@ -438,7 +438,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 39.5, 238.0, 161.0, 43.0 ],
-					"text" : "jcom.parameter picker/active @type boolean @description \"turn on/off physics picker\""
+					"text" : "j.parameter picker/active @type boolean @description \"turn on/off physics picker\""
 				}
 
 			}
@@ -467,7 +467,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 331.5, 238.0, 162.0, 43.0 ],
-					"text" : "jcom.parameter debug @type boolean @description \"turn on/off physics debugging\""
+					"text" : "j.parameter debug @type boolean @description \"turn on/off physics debugging\""
 				}
 
 			}
@@ -481,7 +481,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 48.5, 17.5, 135.0, 20.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}
@@ -536,7 +536,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 786.5, 134.5, 260.0, 60.0 ],
-					"text" : "jcom.parameter picker/mode @type string @range/bounds center surface @value/default center @description \"set mouse or touch dragging from center or object surface\""
+					"text" : "j.parameter picker/mode @type string @range/bounds center surface @value/default center @description \"set mouse or touch dragging from center or object surface\""
 				}
 
 			}
@@ -565,7 +565,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1041.5, 238.0, 232.0, 47.0 ],
-					"text" : "jcom.parameter collisions @type boolean @value/default 0 @description \"enable collisions for the render\""
+					"text" : "j.parameter collisions @type boolean @value/default 0 @description \"enable collisions for the render\""
 				}
 
 			}
@@ -594,7 +594,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 786.5, 238.0, 250.0, 47.0 ],
-					"text" : "jcom.parameter box @type array @value/default 5. 5. 5. @description \"set the size of the physics box for the render\""
+					"text" : "j.parameter box @type array @value/default 5. 5. 5. @description \"set the size of the physics box for the render\""
 				}
 
 			}
@@ -623,7 +623,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 516.5, 238.0, 249.0, 47.0 ],
-					"text" : "jcom.parameter gravity @type array @value/default 0. 0. 0. @description \"set the gravition of the physics for the render\""
+					"text" : "j.parameter gravity @type array @value/default 0. 0. 0. @description \"set the gravition of the physics for the render\""
 				}
 
 			}
@@ -638,7 +638,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 516.5, 134.5, 245.0, 60.0 ],
-					"text" : "jcom.message picker/touch @type generic @description \"send multi-touch point instead of using mouse for dragging (index down screen-x screen-y)\""
+					"text" : "j.message picker/touch @type generic @description \"send multi-touch point instead of using mouse for dragging (index down screen-x screen-y)\""
 				}
 
 			}
@@ -681,7 +681,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 516.5, 17.5, 155.0, 55.0 ],
-					"text" : "jcom.parameter active @type boolean @description \"turn on/off physics processing\" @priority 5"
+					"text" : "j.parameter active @type boolean @description \"turn on/off physics processing\" @priority 5"
 				}
 
 			}

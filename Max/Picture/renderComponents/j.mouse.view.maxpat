@@ -84,7 +84,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 56.0, 120.0, 19.0 ],
-					"text" : "jcom.message mouse"
+					"text" : "j.message mouse"
 				}
 
 			}
@@ -140,7 +140,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 170.0, 56.0, 151.0, 19.0 ],
-					"text" : "jcom.receive model/address"
+					"text" : "j.receive model/address"
 				}
 
 			}

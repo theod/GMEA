@@ -1106,7 +1106,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 3.0, 32.0, 756.0, 20.0 ],
-					"text" : "jcom.model @type control @description \"sample and playback any jcom.parameter or jcom.message value using MIDI precision sequencer\""
+					"text" : "j.model @type control @description \"sample and playback any j.parameter or j.message value using MIDI precision sequencer\""
 				}
 
 			}
@@ -1164,7 +1164,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 575.0, 413.0, 235.0, 47.0 ],
-					"text" : "jcom.parameter speed @type decimal @range/bounds 0. 2. @value/default 1. @description \"playback speed\" @priority 2"
+					"text" : "j.parameter speed @type decimal @range/bounds 0. 2. @value/default 1. @description \"playback speed\" @priority 2"
 				}
 
 			}
@@ -1193,7 +1193,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1141.0, 158.5, 143.0, 60.0 ],
-					"text" : "jcom.parameter file/save @type none @description \"save the sample file again\""
+					"text" : "j.parameter file/save @type none @description \"save the sample file again\""
 				}
 
 			}
@@ -1292,7 +1292,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 974.0, 158.5, 156.0, 60.0 ],
-					"text" : "jcom.parameter file/saveas @type none @description \"open a dialog to save a sample file as\""
+					"text" : "j.parameter file/saveas @type none @description \"open a dialog to save a sample file as\""
 				}
 
 			}
@@ -1321,7 +1321,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 814.0, 158.5, 151.0, 60.0 ],
-					"text" : "jcom.parameter file/load @type none @description \"open a dialog to find a sample file\""
+					"text" : "j.parameter file/load @type none @description \"open a dialog to find a sample file\""
 				}
 
 			}
@@ -1336,7 +1336,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1039.0, 287.0, 244.0, 47.0 ],
-					"text" : "jcom.parameter file/path @type string @description \"the file path where the sample writes to or reads from\" @priority 1"
+					"text" : "j.parameter file/path @type string @description \"the file path where the sample writes to or reads from\" @priority 1"
 				}
 
 			}
@@ -1351,7 +1351,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 661.0, 214.0, 132.0, 60.0 ],
-					"text" : "jcom.parameter loop @type boolean @description \"loop the sample\" @priority 2"
+					"text" : "j.parameter loop @type boolean @description \"loop the sample\" @priority 2"
 				}
 
 			}
@@ -1408,7 +1408,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 630.0, 112.333344, 47.0 ],
-					"text" : "jcom.map @input/min 0 @input/max 16383"
+					"text" : "j.map @input/min 0 @input/max 16383"
 				}
 
 			}
@@ -1423,7 +1423,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 96.0, 160.0, 226.0, 47.0 ],
-					"text" : "jcom.parameter data/address @type string @description \"the parameter or message address to sample\" @priority 1"
+					"text" : "j.parameter data/address @type string @description \"the parameter or message address to sample\" @priority 1"
 				}
 
 			}
@@ -1452,7 +1452,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 246.0, 126.666687, 47.0 ],
-					"text" : "jcom.map @output/min 0 @output/max 16383"
+					"text" : "j.map @output/min 0 @output/max 16383"
 				}
 
 			}
@@ -1523,7 +1523,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 500.0, 214.0, 127.416687, 60.0 ],
-					"text" : "jcom.parameter play @type boolean @description \"play the sample\""
+					"text" : "j.parameter play @type boolean @description \"play the sample\""
 				}
 
 			}
@@ -1538,7 +1538,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 403.0, 96.0, 134.583313, 60.0 ],
-					"text" : "jcom.parameter record @type boolean @description \"record a sample\""
+					"text" : "j.parameter record @type boolean @description \"record a sample\""
 				}
 
 			}

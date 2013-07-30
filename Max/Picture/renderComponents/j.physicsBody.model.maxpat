@@ -102,7 +102,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 89.0, 432.5, 238.0, 47.0 ],
-									"text" : "jcom.parameter damping/angular @type decimal @range/bounds 0. 1. @value/default 1."
+									"text" : "j.parameter damping/angular @type decimal @range/bounds 0. 1. @value/default 1."
 								}
 
 							}
@@ -131,7 +131,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 381.5, 222.0, 47.0 ],
-									"text" : "jcom.parameter damping/linear @type decimal @range/bounds 0. 1. @value/default 1."
+									"text" : "j.parameter damping/linear @type decimal @range/bounds 0. 1. @value/default 1."
 								}
 
 							}
@@ -160,7 +160,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 194.5, 206.0, 47.0 ],
-									"text" : "jcom.parameter kinematic @type boolean @range/bounds 0 1 @value/default 0"
+									"text" : "j.parameter kinematic @type boolean @range/bounds 0 1 @value/default 0"
 								}
 
 							}
@@ -189,7 +189,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 92.0, 135.0, 60.0 ],
-									"text" : "jcom.parameter active @type boolean @range/bounds 0 1 @value/default 1"
+									"text" : "j.parameter active @type boolean @range/bounds 0 1 @value/default 1"
 								}
 
 							}
@@ -218,7 +218,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 281.5, 161.0, 60.0 ],
-									"text" : "jcom.parameter mass @type decimal @range/bounds 0. 1. @value/default 1."
+									"text" : "j.parameter mass @type decimal @range/bounds 0. 1. @value/default 1."
 								}
 
 							}
@@ -447,7 +447,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 456.0, 132.0, 114.0, 19.0 ],
-					"text" : "jcom.message touch"
+					"text" : "j.message touch"
 				}
 
 			}
@@ -475,7 +475,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 271.0, 45.0, 151.0, 19.0 ],
-					"text" : "jcom.receive model/address"
+					"text" : "j.receive model/address"
 				}
 
 			}
@@ -692,7 +692,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 456.0, 45.0, 135.0, 20.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}
@@ -972,19 +972,19 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
  ]

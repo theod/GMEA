@@ -53,7 +53,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 28.0, 566.0, 209.0, 20.0 ],
-					"text" : "jcom.message debug @type boolean"
+					"text" : "j.message debug @type boolean"
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 171.0, 207.0, 149.0, 20.0 ],
-					"text" : "jcom.oscroute /view/panel"
+					"text" : "j.oscroute /view/panel"
 				}
 
 			}
@@ -148,7 +148,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 536.0, 553.0, 326.0, 20.0 ],
-					"text" : "jcom.parameter port/io @type boolean @repetitions/allow 1"
+					"text" : "j.parameter port/io @type boolean @repetitions/allow 1"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 538.0, 605.0, 362.0, 20.0 ],
-					"text" : "jcom.message port/refresh @type none @repetitions/allow 1"
+					"text" : "j.message port/refresh @type none @repetitions/allow 1"
 				}
 
 			}
@@ -665,7 +665,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 536.0, 502.0, 313.0, 20.0 ],
-					"text" : "jcom.parameter port @type integer @repetitions/allow 1"
+					"text" : "j.parameter port @type integer @repetitions/allow 1"
 				}
 
 			}
@@ -724,7 +724,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 535.0, 262.0, 396.0, 20.0 ],
-					"text" : "jcom.return breakpoints/preset/load @type array @repetitions/allow 1"
+					"text" : "j.return breakpoints/preset/load @type array @repetitions/allow 1"
 				}
 
 			}
@@ -766,7 +766,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 538.0, 152.0, 390.0, 20.0 ],
-					"text" : "jcom.parameter project_folder @type string @repetitions/allow 1"
+					"text" : "j.parameter project_folder @type string @repetitions/allow 1"
 				}
 
 			}
@@ -836,7 +836,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.0, 262.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -859,7 +859,7 @@
 					"has_panel" : 1,
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-46",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -895,7 +895,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 68.0, 166.0, 49.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -1070,7 +1070,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 488.0, 108.0, 145.0, 20.0 ],
-									"text" : "jcom.oscroute /refresh /io"
+									"text" : "j.oscroute /refresh /io"
 								}
 
 							}
@@ -1776,7 +1776,7 @@
 									"numoutlets" : 10,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 15.0, 45.0, 627.0, 20.0 ],
-									"text" : "jcom.oscroute /mode /writeEEPROM /readEEPROM /clearEEPROM /preset /period /toArduino /port /debug"
+									"text" : "j.oscroute /mode /writeEEPROM /readEEPROM /clearEEPROM /preset /period /toArduino /port /debug"
 								}
 
 							}
@@ -5213,7 +5213,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 68.0, 336.0, 300.0, 34.0 ],
-					"text" : "jcom.return fromArduino @type array @description \"retour de l'arduino\" @repetitions/allow 1"
+					"text" : "j.return fromArduino @type array @description \"retour de l'arduino\" @repetitions/allow 1"
 				}
 
 			}
@@ -5279,7 +5279,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 536.0, 420.0, 398.0, 20.0 ],
-					"text" : "jcom.return breakpoints/preset/save @type array @repetitions/allow 1"
+					"text" : "j.return breakpoints/preset/save @type array @repetitions/allow 1"
 				}
 
 			}
@@ -5317,7 +5317,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 29.0, 494.0, 205.0, 20.0 ],
-					"text" : "jcom.message mode @type boolean"
+					"text" : "j.message mode @type boolean"
 				}
 
 			}
@@ -5392,7 +5392,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 309.0, 93.0, 213.0, 34.0 ],
-									"text" : "jcom.message preset @type integer @repetitions/allow 1"
+									"text" : "j.message preset @type integer @repetitions/allow 1"
 								}
 
 							}
@@ -5422,7 +5422,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 26.0, 135.0, 267.0, 20.0 ],
-									"text" : "jcom.message clearEEPROM @type none"
+									"text" : "j.message clearEEPROM @type none"
 								}
 
 							}
@@ -5436,7 +5436,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 26.0, 64.0, 265.0, 20.0 ],
-									"text" : "jcom.message readEEPROM @type none"
+									"text" : "j.message readEEPROM @type none"
 								}
 
 							}
@@ -5482,7 +5482,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 309.0, 65.0, 253.0, 20.0 ],
-									"text" : "jcom.message writeEEPROM @type boolean"
+									"text" : "j.message writeEEPROM @type boolean"
 								}
 
 							}
@@ -5561,7 +5561,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 308.0, 195.0, 216.0, 34.0 ],
-									"text" : "jcom.parameter period @type integer @repetitions/allow 1"
+									"text" : "j.parameter period @type integer @repetitions/allow 1"
 								}
 
 							}
@@ -5667,7 +5667,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 69.0, 373.0, 298.0, 48.0 ],
-					"text" : "jcom.message toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/allow 1"
+					"text" : "j.message toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/allow 1"
 				}
 
 			}

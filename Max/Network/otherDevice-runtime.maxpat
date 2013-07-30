@@ -75,7 +75,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 24.0, 260.0, 145.0, 20.0 ],
-					"text" : "jcom.receive /:activity/out"
+					"text" : "j.receive /:activity/out"
 				}
 
 			}
@@ -102,7 +102,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 24.0, 203.0, 137.0, 20.0 ],
-					"text" : "jcom.receive /:activity/in"
+					"text" : "j.receive /:activity/in"
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 191.0, 144.0, 168.0, 20.0 ],
-					"text" : "jcom.receive myApp:/myFloat"
+					"text" : "j.receive myApp:/myFloat"
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 191.0, 113.0, 155.0, 20.0 ],
-					"text" : "jcom.send myApp:/myFloat"
+					"text" : "j.send myApp:/myFloat"
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 24.0, 121.0, 140.0, 20.0 ],
-					"text" : "jcom.parameter myFloat"
+					"text" : "j.parameter myFloat"
 				}
 
 			}
@@ -213,7 +213,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 47.0, 218.0, 20.0 ],
-					"text" : "jcom.device myNetwork myOtherApp 1"
+					"text" : "j.device myNetwork myOtherApp 1"
 				}
 
 			}
@@ -293,7 +293,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.device.maxpat",
+				"name" : "j.device.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Network",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
@@ -304,19 +304,19 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.modular.mxo",
+				"name" : "j.modular.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ]

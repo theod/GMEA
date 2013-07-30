@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1273.125, 206.0, 124.0, 60.0 ],
-					"text" : "jcom.return foot.right @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return foot.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -52,7 +52,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1199.25, 138.0, 124.0, 60.0 ],
-					"text" : "jcom.return foot.left @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return foot.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -67,7 +67,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1125.375, 206.0, 128.0, 60.0 ],
-					"text" : "jcom.return knee.right @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return knee.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1051.5, 138.0, 124.0, 60.0 ],
-					"text" : "jcom.return knee.left @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return knee.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -97,7 +97,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 977.625, 206.0, 124.0, 60.0 ],
-					"text" : "jcom.return hip.right @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return hip.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -112,7 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 903.75, 138.0, 124.0, 60.0 ],
-					"text" : "jcom.return hip.left @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return hip.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -127,7 +127,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 829.875, 206.0, 133.0, 60.0 ],
-					"text" : "jcom.return elbow.right @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return elbow.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -142,7 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 755.75, 138.0, 125.0, 60.0 ],
-					"text" : "jcom.return elbow.left @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return elbow.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 682.125, 206.0, 132.0, 60.0 ],
-					"text" : "jcom.return hand.right @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return hand.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -172,7 +172,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 607.75, 138.0, 124.0, 60.0 ],
-					"text" : "jcom.return hand.left @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return hand.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -187,7 +187,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 534.375, 206.0, 147.0, 60.0 ],
-					"text" : "jcom.return shoulder.right @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return shoulder.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -202,7 +202,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 460.5, 138.0, 140.0, 60.0 ],
-					"text" : "jcom.return shoulder.left @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return shoulder.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 386.625, 206.0, 124.0, 60.0 ],
-					"text" : "jcom.return torso @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return torso @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -232,7 +232,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 312.75, 138.0, 125.0, 60.0 ],
-					"text" : "jcom.return neck @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return neck @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -247,7 +247,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 238.875, 206.0, 124.0, 60.0 ],
-					"text" : "jcom.return head @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return head @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -318,7 +318,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 138.0, 140.0, 60.0 ],
-					"text" : "jcom.return massCenter @type array @dataspace position @dataspace/unit xyz"
+					"text" : "j.return massCenter @type array @dataspace position @dataspace/unit xyz"
 				}
 
 			}
@@ -355,7 +355,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 7.0, 36.0, 135.0, 20.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}
