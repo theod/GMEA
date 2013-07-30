@@ -1068,7 +1068,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 100.0, 100.0, 188.0, 20.0 ],
-									"text" : "jcom.modular myOtherApp Minuit",
+									"text" : "j.modular myOtherApp Minuit",
 									"varname" : "_modular_myOtherApp_[1]"
 								}
 
@@ -1331,7 +1331,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 153.0, 199.75, 47.0 ],
-													"text" : "sprintf \\\"jcom.modular %s Minuit\\\" _modular_%s_ \\\"r #0-to.%s\\\" _send_%s_"
+													"text" : "sprintf \\\"j.modular %s Minuit\\\" _modular_%s_ \\\"r #0-to.%s\\\" _send_%s_"
 												}
 
 											}
@@ -1915,7 +1915,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 642.5, 304.0, 159.0, 20.0 ],
-									"text" : "print jcom.device @popup 1"
+									"text" : "print j.device @popup 1"
 								}
 
 							}
@@ -2423,7 +2423,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 43.0, 585.0, 187.0, 20.0 ],
-					"text" : "jcom.modular Minuit @activity #3"
+					"text" : "j.modular Minuit @activity #3"
 				}
 
 			}

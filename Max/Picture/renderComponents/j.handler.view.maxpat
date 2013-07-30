@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 722.0, 168.0, 450.0, 287.0 ],
+		"rect" : [ 849.0, 408.0, 661.0, 263.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,33 +27,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgcolor" : [ 0.0, 0.650068, 0.839216, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 223.5, 119.0, 18.0 ],
-					"text" : "worldname $1-world",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "worldname",
-					"id" : "obj-16",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 255.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -76,8 +49,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 80.0, 101.0, 20.0 ],
-					"text" : "sprintf %s/render"
+					"patching_rect" : [ 28.0, 80.0, 107.0, 20.0 ],
+					"text" : "sprintf %s/handler"
 				}
 
 			}
@@ -119,8 +92,21 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.0, 9.0, 269.0, 47.0 ],
-					"text" : "This component is usefull to edit a render client. \nSet the model/address as /myRenderModel to binds on all physics features."
+					"patching_rect" : [ 384.0, 9.0, 269.0, 47.0 ],
+					"text" : "This component is usefull to edit a render client. \nSet the model/address as /myRenderModel to binds on all handler features."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "",
+					"comment" : "handler",
+					"hint" : "",
+					"id" : "obj-4",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 244.0, 180.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -133,8 +119,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 28.0, 185.0, 111.0, 20.0 ],
-					"text" : "jcom.receive name"
+					"patching_rect" : [ 244.0, 124.0, 130.0, 20.0 ],
+					"text" : "j.receive message"
 				}
 
 			}
@@ -160,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 124.0, 126.0, 20.0 ],
-					"text" : "jcom.view component"
+					"text" : "j.view component"
 				}
 
 			}
@@ -185,16 +171,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.0, 0.650068, 0.839216, 1.0 ],
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -204,10 +180,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 37.5, 214.75, 37.5, 214.75 ],
 					"source" : [ "obj-23", 0 ]
 				}
 

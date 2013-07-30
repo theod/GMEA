@@ -216,7 +216,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 386.0, 516.0, 128.0, 48.0 ],
-					"text" : "jcom.return position.z @type decimal @range/bounds -1. 1."
+					"text" : "j.return position.z @type decimal @range/bounds -1. 1."
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 349.0, 466.0, 127.0, 48.0 ],
-					"text" : "jcom.return position.y @type decimal @range/bounds -1. 1."
+					"text" : "j.return position.y @type decimal @range/bounds -1. 1."
 				}
 
 			}
@@ -1980,7 +1980,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 114.0, 201.0, 262.0, 34.0 ],
-					"text" : "jcom.parameter name @type string @priority 1 @description \"set the joint to handle\""
+					"text" : "j.parameter name @type string @priority 1 @description \"set the joint to handle\""
 				}
 
 			}
@@ -2514,7 +2514,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 4.0, 123.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -2541,7 +2541,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 758.0, 304.0, 178.0, 48.0 ],
-					"text" : "jcom.message sync @type none @description \"to sync the parameters with Synapse\""
+					"text" : "j.message sync @type none @description \"to sync the parameters with Synapse\""
 				}
 
 			}
@@ -2790,7 +2790,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 311.0, 416.0, 127.0, 48.0 ],
-					"text" : "jcom.return position.x @type decimal @range/bounds -1. 1."
+					"text" : "j.return position.x @type decimal @range/bounds -1. 1."
 				}
 
 			}
@@ -2805,7 +2805,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 653.0, 82.0, 176.0, 48.0 ],
-					"text" : "jcom.parameter position/mode @type integer @range/bounds 0 3 @range/clipmode both"
+					"text" : "j.parameter position/mode @type integer @range/bounds 0 3 @range/clipmode both"
 				}
 
 			}
@@ -2837,7 +2837,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 880.0, 83.0, 322.0, 48.0 ],
-					"text" : "jcom.parameter pointHistorySize @type integer @range/bounds 1 25 @range/clipmode low @description \"how many points are being tracked for hit event detection\""
+					"text" : "j.parameter pointHistorySize @type integer @range/bounds 1 25 @range/clipmode low @description \"how many points are being tracked for hit event detection\""
 				}
 
 			}
@@ -2867,7 +2867,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 766.0, 194.0, 364.0, 48.0 ],
-					"text" : "jcom.parameter requiredLength @type decimal @range/bounds 1. 1000. @range/clipmode low @description \"how far the joint must move in a straight line (in mm) before a hit event is generated\""
+					"text" : "j.parameter requiredLength @type decimal @range/bounds 1. 1000. @range/clipmode low @description \"how far the joint must move in a straight line (in mm) before a hit event is generated\""
 				}
 
 			}
@@ -2881,7 +2881,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 592.0, 483.0, 158.0, 20.0 ],
-					"text" : "jcom.return left @type none"
+					"text" : "j.return left @type none"
 				}
 
 			}
@@ -2895,7 +2895,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 561.0, 461.0, 165.0, 20.0 ],
-					"text" : "jcom.return right @type none"
+					"text" : "j.return right @type none"
 				}
 
 			}
@@ -2909,7 +2909,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 530.0, 439.0, 171.0, 20.0 ],
-					"text" : "jcom.return down @type none"
+					"text" : "j.return down @type none"
 				}
 
 			}
@@ -2923,7 +2923,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 499.0, 417.0, 155.0, 20.0 ],
-					"text" : "jcom.return up @type none"
+					"text" : "j.return up @type none"
 				}
 
 			}
@@ -2937,7 +2937,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 468.0, 395.0, 167.0, 20.0 ],
-					"text" : "jcom.return back @type none"
+					"text" : "j.return back @type none"
 				}
 
 			}
@@ -2951,7 +2951,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 437.0, 373.0, 182.0, 20.0 ],
-					"text" : "jcom.return forward @type none"
+					"text" : "j.return forward @type none"
 				}
 
 			}
@@ -2974,7 +2974,7 @@
 				"box" : 				{
 					"background" : 1,
 					"id" : "obj-69",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

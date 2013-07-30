@@ -50,7 +50,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 146.0, 207.0, 111.0, 20.0 ],
-					"text" : "jcom.receive depth"
+					"text" : "j.receive depth"
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 265.0, 207.0, 113.0, 20.0 ],
-					"text" : "jcom.receive active"
+					"text" : "j.receive active"
 				}
 
 			}
@@ -172,7 +172,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 498.0, 207.0, 108.0, 20.0 ],
-					"text" : "jcom.receive done"
+					"text" : "j.receive done"
 				}
 
 			}
@@ -198,7 +198,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 384.0, 207.0, 107.0, 20.0 ],
-					"text" : "jcom.receive draw"
+					"text" : "j.receive draw"
 				}
 
 			}
@@ -225,7 +225,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 611.0, 207.0, 115.0, 20.0 ],
-					"text" : "jcom.receive debug"
+					"text" : "j.receive debug"
 				}
 
 			}
@@ -252,7 +252,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 28.0, 207.0, 111.0, 20.0 ],
-					"text" : "jcom.receive name"
+					"text" : "j.receive name"
 				}
 
 			}
@@ -292,7 +292,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 124.0, 126.0, 20.0 ],
-					"text" : "jcom.view component"
+					"text" : "j.view component"
 				}
 
 			}
