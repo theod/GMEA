@@ -1709,7 +1709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 30.0, 49.0, 20.0 ],
+					"patching_rect" : [ 15.0, 30.0, 149.0, 20.0 ],
 					"text" : "j.model"
 				}
 
