@@ -37,7 +37,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 51.0, 120.0, 98.0, 19.0 ],
-					"text" : "jcom.mouse.view"
+					"text" : "j.mouse.view"
 				}
 
 			}
@@ -64,7 +64,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 898.875, 277.0, 220.0, 55.0 ],
-					"text" : "jcom.parameter thickness @type decimal @description \"the thickness of the cursor lines\" @value/default 1. @ramp/drive Max"
+					"text" : "j.parameter thickness @type decimal @description \"the thickness of the cursor lines\" @value/default 1. @ramp/drive Max"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 606.0, 277.0, 280.0, 55.0 ],
-					"text" : "jcom.parameter color @type array @ramp/drive Max @description \"set the color of the cursor\" @ramp/function linear @value/default 1. 0. 0. 1. @repetitions/allow 0",
+					"text" : "j.parameter color @type array @ramp/drive Max @description \"set the color of the cursor\" @ramp/function linear @value/default 1. 0. 0. 1. @repetitions/allow 0",
 					"varname" : "deformB[6]"
 				}
 
@@ -109,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 394.5, 277.0, 200.0, 43.0 ],
-					"text" : "jcom.parameter pulse @type decimal @description \"the pulse rate of the cursor\" @ramp/drive Max"
+					"text" : "j.parameter pulse @type decimal @description \"the pulse rate of the cursor\" @ramp/drive Max"
 				}
 
 			}
@@ -292,7 +292,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 912.875, 173.0, 191.0, 55.0 ],
-					"text" : "jcom.parameter rotate @type array @description \"rotate the cursor\" @ramp/drive Max @dataspace position @dataspace/unit degree"
+					"text" : "j.parameter rotate @type array @description \"rotate the cursor\" @ramp/drive Max @dataspace position @dataspace/unit degree"
 				}
 
 			}
@@ -321,7 +321,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 767.875, 173.0, 140.0, 55.0 ],
-					"text" : "jcom.parameter size @type decimal @description \"scale the cursor\" @ramp/drive Max"
+					"text" : "j.parameter size @type decimal @description \"scale the cursor\" @ramp/drive Max"
 				}
 
 			}
@@ -350,7 +350,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 533.875, 173.0, 225.0, 55.0 ],
-					"text" : "jcom.parameter position @type array @description \"position the cursor\" @dataspace position @dataspace/unit xyz @ramp/drive Max"
+					"text" : "j.parameter position @type array @description \"position the cursor\" @dataspace position @dataspace/unit xyz @ramp/drive Max"
 				}
 
 			}
@@ -378,7 +378,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.5, 120.0, 101.0, 19.0 ],
-					"text" : "jcom.handler.view"
+					"text" : "j.handler.view"
 				}
 
 			}
@@ -407,7 +407,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 394.5, 173.0, 132.0, 55.0 ],
-					"text" : "jcom.parameter layer @type integer @description \"select rendering order\""
+					"text" : "j.parameter layer @type integer @description \"select rendering order\""
 				}
 
 			}
@@ -450,7 +450,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 223.125, 173.0, 161.0, 55.0 ],
-					"text" : "jcom.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @value/default 1"
+					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @value/default 1"
 				}
 
 			}
@@ -478,7 +478,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 176.0, 120.0, 207.5, 19.0 ],
-					"text" : "jcom.render.view"
+					"text" : "j.render.view"
 				}
 
 			}
@@ -507,8 +507,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.0, 35.0, 143.0, 43.0 ],
-					"text" : "jcom.model @type opengl @description \"a plane to display a picture\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @description \"a plane to display a picture\"",
+					"varname" : "j.hub"
 				}
 
 			}

@@ -504,7 +504,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 45.0, 60.0, 250.0, 20.0 ],
-													"text" : "jcom.return current/poly/vertices @type array"
+													"text" : "j.return current/poly/vertices @type array"
 												}
 
 											}
@@ -628,7 +628,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 45.0, 79.0, 261.0, 20.0 ],
-													"text" : "jcom.return current/circle/radius @type decimal"
+													"text" : "j.return current/circle/radius @type decimal"
 												}
 
 											}
@@ -642,7 +642,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 7.0, 56.0, 256.0, 20.0 ],
-													"text" : "jcom.return current/circle/position @type array"
+													"text" : "j.return current/circle/position @type array"
 												}
 
 											}
@@ -836,7 +836,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 742.0, 82.0, 215.0, 20.0 ],
-					"text" : "jcom.parameter debug @type boolean"
+					"text" : "j.parameter debug @type boolean"
 				}
 
 			}
@@ -1431,7 +1431,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.0, 10.0, 453.0, 20.0 ],
-									"text" : "jcom.parameter polypoly/vertices @type array @value/default 0. 0. 1. 1. @priority 7"
+									"text" : "j.parameter polypoly/vertices @type array @value/default 0. 0. 1. 1. @priority 7"
 								}
 
 							}
@@ -1644,7 +1644,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 45.0, 22.0, 300.0, 20.0 ],
-									"text" : "jcom.parameter segment/start @type array @priority 6"
+									"text" : "j.parameter segment/start @type array @priority 6"
 								}
 
 							}
@@ -1658,7 +1658,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 122.0, 54.0, 407.0, 20.0 ],
-									"text" : "jcom.parameter segment/end @type array @value/default 1. 1. @priority 7"
+									"text" : "j.parameter segment/end @type array @value/default 1. 1. @priority 7"
 								}
 
 							}
@@ -1904,7 +1904,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.0, 10.0, 451.0, 20.0 ],
-									"text" : "jcom.parameter polyvert/vertices @type array @value/default 0. 0. 1. 1. @priority 7"
+									"text" : "j.parameter polyvert/vertices @type array @value/default 0. 0. 1. 1. @priority 7"
 								}
 
 							}
@@ -2117,7 +2117,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 45.0, 22.0, 415.0, 20.0 ],
-									"text" : "jcom.parameter polybox/height @type array @value/default 1. 1. @priority 6"
+									"text" : "j.parameter polybox/height @type array @value/default 1. 1. @priority 6"
 								}
 
 							}
@@ -2131,7 +2131,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 120.0, 45.0, 417.0, 20.0 ],
-									"text" : "jcom.parameter polybox/corner @type array @value/default 0. 0. @priority 7"
+									"text" : "j.parameter polybox/corner @type array @value/default 0. 0. @priority 7"
 								}
 
 							}
@@ -2349,7 +2349,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 45.0, 8.0, 409.0, 20.0 ],
-									"text" : "jcom.parameter circle/radius @type decimal @value/default 0.1 @priority 6"
+									"text" : "j.parameter circle/radius @type decimal @value/default 0.1 @priority 6"
 								}
 
 							}
@@ -2363,7 +2363,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 84.0, 30.0, 300.0, 20.0 ],
-									"text" : "jcom.parameter circle/position @type array @priority 7"
+									"text" : "j.parameter circle/position @type array @priority 7"
 								}
 
 							}
@@ -2502,7 +2502,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 26.0, 92.0, 396.0, 20.0 ],
-					"text" : "jcom.parameter enable @type boolean @repetitions/allow 0 @priority 11"
+					"text" : "j.parameter enable @type boolean @repetitions/allow 0 @priority 11"
 				}
 
 			}
@@ -3289,7 +3289,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 277.0, 328.0, 34.0 ],
-									"text" : "jcom.parameter form @type string @priority 5 @description \"circle | polybox | polyvert | segment | polypoly\""
+									"text" : "j.parameter form @type string @priority 5 @description \"circle | polybox | polyvert | segment | polypoly\""
 								}
 
 							}
@@ -3358,7 +3358,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 232.0, 377.0, 20.0 ],
-									"text" : "jcom.parameter density @type decimal @value/default 1. @priority 4"
+									"text" : "j.parameter density @type decimal @value/default 1. @priority 4"
 								}
 
 							}
@@ -3372,7 +3372,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 138.0, 397.0, 20.0 ],
-									"text" : "jcom.parameter restitution @type decimal @value/default 0.9 @priority 3"
+									"text" : "j.parameter restitution @type decimal @value/default 0.9 @priority 3"
 								}
 
 							}
@@ -3386,7 +3386,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 54.0, 387.0, 20.0 ],
-									"text" : "jcom.parameter friction @type decimal @value/default 0.01 @priority 2"
+									"text" : "j.parameter friction @type decimal @value/default 0.01 @priority 2"
 								}
 
 							}
@@ -3400,7 +3400,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 8.0, 279.0, 20.0 ],
-									"text" : "jcom.parameter sensor @type boolean @priority 1"
+									"text" : "j.parameter sensor @type boolean @priority 1"
 								}
 
 							}
@@ -4160,7 +4160,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 7.0, 35.0, 135.0, 20.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}

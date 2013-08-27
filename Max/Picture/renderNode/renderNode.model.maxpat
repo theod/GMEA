@@ -51,7 +51,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 299.0, 175.0, 97.0, 19.0 ],
-					"text" : "jcom.render.view"
+					"text" : "j.render.view"
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 318.5, 223.0, 145.0, 19.0 ],
-					"text" : "jcom.receive render/active"
+					"text" : "j.receive render/active"
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.25, 175.0, 109.0, 20.0 ],
-					"text" : "jcom.render.model"
+					"text" : "j.render.model"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 81.75, 129.0, 160.0, 20.0 ],
-					"text" : "jcom.receive model/address"
+					"text" : "j.receive model/address"
 				}
 
 			}
@@ -203,7 +203,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 95.25, 333.0, 96.0, 20.0 ],
-					"text" : "jcom.out texture"
+					"text" : "j.out texture"
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 457.0, 39.0, 74.0, 20.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -242,7 +242,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.0, 39.0, 378.0, 20.0 ],
-					"text" : "jcom.model @type opengl @description \"an openGL rendering node\""
+					"text" : "j.model @description \"an openGL rendering node\""
 				}
 
 			}

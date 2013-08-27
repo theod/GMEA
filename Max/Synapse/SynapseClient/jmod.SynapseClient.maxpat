@@ -107,7 +107,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 88.0, 151.0, 117.0, 34.0 ],
-					"text" : "jcom.return tracking @type boolean"
+					"text" : "j.return tracking @type boolean"
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 385.0, 51.0, 176.0, 48.0 ],
-					"text" : "jcom.parameter depthMode @type integer @range/bounds 0 2 @range/clipmode"
+					"text" : "j.parameter depthMode @type integer @range/bounds 0 2 @range/clipmode"
 				}
 
 			}
@@ -331,7 +331,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 4.0, 123.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -351,7 +351,7 @@
 				"box" : 				{
 					"background" : 1,
 					"id" : "obj-69",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

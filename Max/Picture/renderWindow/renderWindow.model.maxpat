@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 101.0, 430.0, 1032.0, 447.0 ],
@@ -36,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.5, 336.0, 145.0, 20.0 ],
-					"text" : "jcom.send physics/debug"
+					"text" : "j.send physics/debug"
 				}
 
 			}
@@ -50,7 +51,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 796.0, 256.0, 176.0, 20.0 ],
-					"text" : "jcom.receive window/fullscreen"
+					"text" : "j.receive window/fullscreen"
 				}
 
 			}
@@ -64,7 +65,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 796.0, 230.0, 146.0, 20.0 ],
-					"text" : "jcom.receive window/size"
+					"text" : "j.receive window/size"
 				}
 
 			}
@@ -93,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 412.0, 198.0, 109.0, 20.0 ],
-					"text" : "jcom.render.model"
+					"text" : "j.render.model"
 				}
 
 			}
@@ -149,7 +150,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 256.75, 90.0, 160.0, 20.0 ],
-					"text" : "jcom.receive model/address"
+					"text" : "j.receive model/address"
 				}
 
 			}
@@ -163,7 +164,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 29.5, 312.0, 153.0, 20.0 ],
-					"text" : "jcom.receive render/debug"
+					"text" : "j.receive render/debug"
 				}
 
 			}
@@ -178,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.25, 319.0, 148.0, 33.0 ],
-					"text" : "jcom.physicsWorld.model physics"
+					"text" : "j.physicsWorld.model physics"
 				}
 
 			}
@@ -192,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.25, 198.0, 115.0, 20.0 ],
-					"text" : "jcom.handler.model"
+					"text" : "j.handler.model"
 				}
 
 			}
@@ -206,7 +207,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 412.0, 398.0, 431.0, 20.0 ],
-					"text" : "jcom.mouse.model"
+					"text" : "j.mouse.model"
 				}
 
 			}
@@ -220,7 +221,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 241.0, 41.5, 74.0, 20.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -245,8 +246,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 35.0, 227.0, 33.0 ],
-					"text" : "jcom.model @type opengl @description \"an openGL window to render an scene\""
+					"patching_rect" : [ 7.0, 35.0, 221.0, 33.0 ],
+					"text" : "j.model @tag opengl @description \"an openGL window to render an scene\""
 				}
 
 			}
@@ -263,8 +264,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 848.0, 593.0, 688.0, 322.0 ],
@@ -395,7 +397,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 440.5, 38.0, 229.0, 43.0 ],
-									"text" : "jcom.parameter camera/orientation @type array @description \"rotate the camera setting an angle\" @ramp/drive Max"
+									"text" : "j.parameter camera/orientation @type array @description \"rotate the camera setting an angle\" @ramp/drive Max"
 								}
 
 							}
@@ -410,7 +412,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 108.0, 116.0, 314.0, 67.0 ],
-									"text" : "jcom.parameter camera/angle @type decimal @range/bounds 0. 180. @value/default 45. @range/clipmode both @description \"set the lens angle of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/angle @type decimal @range/bounds 0. 180. @value/default 45. @range/clipmode both @description \"set the lens angle of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -425,7 +427,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 79.0, 67.0, 311.0, 43.0 ],
-									"text" : "jcom.parameter camera/lookat @type array @description \"where  the gl camera lookat\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/lookat @type array @description \"where  the gl camera lookat\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -440,7 +442,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 15.0, 362.0, 43.0 ],
-									"text" : "jcom.parameter camera/position @type array @value/default 0. 0. 2. @description \"position of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/position @type array @value/default 0. 0. 2. @description \"position of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -680,8 +682,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 700.0, 434.0, 1420.0, 366.0 ],
@@ -714,7 +717,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 81.0, 107.0, 157.0, 43.0 ],
-									"text" : "jcom.parameter light/active @type boolean @description \"enable light processing\"",
+									"text" : "j.parameter light/active @type boolean @description \"enable light processing\"",
 									"varname" : "deformB[1]"
 								}
 
@@ -743,7 +746,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 859.5, 102.0, 149.0, 20.0 ],
-									"text" : "jcom.receive render/name"
+									"text" : "j.receive render/name"
 								}
 
 							}
@@ -757,7 +760,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1008.5, 102.0, 173.0, 20.0 ],
-									"text" : "jcom.receive handler/message"
+									"text" : "j.receive handler/message"
 								}
 
 							}
@@ -771,7 +774,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1181.5, 102.0, 153.0, 20.0 ],
-									"text" : "jcom.receive render/debug"
+									"text" : "j.receive render/debug"
 								}
 
 							}
@@ -786,7 +789,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 245.0, 8.0, 229.0, 55.0 ],
-									"text" : "jcom.parameter light/color/diffuse @type array @ramp/drive Max @description \"set the color of the diffuse light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/diffuse @type array @ramp/drive Max @description \"set the color of the diffuse light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[7]"
 								}
 
@@ -802,7 +805,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 478.0, 8.0, 233.0, 55.0 ],
-									"text" : "jcom.parameter light/color/specular @type array @ramp/drive Max @description \"set the color of the specular light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/specular @type array @ramp/drive Max @description \"set the color of the specular light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[6]"
 								}
 
@@ -818,7 +821,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 7.0, 8.0, 231.0, 55.0 ],
-									"text" : "jcom.parameter light/color/ambient @type array @ramp/drive Max @description \"set the color of the ambiant light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/ambient @type array @ramp/drive Max @description \"set the color of the ambiant light\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[8]"
 								}
 
@@ -834,7 +837,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 736.0, 8.0, 240.0, 55.0 ],
-									"text" : "jcom.parameter light/position @type array @value/default 1. 1. 1. @range/bounds 0. 1. @range/clipmode none @description \"set the position of the light\""
+									"text" : "j.parameter light/position @type array @value/default 1. 1. 1. @range/bounds 0. 1. @range/clipmode none @description \"set the position of the light\""
 								}
 
 							}
@@ -1151,8 +1154,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 242.0, 478.0, 406.0, 289.0 ],
@@ -1213,7 +1217,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 117.0, 96.0, 265.0, 31.0 ],
-									"text" : "jcom.parameter window/fullscreen @type boolean @description \"on/off fullscreen\" @priority 4"
+									"text" : "j.parameter window/fullscreen @type boolean @description \"on/off fullscreen\" @priority 4"
 								}
 
 							}
@@ -1228,7 +1232,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 54.0, 311.0, 31.0 ],
-									"text" : "jcom.parameter window/size @type array @description \"size of the gl window\" @repetitions/allow 1 @priority 3"
+									"text" : "j.parameter window/size @type array @description \"size of the gl window\" @repetitions/allow 1 @priority 3"
 								}
 
 							}
@@ -1243,7 +1247,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 12.0, 12.0, 311.0, 31.0 ],
-									"text" : "jcom.parameter window/position @type array @description \"position of the gl window\" @repetitions/allow 1 @priority 2"
+									"text" : "j.parameter window/position @type array @description \"position of the gl window\" @repetitions/allow 1 @priority 2"
 								}
 
 							}
@@ -1564,7 +1568,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 412.0, 312.0, 225.0, 60.0 ],
+					"patching_rect" : [ 412.0, 312.0, 228.0, 60.0 ],
 					"text" : "jit.gl.render #0-glWindow @erase_color 0. 0. 0. 1. @depth_enable 0 @blend_enable 1 @ortho 0 @lighting_enable 0 @sync 1"
 				}
 
@@ -1820,59 +1824,59 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.mouse.model.maxpat",
+				"name" : "j.mouse.model.maxpat",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.handler.model.maxpat",
+				"name" : "j.handler.model.maxpat",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.physicsWorld.model.maxpat",
+				"name" : "j.physicsWorld.model.maxpat",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.render.model.maxpat",
+				"name" : "j.render.model.maxpat",
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderComponents",
 				"patcherrelativepath" : "../renderComponents",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -185,7 +185,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 416.0, 248.0, 173.0, 20.0 ],
-					"text" : "jcom.receive~ /player/out.back",
+					"text" : "j.receive~ /player/out.back",
 					"varname" : "_receive_1_[3]"
 				}
 
@@ -200,7 +200,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 229.0, 248.0, 172.0, 20.0 ],
-					"text" : "jcom.receive~ /player/out.front",
+					"text" : "j.receive~ /player/out.front",
 					"varname" : "_receive_1_[2]"
 				}
 
@@ -215,7 +215,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 54.0, 248.0, 156.0, 20.0 ],
-					"text" : "jcom.receive~ /player/out.R",
+					"text" : "j.receive~ /player/out.R",
 					"varname" : "_receive_1_[1]"
 				}
 
@@ -230,7 +230,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 28.0, 221.0, 154.0, 20.0 ],
-					"text" : "jcom.receive~ /player/out.L",
+					"text" : "j.receive~ /player/out.L",
 					"varname" : "_receive_1_"
 				}
 
@@ -377,23 +377,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive~.mxo",
+				"name" : "j.receive~.mxo",
 				"type" : "iLaX"
 			}
  ]

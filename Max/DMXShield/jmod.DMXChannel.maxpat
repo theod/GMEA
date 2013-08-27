@@ -67,7 +67,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 954.0, 591.0, 341.0, 48.0 ],
-					"text" : "jcom.parameter defnbpoints @type integer @range/bounds 2 100 @repetitions/allow 1 @description \"the maximum number of points in the timeline\" @value/default 40"
+					"text" : "j.parameter defnbpoints @type integer @range/bounds 2 100 @repetitions/allow 1 @description \"the maximum number of points in the timeline\" @value/default 40"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 880.0, 431.0, 164.0, 34.0 ],
-					"text" : "jcom.message info @type boolean @repetitions/allow 0"
+					"text" : "j.message info @type boolean @repetitions/allow 0"
 				}
 
 			}
@@ -368,7 +368,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 237.0, 221.0, 123.0, 18.0 ],
-					"text" : "jcom.oscroute view/panel"
+					"text" : "j.oscroute view/panel"
 				}
 
 			}
@@ -2689,7 +2689,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 125.0, 627.0, 330.0, 34.0 ],
-					"text" : "jcom.return toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/allow 1"
+					"text" : "j.return toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/allow 1"
 				}
 
 			}
@@ -3700,7 +3700,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 684.0, 205.0, 367.0, 34.0 ],
-					"text" : "jcom.message value @type integer @range/bounds 0 255 @repetitions/allow 1 @ramp/function linear @ramp/drive scheduler"
+					"text" : "j.message value @type integer @range/bounds 0 255 @repetitions/allow 1 @ramp/function linear @ramp/drive scheduler"
 				}
 
 			}
@@ -3746,7 +3746,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 333.0, 309.0, 304.0, 34.0 ],
-					"text" : "jcom.parameter defminmax @type array @repetitions/allow 1 @priority 3"
+					"text" : "j.parameter defminmax @type array @repetitions/allow 1 @priority 3"
 				}
 
 			}
@@ -5739,7 +5739,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 612.0, 126.0, 243.0, 20.0 ],
-					"text" : "jcom.message RAM/read @type none"
+					"text" : "j.message RAM/read @type none"
 				}
 
 			}
@@ -6508,7 +6508,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 901.0, 123.0, 275.0, 34.0 ],
-					"text" : "jcom.message breakpoints/preset @type integer @repetitions/allow 1"
+					"text" : "j.message breakpoints/preset @type integer @repetitions/allow 1"
 				}
 
 			}
@@ -6585,7 +6585,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 124.0, 666.0, 331.0, 34.0 ],
-					"text" : "jcom.message fromArduino @type array @description \"retour de l'arduino\" @repetitions/allow 1"
+					"text" : "j.message fromArduino @type array @description \"retour de l'arduino\" @repetitions/allow 1"
 				}
 
 			}
@@ -7040,7 +7040,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.0, 248.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -7061,7 +7061,7 @@
 					"bgcolor" : [ 0.93, 0.93, 0.93, 1.0 ],
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-46",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -7138,7 +7138,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 80.0, 188.0, 49.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -7264,7 +7264,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 15.0, 202.0, 269.0, 20.0 ],
-									"text" : "jcom.oscroute /clear /copy /paste /preset"
+									"text" : "j.oscroute /clear /copy /paste /preset"
 								}
 
 							}
@@ -7356,7 +7356,7 @@
 									"numoutlets" : 13,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 15.0, 45.0, 740.0, 20.0 ],
-									"text" : "jcom.oscroute /breakpoints /domain /rescale /RAM/write /RAM/read /id /type /run /info /value /defminmax /fromArduino"
+									"text" : "j.oscroute /breakpoints /domain /rescale /RAM/write /RAM/read /id /type /run /info /value /defminmax /fromArduino"
 								}
 
 							}
@@ -7728,7 +7728,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 203.0, 228.0, 189.0, 20.0 ],
-									"text" : "jcom.oscroute /load /save"
+									"text" : "j.oscroute /load /save"
 								}
 
 							}
@@ -10417,7 +10417,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 676.0, 137.0, 85.0, 20.0 ],
-									"text" : "jcom.oscroute"
+									"text" : "j.oscroute"
 								}
 
 							}
@@ -11047,7 +11047,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 685.0, 544.0, 240.0, 34.0 ],
-					"text" : "jcom.message domain @type integer @range/bounds 1 510 @repetitions/allow 1"
+					"text" : "j.message domain @type integer @range/bounds 1 510 @repetitions/allow 1"
 				}
 
 			}
@@ -11061,7 +11061,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 612.0, 30.0, 280.0, 20.0 ],
-					"text" : "jcom.message breakpoints/clear @type none"
+					"text" : "j.message breakpoints/clear @type none"
 				}
 
 			}
@@ -11075,7 +11075,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 611.0, 78.0, 244.0, 20.0 ],
-					"text" : "jcom.message RAM/write @type none"
+					"text" : "j.message RAM/write @type none"
 				}
 
 			}
@@ -11348,7 +11348,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 58.0, 439.0, 94.0, 34.0 ],
-									"text" : "vers le jcom.parameter"
+									"text" : "vers le j.parameter"
 								}
 
 							}
@@ -11788,7 +11788,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 333.0, 272.0, 304.0, 34.0 ],
-					"text" : "jcom.parameter type @type string @description \"type du materiel controlé (DC ou SERVO)\" @priority 2"
+					"text" : "j.parameter type @type string @description \"type du materiel controlé (DC ou SERVO)\" @priority 2"
 				}
 
 			}
@@ -11836,7 +11836,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 901.0, 28.0, 303.0, 34.0 ],
-					"text" : "jcom.message breakpoints/preset/load @type array @repetitions/allow 1"
+					"text" : "j.message breakpoints/preset/load @type array @repetitions/allow 1"
 				}
 
 			}
@@ -11851,7 +11851,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 901.0, 85.0, 307.0, 34.0 ],
-					"text" : "jcom.message breakpoints/preset/save @type array @repetitions/allow 1"
+					"text" : "j.message breakpoints/preset/save @type array @repetitions/allow 1"
 				}
 
 			}
@@ -11883,7 +11883,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 222.0, 544.0, 240.0, 34.0 ],
-					"text" : "jcom.message breakpoints @type array @repetitions/allow 1"
+					"text" : "j.message breakpoints @type array @repetitions/allow 1"
 				}
 
 			}
@@ -14844,7 +14844,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1054.0, 243.0, 184.0, 34.0 ],
-					"text" : "jcom.message breakpoints/copy @type none"
+					"text" : "j.message breakpoints/copy @type none"
 				}
 
 			}
@@ -14859,7 +14859,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1055.0, 305.0, 187.0, 34.0 ],
-					"text" : "jcom.message breakpoints/paste @type none"
+					"text" : "j.message breakpoints/paste @type none"
 				}
 
 			}
@@ -14909,7 +14909,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 334.0, 180.0, 303.0, 34.0 ],
-					"text" : "jcom.parameter id @type integer @description \"identifiant interne\" @repetitions/allow 1 @priority 1"
+					"text" : "j.parameter id @type integer @description \"identifiant interne\" @repetitions/allow 1 @priority 1"
 				}
 
 			}
@@ -14946,7 +14946,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 685.0, 485.0, 304.0, 20.0 ],
-					"text" : "jcom.message run @type integer @repetitions/allow 0"
+					"text" : "j.message run @type integer @repetitions/allow 0"
 				}
 
 			}
@@ -14978,7 +14978,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 687.0, 612.0, 235.0, 48.0 ],
-					"text" : "jcom.message rescale @type boolean @description \"pour adapter la courbe au nouveau domaine temporel\""
+					"text" : "j.message rescale @type boolean @description \"pour adapter la courbe au nouveau domaine temporel\""
 				}
 
 			}

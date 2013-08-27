@@ -50,7 +50,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 234.0, 236.0, 197.0, 20.0 ],
-					"text" : "jcom.remote myOtherApp:/myFloat"
+					"text" : "j.remote myOtherApp:/myFloat"
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 18.0, 247.0, 145.0, 20.0 ],
-					"text" : "jcom.receive /:activity/out"
+					"text" : "j.receive /:activity/out"
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 18.0, 190.0, 137.0, 20.0 ],
-					"text" : "jcom.receive /:activity/in"
+					"text" : "j.receive /:activity/in"
 				}
 
 			}
@@ -158,7 +158,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 234.0, 134.0, 198.0, 20.0 ],
-					"text" : "jcom.receive myOtherApp:/myFloat"
+					"text" : "j.receive myOtherApp:/myFloat"
 				}
 
 			}
@@ -186,7 +186,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 234.0, 104.0, 185.0, 20.0 ],
-					"text" : "jcom.send myOtherApp:/myFloat"
+					"text" : "j.send myOtherApp:/myFloat"
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 111.0, 140.0, 20.0 ],
-					"text" : "jcom.parameter myFloat"
+					"text" : "j.parameter myFloat"
 				}
 
 			}
@@ -241,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 46.0, 188.0, 20.0 ],
-					"text" : "jcom.device myNetwork myApp 1"
+					"text" : "j.device myNetwork myApp 1"
 				}
 
 			}
@@ -340,7 +340,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.device.maxpat",
+				"name" : "j.device.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Network",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
@@ -351,23 +351,23 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.modular.mxo",
+				"name" : "j.modular.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
  ]

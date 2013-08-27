@@ -107,7 +107,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 15.0, 149.0, 402.0, 20.0 ],
-					"text" : "jcom.pass /fromArduino /breakpoints/preset/load /breakpoints/preset/save"
+					"text" : "j.pass /fromArduino /breakpoints/preset/load /breakpoints/preset/save"
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 12.0, 123.0, 20.0 ],
-					"text" : "jcom.pass /toArduino"
+					"text" : "j.pass /toArduino"
 				}
 
 			}
