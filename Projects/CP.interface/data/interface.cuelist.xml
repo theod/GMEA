@@ -96,7 +96,11 @@
      <command address="dimensions">2</command>
     </script>
     <script address="window">
+<<<<<<< HEAD
      <command address="position">50 50</command>
+=======
+     <command address="position">2000 50</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="size">320 240</command>
      <command address="fullscreen">0</command>
     </script>
@@ -133,7 +137,11 @@
    <script address="pulse.refectoire">
     <command address="active">0</command>
     <command address="layer">1</command>
+<<<<<<< HEAD
     <command address="position">-0.025000 -0.678936 0.000000</command>
+=======
+    <command address="position">-0.020000 -0.690000 0.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     <command address="size">0.100000</command>
     <command address="pulse">10.000000</command>
     <command address="color">1.000000 0.000000 0.000000 1.000000</command>
@@ -252,7 +260,11 @@
    <script address="camera">
     <command address="position">0.000000 0.000000 2.000000</command>
     <command address="lookat">0 0.100000 0</command>
+<<<<<<< HEAD
     <command address="angle">90.000000</command>
+=======
+    <command address="angle">45.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     <command address="orientation">64</command>
    </script>
    <!---->
@@ -262,7 +274,11 @@
     <script address="background">
      <command address="color">0.000000 0.000000 0.000000 1.000000</command>
     </script>
+<<<<<<< HEAD
     <command address="fps">15</command>
+=======
+    <command address="fps">30</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
    </script>
    <!---->
    <script address="physics">
@@ -277,7 +293,11 @@
     <command address="gravity">0.000000 0.000000 0.000000</command>
    </script>
    <script address="window">
+<<<<<<< HEAD
     <command address="position">2050 50</command>
+=======
+    <command address="position">50 50</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     <command address="size">320 240</command>
     <command address="fullscreen">0</command>
    </script>

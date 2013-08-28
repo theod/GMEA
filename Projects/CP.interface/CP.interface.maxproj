@@ -2,8 +2,13 @@
 	"name" : "CP.interface",
 	"version" : 1,
 	"creationdate" : -847305661,
+<<<<<<< HEAD
 	"modificationdate" : -886742198,
 	"viewrect" : [ 49.0, 44.0, 321.0, 830.0 ],
+=======
+	"modificationdate" : -846617386,
+	"viewrect" : [ 4.0, 44.0, 321.0, 830.0 ],
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -76,17 +81,29 @@
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
 			"euclidean-distance.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"dmxusbpro.model.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
+=======
 			"jit.gl.slab.gauss6x.maxpat" : 			{
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+<<<<<<< HEAD
+			"dmxusbpro.model.maxpat" : 			{
+=======
+			"euclidean-distance.maxpat" : 			{
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+<<<<<<< HEAD
+			"jit.gl.slab.gauss6x.maxpat" : 			{
+=======
+			"dmxusbpro.model.maxpat" : 			{
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -116,11 +133,14 @@
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
 			"NoirlacTitre.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
+=======
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 			"bordureFlouEtCroix.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -140,11 +160,14 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+<<<<<<< HEAD
 ,
 			"pulse.slim.mov" : 			{
 				"kind" : "moviefile",
 				"local" : 1
 			}
+=======
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 
 		}
 ,
