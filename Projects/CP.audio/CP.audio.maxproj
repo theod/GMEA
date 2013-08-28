@@ -2,7 +2,11 @@
 	"name" : "CP.audio",
 	"version" : 1,
 	"creationdate" : -847306349,
+<<<<<<< HEAD
 	"modificationdate" : -846426392,
+=======
+	"modificationdate" : -846618254,
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 	"viewrect" : [ 11.0, 44.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -109,6 +113,7 @@
 				"local" : 1
 			}
 ,
+<<<<<<< HEAD
 			"refectoire-bela-IR3-7eqa_01-02.Rss.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -319,6 +324,8 @@
 				"local" : 1
 			}
 ,
+=======
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 			"abb-2550-3509a.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1

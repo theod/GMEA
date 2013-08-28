@@ -36,11 +36,16 @@
    <!---->
    <script address="event">
     <script address="out.3">
+<<<<<<< HEAD
      <command address="gain">90</command>
+=======
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.4">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">90</command>
     </script>
     <script address="out.5">
@@ -57,6 +62,24 @@
     </script>
     <script address="out.1">
      <command address="gain">90</command>
+=======
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -91,6 +114,7 @@
    <script address="IR.1">
     <script address="out.3">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">95.198189</command>
     </script>
     <script address="out.5">
@@ -99,19 +123,40 @@
     </script>
     <script address="out.1">
      <command address="gain">95.198189</command>
+=======
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.5">
+     <command address="mute">0</command>
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.4">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">95.198189</command>
     </script>
     <script address="out.2">
      <command address="gain">95.198189</command>
+=======
+     <command address="gain">100.000000</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.6">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">95.198189</command>
+=======
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
    </script>
    <!---->
@@ -143,6 +188,7 @@
    </script>
    <script address="bus">
     <script address="ir">
+<<<<<<< HEAD
      <command address="gain">-5</command>
     </script>
     <script address="hexa">
@@ -150,16 +196,32 @@
     </script>
     <script address="stereo">
      <command address="gain">-0.003560</command>
+=======
+     <command address="gain">0</command>
+    </script>
+    <script address="hexa">
+     <command address="gain">0</command>
+    </script>
+    <script address="stereo">
+     <command address="gain">0.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
    </script>
    <!---->
    <script address="dpa4060">
     <script address="out.2">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">91.748764</command>
     </script>
     <script address="out.1">
      <command address="gain">91.748764</command>
+=======
+     <command address="gain">89.125092</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">89.125092</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -192,6 +254,7 @@
    </script>
    <!---->
    <script address="dbam.sources">
+<<<<<<< HEAD
     <script address="sources">
      <command address="number">12</command>
     </script>
@@ -210,12 +273,26 @@
     <script address="source.3">
      <command address="position">203.000000 146.000000</command>
      <command address="weight">2.000000</command>
+=======
+    <script address="source.5">
+     <command address="position">221.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.4">
+     <command address="position">257.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.3">
+     <command address="position">203.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
     <script address="source.12">
      <command address="position">478 199</command>
      <command address="weight">1.000000</command>
     </script>
     <script address="source.10">
+<<<<<<< HEAD
      <command address="position">264.000000 251.000000</command>
      <command address="weight">3.000000</command>
     </script>
@@ -250,21 +327,70 @@
     <command address="gain">1.000000</command>
     <command address="blur">0.001000</command>
     <command address="rolloff">8.000000</command>
+=======
+     <command address="position">278.000000 250.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.11">
+     <command address="position">230.000000 200.000000</command>
+     <command address="weight">6.000000</command>
+    </script>
+    <script address="source.6">
+     <command address="position">239.000000 143.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.7">
+     <command address="position">128.000000 205.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">306.000000 157.000000</command>
+     <command address="weight">1.500000</command>
+    </script>
+    <script address="source.1">
+     <command address="position">154.000000 157.000000</command>
+     <command address="weight">1.500000</command>
+    </script>
+    <script address="source.9">
+     <command address="position">182.000000 250.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.8">
+     <command address="position">332.000000 205.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <command address="gain">1.000000</command>
+    <script address="sources">
+     <command address="number">12</command>
+    </script>
+    <script address="destination">
+     <command address="spread">26</command>
+     <command address="position">230 188</command>
+    </script>
+    <command address="blur">0.001000</command>
+    <command address="rolloff">6.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     <command address="hull">0</command>
    </script>
    <!---->
    <script address="dbam.irs">
+<<<<<<< HEAD
     <script address="sources">
      <command address="number">3</command>
     </script>
     <script address="destination">
      <command address="position">219 169</command>
+=======
+    <script address="destination">
+     <command address="position">230 188</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
     <command address="hull">0</command>
     <command address="rolloff">6</command>
     <command address="gain">1.000000</command>
     <command address="blur">0.001000</command>
     <script address="source.3">
+<<<<<<< HEAD
      <command address="position">284.000000 168.000000</command>
      <command address="weight">1.000000</command>
     </script>
@@ -275,11 +401,27 @@
     <script address="source.1">
      <command address="position">228.000000 251.000000</command>
      <command address="weight">1.000000</command>
+=======
+     <command address="position">293.000000 168.000000</command>
+     <command address="weight">8.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">167.000000 168.000000</command>
+     <command address="weight">8.000000</command>
+    </script>
+    <script address="source.1">
+     <command address="position">236.000000 238.000000</command>
+     <command address="weight">8.000000</command>
+    </script>
+    <script address="sources">
+     <command address="number">3</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
    </script>
    <!---->
    <script address="exterieur">
     <script address="out.4">
+<<<<<<< HEAD
      <command address="gain">82.132446</command>
      <command address="mute">0</command>
     </script>
@@ -293,14 +435,36 @@
     </script>
     <script address="out.6">
      <command address="gain">82.132446</command>
+=======
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">75.912788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">75.912788</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.2">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">82.132446</command>
     </script>
     <script address="out.3">
      <command address="gain">82.132446</command>
+=======
+     <command address="gain">75.912788</command>
+    </script>
+    <script address="out.3">
+     <command address="gain">75.912788</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -319,10 +483,17 @@
    <script address="dpa4011">
     <script address="out.1">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">100.000000</command>
     </script>
     <script address="out.2">
      <command address="gain">100.000000</command>
+=======
+     <command address="gain">105.925369</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">105.925369</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -330,21 +501,36 @@
    <script address="ortf">
     <script address="out.1">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">97.569565</command>
     </script>
     <script address="out.2">
      <command address="gain">97.569565</command>
+=======
+     <command address="gain">118.850220</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">118.850220</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
    <!---->
    <script address="adk">
     <script address="out.1">
+<<<<<<< HEAD
      <command address="gain">94.034210</command>
      <command address="mute">0</command>
     </script>
     <script address="out.2">
      <command address="gain">94.034210</command>
+=======
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -356,6 +542,7 @@
     <command address="play">0</command>
     <script address="out.6">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">82.132446</command>
     </script>
     <script address="out.2">
@@ -372,22 +559,49 @@
     </script>
     <script address="out.3">
      <command address="gain">82.132446</command>
+=======
+     <command address="gain">83.999390</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">83.999390</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">83.999390</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">83.999390</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.3">
+     <command address="gain">83.999390</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">82.132446</command>
+=======
+     <command address="gain">83.999390</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
    </script>
    <!---->
    <script address="IR.3">
     <command address="play">0</command>
     <script address="out.3">
+<<<<<<< HEAD
      <command address="gain">100.000000</command>
+=======
+     <command address="gain">89.125092</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">100.000000</command>
     </script>
     <script address="out.6">
@@ -400,11 +614,29 @@
     </script>
     <script address="out.4">
      <command address="gain">100.000000</command>
+=======
+     <command address="gain">89.125092</command>
+    </script>
+    <script address="out.6">
+     <command address="mute">0</command>
+     <command address="gain">89.125092</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">89.125092</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">89.125092</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.5">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">100.000000</command>
+=======
+     <command address="gain">89.125092</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
    </script>
    <!---->
@@ -412,6 +644,7 @@
     <command address="play">0</command>
     <script address="out.1">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">100.000000</command>
     </script>
     <script address="out.2">
@@ -420,10 +653,21 @@
     </script>
     <script address="out.4">
      <command address="gain">100.000000</command>
+=======
+     <command address="gain">87.286079</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">87.286079</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">87.286079</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.3">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">100.000000</command>
     </script>
     <script address="out.5">
@@ -432,6 +676,16 @@
     </script>
     <script address="out.6">
      <command address="gain">100.000000</command>
+=======
+     <command address="gain">87.286079</command>
+    </script>
+    <script address="out.5">
+     <command address="mute">0</command>
+     <command address="gain">87.286079</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">87.286079</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -495,33 +749,54 @@
    <script address="ortf">
     <command address="play">0</command>
     <script address="out.2">
+<<<<<<< HEAD
      <command address="gain">97.569565</command>
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="gain">97.569565</command>
+=======
+     <command address="gain">114.773735</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">114.773735</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
    <script address="prebus">
     <script address="ir">
+<<<<<<< HEAD
      <command address="gain">-80</command>
+=======
+     <command address="gain">-2147483648</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
    </script>
    <!---->
    <script address="dpa4011">
     <command address="play">0</command>
     <script address="out.2">
+<<<<<<< HEAD
      <command address="gain">100.000000</command>
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="gain">100.000000</command>
+=======
+     <command address="gain">87.127953</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">87.127953</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
    <!---->
    <script address="dbam.sources">
+<<<<<<< HEAD
     <script address="sources">
      <command address="number">12</command>
     </script>
@@ -560,6 +835,39 @@
     </script>
     <script address="source.7">
      <command address="position">174.000000 323.000000</command>
+=======
+    <command address="gain">1.000000</command>
+    <script address="source.6">
+     <command address="position">207.000000 146.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.5">
+     <command address="position">185.000000 146.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.4">
+     <command address="position">229.000000 148.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.3">
+     <command address="position">163.000000 148.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">263.000000 156.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.1">
+     <command address="position">129.000000 156.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.8">
+     <command address="position">217.000000 297.000000</command>
+     <command address="weight">2.000000</command>
+    </script>
+    <script address="source.7">
+     <command address="position">175.000000 297.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="weight">2.000000</command>
     </script>
     <script address="source.12">
@@ -567,6 +875,7 @@
      <command address="weight">1.000000</command>
     </script>
     <script address="source.11">
+<<<<<<< HEAD
      <command address="position">197.000000 212.000000</command>
      <command address="weight">5.000000</command>
     </script>
@@ -580,10 +889,33 @@
     </script>
     <command address="hull">0</command>
     <command address="rolloff">8.000000</command>
+=======
+     <command address="position">195.000000 191.000000</command>
+     <command address="weight">5.000000</command>
+    </script>
+    <script address="source.10">
+     <command address="position">238.000000 425.000000</command>
+     <command address="weight">3.000000</command>
+    </script>
+    <script address="source.9">
+     <command address="position">154.000000 425.000000</command>
+     <command address="weight">3.000000</command>
+    </script>
+    <script address="sources">
+     <command address="number">12</command>
+    </script>
+    <command address="hull">0</command>
+    <command address="rolloff">8.000000</command>
+    <script address="destination">
+     <command address="spread">41</command>
+     <command address="position">180 425</command>
+    </script>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     <command address="blur">0.001000</command>
    </script>
    <!---->
    <script address="dbam.irs">
+<<<<<<< HEAD
     <script address="sources">
      <command address="number">4</command>
     </script>
@@ -607,6 +939,31 @@
      <command address="weight">1.000000</command>
     </script>
     <command address="hull">0</command>
+=======
+    <script address="source.1">
+     <command address="position">197.000000 247.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.4">
+     <command address="position">270.000000 157.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.3">
+     <command address="position">122.000000 157.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="source.2">
+     <command address="position">196.000000 409.000000</command>
+     <command address="weight">1.000000</command>
+    </script>
+    <script address="destination">
+     <command address="position">180 425</command>
+    </script>
+    <command address="hull">0</command>
+    <script address="sources">
+     <command address="number">4</command>
+    </script>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     <command address="rolloff">6</command>
     <command address="gain">1.000000</command>
     <command address="blur">0.001000</command>
@@ -615,11 +972,19 @@
    <script address="adk">
     <command address="play">0</command>
     <script address="out.1">
+<<<<<<< HEAD
      <command address="gain">88.424316</command>
      <command address="mute">0</command>
     </script>
     <script address="out.2">
      <command address="gain">88.424316</command>
+=======
+     <command address="gain">93.342354</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">93.342354</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -628,10 +993,17 @@
     <command address="play">0</command>
     <script address="out.1">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">86.275223</command>
     </script>
     <script address="out.2">
      <command address="gain">86.275223</command>
+=======
+     <command address="gain">93.342354</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">93.342354</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -639,6 +1011,7 @@
    <script address="event">
     <command address="play">0</command>
     <script address="out.3">
+<<<<<<< HEAD
      <command address="gain">95.000000</command>
      <command address="mute">0</command>
     </script>
@@ -648,10 +1021,22 @@
     </script>
     <script address="out.5">
      <command address="gain">95.000000</command>
+=======
+     <command address="gain">70.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.4">
+     <command address="gain">70.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">70.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.1">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">95.000000</command>
     </script>
     <script address="out.2">
@@ -660,6 +1045,16 @@
     </script>
     <script address="out.6">
      <command address="gain">95.000000</command>
+=======
+     <command address="gain">70.000000</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">70.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">70.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
@@ -667,6 +1062,7 @@
    <script address="exterieur">
     <command address="play">0</command>
     <script address="out.4">
+<<<<<<< HEAD
      <command address="gain">87.343163</command>
      <command address="mute">0</command>
     </script>
@@ -684,27 +1080,59 @@
     </script>
     <script address="out.3">
      <command address="gain">87.343163</command>
+=======
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.5">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.6">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.1">
+     <command address="gain">100.000000</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.3">
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
     <script address="out.2">
      <command address="mute">0</command>
+<<<<<<< HEAD
      <command address="gain">87.343163</command>
+=======
+     <command address="gain">100.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
     </script>
    </script>
    <!---->
    <script address="km185">
     <command address="play">0</command>
     <script address="out.1">
+<<<<<<< HEAD
      <command address="gain">89.518860</command>
      <command address="mute">0</command>
     </script>
     <script address="out.2">
      <command address="gain">89.518860</command>
+=======
+     <command address="gain">70.858788</command>
+     <command address="mute">0</command>
+    </script>
+    <script address="out.2">
+     <command address="gain">70.858788</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
      <command address="mute">0</command>
     </script>
    </script>
    <script address="bus">
     <script address="hexa">
+<<<<<<< HEAD
      <command address="gain">-4</command>
     </script>
     <script address="stereo">
@@ -716,6 +1144,19 @@
    </script>
    <script address="balance">
     <command address="hexa">0.018868</command>
+=======
+     <command address="gain">-9</command>
+    </script>
+    <script address="stereo">
+     <command address="gain">-10.309999</command>
+    </script>
+    <script address="ir">
+     <command address="gain">-11</command>
+    </script>
+   </script>
+   <script address="balance">
+    <command address="hexa">0.000000</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
    </script>
   </script>
  </cue>
@@ -745,6 +1186,7 @@
    </script>
    <!---->
    <script address="IR.3">
+<<<<<<< HEAD
     <command address="file">abbatiale-musicanova-IR4-7eqa_01.wav</command>
    </script>
    <!---->
@@ -758,6 +1200,21 @@
    <!---->
    <script address="IR.2">
     <command address="file">abbatiale-musicanova-IR3-7eqa_01.wav</command>
+=======
+    <command address="file">abbatiale-musicanova-IR4.wav</command>
+   </script>
+   <!---->
+   <script address="IR.4">
+    <command address="file">abbatiale-musicanova-IR5.wav</command>
+   </script>
+   <!---->
+   <script address="IR.1">
+    <command address="file">abbatiale-musicanova-IR1.wav</command>
+   </script>
+   <!---->
+   <script address="IR.2">
+    <command address="file">abbatiale-musicanova-IR3.wav</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
    </script>
    <!---->
    <script address="ortf">
@@ -780,6 +1237,7 @@
    </script>
    <!---->
    <script address="IR.2">
+<<<<<<< HEAD
     <command address="file">refectoire-bela-IR2-7eqa_01-02.wav</command>
    </script>
    <!---->
@@ -789,6 +1247,17 @@
    <!---->
    <script address="IR.3">
     <command address="file">refectoire-bela-IR3-7eqa_01-02.wav</command>
+=======
+    <command address="file">refectoire-bela-IR2-02.wav</command>
+   </script>
+   <!---->
+   <script address="IR.1">
+    <command address="file">refectoire-bela-IR1-02.wav</command>
+   </script>
+   <!---->
+   <script address="IR.3">
+    <command address="file">refectoire-bela-IR3-02.wav</command>
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
    </script>
    <!---->
    <script address="adk">
