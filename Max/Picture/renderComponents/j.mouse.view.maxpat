@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 15.0, 245.0, 33.0 ],
-					"text" : "This component is usefull to make a render client sensitive to all mouse features."
+					"text" : "This patcher is usefull to make a render client sensitive to all mouse features."
 				}
 
 			}

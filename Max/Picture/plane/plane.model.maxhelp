@@ -1153,10 +1153,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.preset.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}

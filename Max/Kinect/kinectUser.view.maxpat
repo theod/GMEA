@@ -684,7 +684,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 323.5, 40.0, 126.0, 20.0 ],
-					"text" : "j.view component"
+					"text" : "j.view"
 				}
 
 			}

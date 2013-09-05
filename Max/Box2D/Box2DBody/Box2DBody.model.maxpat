@@ -1433,7 +1433,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 37.0, 135.0, 20.0 ],
-									"text" : "j.model component"
+									"text" : "j.model"
 								}
 
 							}
@@ -1749,20 +1749,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 275.0, 16.0, 286.0, 20.0 ],
 					"text" : "poly~ Box2DShape.model #2 @args shape #1 #3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 68.0, 60.0, 73.0, 20.0 ],
-					"text" : "j.preset"
 				}
 
 			}
@@ -8787,7 +8773,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 7.0, 35.0, 135.0, 20.0 ],
-					"text" : "j.model component"
+					"text" : "j.model"
 				}
 
 			}

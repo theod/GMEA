@@ -248,7 +248,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 41.0, 368.0, 20.0 ],
-					"text" : "j.model component @description \"euclidian distance to a point\""
+					"text" : "j.model  @description \"euclidian distance to a point\""
 				}
 
 			}

@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 43.5, 7.5, 135.0, 20.0 ],
-					"text" : "j.model component"
+					"text" : "j.model"
 				}
 
 			}

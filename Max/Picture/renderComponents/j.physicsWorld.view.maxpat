@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 111.0, 9.0, 269.0, 47.0 ],
-					"text" : "This component is usefull to edit a render client. \nSet the model/address as /myRenderModel to binds on all physics features."
+					"text" : "This patcher is usefull to edit a render client. \nSet the model/address as /myRenderModel to binds on all physics features."
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 124.0, 126.0, 20.0 ],
-					"text" : "j.view component"
+					"text" : "j.view"
 				}
 
 			}
