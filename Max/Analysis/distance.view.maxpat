@@ -101,7 +101,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 277.0, 123.0, 123.0, 20.0 ],
-					"text" : "jcom.remote address"
+					"text" : "j.remote address"
 				}
 
 			}
@@ -115,7 +115,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 72.0, 321.0, 110.0, 20.0 ],
-					"text" : "jcom.receive value"
+					"text" : "j.receive value"
 				}
 
 			}
@@ -129,7 +129,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 464.0, 243.0, 129.0, 20.0 ],
-					"text" : "jcom.remote threshold"
+					"text" : "j.remote threshold"
 				}
 
 			}
@@ -143,7 +143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 464.0, 321.0, 111.0, 20.0 ],
-					"text" : "jcom.receive touch"
+					"text" : "j.receive touch"
 				}
 
 			}
@@ -278,7 +278,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 221.0, 243.0, 106.0, 20.0 ],
-					"text" : "jcom.remote point"
+					"text" : "j.remote point"
 				}
 
 			}
@@ -311,7 +311,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 72.0, 243.0, 95.0, 20.0 ],
-					"text" : "jcom.send learn"
+					"text" : "j.send learn"
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 332.0, 39.0, 126.0, 20.0 ],
-					"text" : "jcom.view component"
+					"text" : "j.view component"
 				}
 
 			}
@@ -393,7 +393,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

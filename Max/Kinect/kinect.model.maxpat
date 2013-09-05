@@ -712,7 +712,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 193.0, 568.0, 65.0, 20.0 ],
-									"text" : "jcom.send"
+									"text" : "j.send"
 								}
 
 							}
@@ -741,7 +741,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 193.0, 378.0, 586.0, 33.0 ],
-									"text" : "jcom.parameter user/names @type array @value/default none @description \"a set of name to register each user under an alias address\""
+									"text" : "j.parameter user/names @type array @value/default none @description \"a set of name to register each user under an alias address\""
 								}
 
 							}

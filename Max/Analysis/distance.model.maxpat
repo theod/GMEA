@@ -80,7 +80,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 55.0, 99.0, 169.0, 47.0 ],
-					"text" : "jcom.message learn @type boolean @description \"learn the reference point position\""
+					"text" : "j.message learn @type boolean @description \"learn the reference point position\""
 				}
 
 			}
@@ -95,7 +95,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 68.5, 392.0, 223.0, 47.0 ],
-					"text" : "jcom.parameter threshold @type decimal @value/default 0. @description \"the minimal distance to touch the point\""
+					"text" : "j.parameter threshold @type decimal @value/default 0. @description \"the minimal distance to touch the point\""
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 524.0, 194.0, 60.0 ],
-					"text" : "jcom.return touch @type boolean @repetitions/allow 0 @description \"is the distance is lower than the touch/threshold value ?\""
+					"text" : "j.return touch @type boolean @repetitions/allow 0 @description \"is the distance is lower than the touch/threshold value ?\""
 				}
 
 			}
@@ -153,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 153.5, 452.0, 189.0, 47.0 ],
-					"text" : "jcom.return value @type decimal @description \"euclidian distance to the reference point\""
+					"text" : "j.return value @type decimal @description \"euclidian distance to the reference point\""
 				}
 
 			}
@@ -182,7 +182,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 235.0, 246.0, 240.0, 60.0 ],
-					"text" : "jcom.parameter point @type array @dataspace position @dataspace/unit xyz @value/default 0. 0. 0. @description \"the reference point position\""
+					"text" : "j.parameter point @type array @dataspace position @dataspace/unit xyz @value/default 0. 0. 0. @description \"the reference point position\""
 				}
 
 			}
@@ -196,7 +196,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 235.0, 187.0, 78.0, 20.0 ],
-					"text" : "jcom.receive"
+					"text" : "j.receive"
 				}
 
 			}
@@ -211,7 +211,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 235.0, 99.0, 170.0, 60.0 ],
-					"text" : "jcom.parameter address @type string @description \"the address of a paramter or a return\""
+					"text" : "j.parameter address @type string @description \"the address of a paramter or a return\""
 				}
 
 			}
@@ -248,7 +248,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 41.0, 368.0, 20.0 ],
-					"text" : "jcom.model component @description \"euclidian distance to a point\""
+					"text" : "j.model component @description \"euclidian distance to a point\""
 				}
 
 			}
