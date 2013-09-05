@@ -37,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 599.0, 41.0, 208.0, 47.0 ],
-					"text" : "jcom.parameter format @type string @description \"the file format to use\" @value/default aif @priority 3"
+					"text" : "j.parameter format @type string @description \"the file format to use\" @value/default aif @priority 3"
 				}
 
 			}
@@ -52,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 390.0, 41.0, 201.0, 47.0 ],
-					"text" : "jcom.parameter name @type string @description \"the file name to use\" @value/default file @priority 2"
+					"text" : "j.parameter name @type string @description \"the file name to use\" @value/default file @priority 2"
 				}
 
 			}
@@ -495,7 +495,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1077.0, 41.0, 213.0, 33.0 ],
-					"text" : "jcom.message record @type boolean @description \"turn recording on off\""
+					"text" : "j.message record @type boolean @description \"turn recording on off\""
 				}
 
 			}
@@ -1083,7 +1083,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 21.0, 151.0, 227.800003, 47.0 ],
-									"text" : "sprintf \\\"jcom.in~ %s\\\" _in_%ld_ sfrecord~ _recorder_%ld_ \\\"r \\#0-%s\\\" _receive_%d_"
+									"text" : "sprintf \\\"j.in~ %s\\\" _in_%ld_ sfrecord~ _recorder_%ld_ \\\"r \\#0-%s\\\" _receive_%d_"
 								}
 
 							}
@@ -1493,7 +1493,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 121.0, 41.0, 262.0, 47.0 ],
-					"text" : "jcom.parameter channels @type generic @description \"the id or the name of channels\" @priority 1 @repetitions/allow 0"
+					"text" : "j.parameter channels @type generic @description \"the id or the name of channels\" @priority 1 @repetitions/allow 0"
 				}
 
 			}
@@ -1508,7 +1508,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 814.0, 41.0, 257.0, 47.0 ],
-					"text" : "jcom.parameter folder @type string @description \"the folder path where to record mono soundfiles for each channel\" @priority 4"
+					"text" : "j.parameter folder @type string @description \"the folder path where to record mono soundfiles for each channel\" @priority 4"
 				}
 
 			}
@@ -1545,7 +1545,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 41.0, 72.0, 20.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -1737,15 +1737,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -7,7 +7,11 @@
 			"revision" : 8
 		}
 ,
+<<<<<<< HEAD
+		"rect" : [ 77.0, 618.0, 941.0, 505.0 ],
+=======
 		"rect" : [ 511.0, 62.0, 941.0, 505.0 ],
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -910,6 +914,23 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+<<<<<<< HEAD
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 147.0, 414.5, 76.0, 20.0 ],
+									"text" : "delay 10000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+=======
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -966,6 +987,8 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+<<<<<<< HEAD
+=======
 									"id" : "obj-22",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -980,6 +1003,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -998,9 +1022,15 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
+<<<<<<< HEAD
+									"outlettype" : [ "bang", "int" ],
+									"patching_rect" : [ 257.5, 414.5, 34.0, 20.0 ],
+									"text" : "t b 1"
+=======
 									"outlettype" : [ "int", "bang" ],
 									"patching_rect" : [ 257.5, 414.5, 56.0, 20.0 ],
 									"text" : "t 1 b"
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 								}
 
 							}
@@ -1026,7 +1056,11 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
+<<<<<<< HEAD
+									"patching_rect" : [ 257.5, 474.5, 111.0, 20.0 ],
+=======
 									"patching_rect" : [ 294.5, 465.5, 111.0, 20.0 ],
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"text" : "send /scenario/cue"
 								}
 
@@ -1040,7 +1074,11 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
+<<<<<<< HEAD
+									"patching_rect" : [ 257.5, 449.5, 38.0, 18.0 ],
+=======
 									"patching_rect" : [ 294.5, 440.5, 38.0, 18.0 ],
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"text" : "veille"
 								}
 
@@ -1096,7 +1134,11 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
+<<<<<<< HEAD
+									"patching_rect" : [ 147.0, 465.5, 60.0, 18.0 ],
+=======
 									"patching_rect" : [ 147.0, 386.0, 60.0, 18.0 ],
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"text" : "recall run"
 								}
 
@@ -1443,14 +1485,22 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
+									"midpoints" : [ 156.5, 518.0, 15.0, 518.0, 15.0, 263.0, 37.5, 263.0 ],
+=======
 									"midpoints" : [ 156.5, 421.0, 15.0, 421.0, 15.0, 263.0, 37.5, 263.0 ],
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"source" : [ "obj-13", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
+									"destination" : [ "obj-9", 0 ],
+=======
 									"destination" : [ "obj-13", 0 ],
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-14", 0 ]
@@ -1535,6 +1585,8 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
+=======
 									"source" : [ "obj-20", 1 ]
 								}
 
@@ -1544,6 +1596,7 @@
 									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -1553,7 +1606,11 @@
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
+									"source" : [ "obj-20", 1 ]
+=======
 									"source" : [ "obj-22", 0 ]
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 								}
 
 							}
@@ -1562,7 +1619,11 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
+									"source" : [ "obj-20", 1 ]
+=======
 									"source" : [ "obj-22", 0 ]
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 								}
 
 							}
@@ -1657,6 +1718,18 @@
 								}
 
 							}
+<<<<<<< HEAD
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+=======
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
  ]
 					}
 ,
@@ -1861,22 +1934,37 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "renderWindow.view.maxpat",
+<<<<<<< HEAD
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
+=======
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/renderWindow",
 				"patcherrelativepath" : "../../../Max/Picture/renderWindow",
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
+<<<<<<< HEAD
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
+=======
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
 				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/patchers/library/components/list2parameter",
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.colorSelector.maxpat",
+<<<<<<< HEAD
+				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "",
+=======
 				"bootpath" : "/Users/Macmini1/Documents/@Git/GMEA/Max/Picture/components",
 				"patcherrelativepath" : "../../../Max/Picture/components",
+>>>>>>> a685cb762041a67c3a83ffbb3556552c9a2297e0
 				"type" : "JSON",
 				"implicit" : 1
 			}

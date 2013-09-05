@@ -100,7 +100,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 0.0, 105.0, 285.0, 43.0 ],
-									"text" : "jcom.parameter color @type decimalArray @ramp/drive scheduler @description \"set the color of the depth\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter color @type decimalArray @ramp/drive scheduler @description \"set the color of the depth\" @ramp/function linear @repetitions/allow 0",
 									"varname" : "deformB[4]"
 								}
 
@@ -110,7 +110,7 @@
 									"args" : [ "color" ],
 									"id" : "obj-10",
 									"maxclass" : "bpatcher",
-									"name" : "jcom.colorSelector.maxpat",
+									"name" : "j.colorSelector.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -211,7 +211,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 174.0, 151.0, 144.0, 19.0 ],
-					"text" : "jcom.oscroute /view/panel"
+					"text" : "j.oscroute /view/panel"
 				}
 
 			}
@@ -249,7 +249,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 209.0, 277.0, 31.0 ],
-					"text" : "jcom.parameter rebuild @type boolean @description \"turn on/off gl rebuilding of the depth matrix\""
+					"text" : "j.parameter rebuild @type boolean @description \"turn on/off gl rebuilding of the depth matrix\""
 				}
 
 			}
@@ -264,7 +264,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 344.0, 355.0, 33.0 ],
-					"text" : "jcom.parameter tilt/correction @type integer @description \"apply a correction to compensate the tilt of the kinect\""
+					"text" : "j.parameter tilt/correction @type integer @description \"apply a correction to compensate the tilt of the kinect\""
 				}
 
 			}
@@ -279,7 +279,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 284.0, 277.0, 47.0 ],
-					"text" : "jcom.parameter dimension @type integerArray @value/default 640 480 @description \"set the dimension of the depth matrix\""
+					"text" : "j.parameter dimension @type integerArray @value/default 640 480 @description \"set the dimension of the depth matrix\""
 				}
 
 			}
@@ -293,7 +293,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 120.0, 49.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -371,7 +371,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 134.0, 245.0, 31.0 ],
-					"text" : "jcom.parameter render/enable @type boolean @description \"turn on/off gl rendering\""
+					"text" : "j.parameter render/enable @type boolean @description \"turn on/off gl rendering\""
 				}
 
 			}
@@ -428,7 +428,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 14.0, 266.0, 43.0 ],
-					"text" : "jcom.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/allow 0",
+					"text" : "j.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/allow 0",
 					"varname" : "deformC[1]"
 				}
 
@@ -454,7 +454,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 150.0, 59.0, 20.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -476,7 +476,7 @@
 					"has_panel" : 1,
 					"has_preview" : 1,
 					"id" : "obj-69",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

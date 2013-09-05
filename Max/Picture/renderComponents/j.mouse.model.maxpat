@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 43.5, 7.5, 135.0, 20.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}
@@ -132,7 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 282.0, 65.0, 20.0 ],
-					"text" : "jcom.send"
+					"text" : "j.send"
 				}
 
 			}
@@ -241,7 +241,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 261.0, 203.5, 213.0, 31.0 ],
-					"text" : "jcom.return position/world @type array @description \"the mouse world position\""
+					"text" : "j.return position/world @type array @description \"the mouse world position\""
 				}
 
 			}
@@ -338,7 +338,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 841.0, 7.5, 270.0, 31.0 ],
-					"text" : "jcom.parameter normalize @type booelan @description \"normalize the position of the mouse\""
+					"text" : "j.parameter normalize @type booelan @description \"normalize the position of the mouse\""
 				}
 
 			}
@@ -353,7 +353,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 831.0, 300.5, 215.0, 31.0 ],
-					"text" : "jcom.return click @type boolean @description \"the mouse click state\""
+					"text" : "j.return click @type boolean @description \"the mouse click state\""
 				}
 
 			}
@@ -396,7 +396,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 793.0, 337.5, 253.0, 31.0 ],
-					"text" : "jcom.return position/screen @type array @description \"the mouse screen position\""
+					"text" : "j.return position/screen @type array @description \"the mouse screen position\""
 				}
 
 			}
@@ -425,7 +425,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 483.0, 337.5, 231.0, 31.0 ],
-					"text" : "jcom.return out @type none @description \"the mouse is outgoing the window\""
+					"text" : "j.return out @type none @description \"the mouse is outgoing the window\""
 				}
 
 			}
@@ -440,7 +440,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 393.0, 7.5, 227.0, 31.0 ],
-					"text" : "jcom.parameter active @type boolean @description \"enable the mouse feedback\""
+					"text" : "j.parameter active @type boolean @description \"enable the mouse feedback\""
 				}
 
 			}

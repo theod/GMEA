@@ -225,7 +225,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 342.0, 23.0, 241.0, 48.0 ],
-									"text" : "jcom.message drag/enable @type boolean @repetitions/allow 0 @description \"enable the dragging of the nearest body\""
+									"text" : "j.message drag/enable @type boolean @repetitions/allow 0 @description \"enable the dragging of the nearest body\""
 								}
 
 							}
@@ -268,7 +268,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 91.0, 23.0, 234.0, 48.0 ],
-									"text" : "jcom.message drag/nearest @type array @description \"drag the nearest body from the given point\""
+									"text" : "j.message drag/nearest @type array @description \"drag the nearest body from the given point\""
 								}
 
 							}
@@ -487,7 +487,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 43.0, 62.0, 73.0, 20.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -2355,7 +2355,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 548.0, 154.0, 199.0, 43.0 ],
-									"text" : "jcom.parameter gravity @type array @value/default 0 0 @description \"set the direction of the gravity\""
+									"text" : "j.parameter gravity @type array @value/default 0 0 @description \"set the direction of the gravity\""
 								}
 
 							}
@@ -2385,7 +2385,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 235.0, 139.0, 255.0, 62.0 ],
-									"text" : "jcom.message segmentWidth @type decimal @value/default 0.1 @range/bounds 0.1 1. @range/clipmode low @description \"set the width of segment in box2D\""
+									"text" : "j.message segmentWidth @type decimal @value/default 0.1 @range/bounds 0.1 1. @range/clipmode low @description \"set the width of segment in box2D\""
 								}
 
 							}
@@ -2415,7 +2415,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 27.0, 153.0, 197.0, 48.0 ],
-									"text" : "jcom.message sleepDefault @type boolean @description \"can a body be put to sleep by default\""
+									"text" : "j.message sleepDefault @type boolean @description \"can a body be put to sleep by default\""
 								}
 
 							}
@@ -2430,7 +2430,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 670.0, 18.0, 281.0, 48.0 ],
-									"text" : "jcom.message numIteration/velocity @type integer @value/default 8 @description \"set number of iteration for box2D velocity processing \""
+									"text" : "j.message numIteration/velocity @type integer @value/default 8 @description \"set number of iteration for box2D velocity processing \""
 								}
 
 							}
@@ -2445,7 +2445,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 349.0, 18.0, 284.0, 48.0 ],
-									"text" : "jcom.message numIteration/position @type integer @value/default 10 @description \"set number of iteration for box2D position processing \""
+									"text" : "j.message numIteration/position @type integer @value/default 10 @description \"set number of iteration for box2D position processing \""
 								}
 
 							}
@@ -2489,7 +2489,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 27.0, 18.0, 229.0, 48.0 ],
-									"text" : "jcom.message rate @type decimal @value/default 60. @description \"set the simulation rate frequency of box2D\""
+									"text" : "j.message rate @type decimal @value/default 60. @description \"set the simulation rate frequency of box2D\""
 								}
 
 							}
@@ -2687,7 +2687,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 445.0, 272.0, 284.0, 34.0 ],
-									"text" : "jcom.message dumpout @type none @description \"dump all Box2D state in the Max window \""
+									"text" : "j.message dumpout @type none @description \"dump all Box2D state in the Max window \""
 								}
 
 							}
@@ -3822,7 +3822,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 899.0, 101.0, 239.0, 31.0 ],
-													"text" : "jcom.return render/deltatime @type decimal @description \"Box2D rendering delta time\""
+													"text" : "j.return render/deltatime @type decimal @description \"Box2D rendering delta time\""
 												}
 
 											}
@@ -3837,7 +3837,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1076.0, 65.0, 212.0, 31.0 ],
-													"text" : "jcom.return render/done @type none @description \"Box2D rendering is done\""
+													"text" : "j.return render/done @type none @description \"Box2D rendering is done\""
 												}
 
 											}
@@ -3998,7 +3998,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 445.0, 363.0, 366.0, 20.0 ],
-									"text" : "jcom.message reset @type none @description \"reset all elements\""
+									"text" : "j.message reset @type none @description \"reset all elements\""
 								}
 
 							}
@@ -4013,7 +4013,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 376.0, 228.0, 31.0 ],
-									"text" : "jcom.parameter debug @type boolean @description \"turn on/off the debug mode\""
+									"text" : "j.parameter debug @type boolean @description \"turn on/off the debug mode\""
 								}
 
 							}
@@ -4028,7 +4028,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 202.0, 71.0, 226.0, 55.0 ],
-									"text" : "jcom.parameter render/fps @type integer @value/default 25 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the rendering\""
+									"text" : "j.parameter render/fps @type integer @value/default 25 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the rendering\""
 								}
 
 							}
@@ -4043,7 +4043,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 137.0, 25.0, 195.0, 43.0 ],
-									"text" : "jcom.parameter render/enable @type boolean @description \"turn on/off box2D rendering\" @priority 5"
+									"text" : "j.parameter render/enable @type boolean @description \"turn on/off box2D rendering\" @priority 5"
 								}
 
 							}
@@ -4183,7 +4183,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 212.0, 187.0, 440.0, 34.0 ],
-									"text" : "jcom.parameter render/get @type string @value/default everything @description \"what to get back from the Box2D render (everything | body | shape | contact)\""
+									"text" : "j.parameter render/get @type string @value/default everything @description \"what to get back from the Box2D render (everything | body | shape | contact)\""
 								}
 
 							}
@@ -4480,7 +4480,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 7.0, 35.0, 476.0, 20.0 ],
-					"text" : "jcom.model @type control @description \"a Box2D render to process physical modeling\""
+					"text" : "j.model @description \"a Box2D render to process physical modeling\""
 				}
 
 			}

@@ -52,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 822.5, 91.0, 154.0, 55.0 ],
-					"text" : "jcom.parameter static @type boolean @description \"is the plane can move with camera movement or not ?\""
+					"text" : "j.parameter static @type boolean @description \"is the plane can move with camera movement or not ?\""
 				}
 
 			}
@@ -141,7 +141,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 193.0, 356.5, 135.0, 31.0 ],
-					"text" : "jcom.physicsBody.model body"
+					"text" : "j.physicsBody.model body"
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 51.0, 116.0, 98.0, 19.0 ],
-					"text" : "jcom.mouse.view"
+					"text" : "j.mouse.view"
 				}
 
 			}
@@ -197,7 +197,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 193.0, 116.0, 130.0, 19.0 ],
-					"text" : "jcom.physicsWorld.view"
+					"text" : "j.physicsWorld.view"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1243.875, 198.0, 241.0, 55.0 ],
-					"text" : "jcom.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree @repetitions/allow 0"
+					"text" : "j.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree @repetitions/allow 0"
 				}
 
 			}
@@ -255,7 +255,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1088.875, 198.0, 146.0, 67.0 ],
-					"text" : "jcom.parameter scale @type array @description \"scale the plane\" @ramp/drive Max @repetitions/allow 0"
+					"text" : "j.parameter scale @type array @description \"scale the plane\" @ramp/drive Max @repetitions/allow 0"
 				}
 
 			}
@@ -284,7 +284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 856.875, 198.0, 219.0, 67.0 ],
-					"text" : "jcom.parameter position @type array @description \"position the plane\" @dataspace position @dataspace/unit xyz @ramp/drive Max @repetitions/allow 0"
+					"text" : "j.parameter position @type array @description \"position the plane\" @dataspace position @dataspace/unit xyz @ramp/drive Max @repetitions/allow 0"
 				}
 
 			}
@@ -312,7 +312,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 566.5, 116.0, 101.0, 19.0 ],
-					"text" : "jcom.handler.view"
+					"text" : "j.handler.view"
 				}
 
 			}
@@ -327,7 +327,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 705.5, 198.0, 144.0, 55.0 ],
-					"text" : "jcom.parameter alpha @type decimal @description \"set opacity\" @value/default 1."
+					"text" : "j.parameter alpha @type decimal @description \"set opacity\" @value/default 1."
 				}
 
 			}
@@ -370,7 +370,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 566.5, 198.0, 132.0, 55.0 ],
-					"text" : "jcom.parameter layer @type integer @description \"select rendering order\""
+					"text" : "j.parameter layer @type integer @description \"select rendering order\""
 				}
 
 			}
@@ -413,7 +413,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 395.125, 198.0, 161.0, 55.0 ],
-					"text" : "jcom.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @value/default 1"
+					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @value/default 1"
 				}
 
 			}
@@ -441,7 +441,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 348.0, 116.0, 207.5, 19.0 ],
-					"text" : "jcom.render.view"
+					"text" : "j.render.view"
 				}
 
 			}
@@ -481,7 +481,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 331.0, 47.0, 84.0, 19.0 ],
-					"text" : "jcom.in matrix"
+					"text" : "j.in matrix"
 				}
 
 			}
@@ -496,8 +496,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.0, 35.0, 143.0, 43.0 ],
-					"text" : "jcom.model @type opengl @description \"a plane to display a picture\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @description \"a plane to display a picture\"",
+					"varname" : "j.hub"
 				}
 
 			}

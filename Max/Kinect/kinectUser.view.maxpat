@@ -473,8 +473,50 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 16.0, 99.0, 183.0, 20.0 ],
-									"text" : "jcom.receive /kinect/output/done"
+									"patching_rect" : [ 16.0, 99.0, 78.0, 20.0 ],
+									"text" : "j.receive"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 202.0, 76.5, 176.0, 20.0 ],
+									"text" : "sprintf address /%s/output/start"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 16.0, 31.0, 136.0, 20.0 ],
+									"text" : "regexp / @substitute \" \""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 16.0, 8.0, 160.0, 20.0 ],
+									"text" : "j.receive model/address"
 								}
 
 							}
@@ -487,8 +529,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 202.0, 99.0, 179.0, 20.0 ],
-									"text" : "jcom.receive /kinect/output/start"
+									"patching_rect" : [ 202.0, 99.0, 78.0, 20.0 ],
+									"text" : "j.receive"
 								}
 
 							}
@@ -605,7 +647,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 578.0, 40.0, 94.0, 20.0 ],
-					"text" : "jcom.receive *.*"
+					"text" : "j.receive *.*"
 				}
 
 			}
@@ -642,7 +684,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 323.5, 40.0, 126.0, 20.0 ],
-					"text" : "jcom.view component"
+					"text" : "j.view component"
 				}
 
 			}
@@ -650,7 +692,7 @@
 				"box" : 				{
 					"background" : 1,
 					"id" : "obj-5",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

@@ -117,7 +117,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 641.599976, 7.0, 226.0, 55.0 ],
-									"text" : "jcom.parameter skeleton/filter/orientation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"filter skeleton orientation values\" @priority 2"
+									"text" : "j.parameter skeleton/filter/orientation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"filter skeleton orientation values\" @priority 2"
 								}
 
 							}
@@ -132,7 +132,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 414.599976, 7.0, 226.0, 55.0 ],
-									"text" : "jcom.parameter skeleton/filter/position @type decimal @range/bounds 0. 1. @range/clipmode both @description \"filter skeleton position values\" @priority 2"
+									"text" : "j.parameter skeleton/filter/position @type decimal @range/bounds 0. 1. @range/clipmode both @description \"filter skeleton position values\" @priority 2"
 								}
 
 							}
@@ -147,7 +147,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 216.0, 7.0, 198.0, 55.0 ],
-									"text" : "jcom.parameter skeleton/smooth @type decimal @range/bounds 0. 1. @range/clipmode both @description \"smooth skeleton values\" @priority 2"
+									"text" : "j.parameter skeleton/smooth @type decimal @range/bounds 0. 1. @range/clipmode both @description \"smooth skeleton values\" @priority 2"
 								}
 
 							}
@@ -162,7 +162,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 9.0, 7.0, 206.0, 55.0 ],
-									"text" : "jcom.parameter skeleton/mode @type string @description \"select skeleton value mode : world | screen | body\" @value/default world @priority 2"
+									"text" : "j.parameter skeleton/mode @type string @description \"select skeleton value mode : world | screen | body\" @value/default world @priority 2"
 								}
 
 							}
@@ -838,8 +838,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 206.5, 283.5, 237.0, 60.0 ],
-									"text" : "jcom.return user/number @type integer @range/bounds 0 4 @range/clipmode low @description \"how many people are tracked by the kinect\""
+									"patching_rect" : [ 226.0, 174.5, 237.0, 60.0 ],
+									"text" : "j.return user/number @type integer @range/bounds 0 4 @range/clipmode low @description \"how many people are tracked by the kinect\""
 								}
 
 							}
@@ -1026,7 +1026,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 8.0, 39.5, 204.0, 20.0 ],
-									"text" : "jcom.oscroute /joint /user"
+									"text" : "j.oscroute /joint /user"
 								}
 
 							}
@@ -1410,7 +1410,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 313.599976, 216.5, 151.0, 47.0 ],
-									"text" : "jcom.message output/init @type none @description \"Initialize kinect detection\""
+									"text" : "j.message output/init @type none @description \"Initialize kinect detection\""
 								}
 
 							}
@@ -1425,7 +1425,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 979.0, 72.5, 155.0, 67.0 ],
-									"text" : "jcom.parameter output/ir @type boolean @description \"turn on/off kinect infra red picture update\" @value/default 0 @priority 1"
+									"text" : "j.parameter output/ir @type boolean @description \"turn on/off kinect infra red picture update\" @value/default 0 @priority 1"
 								}
 
 							}
@@ -1440,7 +1440,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 817.0, 72.5, 163.0, 67.0 ],
-									"text" : "jcom.parameter output/rgb @type boolean @description \"turn on/off kinect rgb picture update\" @value/default 0 @priority 1"
+									"text" : "j.parameter output/rgb @type boolean @description \"turn on/off kinect rgb picture update\" @value/default 0 @priority 1"
 								}
 
 							}
@@ -1455,7 +1455,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 650.200012, 72.5, 166.0, 67.0 ],
-									"text" : "jcom.parameter output/depth @type boolean @description \"turn on/off kinect depth map update\" @value/default 0 @priority 1"
+									"text" : "j.parameter output/depth @type boolean @description \"turn on/off kinect depth map update\" @value/default 0 @priority 1"
 								}
 
 							}
@@ -1470,7 +1470,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 289.599976, 72.5, 175.0, 67.0 ],
-									"text" : "jcom.parameter output/skeleton @type boolean @description \"turn on/off kinect skeleton detection\" @value/default 1 @priority 1"
+									"text" : "j.parameter output/skeleton @type boolean @description \"turn on/off kinect skeleton detection\" @value/default 1 @priority 1"
 								}
 
 							}
@@ -1485,7 +1485,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 466.200012, 72.5, 183.0, 67.0 ],
-									"text" : "jcom.parameter output/orientation @type boolean @description \"turn on/off kinect orientation detection\" @value/default 0 @priority 1"
+									"text" : "j.parameter output/orientation @type boolean @description \"turn on/off kinect orientation detection\" @value/default 0 @priority 1"
 								}
 
 							}
@@ -1570,7 +1570,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.0, 283.5, 151.0, 60.0 ],
-									"text" : "jcom.return output/done @type none @description \"a bang sent after kinect data update\""
+									"text" : "j.return output/done @type none @description \"a bang sent after kinect data update\""
 								}
 
 							}
@@ -1585,7 +1585,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.0, 216.5, 160.0, 60.0 ],
-									"text" : "jcom.return output/start @type none @description \"a bang sent before asking kinect data update\""
+									"text" : "j.return output/start @type none @description \"a bang sent before asking kinect data update\""
 								}
 
 							}
@@ -1614,7 +1614,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 70.0, 72.5, 189.0, 67.0 ],
-									"text" : "jcom.parameter output/fps @type integer @value/default 30 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the output update\""
+									"text" : "j.parameter output/fps @type integer @value/default 30 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the output update\""
 								}
 
 							}
@@ -1643,7 +1643,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 12.0, 165.0, 55.0 ],
-									"text" : "jcom.parameter output/active @type boolean @description \"turn on/off kinect detection\" @priority 10"
+									"text" : "j.parameter output/active @type boolean @description \"turn on/off kinect detection\" @priority 10"
 								}
 
 							}
@@ -1906,8 +1906,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 538.700012, 156.0, 83.0, 20.0 ],
-					"text" : "jcom.out user"
+					"patching_rect" : [ 538.700012, 125.0, 83.0, 20.0 ],
+					"text" : "j.out user"
 				}
 
 			}
@@ -1931,8 +1931,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 440.799988, 156.0, 66.0, 20.0 ],
-					"text" : "jcom.out ir"
+					"patching_rect" : [ 440.799988, 125.0, 66.0, 20.0 ],
+					"text" : "j.out ir"
 				}
 
 			}
@@ -1956,8 +1956,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 342.899994, 156.0, 77.0, 20.0 ],
-					"text" : "jcom.out rgb"
+					"patching_rect" : [ 342.899994, 125.0, 77.0, 20.0 ],
+					"text" : "j.out rgb"
 				}
 
 			}
@@ -1981,8 +1981,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 245.0, 156.0, 89.0, 20.0 ],
-					"text" : "jcom.out depth"
+					"patching_rect" : [ 245.0, 125.0, 89.0, 20.0 ],
+					"text" : "j.out depth"
 				}
 
 			}
@@ -2020,8 +2020,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 30.0, 72.0, 20.0 ],
-					"text" : "jcom.model"
+					"patching_rect" : [ 15.0, 30.0, 149.0, 20.0 ],
+					"text" : "j.model"
 				}
 
 			}

@@ -210,7 +210,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 395.0, 110.0, 165.0, 20.0 ],
-					"text" : "jcom.send~ /recorder/in.back",
+					"text" : "j.send~ /recorder/in.back",
 					"varname" : "_receive_1_[3]"
 				}
 
@@ -225,7 +225,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 229.0, 110.0, 164.0, 20.0 ],
-					"text" : "jcom.send~ /recorder/in.front",
+					"text" : "j.send~ /recorder/in.front",
 					"varname" : "_receive_1_[2]"
 				}
 
@@ -240,7 +240,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 61.0, 137.0, 148.0, 20.0 ],
-					"text" : "jcom.send~ /recorder/in.R",
+					"text" : "j.send~ /recorder/in.R",
 					"varname" : "_receive_1_[1]"
 				}
 
@@ -255,7 +255,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 110.0, 146.0, 20.0 ],
-					"text" : "jcom.send~ /recorder/in.L",
+					"text" : "j.send~ /recorder/in.L",
 					"varname" : "_receive_1_"
 				}
 
@@ -410,19 +410,19 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send~.mxo",
+				"name" : "j.send~.mxo",
 				"type" : "iLaX"
 			}
  ]

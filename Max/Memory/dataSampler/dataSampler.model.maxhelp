@@ -626,7 +626,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 59.5, 347.0, 175.0, 47.0 ],
-					"text" : "jcom.parameterArray position.[2] @type array @range/bounds -1. 1."
+					"text" : "j.parameterArray position.[2] @type array @range/bounds -1. 1."
 				}
 
 			}
@@ -794,7 +794,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.parameterArray.mxo",
+				"name" : "j.parameterArray.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -802,15 +802,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.map.mxo",
+				"name" : "j.map.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
  ]

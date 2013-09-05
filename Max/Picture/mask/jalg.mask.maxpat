@@ -1106,7 +1106,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 4.0, 40.0, 660.0, 20.0 ],
-					"text" : "jcom.oscroute /bypass /clear /add /mask /invert"
+					"text" : "j.oscroute /bypass /clear /add /mask /invert"
 				}
 
 			}
