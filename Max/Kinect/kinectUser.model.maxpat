@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 1401.0, 275.0 ],
@@ -111,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 903.75, 138.0, 124.0, 60.0 ],
+					"patching_rect" : [ 903.75, 138.0, 126.0, 60.0 ],
 					"text" : "j.return hip.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -186,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 534.375, 206.0, 147.0, 60.0 ],
+					"patching_rect" : [ 534.375, 206.0, 148.0, 60.0 ],
 					"text" : "j.return shoulder.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -354,8 +355,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 36.0, 135.0, 20.0 ],
-					"text" : "j.model component"
+					"patching_rect" : [ 7.0, 36.0, 49.0, 20.0 ],
+					"text" : "j.model"
 				}
 
 			}
@@ -571,6 +572,15 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
