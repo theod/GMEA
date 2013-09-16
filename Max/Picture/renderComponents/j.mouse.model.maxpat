@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 232.0, 134.0, 1158.0, 416.0 ],
@@ -35,8 +36,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.5, 7.5, 135.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 46.0, 5.0, 146.0, 20.0 ],
+					"text" : "j.model @amenities none"
 				}
 
 			}
@@ -337,7 +338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 841.0, 7.5, 270.0, 31.0 ],
+					"patching_rect" : [ 841.0, 7.5, 271.0, 31.0 ],
 					"text" : "j.parameter normalize @type booelan @description \"normalize the position of the mouse\""
 				}
 
@@ -772,6 +773,23 @@
 					"source" : [ "obj-43", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

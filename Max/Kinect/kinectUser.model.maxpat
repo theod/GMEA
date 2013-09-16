@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 1401.0, 275.0 ],
+		"rect" : [ 4.0, 44.0, 1401.0, 275.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -355,8 +355,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 36.0, 49.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 7.0, 36.0, 146.0, 20.0 ],
+					"text" : "j.model @amenities none"
 				}
 
 			}

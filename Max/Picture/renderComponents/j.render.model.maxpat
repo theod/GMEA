@@ -36,8 +36,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 81.0, 9.0, 135.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 81.0, 9.0, 146.0, 20.0 ],
+					"text" : "j.model @amenities none"
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 554.0, 217.0, 248.0, 67.0 ],
+					"patching_rect" : [ 554.0, 217.0, 251.0, 67.0 ],
 					"text" : "j.parameter depth @type boolean @description \"turn on/off gl depth processing (needed for 3d space rendering but useless for 2d setting-up based on transparent pictures for example)\" @value/default 0 @priority 4"
 				}
 

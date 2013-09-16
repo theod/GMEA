@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 849.0, 408.0, 661.0, 263.0 ],
@@ -145,8 +146,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.0, 124.0, 126.0, 20.0 ],
-					"text" : "j.view"
+					"patching_rect" : [ 28.0, 124.0, 137.0, 20.0 ],
+					"text" : "j.view @amenities none"
 				}
 
 			}
@@ -204,6 +205,15 @@
 					"source" : [ "obj-6", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

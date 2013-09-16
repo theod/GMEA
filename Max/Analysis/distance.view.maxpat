@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -86,8 +86,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 277.0, 150.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 27.0, 146.0, 20.0 ],
-					"text" : "/guitou/hand.left"
+					"presentation_rect" : [ 2.0, 27.0, 146.0, 20.0 ]
 				}
 
 			}
@@ -347,8 +346,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 332.0, 39.0, 126.0, 20.0 ],
-					"text" : "j.view"
+					"patching_rect" : [ 332.0, 42.5, 137.0, 20.0 ],
+					"text" : "j.view @amenities none"
 				}
 
 			}
@@ -400,7 +399,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/dis..ghl"
+					"text" : "/noM..ess"
 				}
 
 			}
@@ -605,6 +604,27 @@
 					"source" : [ "obj-9", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

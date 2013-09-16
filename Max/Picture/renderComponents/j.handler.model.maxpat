@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 10.0, 44.0, 337.0, 328.0 ],
@@ -35,8 +36,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 68.0, 9.0, 135.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 68.0, 9.0, 146.0, 20.0 ],
+					"text" : "j.model @amenities none"
 				}
 
 			}
