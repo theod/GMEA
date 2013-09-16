@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 44.0, 1013.0, 516.0 ],
+		"rect" : [ 543.0, 403.0, 1013.0, 516.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -79,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 97.0, 183.0, 60.0 ],
+					"patching_rect" : [ 13.0, 127.0, 183.0, 60.0 ],
 					"text" : "j.return name @type string @description \"gl context render where to draw\" @repetitions/allow 0 @priority 1"
 				}
 
@@ -108,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 554.0, 217.0, 246.0, 67.0 ],
+					"patching_rect" : [ 554.0, 217.0, 248.0, 67.0 ],
 					"text" : "j.parameter depth @type boolean @description \"turn on/off gl depth processing (needed for 3d space rendering but useless for 2d setting-up based on transparent pictures for example)\" @value/default 0 @priority 4"
 				}
 
@@ -118,12 +119,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.5, 69.5, 63.0, 18.0 ],
-					"text" : "drawto $1"
+					"patching_rect" : [ 26.5, 69.5, 101.0, 31.0 ],
+					"text" : "name $1-render, drawto $1"
 				}
 
 			}
@@ -152,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 247.0, 440.0, 197.0, 47.0 ],
+					"patching_rect" : [ 247.0, 440.0, 198.0, 47.0 ],
 					"text" : "j.return draw @type none @description \"draw bang that each render client have to observe\""
 				}
 
@@ -167,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 534.0, 97.0, 219.0, 55.0 ],
+					"patching_rect" : [ 534.0, 97.0, 223.0, 55.0 ],
 					"text" : "j.parameter background/color @type array @ramp/drive Max @description \"set the color of the form\" @ramp/function linear @repetitions/allow 0",
 					"varname" : "deformB[5]"
 				}
@@ -183,7 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 288.0, 143.0, 217.0, 55.0 ],
+					"patching_rect" : [ 288.0, 143.0, 218.0, 55.0 ],
 					"text" : "j.parameter fps @type integer @value/default 25 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the rendering\""
 				}
 
