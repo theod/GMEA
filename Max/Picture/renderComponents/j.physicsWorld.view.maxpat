@@ -106,7 +106,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.0, 102.0, 137.0, 20.0 ],
-					"text" : "prepend model/address"
+					"text" : "prepend model:address"
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 111.0, 9.0, 269.0, 47.0 ],
-					"text" : "This patcher is usefull to edit a render client. \nSet the model/address as /myRenderModel to binds on all physics features."
+					"text" : "This patcher is usefull to edit a render client. \nSet the model:address as /myRenderModel to binds on all physics features."
 				}
 
 			}
