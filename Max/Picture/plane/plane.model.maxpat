@@ -226,7 +226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1243.875, 198.0, 241.0, 55.0 ],
-					"text" : "j.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree @repetitions/allow 0"
+					"text" : "j.parameter orientation @type array @description \"rotate the plane\" @ramp/drive Max @dataspace position @dataspace/unit degree @repetitions/filter 1"
 				}
 
 			}
@@ -255,7 +255,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1088.875, 198.0, 146.0, 67.0 ],
-					"text" : "j.parameter scale @type array @description \"scale the plane\" @ramp/drive Max @repetitions/allow 0"
+					"text" : "j.parameter scale @type array @description \"scale the plane\" @ramp/drive Max @repetitions/filter 1"
 				}
 
 			}
@@ -284,7 +284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 856.875, 198.0, 219.0, 67.0 ],
-					"text" : "j.parameter position @type array @description \"position the plane\" @dataspace position @dataspace/unit xyz @ramp/drive Max @repetitions/allow 0"
+					"text" : "j.parameter position @type array @description \"position the plane\" @dataspace position @dataspace/unit xyz @ramp/drive Max @repetitions/filter 1"
 				}
 
 			}

@@ -1226,7 +1226,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 198.0, 15.0, 397.0, 20.0 ],
-									"text" : "j.parameter enable @type boolean @repetitions/allow 0 @priority 12"
+									"text" : "j.parameter enable @type boolean @repetitions/filter 1 @priority 12"
 								}
 
 							}
@@ -4477,7 +4477,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 27.0, 289.0, 390.0, 20.0 ],
-					"text" : "j.parameter sleep @type boolean @repetitions/allow 0 @priority 12"
+					"text" : "j.parameter sleep @type boolean @repetitions/filter 1 @priority 12"
 				}
 
 			}
@@ -4491,7 +4491,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 26.0, 89.0, 396.0, 20.0 ],
-					"text" : "j.parameter enable @type boolean @repetitions/allow 0 @priority 11"
+					"text" : "j.parameter enable @type boolean @repetitions/filter 1 @priority 11"
 				}
 
 			}

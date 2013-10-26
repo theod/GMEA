@@ -2577,7 +2577,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 26.0, 92.0, 396.0, 20.0 ],
-					"text" : "j.parameter enable @type boolean @repetitions/allow 0 @priority 11"
+					"text" : "j.parameter enable @type boolean @repetitions/filter 1 @priority 11"
 				}
 
 			}

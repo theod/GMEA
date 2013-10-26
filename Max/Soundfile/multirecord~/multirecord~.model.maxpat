@@ -1493,7 +1493,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 121.0, 41.0, 262.0, 47.0 ],
-					"text" : "j.parameter channels @type generic @description \"the id or the name of channels\" @priority 1 @repetitions/allow 0"
+					"text" : "j.parameter channels @type generic @description \"the id or the name of channels\" @priority 1 @repetitions/filter 1"
 				}
 
 			}

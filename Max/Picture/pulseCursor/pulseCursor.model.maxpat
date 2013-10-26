@@ -93,7 +93,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 606.0, 277.0, 280.0, 55.0 ],
-					"text" : "j.parameter color @type array @ramp/drive Max @description \"set the color of the cursor\" @ramp/function linear @value/default 1. 0. 0. 1. @repetitions/allow 0",
+					"text" : "j.parameter color @type array @ramp/drive Max @description \"set the color of the cursor\" @ramp/function linear @value/default 1. 0. 0. 1. @repetitions/filter 1",
 					"varname" : "deformB[6]"
 				}
 

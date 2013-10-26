@@ -262,7 +262,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 386.5, 607.0, 225.0, 47.0 ],
-					"text" : "j.parameter device @type string @value/default none @repetitions/allow 0 @description \"the device to open\""
+					"text" : "j.parameter device @type string @value/default none @repetitions/filter 1 @description \"the device to open\""
 				}
 
 			}
@@ -648,7 +648,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 744.0, 58.0, 199.0, 87.0 ],
-					"text" : "j.parameter rate @type integer @range/bounds 1 44 @range/clipmode both @value/default 40 @repetitions/allow 0 @description \"set DMX refresh rate\" @priority 3"
+					"text" : "j.parameter rate @type integer @range/bounds 1 44 @range/clipmode both @value/default 40 @repetitions/filter 1 @description \"set DMX refresh rate\" @priority 3"
 				}
 
 			}
@@ -677,7 +677,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 515.0, 58.0, 228.0, 60.0 ],
-					"text" : "j.parameter startcode @type integer @range/bounds 0 512 @range/clipmode both @repetitions/allow 0 @description \"set start code\" @priority 3"
+					"text" : "j.parameter startcode @type integer @range/bounds 0 512 @range/clipmode both @repetitions/filter 1 @description \"set start code\" @priority 3"
 				}
 
 			}
@@ -818,7 +818,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.5, 58.0, 223.0, 74.0 ],
-					"text" : "j.parameter mode @type string @range/bounds send receive @value/default send @repetitions/allow 0 @description \"set the DMX interface in send or in receive mode\" @priority 2"
+					"text" : "j.parameter mode @type string @range/bounds send receive @value/default send @repetitions/filter 1 @description \"set the DMX interface in send or in receive mode\" @priority 2"
 				}
 
 			}
@@ -876,7 +876,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 274.0, 58.0, 240.0, 74.0 ],
-					"text" : "j.parameter number @type integer @range/bounds 0 512 @range/clipmode both @value/default 0 @repetitions/allow 0 @description \"set number of DMX channel to use\" @priority 3"
+					"text" : "j.parameter number @type integer @range/bounds 0 512 @range/clipmode both @value/default 0 @repetitions/filter 1 @description \"set number of DMX channel to use\" @priority 3"
 				}
 
 			}

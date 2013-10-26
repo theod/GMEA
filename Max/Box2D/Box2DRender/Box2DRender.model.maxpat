@@ -225,7 +225,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 342.0, 23.0, 241.0, 48.0 ],
-									"text" : "j.message drag/enable @type boolean @repetitions/allow 0 @description \"enable the dragging of the nearest body\""
+									"text" : "j.message drag/enable @type boolean @repetitions/filter 1 @description \"enable the dragging of the nearest body\""
 								}
 
 							}

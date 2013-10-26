@@ -67,7 +67,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 954.0, 591.0, 341.0, 48.0 ],
-					"text" : "j.parameter defnbpoints @type integer @range/bounds 2 100 @repetitions/allow 1 @description \"the maximum number of points in the timeline\" @value/default 40"
+					"text" : "j.parameter defnbpoints @type integer @range/bounds 2 100 @repetitions/filter 0 @description \"the maximum number of points in the timeline\" @value/default 40"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 880.0, 431.0, 164.0, 34.0 ],
-					"text" : "j.message info @type boolean @repetitions/allow 0"
+					"text" : "j.message info @type boolean @repetitions/filter 1"
 				}
 
 			}
@@ -2689,7 +2689,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 125.0, 627.0, 330.0, 34.0 ],
-					"text" : "j.return toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/allow 1"
+					"text" : "j.return toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/filter 0"
 				}
 
 			}
@@ -3700,7 +3700,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 684.0, 205.0, 367.0, 34.0 ],
-					"text" : "j.message value @type integer @range/bounds 0 255 @repetitions/allow 1 @ramp/function linear @ramp/drive scheduler"
+					"text" : "j.message value @type integer @range/bounds 0 255 @repetitions/filter 0 @ramp/function linear @ramp/drive scheduler"
 				}
 
 			}
@@ -3746,7 +3746,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 333.0, 309.0, 304.0, 34.0 ],
-					"text" : "j.parameter defminmax @type array @repetitions/allow 1 @priority 3"
+					"text" : "j.parameter defminmax @type array @repetitions/filter 0 @priority 3"
 				}
 
 			}
@@ -6510,7 +6510,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 901.0, 123.0, 275.0, 34.0 ],
-					"text" : "j.message breakpoints/preset @type integer @repetitions/allow 1"
+					"text" : "j.message breakpoints/preset @type integer @repetitions/filter 0"
 				}
 
 			}
@@ -6587,7 +6587,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 124.0, 666.0, 331.0, 34.0 ],
-					"text" : "j.message fromArduino @type array @description \"retour de l'arduino\" @repetitions/allow 1"
+					"text" : "j.message fromArduino @type array @description \"retour de l'arduino\" @repetitions/filter 0"
 				}
 
 			}
@@ -11049,7 +11049,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 685.0, 544.0, 240.0, 34.0 ],
-					"text" : "j.message domain @type integer @range/bounds 1 510 @repetitions/allow 1"
+					"text" : "j.message domain @type integer @range/bounds 1 510 @repetitions/filter 0"
 				}
 
 			}
@@ -11838,7 +11838,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 901.0, 28.0, 303.0, 34.0 ],
-					"text" : "j.message breakpoints/preset/load @type array @repetitions/allow 1"
+					"text" : "j.message breakpoints/preset/load @type array @repetitions/filter 0"
 				}
 
 			}
@@ -11853,7 +11853,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 901.0, 85.0, 307.0, 34.0 ],
-					"text" : "j.message breakpoints/preset/save @type array @repetitions/allow 1"
+					"text" : "j.message breakpoints/preset/save @type array @repetitions/filter 0"
 				}
 
 			}
@@ -11885,7 +11885,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 222.0, 544.0, 240.0, 34.0 ],
-					"text" : "j.message breakpoints @type array @repetitions/allow 1"
+					"text" : "j.message breakpoints @type array @repetitions/filter 0"
 				}
 
 			}
@@ -14911,7 +14911,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 334.0, 180.0, 303.0, 34.0 ],
-					"text" : "j.parameter id @type integer @description \"identifiant interne\" @repetitions/allow 1 @priority 1"
+					"text" : "j.parameter id @type integer @description \"identifiant interne\" @repetitions/filter 0 @priority 1"
 				}
 
 			}
@@ -14948,7 +14948,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 685.0, 485.0, 304.0, 20.0 ],
-					"text" : "j.message run @type integer @repetitions/allow 0"
+					"text" : "j.message run @type integer @repetitions/filter 1"
 				}
 
 			}

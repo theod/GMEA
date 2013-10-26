@@ -302,7 +302,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 101.0, 111.0, 314.0, 67.0 ],
-									"text" : "j.parameter camera/angle @type decimal @range/bounds 0. 180. @value/default 45. @range/clipmode both @description \"set the lens angle of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/angle @type decimal @range/bounds 0. 180. @value/default 45. @range/clipmode both @description \"set the lens angle of the gl camera\" @repetitions/filter 0 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -317,7 +317,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 72.0, 62.0, 311.0, 43.0 ],
-									"text" : "j.parameter camera/lookat @type array @description \"where  the gl camera lookat\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/lookat @type array @description \"where  the gl camera lookat\" @repetitions/filter 0 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -332,7 +332,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 10.0, 362.0, 43.0 ],
-									"text" : "j.parameter camera/position @type array @value/default 0. 0. 2. @description \"position of the gl camera\" @repetitions/allow 1 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/position @type array @value/default 0. 0. 2. @description \"position of the gl camera\" @repetitions/filter 0 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -557,7 +557,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 245.0, 8.0, 229.0, 55.0 ],
-									"text" : "j.parameter light/color/diffuse @type array @ramp/drive Max @description \"set the color of the diffuse light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/diffuse @type array @ramp/drive Max @description \"set the color of the diffuse light\" @ramp/function linear @repetitions/filter 1",
 									"varname" : "deformB[7]"
 								}
 
@@ -573,7 +573,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 478.0, 8.0, 233.0, 55.0 ],
-									"text" : "j.parameter light/color/specular @type array @ramp/drive Max @description \"set the color of the specular light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/specular @type array @ramp/drive Max @description \"set the color of the specular light\" @ramp/function linear @repetitions/filter 1",
 									"varname" : "deformB[6]"
 								}
 
@@ -589,7 +589,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 7.0, 8.0, 231.0, 55.0 ],
-									"text" : "j.parameter light/color/ambient @type array @ramp/drive Max @description \"set the color of the ambiant light\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter light/color/ambient @type array @ramp/drive Max @description \"set the color of the ambiant light\" @ramp/function linear @repetitions/filter 1",
 									"varname" : "deformB[8]"
 								}
 

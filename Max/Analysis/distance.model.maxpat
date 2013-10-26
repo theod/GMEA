@@ -138,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 524.0, 194.0, 60.0 ],
-					"text" : "j.return touch @type boolean @repetitions/allow 0 @description \"is the distance is lower than the touch/threshold value ?\""
+					"text" : "j.return touch @type boolean @repetitions/filter 1 @description \"is the distance is lower than the touch/threshold value ?\""
 				}
 
 			}

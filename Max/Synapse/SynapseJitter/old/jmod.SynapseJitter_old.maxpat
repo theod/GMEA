@@ -100,7 +100,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 0.0, 105.0, 285.0, 43.0 ],
-									"text" : "j.parameter color @type decimalArray @ramp/drive scheduler @description \"set the color of the depth\" @ramp/function linear @repetitions/allow 0",
+									"text" : "j.parameter color @type decimalArray @ramp/drive scheduler @description \"set the color of the depth\" @ramp/function linear @repetitions/filter 1",
 									"varname" : "deformB[4]"
 								}
 
@@ -428,7 +428,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 14.0, 266.0, 43.0 ],
-					"text" : "j.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/allow 0",
+					"text" : "j.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/filter 1",
 					"varname" : "deformC[1]"
 				}
 

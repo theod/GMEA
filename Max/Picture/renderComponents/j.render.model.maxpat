@@ -81,7 +81,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 13.0, 127.0, 183.0, 60.0 ],
-					"text" : "j.return name @type string @description \"gl context render where to draw\" @repetitions/allow 0 @priority 1"
+					"text" : "j.return name @type string @description \"gl context render where to draw\" @repetitions/filter 1 @priority 1"
 				}
 
 			}
@@ -170,7 +170,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 534.0, 97.0, 223.0, 55.0 ],
-					"text" : "j.parameter background/color @type array @ramp/drive Max @description \"set the color of the form\" @ramp/function linear @repetitions/allow 0",
+					"text" : "j.parameter background/color @type array @ramp/drive Max @description \"set the color of the form\" @ramp/function linear @repetitions/filter 1",
 					"varname" : "deformB[5]"
 				}
 

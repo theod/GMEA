@@ -301,7 +301,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 128.0, 83.0, 336.0, 55.0 ],
-									"text" : "j.parameter upper.left @type array @ramp/drive Max @description \"upper.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/allow 0 @value/default 0. 0.",
+									"text" : "j.parameter upper.left @type array @ramp/drive Max @description \"upper.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 0. 0.",
 									"varname" : "deformA"
 								}
 
@@ -317,7 +317,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 428.0, 296.0, 335.0, 55.0 ],
-									"text" : "j.parameter lower.right @type array @ramp/drive Max @description \"lower.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/allow 0 @value/default 1. 1.",
+									"text" : "j.parameter lower.right @type array @ramp/drive Max @description \"lower.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 1. 1.",
 									"varname" : "deformD"
 								}
 
@@ -333,7 +333,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 328.0, 225.0, 336.0, 55.0 ],
-									"text" : "j.parameter upper.right @type array @ramp/drive Max @description \"upper.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/allow 0 @value/default 1. 0.",
+									"text" : "j.parameter upper.right @type array @ramp/drive Max @description \"upper.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 1. 0.",
 									"varname" : "deformB"
 								}
 
@@ -349,7 +349,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 228.0, 154.0, 336.0, 55.0 ],
-									"text" : "j.parameter lower.left @type array @ramp/drive Max @description \"lower.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/allow 0 @value/default 0. 1.",
+									"text" : "j.parameter lower.left @type array @ramp/drive Max @description \"lower.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 0. 1.",
 									"varname" : "deformC"
 								}
 

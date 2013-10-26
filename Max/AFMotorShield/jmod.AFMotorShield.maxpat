@@ -148,7 +148,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 536.0, 553.0, 326.0, 20.0 ],
-					"text" : "j.parameter port/io @type boolean @repetitions/allow 1"
+					"text" : "j.parameter port/io @type boolean @repetitions/filter 0"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 538.0, 605.0, 362.0, 20.0 ],
-					"text" : "j.message port/refresh @type none @repetitions/allow 1"
+					"text" : "j.message port/refresh @type none @repetitions/filter 0"
 				}
 
 			}
@@ -665,7 +665,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 536.0, 502.0, 313.0, 20.0 ],
-					"text" : "j.parameter port @type integer @repetitions/allow 1"
+					"text" : "j.parameter port @type integer @repetitions/filter 0"
 				}
 
 			}
@@ -724,7 +724,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 535.0, 262.0, 396.0, 20.0 ],
-					"text" : "j.return breakpoints/preset/load @type array @repetitions/allow 1"
+					"text" : "j.return breakpoints/preset/load @type array @repetitions/filter 0"
 				}
 
 			}
@@ -766,7 +766,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 538.0, 152.0, 390.0, 20.0 ],
-					"text" : "j.parameter project_folder @type string @repetitions/allow 1"
+					"text" : "j.parameter project_folder @type string @repetitions/filter 0"
 				}
 
 			}
@@ -5213,7 +5213,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 68.0, 336.0, 300.0, 34.0 ],
-					"text" : "j.return fromArduino @type array @description \"retour de l'arduino\" @repetitions/allow 1"
+					"text" : "j.return fromArduino @type array @description \"retour de l'arduino\" @repetitions/filter 0"
 				}
 
 			}
@@ -5279,7 +5279,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 536.0, 420.0, 398.0, 20.0 ],
-					"text" : "j.return breakpoints/preset/save @type array @repetitions/allow 1"
+					"text" : "j.return breakpoints/preset/save @type array @repetitions/filter 0"
 				}
 
 			}
@@ -5392,7 +5392,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 309.0, 93.0, 213.0, 34.0 ],
-									"text" : "j.message preset @type integer @repetitions/allow 1"
+									"text" : "j.message preset @type integer @repetitions/filter 0"
 								}
 
 							}
@@ -5561,7 +5561,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 308.0, 195.0, 216.0, 34.0 ],
-									"text" : "j.parameter period @type integer @repetitions/allow 1"
+									"text" : "j.parameter period @type integer @repetitions/filter 0"
 								}
 
 							}
@@ -5667,7 +5667,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 69.0, 373.0, 298.0, 48.0 ],
-					"text" : "j.message toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/allow 1"
+					"text" : "j.message toArduino @type array @description \"commande à destination de l'arduino\" @repetitions/filter 0"
 				}
 
 			}
