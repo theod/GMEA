@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.0, 123.0, 81.0, 20.0 ],
+					"patching_rect" : [ 357.0, 129.0, 81.0, 20.0 ],
 					"text" : "loadmess set"
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 277.0, 176.0, 61.0, 20.0 ],
+					"patching_rect" : [ 221.0, 182.0, 61.0, 20.0 ],
 					"text" : "route text"
 				}
 
@@ -84,7 +84,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 277.0, 150.0, 150.0, 20.0 ],
+					"patching_rect" : [ 221.0, 156.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 27.0, 146.0, 20.0 ]
 				}
@@ -99,7 +99,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 277.0, 123.0, 123.0, 20.0 ],
+					"patching_rect" : [ 221.0, 129.0, 123.0, 20.0 ],
 					"text" : "j.remote address"
 				}
 
@@ -321,7 +321,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.0, 68.0, 25.0, 25.0 ]
+					"patching_rect" : [ 157.0, 70.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -333,7 +333,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.0, 7.0, 25.0, 25.0 ]
+					"patching_rect" : [ 157.0, 9.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -346,7 +346,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 332.0, 42.5, 137.0, 20.0 ],
+					"patching_rect" : [ 157.0, 44.5, 137.0, 20.0 ],
 					"text" : "j.view @amenities none"
 				}
 
@@ -399,7 +399,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/noM..ess"
+					"text" : "/dis..ghl"
 				}
 
 			}
@@ -582,7 +582,7 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 286.5, 205.0, 270.5, 205.0, 270.5, 113.0, 286.5, 113.0 ],
+					"midpoints" : [ 230.5, 211.0, 214.5, 211.0, 214.5, 119.0, 230.5, 119.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -604,27 +604,6 @@
 					"source" : [ "obj-9", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
