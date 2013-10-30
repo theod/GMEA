@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1401.0, 275.0 ],
+		"rect" : [ -1.0, 44.0, 1629.0, 275.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,13 +31,70 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 173.75, 202.0, 79.0, 18.0 ],
+					"text" : "alias/remove"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 173.75, 174.0, 102.0, 20.0 ],
+					"text" : "route none"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 256.75, 202.0, 50.0, 18.0 ],
+					"text" : "alias $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 173.75, 109.0, 189.0, 60.0 ],
+					"text" : "j.parameter name @type string @value/default none @description \"set user's name to register it under an alias address\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1273.125, 206.0, 124.0, 60.0 ],
+					"patching_rect" : [ 1491.125, 202.0, 124.0, 60.0 ],
 					"text" : "j.return foot.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -52,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1199.25, 138.0, 124.0, 60.0 ],
+					"patching_rect" : [ 1417.25, 134.0, 124.0, 60.0 ],
 					"text" : "j.return foot.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -67,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1125.375, 206.0, 128.0, 60.0 ],
+					"patching_rect" : [ 1343.375, 202.0, 128.0, 60.0 ],
 					"text" : "j.return knee.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -82,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1051.5, 138.0, 124.0, 60.0 ],
+					"patching_rect" : [ 1269.5, 134.0, 124.0, 60.0 ],
 					"text" : "j.return knee.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -97,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 977.625, 206.0, 124.0, 60.0 ],
+					"patching_rect" : [ 1195.625, 202.0, 124.0, 60.0 ],
 					"text" : "j.return hip.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -112,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 903.75, 138.0, 126.0, 60.0 ],
+					"patching_rect" : [ 1121.75, 134.0, 126.0, 60.0 ],
 					"text" : "j.return hip.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -127,7 +184,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 829.875, 206.0, 133.0, 60.0 ],
+					"patching_rect" : [ 1047.875, 202.0, 133.0, 60.0 ],
 					"text" : "j.return elbow.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -142,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 755.75, 138.0, 125.0, 60.0 ],
+					"patching_rect" : [ 973.75, 134.0, 125.0, 60.0 ],
 					"text" : "j.return elbow.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -157,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 682.125, 206.0, 132.0, 60.0 ],
+					"patching_rect" : [ 900.125, 202.0, 132.0, 60.0 ],
 					"text" : "j.return hand.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -172,7 +229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.75, 138.0, 124.0, 60.0 ],
+					"patching_rect" : [ 825.75, 134.0, 124.0, 60.0 ],
 					"text" : "j.return hand.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -187,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 534.375, 206.0, 148.0, 60.0 ],
+					"patching_rect" : [ 752.375, 202.0, 148.0, 60.0 ],
 					"text" : "j.return shoulder.right @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -202,7 +259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.5, 138.0, 140.0, 60.0 ],
+					"patching_rect" : [ 678.5, 134.0, 140.0, 60.0 ],
 					"text" : "j.return shoulder.left @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -217,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.625, 206.0, 124.0, 60.0 ],
+					"patching_rect" : [ 604.625, 202.0, 124.0, 60.0 ],
 					"text" : "j.return torso @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -232,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.75, 138.0, 125.0, 60.0 ],
+					"patching_rect" : [ 530.75, 134.0, 125.0, 60.0 ],
 					"text" : "j.return neck @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -247,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.875, 206.0, 124.0, 60.0 ],
+					"patching_rect" : [ 456.875, 202.0, 124.0, 60.0 ],
 					"text" : "j.return head @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -261,7 +318,7 @@
 					"numinlets" : 17,
 					"numoutlets" : 17,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 165.0, 113.0, 1201.0, 20.0 ],
+					"patching_rect" : [ 383.0, 109.0, 1201.0, 20.0 ],
 					"text" : "route massCenter head neck torso l_shoulder r_shoulder l_hand r_hand l_elbow r_elbow l_hip r_hip l_knee r_knee l_foot r_foot"
 				}
 
@@ -275,7 +332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 88.0, 60.0, 20.0 ],
+					"patching_rect" : [ 383.0, 84.0, 60.0, 20.0 ],
 					"text" : "receive"
 				}
 
@@ -289,7 +346,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 165.0, 11.0, 60.0, 20.0 ],
+					"patching_rect" : [ 383.0, 5.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -303,7 +360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 165.0, 36.0, 60.0, 20.0 ],
+					"patching_rect" : [ 383.0, 32.0, 60.0, 20.0 ],
 					"text" : "thispoly~"
 				}
 
@@ -318,7 +375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 138.0, 140.0, 60.0 ],
+					"patching_rect" : [ 383.0, 134.0, 140.0, 60.0 ],
 					"text" : "j.return massCenter @type array @dataspace position @dataspace/unit xyz"
 				}
 
@@ -342,7 +399,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 7.0, 25.0, 25.0 ]
+					"patching_rect" : [ 7.0, 5.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -369,7 +426,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 64.0, 92.0, 18.0 ],
+					"patching_rect" : [ 383.0, 60.0, 92.0, 18.0 ],
 					"text" : "set $1-skeleton"
 				}
 
@@ -533,7 +590,52 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -580,6 +682,10 @@
 			}
 , 			{
 				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
  ]

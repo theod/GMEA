@@ -515,7 +515,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 74.0, 284.0, 993.0, 613.0 ],
+						"rect" : [ 80.0, 353.0, 1003.0, 461.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -627,7 +627,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 193.0, 423.0, 68.0, 20.0 ],
+									"patching_rect" : [ 193.0, 366.5, 68.0, 20.0 ],
 									"text" : "route none"
 								}
 
@@ -641,36 +641,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 193.0, 350.0, 56.0, 20.0 ],
-									"text" : "deferlow"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-30",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 193.0, 484.0, 41.0, 18.0 ],
-									"text" : "$2 $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-24",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 193.0, 508.0, 65.0, 20.0 ],
-									"text" : "unpack s i"
+									"patching_rect" : [ 193.0, 295.5, 178.0, 20.0 ],
+									"text" : "sprintf address user.[%ld]/name"
 								}
 
 							}
@@ -683,22 +655,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.0, 537.0, 202.0, 20.0 ],
+									"patching_rect" : [ 368.0, 366.5, 202.0, 20.0 ],
 									"text" : "sprintf address /kinect/user.%d:alias"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "list" ],
-									"patching_rect" : [ 193.0, 458.0, 58.0, 20.0 ],
-									"text" : "listfunnel"
 								}
 
 							}
@@ -711,7 +669,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 193.0, 568.0, 65.0, 20.0 ],
+									"patching_rect" : [ 193.0, 417.5, 65.0, 20.0 ],
 									"text" : "j.send"
 								}
 
@@ -724,9 +682,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "int", "int" ],
+									"outlettype" : [ "int", "int", "int" ],
 									"patching_rect" : [ 193.0, 123.5, 46.0, 20.0 ],
-									"text" : "t b i i"
+									"text" : "t i i i"
 								}
 
 							}
@@ -737,11 +695,11 @@
 									"id" : "obj-4",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 193.0, 378.0, 588.0, 33.0 ],
-									"text" : "j.parameter user/names @type array @value/default none @description \"a set of name to register each user under an alias address\""
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 193.0, 323.5, 369.0, 33.0 ],
+									"text" : "j.parameterArray user.[0]/name @type string @value/default none @description \"set user's name to register it under an alias address\""
 								}
 
 							}
@@ -838,8 +796,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 206.5, 245.5, 237.0, 60.0 ],
-									"text" : "j.return user/number @type integer @range/bounds 0 4 @range/clipmode low @description \"how many people are tracked by the kinect\""
+									"patching_rect" : [ 206.5, 226.5, 290.0, 60.0 ],
+									"text" : "j.return user/number @type integer @range/bounds 0 4 @range/clipmode low @repetitions/filter 1 @description \"how many people are tracked by the kinect\""
 								}
 
 							}
@@ -1152,34 +1110,8 @@
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 377.5, 403.0, 202.5, 403.0 ],
 									"source" : [ "obj-23", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-23", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-24", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-24", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-30", 0 ]
 								}
 
 							}
@@ -1194,11 +1126,29 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 251.5, 450.0, 202.5, 450.0 ],
+									"midpoints" : [ 251.5, 403.0, 202.5, 403.0 ],
 									"source" : [ "obj-37", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 1 ]
 								}
 
 							}
@@ -1310,15 +1260,6 @@
 									"hidden" : 0,
 									"midpoints" : [ 415.5, 189.5, 229.5, 189.5 ],
 									"source" : [ "obj-85", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -2269,46 +2210,6 @@
 					"source" : [ "obj-68", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "kinectUser.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Kinect",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.openni.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
