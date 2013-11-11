@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1020.0, 276.0, 492.0, 623.0 ],
+		"rect" : [ 163.0, 229.0, 492.0, 623.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -391,43 +391,43 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "euclidean-distance.maxpat",
-				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Data_Generation",
-				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Data_Generation",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Data_Generation",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Data_Generation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "myNotes.js",
-				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "take_notes.maxpat",
-				"bootpath" : "/Users/jln/@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../../../../@dev/_Lib/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/_installed/CNMAT/CNMAT_MMJ-Depot/modules/Depot_Support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
