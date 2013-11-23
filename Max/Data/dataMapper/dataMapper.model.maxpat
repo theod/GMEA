@@ -157,7 +157,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "int" ],
 									"patching_rect" : [ 352.5, 162.0, 54.0, 20.0 ],
-									"text" : "uzi 5 1"
+									"text" : "uzi 3 1"
 								}
 
 							}
@@ -228,7 +228,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "int" ],
 									"patching_rect" : [ 90.5, 162.0, 54.0, 20.0 ],
-									"text" : "uzi 5 1"
+									"text" : "uzi 3 1"
 								}
 
 							}
@@ -547,7 +547,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 839.0, 435.0 ],
+						"rect" : [ 62.0, 471.0, 839.0, 435.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -659,7 +659,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "int" ],
 									"patching_rect" : [ 348.5, 162.0, 54.0, 20.0 ],
-									"text" : "uzi 5 1"
+									"text" : "uzi 3 1"
 								}
 
 							}
@@ -730,7 +730,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "int" ],
 									"patching_rect" : [ 90.5, 162.0, 54.0, 20.0 ],
-									"text" : "uzi 5 1"
+									"text" : "uzi 3 1"
 								}
 
 							}
@@ -1731,31 +1731,6 @@
 					"source" : [ "obj-90", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameterArray.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
