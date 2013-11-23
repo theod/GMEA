@@ -80,12 +80,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-47",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 419.5, 135.0, 135.0, 47.0 ],
-									"text" : "_j.return output/going.up @type boolean"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 419.5, 135.0, 135.0, 33.0 ],
+									"text" : "j.return output/going.up @type boolean"
 								}
 
 							}
@@ -94,12 +95,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-45",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 157.5, 135.0, 151.0, 47.0 ],
-									"text" : "_j.return output/going.down @type boolean"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 157.5, 135.0, 151.0, 33.0 ],
+									"text" : "j.return output/going.down @type boolean"
 								}
 
 							}
@@ -580,12 +582,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-47",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 415.5, 135.0, 128.0, 47.0 ],
-									"text" : "_j.return input/going.up @type boolean"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 415.5, 135.0, 128.0, 33.0 ],
+									"text" : "j.return input/going.up @type boolean"
 								}
 
 							}
@@ -594,12 +597,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-45",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 157.5, 135.0, 144.5, 47.0 ],
-									"text" : "_j.return input/going.down @type boolean"
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 157.5, 135.0, 144.5, 33.0 ],
+									"text" : "j.return input/going.down @type boolean"
 								}
 
 							}
@@ -1747,6 +1751,10 @@
 			}
 , 			{
 				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
  ]
