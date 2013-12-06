@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 300.0, 105.0 ],
+		"rect" : [ 0.0, 44.0, 1148.0, 686.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -79,7 +79,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 20.333313, 250.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 47.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 47.0, 45.0, 20.0 ],
 					"triangle" : 0
 				}
 
@@ -4405,8 +4405,11 @@
 			}
 , 			{
 				"box" : 				{
+					"bgoncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
+					"bgoveroncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hint" : "",
 					"id" : "obj-4",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -4414,9 +4417,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 20.333313, 147.0, 50.0, 20.0 ],
+					"patching_rect" : [ 20.333313, 147.0, 66.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 25.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 25.0, 64.0, 17.0 ],
 					"text" : "Active",
 					"texton" : "Active"
 				}
@@ -4580,7 +4583,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/noModelAddress"
+					"text" : "waiting for a model:address"
 				}
 
 			}

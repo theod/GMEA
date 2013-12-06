@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 334.0, 44.0, 1161.0, 459.0 ],
+		"rect" : [ 334.0, 44.0, 1321.0, 467.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -153,8 +153,8 @@
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 419.5, 135.0, 135.0, 33.0 ],
 									"text" : "j.return output/going.up @type boolean"
 								}
@@ -168,8 +168,8 @@
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.5, 135.0, 151.0, 33.0 ],
 									"text" : "j.return output/going.down @type boolean"
 								}
@@ -655,8 +655,8 @@
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 415.5, 135.0, 128.0, 33.0 ],
 									"text" : "j.return input/going.up @type boolean"
 								}
@@ -670,8 +670,8 @@
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.5, 135.0, 144.5, 33.0 ],
 									"text" : "j.return input/going.down @type boolean"
 								}
