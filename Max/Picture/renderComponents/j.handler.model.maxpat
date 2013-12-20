@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 10.0, 44.0, 337.0, 328.0 ],
+		"rect" : [ 854.0, 506.0, 557.0, 450.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 83.0, 83.0, 63.0, 18.0 ],
+					"text" : "enable $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -76,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 68.0, 189.0, 32.5, 20.0 ],
+					"patching_rect" : [ 68.0, 238.0, 32.5, 20.0 ],
 					"text" : "t l l"
 				}
 
@@ -89,9 +103,9 @@
 					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 246.0, 202.0, 60.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 68.0, 295.0, 202.0, 60.0 ],
 					"text" : "j.return message @type generic @description \"all jit.gl.handle messages a render client have to observe to handled by the mouse\""
 				}
 
@@ -105,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 162.0, 34.0, 20.0 ],
+					"patching_rect" : [ 68.0, 211.0, 34.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -135,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 83.0, 80.0, 244.0, 31.0 ],
+					"patching_rect" : [ 105.0, 115.0, 244.0, 31.0 ],
 					"text" : "j.message reset @type none @description \"reset the gl handler point of view\""
 				}
 
@@ -149,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 83.0, 140.0, 221.0, 19.0 ],
+					"patching_rect" : [ 83.0, 189.0, 221.0, 19.0 ],
 					"text" : "jit.gl.handle glWindow @depth_enable 1."
 				}
 
@@ -163,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 115.0, 37.0, 18.0 ],
+					"patching_rect" : [ 105.0, 150.0, 37.0, 18.0 ],
 					"text" : "reset"
 				}
 
@@ -175,7 +189,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.5, 216.0, 25.0, 25.0 ]
+					"patching_rect" : [ 81.5, 265.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -183,6 +197,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
@@ -209,6 +232,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -230,7 +262,7 @@
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 136.0, 92.5, 136.0 ],
+					"midpoints" : [ 19.5, 185.0, 92.5, 185.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -261,19 +293,6 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
