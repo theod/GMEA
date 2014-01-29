@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 893.0, 245.0 ],
+		"rect" : [ 456.0, 490.0, 893.0, 245.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -751,8 +751,8 @@
 									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 210.333328, 226.5, 290.0, 60.0 ],
 									"text" : "j.return user/number @type integer @range/bounds 0 4 @range/clipmode low @repetitions/filter 1 @description \"how many people are tracked by the kinect\""
 								}
@@ -1439,8 +1439,8 @@
 									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 283.5, 156.0, 60.0 ],
 									"text" : "j.return output/done @type none @description \"a bang sent after kinect data update\""
 								}
@@ -1454,8 +1454,8 @@
 									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 35.0, 216.5, 160.0, 60.0 ],
 									"text" : "j.return output/start @type none @description \"a bang sent before asking kinect data update\""
 								}
@@ -1917,8 +1917,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 733.5, 154.5, 139.0, 20.0 ],
-					"text" : "print jit.openni_dumpout"
+					"patching_rect" : [ 733.5, 154.5, 96.0, 20.0 ],
+					"text" : "print jit.openni"
 				}
 
 			}
@@ -2141,42 +2141,6 @@
 					"source" : [ "obj-68", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "kinectUser.model.maxpat",
-				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Kinect",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.openni.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
