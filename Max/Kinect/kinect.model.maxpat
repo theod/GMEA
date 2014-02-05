@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 456.0, 490.0, 893.0, 245.0 ],
+		"rect" : [ 24.0, 87.0, 893.0, 245.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -538,6 +538,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 297.5, 163.5, 143.0, 20.0 ],
+									"text" : "this makes j.model crash"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -848,6 +862,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.656533, 0.023209, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-93",
@@ -897,7 +912,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 227.666672, 196.5, 219.0, 20.0 ],
-									"text" : "poly~ kinectUser.model 0 @args user"
+									"text" : "poly~ kinectUser.model 10 @args user"
 								}
 
 							}
@@ -1191,15 +1206,6 @@
 									"hidden" : 0,
 									"midpoints" : [ 415.5, 189.5, 237.166672, 189.5 ],
 									"source" : [ "obj-85", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-83", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-93", 0 ]
 								}
 
 							}
@@ -2141,6 +2147,42 @@
 					"source" : [ "obj-68", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "kinectUser.model.maxpat",
+				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Kinect",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.openni.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscroute.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
