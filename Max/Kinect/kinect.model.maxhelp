@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 78.0, 89.0, 320.0, 417.0 ],
+		"rect" : [ 2.0, 44.0, 426.0, 417.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-3",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 207.0, 108.0, 47.0 ],
+					"text" : "use * to watch all users in the same time"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
@@ -79,7 +94,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 10.0, 207.0, 300.0, 20.0 ],
-					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8" ]
+					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "*" ]
 				}
 
 			}
