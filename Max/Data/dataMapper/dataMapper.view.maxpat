@@ -149,7 +149,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 2050.0, 304.0, 484.0, 490.0 ],
+						"rect" : [ 1885.0, 274.0, 755.0, 478.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1589,7 +1589,7 @@
 									"patching_rect" : [ 15.0, 447.0, 56.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 244.0, 1.0, 212.333313, 20.0 ],
-									"text" : "/spat/source.2/blur : 5.99"
+									"text" : "/spat/source.2/blur : 7.51"
 								}
 
 							}
@@ -1620,7 +1620,7 @@
 									"patching_rect" : [ 15.0, 220.0, 56.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 30.0, 1.0, 214.0, 20.0 ],
-									"text" : "/spat/source.1/blur : 6.00"
+									"text" : "/spat/source.1/blur : 9.00"
 								}
 
 							}
