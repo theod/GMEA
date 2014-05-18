@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 543.0, 403.0, 1013.0, 516.0 ],
+		"rect" : [ 2314.0, 305.0, 1013.0, 516.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,8 +49,8 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 26.5, 440.0, 169.5, 43.0 ],
 					"text" : "j.return done @type none @description \"gl rendering is done\""
 				}
@@ -78,8 +78,8 @@
 					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 13.0, 127.0, 183.0, 60.0 ],
 					"text" : "j.return name @type string @description \"gl context render where to draw\" @repetitions/filter 1 @priority 1"
 				}
@@ -109,8 +109,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 554.0, 217.0, 251.0, 67.0 ],
-					"text" : "j.parameter depth @type boolean @description \"turn on/off gl depth processing (needed for 3d space rendering but useless for 2d setting-up based on transparent pictures for example)\" @value/default 0 @priority 4"
+					"patching_rect" : [ 554.0, 217.0, 248.0, 67.0 ],
+					"text" : "j.parameter depth @type boolean @description \"turn on/off gl depth processing (needed for 3d space rendering but useless for 2d setting-up based on transparent pictures for example)\" @default 0 @priority 4"
 				}
 
 			}
@@ -152,8 +152,8 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 247.0, 440.0, 198.0, 47.0 ],
 					"text" : "j.return draw @type none @description \"draw bang that each render client have to observe\""
 				}
@@ -180,13 +180,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-12",
-					"linecount" : 4,
+					"linecount" : 8,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 288.0, 143.0, 218.0, 55.0 ],
-					"text" : "j.parameter fps @type integer @value/default 25 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the rendering\""
+					"patching_rect" : [ 288.0, 148.0, 110.0, 104.0 ],
+					"text" : "j.parameter fps @type integer @default 25 @range 1 1000 @clipmode low @description \"set the fps of the rendering\""
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 288.0, 201.0, 52.0, 20.0 ],
+					"patching_rect" : [ 288.0, 263.0, 52.0, 20.0 ],
 					"text" : "!/ 1000."
 				}
 
@@ -242,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 223.0, 255.0, 67.0, 20.0 ],
+					"patching_rect" : [ 223.0, 317.0, 67.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -256,7 +256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 223.0, 232.0, 84.0, 20.0 ],
+					"patching_rect" : [ 223.0, 294.0, 84.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -293,7 +293,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 26.5, 407.0, 25.0, 25.0 ]
 				}
 
@@ -478,19 +478,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
