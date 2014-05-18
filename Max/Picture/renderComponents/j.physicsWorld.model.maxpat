@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1864.0, -272.0, 1796.0, 739.0 ],
+		"rect" : [ -14.0, 547.0, 1796.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 239.5, 471.5, 247.0, 18.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -125,7 +138,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -321,7 +334,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1331.5, 238.0, 494.0, 33.0 ],
-					"text" : "j.parameter dimensions @type integer @value/default 2 @description \"set the number of dimensions of the world\""
+					"text" : "j.parameter dimensions @type integer @default 2 @description \"set the number of dimensions of the world\""
 				}
 
 			}
@@ -350,7 +363,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1331.5, 134.5, 253.0, 60.0 ],
-					"text" : "j.parameter picker/stretch @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0. @description \"set picker dragging stretch\""
+					"text" : "j.parameter picker/stretch @type decimal @range 0. 1. @clipmode both @default 0. @description \"set picker dragging stretch\""
 				}
 
 			}
@@ -379,7 +392,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1057.5, 134.5, 265.0, 60.0 ],
-					"text" : "j.parameter picker/strength @type decimal @range/bounds 0. 1. @range/clipmode both @value/default 0.2 @description \"set picker dragging strength\""
+					"text" : "j.parameter picker/strength @type decimal @range 0. 1. @clipmode both @default 0.2 @description \"set picker dragging strength\""
 				}
 
 			}
@@ -563,7 +576,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 786.5, 134.5, 260.0, 60.0 ],
-					"text" : "j.parameter picker/mode @type string @range/bounds center surface @value/default center @description \"set mouse or touch dragging from center or object surface\""
+					"text" : "j.parameter picker/mode @type string @range center surface @default center @description \"set mouse or touch dragging from center or object surface\""
 				}
 
 			}
@@ -592,7 +605,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1041.5, 238.0, 232.0, 47.0 ],
-					"text" : "j.parameter collisions @type boolean @value/default 0 @description \"enable collisions for the render\""
+					"text" : "j.parameter collisions @type boolean @default 0 @description \"enable collisions for the render\""
 				}
 
 			}
@@ -621,7 +634,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 786.5, 238.0, 250.0, 47.0 ],
-					"text" : "j.parameter box @type array @value/default 5. 5. 5. @description \"set the size of the physics box for the render\""
+					"text" : "j.parameter box @type array @default 5. 5. 5. @description \"set the size of the physics box for the render\""
 				}
 
 			}
@@ -650,7 +663,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 516.5, 238.0, 249.0, 47.0 ],
-					"text" : "j.parameter gravity @type array @value/default 0. 0. 0. @description \"set the gravition of the physics for the render\""
+					"text" : "j.parameter gravity @type array @default 0. 0. 0. @description \"set the gravition of the physics for the render\""
 				}
 
 			}
@@ -799,7 +812,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 315.5, 119.0, 65.0 ],
+					"patching_rect" : [ 10.0, 315.5, 121.0, 65.0 ],
 					"text" : "jit.phys.picker @enable 0 @pickmode center @filterclass picker"
 				}
 
@@ -1003,6 +1016,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]

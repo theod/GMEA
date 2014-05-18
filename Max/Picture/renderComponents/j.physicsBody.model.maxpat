@@ -104,7 +104,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 89.0, 432.5, 238.0, 47.0 ],
-									"text" : "j.parameter damping/angular @type decimal @range/bounds 0. 1. @value/default 1."
+									"text" : "j.parameter damping/angular @type decimal @range 0. 1. @default 1."
 								}
 
 							}
@@ -133,7 +133,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 381.5, 222.0, 47.0 ],
-									"text" : "j.parameter damping/linear @type decimal @range/bounds 0. 1. @value/default 1."
+									"text" : "j.parameter damping/linear @type decimal @range 0. 1. @default 1."
 								}
 
 							}
@@ -162,7 +162,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 194.5, 206.0, 47.0 ],
-									"text" : "j.parameter kinematic @type boolean @range/bounds 0 1 @value/default 0"
+									"text" : "j.parameter kinematic @type boolean @range 0 1 @default 0"
 								}
 
 							}
@@ -191,7 +191,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 92.0, 135.0, 60.0 ],
-									"text" : "j.parameter active @type boolean @range/bounds 0 1 @value/default 1"
+									"text" : "j.parameter active @type boolean @range 0 1 @default 1"
 								}
 
 							}
@@ -220,7 +220,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 65.0, 281.5, 161.0, 60.0 ],
-									"text" : "j.parameter mass @type decimal @range/bounds 0. 1. @value/default 1."
+									"text" : "j.parameter mass @type decimal @range 0. 1. @default 1."
 								}
 
 							}

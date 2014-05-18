@@ -327,7 +327,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 705.5, 198.0, 144.0, 55.0 ],
-					"text" : "j.parameter alpha @type decimal @description \"set opacity\" @value/default 1."
+					"text" : "j.parameter alpha @type decimal @description \"set opacity\" @default 1."
 				}
 
 			}
@@ -413,7 +413,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 395.125, 198.0, 161.0, 55.0 ],
-					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @value/default 1"
+					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @default 1"
 				}
 
 			}

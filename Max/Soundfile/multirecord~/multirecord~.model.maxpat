@@ -37,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 599.0, 41.0, 208.0, 47.0 ],
-					"text" : "j.parameter format @type string @description \"the file format to use\" @value/default aif @priority 3"
+					"text" : "j.parameter format @type string @description \"the file format to use\" @default aif @priority 3"
 				}
 
 			}
@@ -52,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 390.0, 41.0, 201.0, 47.0 ],
-					"text" : "j.parameter name @type string @description \"the file name to use\" @value/default file @priority 2"
+					"text" : "j.parameter name @type string @description \"the file name to use\" @default file @priority 2"
 				}
 
 			}

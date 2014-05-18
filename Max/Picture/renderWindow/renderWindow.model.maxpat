@@ -901,7 +901,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 736.0, 8.0, 240.0, 55.0 ],
-									"text" : "j.parameter light/position @type array @value/default 1. 1. 1. @range/bounds 0. 1. @range/clipmode none @description \"set the position of the light\""
+									"text" : "j.parameter light/position @type array @default 1. 1. 1. @range 0. 1. @clipmode none @description \"set the position of the light\""
 								}
 
 							}

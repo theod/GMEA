@@ -64,7 +64,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 898.875, 277.0, 220.0, 55.0 ],
-					"text" : "j.parameter thickness @type decimal @description \"the thickness of the cursor lines\" @value/default 1. @ramp/drive Max"
+					"text" : "j.parameter thickness @type decimal @description \"the thickness of the cursor lines\" @default 1. @ramp/drive Max"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 606.0, 277.0, 280.0, 55.0 ],
-					"text" : "j.parameter color @type array @ramp/drive Max @description \"set the color of the cursor\" @ramp/function linear @value/default 1. 0. 0. 1. @repetitions/filter 1",
+					"text" : "j.parameter color @type array @ramp/drive Max @description \"set the color of the cursor\" @ramp/function linear @default 1. 0. 0. 1. @repetitions/filter 1",
 					"varname" : "deformB[6]"
 				}
 
@@ -450,7 +450,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 223.125, 173.0, 161.0, 55.0 ],
-					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @value/default 1"
+					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @default 1"
 				}
 
 			}

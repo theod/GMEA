@@ -302,7 +302,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 101.0, 111.0, 314.0, 67.0 ],
-									"text" : "j.parameter camera/angle @type decimal @range/bounds 0. 180. @value/default 45. @range/clipmode both @description \"set the lens angle of the gl camera\" @repetitions/filter 0 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/angle @type decimal @range 0. 180. @default 45. @clipmode both @description \"set the lens angle of the gl camera\" @repetitions/filter 0 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -332,7 +332,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 10.0, 362.0, 43.0 ],
-									"text" : "j.parameter camera/position @type array @value/default 0. 0. 2. @description \"position of the gl camera\" @repetitions/filter 0 @ramp/drive Max @ramp/function linear"
+									"text" : "j.parameter camera/position @type array @default 0. 0. 2. @description \"position of the gl camera\" @repetitions/filter 0 @ramp/drive Max @ramp/function linear"
 								}
 
 							}
@@ -605,7 +605,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 736.0, 8.0, 240.0, 55.0 ],
-									"text" : "j.parameter light/position @type array @value/default 1. 1. 1. @range/bounds 0. 1. @range/clipmode none @description \"set the position of the light\""
+									"text" : "j.parameter light/position @type array @default 1. 1. 1. @range 0. 1. @clipmode none @description \"set the position of the light\""
 								}
 
 							}

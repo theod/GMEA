@@ -96,7 +96,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 821.0, 156.0, 232.0, 60.0 ],
-					"text" : "j.parameter frame @type integer @range/bounds 0 1 @value/default 0 @description \"set the frame to read\" @ramp/drive Max @repetitions/filter 1"
+					"text" : "j.parameter frame @type integer @range 0 1 @default 0 @description \"set the frame to read\" @ramp/drive Max @repetitions/filter 1"
 				}
 
 			}
@@ -256,7 +256,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 559.0, 156.0, 233.0, 60.0 ],
-					"text" : "j.parameter rate @type decimal @range/bounds -2. 2. @value/default 1. @description \"movie playback rate\" @ramp/drive Max @repetitions/filter 1"
+					"text" : "j.parameter rate @type decimal @range -2. 2. @default 1. @description \"movie playback rate\" @ramp/drive Max @repetitions/filter 1"
 				}
 
 			}

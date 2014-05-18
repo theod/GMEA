@@ -187,7 +187,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 606.0, 397.5, 157.0, 55.0 ],
-									"text" : "j.parameter interpolate @type boolean @description \"interpolate the given picture\" @value/default 1"
+									"text" : "j.parameter interpolate @type boolean @description \"interpolate the given picture\" @default 1"
 								}
 
 							}
@@ -216,7 +216,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 428.0, 397.5, 151.0, 67.0 ],
-									"text" : "j.parameter preserve @type boolean @description \"preserve the aspect of the given picture\" @value/default 1"
+									"text" : "j.parameter preserve @type boolean @description \"preserve the aspect of the given picture\" @default 1"
 								}
 
 							}
@@ -301,7 +301,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 128.0, 83.0, 336.0, 55.0 ],
-									"text" : "j.parameter upper.left @type array @ramp/drive Max @description \"upper.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 0. 0.",
+									"text" : "j.parameter upper.left @type array @ramp/drive Max @description \"upper.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @default 0. 0.",
 									"varname" : "deformA"
 								}
 
@@ -317,7 +317,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 428.0, 296.0, 335.0, 55.0 ],
-									"text" : "j.parameter lower.right @type array @ramp/drive Max @description \"lower.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 1. 1.",
+									"text" : "j.parameter lower.right @type array @ramp/drive Max @description \"lower.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @default 1. 1.",
 									"varname" : "deformD"
 								}
 
@@ -333,7 +333,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 328.0, 225.0, 336.0, 55.0 ],
-									"text" : "j.parameter upper.right @type array @ramp/drive Max @description \"upper.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 1. 0.",
+									"text" : "j.parameter upper.right @type array @ramp/drive Max @description \"upper.right corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @default 1. 0.",
 									"varname" : "deformB"
 								}
 
@@ -349,7 +349,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 228.0, 154.0, 336.0, 55.0 ],
-									"text" : "j.parameter lower.left @type array @ramp/drive Max @description \"lower.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @value/default 0. 1.",
+									"text" : "j.parameter lower.left @type array @ramp/drive Max @description \"lower.left corner position\" @dataspace position @dataspace/unit xy @ramp/function linear @repetitions/filter 1 @default 0. 1.",
 									"varname" : "deformC"
 								}
 
@@ -608,7 +608,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 729.5, 172.0, 144.0, 55.0 ],
-					"text" : "j.parameter alpha @type decimal @description \"set opacity\" @value/default 1."
+					"text" : "j.parameter alpha @type decimal @description \"set opacity\" @default 1."
 				}
 
 			}
@@ -694,7 +694,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 318.125, 172.0, 161.0, 55.0 ],
-					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @value/default 1"
+					"text" : "j.parameter active @type boolean @description \"turn on/off gl rendering\" @priority 3 @default 1"
 				}
 
 			}

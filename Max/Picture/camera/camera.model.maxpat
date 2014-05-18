@@ -534,7 +534,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 674.696655, 91.0, 174.0, 74.0 ],
-					"text" : "j.parameter device.input @type string @value/default none @priority 2 @description \"choose input device\" @repetitions/filter 1"
+					"text" : "j.parameter device.input @type string @default none @priority 2 @description \"choose input device\" @repetitions/filter 1"
 				}
 
 			}
@@ -593,7 +593,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 498.696655, 91.0, 175.0, 74.0 ],
-					"text" : "j.parameter device.type @type string @value/default none @priority 1 @description \"choose device type\" @repetitions/filter 1"
+					"text" : "j.parameter device.type @type string @default none @priority 1 @description \"choose device type\" @repetitions/filter 1"
 				}
 
 			}

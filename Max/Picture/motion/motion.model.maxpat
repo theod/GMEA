@@ -397,7 +397,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 477.0, 159.0, 209.0, 47.0 ],
-					"text" : "j.parameter radius @type integer @value/default 20 @description \"set the radius of the analysis\""
+					"text" : "j.parameter radius @type integer @default 20 @description \"set the radius of the analysis\""
 				}
 
 			}
@@ -482,7 +482,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 547.0, 447.0, 294.0, 47.0 ],
-					"text" : "j.return quantity @type decimal @range/bounds 0. 1. @description \"the quantity of motion in video stream\" @repetitions/filter 1"
+					"text" : "j.return quantity @type decimal @range 0. 1. @description \"the quantity of motion in video stream\" @repetitions/filter 1"
 				}
 
 			}
@@ -497,7 +497,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 260.0, 159.0, 206.0, 47.0 ],
-					"text" : "j.parameter threshold @type integer @value/default 20 @description \"set the threshold of the analysis\""
+					"text" : "j.parameter threshold @type integer @default 20 @description \"set the threshold of the analysis\""
 				}
 
 			}

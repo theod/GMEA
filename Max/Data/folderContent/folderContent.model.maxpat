@@ -115,7 +115,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 467.0, 172.0, 198.0, 47.0 ],
-					"text" : "j.message select/id @type integer @range/bounds 0 0 @description \"select a file using an id\""
+					"text" : "j.message select/id @type integer @range 0 0 @description \"select a file using an id\""
 				}
 
 			}

@@ -4539,7 +4539,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 306.0, 92.0, 391.0, 20.0 ],
-									"text" : "j.parameter damping @type decimal @value/default 0.1 @priority 7"
+									"text" : "j.parameter damping @type decimal @default 0.1 @priority 7"
 								}
 
 							}
@@ -4553,7 +4553,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 306.0, 8.0, 391.0, 20.0 ],
-									"text" : "j.parameter frequency @type decimal @value/default 5. @priority 6"
+									"text" : "j.parameter frequency @type decimal @default 5. @priority 6"
 								}
 
 							}

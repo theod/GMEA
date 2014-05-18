@@ -626,7 +626,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 59.5, 347.0, 175.0, 47.0 ],
-					"text" : "j.parameterArray position.[2] @type array @range/bounds -1. 1."
+					"text" : "j.parameterArray position.[2] @type array @range -1. 1."
 				}
 
 			}

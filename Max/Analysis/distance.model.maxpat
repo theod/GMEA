@@ -124,7 +124,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 235.0, 246.0, 242.0, 60.0 ],
-					"text" : "j.parameter point @type array @dataspace position @dataspace/unit xyz @value/default 0. 0. 0. @description \"the reference point position\""
+					"text" : "j.parameter point @type array @dataspace position @dataspace/unit xyz @default 0. 0. 0. @description \"the reference point position\""
 				}
 
 			}

@@ -1479,7 +1479,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.0, 10.0, 453.0, 20.0 ],
-									"text" : "j.parameter polypoly/vertices @type array @value/default 0. 0. 1. 1. @priority 7"
+									"text" : "j.parameter polypoly/vertices @type array @default 0. 0. 1. 1. @priority 7"
 								}
 
 							}
@@ -1712,7 +1712,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 122.0, 54.0, 407.0, 20.0 ],
-									"text" : "j.parameter segment/end @type array @value/default 1. 1. @priority 7"
+									"text" : "j.parameter segment/end @type array @default 1. 1. @priority 7"
 								}
 
 							}
@@ -1964,7 +1964,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.0, 10.0, 451.0, 20.0 ],
-									"text" : "j.parameter polyvert/vertices @type array @value/default 0. 0. 1. 1. @priority 7"
+									"text" : "j.parameter polyvert/vertices @type array @default 0. 0. 1. 1. @priority 7"
 								}
 
 							}
@@ -2183,7 +2183,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 45.0, 22.0, 415.0, 20.0 ],
-									"text" : "j.parameter polybox/height @type array @value/default 1. 1. @priority 6"
+									"text" : "j.parameter polybox/height @type array @default 1. 1. @priority 6"
 								}
 
 							}
@@ -2197,7 +2197,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 120.0, 45.0, 417.0, 20.0 ],
-									"text" : "j.parameter polybox/corner @type array @value/default 0. 0. @priority 7"
+									"text" : "j.parameter polybox/corner @type array @default 0. 0. @priority 7"
 								}
 
 							}
@@ -2421,7 +2421,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 45.0, 8.0, 409.0, 20.0 ],
-									"text" : "j.parameter circle/radius @type decimal @value/default 0.1 @priority 6"
+									"text" : "j.parameter circle/radius @type decimal @default 0.1 @priority 6"
 								}
 
 							}
@@ -3461,7 +3461,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 232.0, 377.0, 20.0 ],
-									"text" : "j.parameter density @type decimal @value/default 1. @priority 4"
+									"text" : "j.parameter density @type decimal @default 1. @priority 4"
 								}
 
 							}
@@ -3475,7 +3475,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 138.0, 397.0, 20.0 ],
-									"text" : "j.parameter restitution @type decimal @value/default 0.9 @priority 3"
+									"text" : "j.parameter restitution @type decimal @default 0.9 @priority 3"
 								}
 
 							}
@@ -3489,7 +3489,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 54.0, 387.0, 20.0 ],
-									"text" : "j.parameter friction @type decimal @value/default 0.01 @priority 2"
+									"text" : "j.parameter friction @type decimal @default 0.01 @priority 2"
 								}
 
 							}

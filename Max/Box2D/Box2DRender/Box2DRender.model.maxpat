@@ -2341,7 +2341,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 548.0, 154.0, 199.0, 43.0 ],
-									"text" : "j.parameter gravity @type array @value/default 0 0 @description \"set the direction of the gravity\""
+									"text" : "j.parameter gravity @type array @default 0 0 @description \"set the direction of the gravity\""
 								}
 
 							}
@@ -2371,7 +2371,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 235.0, 139.0, 255.0, 62.0 ],
-									"text" : "j.message segmentWidth @type decimal @value/default 0.1 @range/bounds 0.1 1. @range/clipmode low @description \"set the width of segment in box2D\""
+									"text" : "j.message segmentWidth @type decimal @default 0.1 @range 0.1 1. @clipmode low @description \"set the width of segment in box2D\""
 								}
 
 							}
@@ -2416,7 +2416,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 670.0, 18.0, 281.0, 48.0 ],
-									"text" : "j.message numIteration/velocity @type integer @value/default 8 @description \"set number of iteration for box2D velocity processing \""
+									"text" : "j.message numIteration/velocity @type integer @default 8 @description \"set number of iteration for box2D velocity processing \""
 								}
 
 							}
@@ -2431,7 +2431,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 349.0, 18.0, 284.0, 48.0 ],
-									"text" : "j.message numIteration/position @type integer @value/default 10 @description \"set number of iteration for box2D position processing \""
+									"text" : "j.message numIteration/position @type integer @default 10 @description \"set number of iteration for box2D position processing \""
 								}
 
 							}
@@ -2475,7 +2475,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 27.0, 18.0, 229.0, 48.0 ],
-									"text" : "j.message rate @type decimal @value/default 60. @description \"set the simulation rate frequency of box2D\""
+									"text" : "j.message rate @type decimal @default 60. @description \"set the simulation rate frequency of box2D\""
 								}
 
 							}
@@ -4014,7 +4014,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 202.0, 71.0, 226.0, 55.0 ],
-									"text" : "j.parameter render/fps @type integer @value/default 25 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the rendering\""
+									"text" : "j.parameter render/fps @type integer @default 25 @range 1 1000 @clipmode low @description \"set the fps of the rendering\""
 								}
 
 							}
@@ -4169,7 +4169,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 212.0, 187.0, 440.0, 34.0 ],
-									"text" : "j.parameter render/get @type string @value/default everything @description \"what to get back from the Box2D render (everything | body | shape | contact)\""
+									"text" : "j.parameter render/get @type string @default everything @description \"what to get back from the Box2D render (everything | body | shape | contact)\""
 								}
 
 							}
