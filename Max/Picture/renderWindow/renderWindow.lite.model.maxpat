@@ -211,6 +211,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
@@ -679,7 +680,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 428.0, 222.0, 62.0, 20.0 ],
+					"patching_rect" : [ 270.25, 223.5, 52.75, 33.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
