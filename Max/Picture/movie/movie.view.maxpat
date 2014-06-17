@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -80,13 +80,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 835.0, 198.0, 167.0, 20.0 ],
-					"text" : "j.receive frame:range/bounds"
+					"patching_rect" : [ 835.0, 198.0, 126.0, 20.0 ],
+					"text" : "j.receive frame:range"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "set the frame to read",
 					"bgcolor" : [ 0.500743, 0.500743, 0.500743, 1.0 ],
 					"contdata" : 1,
 					"id" : "obj-12",
@@ -99,7 +100,7 @@
 					"patching_rect" : [ 687.5, 253.0, 100.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 84.0, 138.0, 16.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"setminmax" : [ 0.0, 171.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"thickness" : 3
@@ -298,6 +299,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "movie playback rate",
 					"bgcolor" : [ 0.500743, 0.500743, 0.500743, 1.0 ],
 					"contdata" : 1,
 					"id" : "obj-56",
@@ -393,6 +395,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "current fps",
 					"bgcolor" : [ 0.078431, 0.078431, 0.078431, 0.0 ],
 					"bordercolor" : [ 0.984314, 0.984314, 0.431373, 0.0 ],
 					"fontname" : "Arial",
@@ -426,6 +429,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "play the movie",
 					"bgoncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
 					"bgoveroncolor" : [ 0.239216, 0.643137, 0.709804, 0.8 ],
 					"fontname" : "Arial",
@@ -485,7 +489,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 369.0, 250.0, 122.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 43.0, 193.0, 20.0 ]
+					"presentation_rect" : [ 8.0, 43.0, 193.0, 20.0 ],
+					"text" : "_TeteSuivi_.mov"
 				}
 
 			}
@@ -569,7 +574,7 @@
 					"patching_rect" : [ 0.0, -0.5, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/noModelAddress"
+					"text" : "/movie"
 				}
 
 			}
@@ -775,23 +780,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

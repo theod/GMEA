@@ -93,8 +93,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 661.0, 415.0, 117.0, 18.0 ],
-					"text" : "range/bounds 0 $1"
+					"patching_rect" : [ 661.0, 404.0, 70.0, 18.0 ],
+					"text" : "range 0 $1"
 				}
 
 			}
