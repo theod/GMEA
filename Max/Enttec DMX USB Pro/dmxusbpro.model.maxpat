@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 625.0, 44.0, 984.0, 872.0 ],
+		"rect" : [ 541.0, 138.0, 984.0, 872.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,34 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 309.0, 424.0, 31.0, 20.0 ],
+					"text" : "> 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 309.0, 455.0, 38.0, 20.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -92,8 +120,8 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 708.5, 802.5, 158.0, 47.0 ],
 					"text" : "j.return device/list @type array @description \"the list of available device\""
 				}
@@ -187,8 +215,8 @@
 					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 362.5, 770.5, 169.0, 60.0 ],
 					"text" : "j.return device/connected @type boolean @description \"connection status of the selected device\""
 				}
@@ -202,8 +230,8 @@
 					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 602.0, 484.0, 244.0, 60.0 ],
 					"text" : "j.return channel.raw @type array @description \"raw received DMX data <startcode channel value> (receive mode only)\""
 				}
@@ -402,8 +430,8 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 602.0, 330.0, 244.0, 47.0 ],
 					"text" : "j.returnArray channel.[0] @type integer @range 0 255 @clipmode both @description \"received DMX value\""
 				}
@@ -416,10 +444,10 @@
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 51.5, 257.0, 32.5, 20.0 ],
-					"text" : "t i 0"
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 51.5, 257.0, 276.5, 20.0 ],
+					"text" : "t i 0 i"
 				}
 
 			}
@@ -647,7 +675,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 744.0, 58.0, 199.0, 87.0 ],
+					"patching_rect" : [ 744.0, 58.0, 169.0, 87.0 ],
 					"text" : "j.parameter rate @type integer @range 1 44 @clipmode both @default 40 @repetitions/filter 1 @description \"set DMX refresh rate\" @priority 3"
 				}
 
@@ -732,7 +760,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.5, 409.0, 143.0, 20.0 ],
+					"patching_rect" : [ 51.5, 409.0, 133.25, 20.0 ],
 					"text" : "pack i i"
 				}
 
@@ -832,8 +860,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 51.5, 330.0, 267.0, 47.0 ],
-					"text" : "j.parameterArray channel.[0] @type integer @range 0 255 @clipmode both @description \"send DMX value\""
+					"patching_rect" : [ 51.5, 330.0, 247.5, 47.0 ],
+					"text" : "j.parameterArray channel.[0] @type integer @default 0 @range 0 255 @clipmode both @description \"send DMX value\""
 				}
 
 			}
@@ -870,12 +898,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-68",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 274.0, 58.0, 240.0, 74.0 ],
+					"patching_rect" : [ 274.0, 58.0, 241.0, 60.0 ],
 					"text" : "j.parameter number @type integer @range 0 512 @clipmode both @default 0 @repetitions/filter 1 @description \"set number of DMX channel to use\" @priority 3"
 				}
 
@@ -980,6 +1008,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1040,6 +1077,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -1110,10 +1156,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-118", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 74.5, 282.0, 611.5, 282.0 ],
+					"midpoints" : [ 189.75, 282.0, 611.5, 282.0 ],
 					"source" : [ "obj-118", 1 ]
 				}
 
@@ -1332,6 +1387,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1345,15 +1409,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
