@@ -626,7 +626,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 59.5, 347.0, 175.0, 47.0 ],
-					"text" : "j.parameterArray position.[2] @type array @range -1. 1."
+					"text" : "j.parameter_array position.[2] @type array @range -1. 1."
 				}
 
 			}
@@ -794,7 +794,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.parameterArray.mxo",
+				"name" : "j.parameter_array.mxo",
 				"type" : "iLaX"
 			}
 , 			{

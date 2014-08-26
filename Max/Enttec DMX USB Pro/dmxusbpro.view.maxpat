@@ -689,7 +689,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 348.0, 357.0, 169.0, 33.0 ],
-					"text" : "j.remoteArray channel.[0] @format array"
+					"text" : "j.remote_array channel.[0] @format array"
 				}
 
 			}

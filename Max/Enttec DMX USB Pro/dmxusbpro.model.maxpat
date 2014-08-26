@@ -433,7 +433,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 602.0, 330.0, 244.0, 47.0 ],
-					"text" : "j.returnArray channel.[0] @type integer @range 0 255 @clipmode both @description \"received DMX value\""
+					"text" : "j.return_array channel.[0] @type integer @range 0 255 @clipmode both @description \"received DMX value\""
 				}
 
 			}
@@ -861,7 +861,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 51.5, 330.0, 247.5, 47.0 ],
-					"text" : "j.parameterArray channel.[0] @type integer @default 0 @range 0 255 @clipmode both @description \"send DMX value\""
+					"text" : "j.parameter_array channel.[0] @type integer @default 0 @range 0 255 @clipmode both @description \"send DMX value\""
 				}
 
 			}

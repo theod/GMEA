@@ -447,7 +447,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 96.0, 102.5, 224.0, 60.0 ],
-					"text" : "j.parameterArray data/address.[16] @type string @description \"the parameter or message address to sample\" @priority 1"
+					"text" : "j.parameter_array data/address.[16] @type string @description \"the parameter or message address to sample\" @priority 1"
 				}
 
 			}
@@ -1123,7 +1123,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameterArray.mxo",
+				"name" : "j.parameter_array.mxo",
 				"type" : "iLaX"
 			}
 , 			{
