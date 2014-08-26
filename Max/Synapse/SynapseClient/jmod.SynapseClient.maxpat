@@ -122,7 +122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 385.0, 51.0, 176.0, 48.0 ],
-					"text" : "j.parameter depthMode @type integer @range/bounds 0 2 @range/clipmode"
+					"text" : "j.parameter depthMode @type integer @range 0 2 @clipmode"
 				}
 
 			}

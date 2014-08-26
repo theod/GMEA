@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -83,7 +83,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -117,7 +117,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 641.599976, 7.0, 226.0, 55.0 ],
-									"text" : "j.parameter skeleton/filter/orientation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"filter skeleton orientation values\" @priority 2"
+									"text" : "j.parameter skeleton/filter/orientation @type decimal @range 0. 1. @clipmode both @description \"filter skeleton orientation values\" @priority 2"
 								}
 
 							}
@@ -132,7 +132,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 414.599976, 7.0, 226.0, 55.0 ],
-									"text" : "j.parameter skeleton/filter/position @type decimal @range/bounds 0. 1. @range/clipmode both @description \"filter skeleton position values\" @priority 2"
+									"text" : "j.parameter skeleton/filter/position @type decimal @range 0. 1. @clipmode both @description \"filter skeleton position values\" @priority 2"
 								}
 
 							}
@@ -147,7 +147,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 216.0, 7.0, 198.0, 55.0 ],
-									"text" : "j.parameter skeleton/smooth @type decimal @range/bounds 0. 1. @range/clipmode both @description \"smooth skeleton values\" @priority 2"
+									"text" : "j.parameter skeleton/smooth @type decimal @range 0. 1. @clipmode both @description \"smooth skeleton values\" @priority 2"
 								}
 
 							}
@@ -162,7 +162,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 9.0, 7.0, 206.0, 55.0 ],
-									"text" : "j.parameter skeleton/mode @type string @description \"select skeleton value mode : world | screen | body\" @value/default world @priority 2"
+									"text" : "j.parameter skeleton/mode @type string @description \"select skeleton value mode : world | screen | body\" @default world @priority 2"
 								}
 
 							}
@@ -511,7 +511,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -557,8 +557,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 8.0, 169.5, 147.0, 20.0 ],
-									"text" : "uid2oid 0-userManager"
+									"patching_rect" : [ 8.0, 169.5, 168.0, 20.0 ],
+									"text" : "uid2oid #0-userManager"
 								}
 
 							}
@@ -586,7 +586,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 264.0, 125.0, 68.0, 18.0 ],
-									"presentation_rect" : [ 263.0, 127.0, 0.0, 0.0 ],
 									"text" : "remove $1"
 								}
 
@@ -614,8 +613,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 421.0, 169.5, 147.0, 20.0 ],
-									"text" : "uid2oid #1-userManager"
+									"patching_rect" : [ 421.0, 169.5, 173.0, 20.0 ],
+									"text" : "uid2oid #0-userManager"
 								}
 
 							}
@@ -671,7 +670,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 504.0, 60.0, 158.0, 33.0 ],
+									"patching_rect" : [ 504.0, 60.0, 159.0, 33.0 ],
 									"text" : "Note : the id of the last user is not the number of user !"
 								}
 
@@ -907,8 +906,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 295.5, 219.0, 20.0 ],
-									"text" : "poly~ kinectUser.model 10 @args user"
+									"patching_rect" : [ 8.0, 295.5, 235.0, 20.0 ],
+									"text" : "poly~ kinectUser.model 10 @args user.1"
 								}
 
 							}
@@ -948,7 +947,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-62",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 8.0, 39.5, 204.0, 20.0 ],
@@ -1285,7 +1284,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1334,7 +1333,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 979.0, 72.5, 155.0, 67.0 ],
-									"text" : "j.parameter output/ir @type boolean @description \"turn on/off kinect infra red picture update\" @value/default 0 @priority 1"
+									"text" : "j.parameter output/ir @type boolean @description \"turn on/off kinect infra red picture update\" @default 0 @priority 1"
 								}
 
 							}
@@ -1349,7 +1348,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 817.0, 72.5, 164.0, 67.0 ],
-									"text" : "j.parameter output/rgb @type boolean @description \"turn on/off kinect rgb picture update\" @value/default 0 @priority 1"
+									"text" : "j.parameter output/rgb @type boolean @description \"turn on/off kinect rgb picture update\" @default 0 @priority 1"
 								}
 
 							}
@@ -1363,8 +1362,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 650.200012, 72.5, 166.0, 67.0 ],
-									"text" : "j.parameter output/depth @type boolean @description \"turn on/off kinect depth map update\" @value/default 0 @priority 1"
+									"patching_rect" : [ 650.200012, 72.5, 164.0, 67.0 ],
+									"text" : "j.parameter output/depth @type boolean @description \"turn on/off kinect depth map update\" @default 0 @priority 1"
 								}
 
 							}
@@ -1379,7 +1378,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 289.599976, 72.5, 175.0, 67.0 ],
-									"text" : "j.parameter output/skeleton @type boolean @description \"turn on/off kinect skeleton detection\" @value/default 1 @priority 1"
+									"text" : "j.parameter output/skeleton @type boolean @description \"turn on/off kinect skeleton detection\" @default 1 @priority 1"
 								}
 
 							}
@@ -1393,8 +1392,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 466.200012, 72.5, 184.0, 67.0 ],
-									"text" : "j.parameter output/orientation @type boolean @description \"turn on/off kinect orientation detection\" @value/default 0 @priority 1"
+									"patching_rect" : [ 466.200012, 72.5, 176.0, 67.0 ],
+									"text" : "j.parameter output/orientation @type boolean @description \"turn on/off kinect orientation detection\" @default 0 @priority 1"
 								}
 
 							}
@@ -1522,8 +1521,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 70.0, 72.5, 189.0, 67.0 ],
-									"text" : "j.parameter output/fps @type integer @value/default 30 @range/bounds 1 1000 @range/clipmode low @description \"set the fps of the output update\""
+									"patching_rect" : [ 70.0, 72.5, 179.0, 67.0 ],
+									"text" : "j.parameter output/fps @type integer @default 30 @range 1 1000 @clipmode low @description \"set the fps of the output update\""
 								}
 
 							}

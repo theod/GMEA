@@ -216,7 +216,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 386.0, 516.0, 128.0, 48.0 ],
-					"text" : "j.return position.z @type decimal @range/bounds -1. 1."
+					"text" : "j.return position.z @type decimal @range -1. 1."
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 349.0, 466.0, 127.0, 48.0 ],
-					"text" : "j.return position.y @type decimal @range/bounds -1. 1."
+					"text" : "j.return position.y @type decimal @range -1. 1."
 				}
 
 			}
@@ -2790,7 +2790,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 311.0, 416.0, 127.0, 48.0 ],
-					"text" : "j.return position.x @type decimal @range/bounds -1. 1."
+					"text" : "j.return position.x @type decimal @range -1. 1."
 				}
 
 			}
@@ -2805,7 +2805,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 653.0, 82.0, 176.0, 48.0 ],
-					"text" : "j.parameter position/mode @type integer @range/bounds 0 3 @range/clipmode both"
+					"text" : "j.parameter position/mode @type integer @range 0 3 @clipmode both"
 				}
 
 			}
@@ -2837,7 +2837,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 880.0, 83.0, 322.0, 48.0 ],
-					"text" : "j.parameter pointHistorySize @type integer @range/bounds 1 25 @range/clipmode low @description \"how many points are being tracked for hit event detection\""
+					"text" : "j.parameter pointHistorySize @type integer @range 1 25 @clipmode low @description \"how many points are being tracked for hit event detection\""
 				}
 
 			}
@@ -2867,7 +2867,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 766.0, 194.0, 364.0, 48.0 ],
-					"text" : "j.parameter requiredLength @type decimal @range/bounds 1. 1000. @range/clipmode low @description \"how far the joint must move in a straight line (in mm) before a hit event is generated\""
+					"text" : "j.parameter requiredLength @type decimal @range 1. 1000. @clipmode low @description \"how far the joint must move in a straight line (in mm) before a hit event is generated\""
 				}
 
 			}

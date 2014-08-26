@@ -67,7 +67,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 954.0, 591.0, 341.0, 48.0 ],
-					"text" : "j.parameter defnbpoints @type integer @range/bounds 2 100 @repetitions/filter 0 @description \"the maximum number of points in the timeline\" @value/default 40"
+					"text" : "j.parameter defnbpoints @type integer @range 2 100 @repetitions/filter 0 @description \"the maximum number of points in the timeline\" @default 40"
 				}
 
 			}
@@ -3700,7 +3700,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 684.0, 205.0, 367.0, 34.0 ],
-					"text" : "j.message value @type integer @range/bounds 0 255 @repetitions/filter 0 @ramp/function linear @ramp/drive scheduler"
+					"text" : "j.message value @type integer @range 0 255 @repetitions/filter 0 @ramp/function linear @ramp/drive scheduler"
 				}
 
 			}
@@ -11047,7 +11047,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 685.0, 544.0, 240.0, 34.0 ],
-					"text" : "j.message domain @type integer @range/bounds 1 510 @repetitions/filter 0"
+					"text" : "j.message domain @type integer @range 1 510 @repetitions/filter 0"
 				}
 
 			}

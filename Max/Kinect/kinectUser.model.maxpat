@@ -123,7 +123,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 173.75, 151.0, 189.0, 60.0 ],
-					"text" : "j.message name @type string @value/default none @description \"set user's name to register it under an alias address\""
+					"text" : "j.message name @type string @default none @description \"set user's name to register it under an alias address\""
 				}
 
 			}

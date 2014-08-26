@@ -279,7 +279,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 284.0, 277.0, 47.0 ],
-					"text" : "j.parameter dimension @type integerArray @value/default 640 480 @description \"set the dimension of the depth matrix\""
+					"text" : "j.parameter dimension @type integerArray @default 640 480 @description \"set the dimension of the depth matrix\""
 				}
 
 			}
@@ -428,7 +428,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 381.0, 14.0, 266.0, 43.0 ],
-					"text" : "j.parameter render/name @type string @value/default glContext @description \"gl context render where to draw\" @repetitions/filter 1",
+					"text" : "j.parameter render/name @type string @default glContext @description \"gl context render where to draw\" @repetitions/filter 1",
 					"varname" : "deformC[1]"
 				}
 
