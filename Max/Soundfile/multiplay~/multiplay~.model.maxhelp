@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 33.0, 490.0, 634.0, 339.0 ],
+		"rect" : [ 0.0, 44.0, 634.0, 339.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -34,7 +35,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 187.0, 7.0, 20.0, 20.0 ]
+					"patching_rect" : [ 177.0, 7.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -47,7 +48,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.0, 62.0, 50.0, 18.0 ],
+					"patching_rect" : [ 177.0, 62.0, 50.0, 18.0 ],
 					"text" : "loop $1"
 				}
 
@@ -61,8 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 157.0, 151.0, 18.0 ],
-					"text" : "back front L R"
+					"patching_rect" : [ 18.0, 157.0, 151.0, 18.0 ]
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.0, 126.0, 89.0, 20.0 ],
+					"patching_rect" : [ 18.0, 126.0, 89.0, 20.0 ],
 					"text" : "route channels"
 				}
 
@@ -86,7 +86,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 280.5, 172.0, 45.0 ]
+					"patching_rect" : [ 436.0, 280.5, 184.0, 45.0 ]
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 280.5, 172.0, 45.0 ]
+					"patching_rect" : [ 249.0, 280.5, 184.0, 45.0 ]
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 280.5, 45.0, 45.0 ]
+					"patching_rect" : [ 18.0, 280.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 28.0, 7.0, 20.0, 20.0 ]
+					"patching_rect" : [ 18.0, 7.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 28.0, 35.0, 92.0, 20.0 ],
+					"patching_rect" : [ 18.0, 35.0, 92.0, 20.0 ],
 					"text" : "opendialog fold"
 				}
 
@@ -144,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 62.0, 57.0, 18.0 ],
+					"patching_rect" : [ 18.0, 62.0, 57.0, 18.0 ],
 					"text" : "folder $1"
 				}
 
@@ -157,7 +157,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 7.0, 20.0, 20.0 ]
+					"patching_rect" : [ 120.0, 7.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -170,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 62.0, 49.0, 18.0 ],
+					"patching_rect" : [ 120.0, 62.0, 49.0, 18.0 ],
 					"text" : "play $1"
 				}
 
@@ -184,8 +184,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 416.0, 248.0, 173.0, 20.0 ],
-					"text" : "j.receive~ /player/out.back",
+					"patching_rect" : [ 436.0, 248.0, 185.0, 20.0 ],
+					"text" : "j.receive~ /player/audio/out.back",
 					"varname" : "_receive_1_[3]"
 				}
 
@@ -199,8 +199,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 229.0, 248.0, 172.0, 20.0 ],
-					"text" : "j.receive~ /player/out.front",
+					"patching_rect" : [ 249.0, 248.0, 184.0, 20.0 ],
+					"text" : "j.receive~ /player/audio/out.front",
 					"varname" : "_receive_1_[2]"
 				}
 
@@ -214,8 +214,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 54.0, 248.0, 156.0, 20.0 ],
-					"text" : "j.receive~ /player/out.R",
+					"patching_rect" : [ 44.0, 248.0, 175.0, 20.0 ],
+					"text" : "j.receive~ /player/audio/out.R",
 					"varname" : "_receive_1_[1]"
 				}
 
@@ -229,14 +229,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 28.0, 221.0, 154.0, 20.0 ],
-					"text" : "j.receive~ /player/out.L",
+					"patching_rect" : [ 18.0, 221.0, 162.0, 20.0 ],
+					"text" : "j.receive~ /player/audio/out.L",
 					"varname" : "_receive_1_"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -244,7 +245,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 101.0, 137.0, 20.0 ],
+					"patching_rect" : [ 18.0, 101.0, 137.0, 20.0 ],
 					"text" : "multiplay~.model player"
 				}
 
@@ -264,7 +265,7 @@
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 37.5, 152.0, 169.5, 152.0 ],
+					"midpoints" : [ 27.5, 152.0, 159.5, 152.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -372,7 +373,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "multiplay~.model.maxpat",
 				"bootpath" : "/Users/WALL-E/Documents/Jamoma/UserLib/GMEA/Max/Soundfile/multiplay~",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
