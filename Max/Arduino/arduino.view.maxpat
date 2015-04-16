@@ -32,13 +32,42 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 605.0, 424.0, 100.0, 20.0 ],
+					"text" : "j.remote decode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "precise if the outcoming data are already a byte list or if it needs to be converted",
+					"id" : "obj-18",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 605.0, 396.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 274.0, 79.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 605.0, 340.0, 100.0, 20.0 ],
-					"text" : "j.remote format"
+					"text" : "j.remote encode"
 				}
 
 			}
@@ -177,7 +206,7 @@
 					"patching_rect" : [ 198.25, 452.0, 388.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 79.0, 285.0, 20.0 ],
-					"text" : "0 382 381"
+					"text" : "- data received from arduino -"
 				}
 
 			}
@@ -302,7 +331,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
-					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "Bluetooth-PDA-Sync", ",", "MacBookProdexxxx-Blueto", ",", "WTX500-SPPDev", ",", "Bluetooth-Modem", ",", "iPhone-WirelessiAP", ",", "usbserial-A700e05P" ],
+					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "Bluetooth-PDA-Sync", ",", "MacBookProdexxxx-Blueto", ",", "WTX500-SPPDev", ",", "Bluetooth-Modem", ",", "iPhone-WirelessiAP", ",", "usbmodem1a1241" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -511,11 +540,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 328.5, 218.0, 434.5, 218.0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
