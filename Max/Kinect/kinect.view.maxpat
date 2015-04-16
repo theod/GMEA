@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 26.0, 122.0, 300.0, 140.0 ],
+		"rect" : [ 26.0, 122.0, 648.0, 536.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -118,6 +118,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "turn on/off kinect orientation detection",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-36",
@@ -137,6 +138,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "turn on/off kinect skeleton detection",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
@@ -172,6 +174,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "filter skeleton orientation values",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-34",
@@ -204,6 +207,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "filter skeleton position values",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-32",
@@ -236,6 +240,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "smooth skeleton values",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -252,6 +257,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "select skeleton value mode : world | screen | body",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
@@ -285,6 +291,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "set the fps of the output update",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-21",
@@ -334,6 +341,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "turn on/off kinect detection",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
@@ -364,7 +372,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -388,7 +396,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/kinect(view)",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -480,6 +487,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "turn on/off kinect infra red picture update",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
@@ -499,6 +507,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "turn on/off kinect rgb picture update",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-12",
@@ -518,6 +527,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "turn on/off kinect depth map update",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
@@ -855,7 +865,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 281.0, 144.0, 50.0, 20.0 ],
+					"patching_rect" : [ 0.0, 146.0, 50.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -878,8 +888,8 @@
 					"id" : "obj-1",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
@@ -894,7 +904,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 194.0, 25.0, 25.0 ]
+					"patching_rect" : [ 1.0, 231.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -907,7 +917,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4.0, 172.0, 63.0, 20.0 ],
+					"patching_rect" : [ 1.0, 209.5, 63.0, 20.0 ],
 					"text" : "j.view"
 				}
 
@@ -920,7 +930,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 144.0, 25.0, 25.0 ]
+					"patching_rect" : [ 1.0, 181.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -1070,7 +1080,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 1 ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
