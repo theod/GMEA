@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 541.0, 138.0, 984.0, 872.0 ],
+		"rect" : [ 430.0, 88.0, 984.0, 872.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -122,8 +122,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 708.5, 802.5, 158.0, 47.0 ],
-					"text" : "j.return device/list @type array @description \"the list of available device\""
+					"patching_rect" : [ 708.5, 802.5, 183.0, 47.0 ],
+					"text" : "j.return device/list @type generic @description \"the list of available device\""
 				}
 
 			}
